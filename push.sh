@@ -11,3 +11,5 @@ read branch
 git push origin $branch
 
 read
+
+echo 'Subido con exito por favor cierra la terminal'
