@@ -1,0 +1,27 @@
+<div class="slick-carousel navigationtabs-carousel hero-carousel__tabs text-center" data-slick='{"slidesToShow": 5, "slidesToScroll": 0, "asNavFor": ".hero-carousel-container", "centerMode": true,"focusOnSelect": true, "arrows":false}'>
+<div class="first-tab hero-carousel__tab">
+<span class="hero__navigation-surtitle">Visionnaire Crescendo</span>
+<div class="hero__navigation-title">New</div>
+<span class="hero-carousel__tab-progressbar hide-for-small-only"></span>
+</div>
+<div class="second-tab hero-carousel__tab">
+<span class="hero__navigation-surtitle">Advanced Génifique</span>
+<div class="hero__navigation-title">The Icon</div>
+<span class="hero-carousel__tab-progressbar hide-for-small-only"></span>
+</div>
+<div class="third-tab hero-carousel__tab">
+<span class="hero__navigation-surtitle">Monsieur Big</span>
+<div class="hero__navigation-title">Meet him</div>
+<span class="hero-carousel__tab-progressbar hide-for-small-only"></span>
+</div>
+<div class="fourth-tab hero-carousel__tab">
+<span class="hero__navigation-surtitle">Summer 2017</span>
+<div class="hero__navigation-title">Makeup Collection</div>
+<span class="hero-carousel__tab-progressbar hide-for-small-only"></span>
+</div>
+<div class="fifth-tab hero-carousel__tab">
+<span class="hero__navigation-surtitle">FALL COLLECTION</span>
+<div class="hero__navigation-title">OLYMPIA LE TAN</div>
+<span class="hero-carousel__tab-progressbar hide-for-small-only"></span>
+</div>
+</div>

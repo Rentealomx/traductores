@@ -1,0 +1,95 @@
+<div class="article_title_module">
+		<p class="publishing_date">08/10/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-706', 'fdid', 'secrets-for-perfect-skin')$
+		<h1>Lancôme gets sensory with Absolue Extrait Essence Ultime</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/ok_Article_MediaModule_Horizontal_Desktop.jpg, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>This surprising hybrid oil that’s part nourishing oil, part revitalizing lotion, is the latest in Lancôme’s line of anti-ageing serums and is set to shake up traditional beauty routines. Get ready for a beauty revolution!</b><b> </b></p>
+	<p>With oils marking a successful return to the cosmetics scene, <b>Lancôme </b>has got on board with a new anti-ageing serum that shares everything with oil, including its texture, its feel and its skin benefits – all without containing a single ounce. The result is a sensory treat that’s as nourishing, enveloping and protective as an ointment, but leaves nothing more than a watery feeling of freshness on the skin. Paired with an innovative formula and a few star ingredients (including native rose cells, extracted via a special high-pressure cellular process), the essence becomes a richer, more effective and more targeted treatment that boosts glow, relaxes features and leaves the face looking full of vitality.</p>
+	<p>To optimize the effectiveness of the anti-ageing treatment, <b>Lancôme Institute</b> has researched and recommended a very specific type of application, focusing on 5 targeted areas of the face. To smooth the forehead, cheeks and chin, simply use fingertips with firm pressure to apply the treatment into the centre of the face, then guide to the edges, reaching lip contours, jawline and the neck. Next, rub hands together to warm and then gently press them into face contours. Toning, revitalizing glow guaranteed!</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-706', 'fdid', 'secrets-for-perfect-skin')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', 'CA-12943y-LAC ; 12942x-LAC ', 'title', 'Shop the article ')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-337')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/instant_happiness_1/instagram_du_jour/insta_food_1_Article_Instan_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/instant_happiness_1/instagram_du_jour/insta_food_1_Article_Instan_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/instant_happiness_1/instagram_du_jour/insta_food_1_Article_Instan_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/instant_happiness_1/instagram_du_jour/insta_food_1_Article_Instan_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">30/09/15</p>
+									<h4 class="article_title">@putnamflowers : Our Instagram pick of the day</h4>
+									<p class="article_content">The most inspiring Instagram accounts on our radar right now, to dip into on your commute or at coffee time.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-337')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-715')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Cernes_carre_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Cernes_carre_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Cernes_carre_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Cernes_carre_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">09/10/15</p>
+									<h4 class="article_title">How to plump up tired, hollow-looking eyes</h4>
+									<p class="article_content">How to plump tired, hollow-looking eyes</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-715')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-731')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/4-Jane_Birkin_2x1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Jane_Birkin_2x1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Jane_Birkin_2x1_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Jane_Birkin_2x1_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">09/10/15</p>
+									<h4 class="article_title"> Four perfectly Parisian foreigners</h4>
+									<p class="article_content">Four women, four icons and four reasons to believe that you don&rsquo;t have to be born in Paris, to be Parisian, just &ldquo;reborn&rdquo; there as Sacha Guitry argues.  </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-731')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-706', 'fdid', 'secrets-for-perfect-skin')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-706')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-706', 'fdid', 'secrets-for-perfect-skin')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=706&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

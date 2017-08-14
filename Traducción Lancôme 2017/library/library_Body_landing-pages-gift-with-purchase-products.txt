@@ -1,0 +1,106 @@
+<div class="title">
+<h3>Start your shopping by our selection of icons</h3>
+</div>
+
+<ul class="products-box">
+	<li class="product">
+	<div class="product-img"><img alt="" src="landing-page/giftWithPurchase/gwp_product1.png?$staticlink$" style="width: 83px; height: 217px;" /></div>
+
+	<h4 class="product-title">Advanced Genifique</h4>
+
+	<p class="product-subtitle">Your Activating Concentrate</p>
+
+	<div class="product-rating">
+	<ul>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	</ul>
+	</div>
+
+	<div class="product-price">$84.00</div>
+
+	<div class="select-product unchecked">
+	<form><input name="select" type="checkbox" value="Select" />Select</form>
+	</div>
+	</li>
+	<li class="product">
+	<div class="product-img"><img alt="" src="landing-page/giftWithPurchase/gwp_product2.png?$staticlink$" style="width: 52px; height: 208px;" /></div>
+
+	<h4 class="product-title">Visionnaire [LR24124%]</h4>
+
+	<p class="product-subtitle">Advance Skin Corrector Wrinkles -Pores- Uneveness</p>
+
+	<div class="product-rating">
+	<ul>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	</ul>
+	</div>
+
+	<div class="product-price">$69.00</div>
+
+	<div class="select-product checked">
+	<form>
+	<p>You must have</p>
+	<input checked="checked" name="select" type="checkbox" value="Select" />Pre-Selected</form>
+	</div>
+	</li>
+	<li class="product">
+	<div class="product-img"><img alt="" src="landing-page/giftWithPurchase/gwp_product3.png?$staticlink$" style="width: 102px; height: 222px;" /></div>
+
+	<h4 class="product-title">Hypnose</h4>
+
+	<p class="product-subtitle">Custom-Wear Volume Mascara</p>
+
+	<div class="product-rating">
+	<ul>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	</ul>
+	</div>
+
+	<div class="product-price">$27.50</div>
+
+	<div class="select-product unchecked">
+	<form><input name="select" type="checkbox" value="Select" />Select</form>
+	</div>
+	</li>
+	<li class="product">
+	<div class="product-img"><img alt="" src="landing-page/giftWithPurchase/gwp_product4.png?$staticlink$" style="width: 123px; height: 176px;" /></div>
+
+	<h4 class="product-title">La Vie est Belle Eau de Toilette</h4>
+
+	<p class="product-subtitle">Fragrance</p>
+
+	<div class="product-rating">
+	<ul>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+		<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	</ul>
+	</div>
+
+	<div class="product-price">$28.50</div>
+
+	<div class="select-product checked">
+	<form>
+	<p>You must have</p>
+	<input checked="checked" name="select" type="checkbox" value="Select" />Pre-Selected</form>
+	</div>
+	</li>
+</ul>
+
+<div class="add-to-cart">
+<p>Your Section - $ 97.00</p>
+<a class="add-to-cart-btn" href="#" target="_blank" title="Add Items To Cart">Add 2 Items To Cart</a></div>

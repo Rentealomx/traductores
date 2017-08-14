@@ -1,0 +1,199 @@
+<script type="text/javascript" src="js/jquery.sticky.js?$staticlink$"></script>
+<style>
+#stickynav {background-image: url('images/landing/beauty_balm/upper_banner.png?$staticlink$');width:1000px;height:132px;z-index:100000;}
+#stickynav .title {text-align:center;padding-top:18px;}
+
+#navlist{position:relative;margin-left:176px;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#navlist li, #navlist a{height:30px;display:block;}
+
+#whatitis{left:0px;width:103px;}
+#whatitis{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') 0 0;}
+#whatitis a:hover {background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') 0 -30px;}
+
+#whatitdoes{left:103px;width:137px;}
+#whatitdoes{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') -103px 0;}
+#whatitdoes a:hover{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') -103px -30px;}
+
+#findyourshade{left:240px;width:165px;}
+#findyourshade{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') -240px 0;}
+#findyourshade a:hover{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') -240px -30px;}
+
+#proof{left:405px;width:117px;}
+#proof{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') -405px 0;}
+#proof a:hover{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') -405px -30px;}
+
+#cta{left:522px;width:132px;}
+#cta{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') -522px 0;}
+#cta a:hover{background:url('images/landing/beauty_balm/img_navsprites.gif?$staticlink$') -522px -30px;}
+
+#bb_container {margin:0 auto;padding:0 30px;margin-top:-12px;}
+#beautybalm_billboard{background-image:url('images/landing/beauty_balm/beautybalm_billboard.jpg?$staticlink$'); width:940px; height:487px; position:relative;}
+#beautybalm_billboard .copy{font-family:Arial,Helvetica,sans-serif;color:#fff;font-size:13px;width:290px;height:auto;padding:194px 0 0 462px;line-height:1.25em;}
+#beautybalm_billboard .copy .sub_title {font-size:18px;font-weight:bold;text-transform:uppercase;line-height:1.2em;padding-bottom:10px;}
+
+.banner1 {width:940px;height:39px;margin-top:17px;}
+.banner2 {clear:both;width:940px;height:39px;}
+.banner3 {clear:both;width:940px;height:29px;}
+
+#whatitdoes_section {width:940px;height:338px;margin:40px 0;}
+#whatitdoes_section .title {width:647px;height:75px;margin-left:60px;}
+#whatitdoes_section .description {width:269px;margin-left:60px;height:263px;float:left;}
+#whatitdoes_section .copy {font-family:Arial,Helvetica,sans-serif;font-size:13px;width:348px;height:auto;padding:30px 20px 0 10px;float:left;line-height:1.25em;}
+#whatitdoes_section .sample {float:right;}
+
+#shades_section {width:940px;height:auto;}
+#shades_section .title {text-align:center;padding:40px 0 20px;}
+#shades_section .description {font-family:Arial,Helvetica,sans-serif;font-size:16px;text-align:center;line-height:1.25em;padding-bottom:20px;}
+#shades_section .description .copy {font-size:13px;}
+#shades_section .allshades {float:left;padding:0 67px 0 78px;}
+#shades_section .shade {float:left;width:225px;margin-right:40px;}
+#shades_section .shade .description {font-family:Arial,Helvetica,sans-serif;font-size:16px;text-align:center;padding-bottom:30px;}
+#shades_section .shade .description .copy {padding-top:20px;font-size:13px;}
+
+#proof_section {width:940px;height:auto;}
+#proof_section .product {width:185px;height:520px;float:left;}
+#proof_section .title {width:725px;height:auto;float:right;font-family:Arial,Helvetica,sans-serif;text-align:center;padding-top:40px;}
+#proof_section .desc {color:#000;font-weight:normal;text-align:center;font-size:16px;width:650px;margin-left:40px;}
+#proof_section .results {float:left;width:312px;height:345px;margin:10px 0 0 30px;}
+#proof_section .description {width:110px;height:219px;float:left;}
+#proof_section .copy {font-family:Arial,Helvetica,sans-serif;font-size:13px;width:192px;height:auto;float:left;line-height:1.25em;padding:10px 0 0 5px;}
+#proof_section .copy .note {font-size:10px;}
+
+#product_section {width:940px;height:450px;}
+#product_section .title {text-align:center; padding:35px 0 14px;}
+#product_section .products {width:940px;padding-left:90px;}
+#product_section .product {float:left;width:350px;height:300px;padding:30px 0 0 40px;}
+#product_section .copy {float:left;width:290px;text-align:center;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.25em;padding:0 30px;}
+#product_section .cta {float:left;width:350px;text-align:center;padding-top:20px;}
+a.shift_anchor {clear:both;float:left;position:relative;top:-125px;margin:0;padding:0;}
+</style>
+
+<a id="top"></a>
+<div id="stickynav">
+    <div class="title"><img src="images/landing/beauty_balm/ns_bb_title.gif?$staticlink$" width="700" height="45" alt="Naked Skin Beauty Balm" title="Naked Skin Beauty Balm" /></div>
+    <ul id="navlist">
+  		<li id="whatitis"><a href="#top" title="What It Is"></a></li>
+  		<li id="whatitdoes"><a href="#whatitdoes_top" title="What It Does"></a></li>
+        <li id="findyourshade"><a href="#findyourshade_top" title="Find Your Shade"></a></li>
+  		<li id="proof"><a href="#proof_top" title="The Proof"></a></li>
+        <li id="cta"><a href="$url('Product-Show','pid','358')$" title="Get It Now"></a></li>
+	</ul>
+</div>
+<div id="bb_container">
+  <div id="beautybalm_billboard">
+		<div class="copy">
+       	  <div class="sub_title">Blur flaws instantly.<br />Get firmer, more lifted<br />skin in 8 weeks		</div>
+        This lightweight, velvety, oil-free miracle makes skin look better instantly AND over time. And did we mention this BB cream has light-diffusing spheres that make you look professionally retouched? You’ll definitely look better Naked!<br /><br />
+          <a href="$url('Product-Show','pid','358')$"><img src="images/landing/beauty_balm/cta_btn.gif?$staticlink$" width="127" height="24" alt="Get It Now" title="Get It Now" /></a> 
+	</div>
+  </div>
+  <div class="banner1"><a href="$url('Page-Show','cid','returns')$"><img src="images/landing/beauty_balm/freereturns1.jpg?$staticlink$" width="940" height="29" alt="Free returns. Try it risk-free with our Love-It-Or-Leave-It Guarantee." title="Free returns. Try it risk-free with our Love-It-Or-Leave-It Guarantee." /></a></div>
+  
+  <div id="whatitdoes_section"><a id="whatitdoes_top" class="shift_anchor"></a>
+    <div class="sample"></div>
+    <span class="sample"><a href="$url('Product-Show','pid','358')$"><img src="images/landing/beauty_balm/bb_swirl.jpg?$staticlink$" width="200" height="300" alt="Beauty Balm sample - versatile and blendable - works on most skin tones" title="Beauty Balm sample - versatile and blendable - works on most skin tones"  /></a></span>
+  	<div class="title"><img src="images/landing/beauty_balm/whatitdoes_title.gif?$staticlink$" width="647" height="75" alt="What It Does" title="What It Does" /></div>
+    <div class="description"><img src="images/landing/beauty_balm/whatitdoes_desc.gif?$staticlink$" width="269" height="263" alt="Perfects, Protects, Treats, Primes, Hydrates" title="Perfects, Protects, Treats, Primes, Hydrates" /></div>
+    <div class="copy"> 
+    	Optical blurring pigments instantly even out skin tone and minimize pores, lines, wrinkles and redness.<br/><br/>
+		SPF 20 shields skin from sun damage and Pepha&reg;&ndash;Protect helps guard skin cells against daily stress.<br/><br/>
+		Vitasource&#8482; and dGlyage&reg; firm skin, improve elasticity and provide measurable anti-aging benefits.<br/><br/>
+		Extremely blendable formula creates a smooth finish so makeup goes on beautifully and stays put.<br/><br/>
+       
+		Moisturizing but never greasy, Naked Skin Beauty Balm hydrates skin instantly and improves hydration over time.
+    </div>
+  </div>
+  <div class="banner3"><img src="images/landing/beauty_balm/banner3.jpg?$staticlink$" width="940" height="29" alt="" /></div>
+  <div id="shades_section"><a id="findyourshade_top" class="shift_anchor"></a>
+   	<div class="title"><img src="images/landing/beauty_balm/find_your_shade.gif?$staticlink$" alt="Find your shade" title="Find your shade" width="645" height="58" /></div>
+    <div class="description">
+        	In addition to our original shade (now dubbed "Naked Medium"), we added two new<br /> 
+shades to cover a variety of skin tones. All three shades blur flaws in seconds<br />  
+and provide serious anti-aging benefits in just 8 weeks.<br /> <br /> 
+			<span class="copy">Choose from three shades that coordinate with Naked Skin Liquid Makeup:</span> 
+        </div>
+    <div class="allshades">
+        	<div class="shade"><a href="$url('Product-Show','pid','604214661011')$"><img src="images/landing/beauty_balm/naked_light_shade.jpg?$staticlink$" alt="Naked Light" title="Naked Light" width="225" height="125" /></a>
+            <div class="description">
+            	<strong>Naked Light</strong> (New!)
+				<div class="copy">
+           	  		Light tint, works well with<br /> shades 0.5–3.5.
+                </div>
+            </div>
+        </div>
+            <div class="shade"><a href="$url('Product-Show','pid','604214659704')$"><img src="images/landing/beauty_balm/naked_medium_shade.jpg?$staticlink$" alt="Naked Medium" title="Naked Medium" width="225" height="125" /></a>
+            <div class="description">
+            	<strong>Naked Medium</strong>
+				<div class="copy">
+           	  		Medium tint, works well with<br /> shades 3.0–7.0.
+              </div>
+            </div>
+            </div>
+            <div class="shade"><a href="$url('Product-Show','pid','604214661028')$"><img src="images/landing/beauty_balm/naked_dark_shade.jpg?$staticlink$" alt="Naked Dark" title="Naked Dark" width="225" height="125" /></a>
+            <div class="description">
+            	<strong>Naked Dark</strong> (New!)
+				<div class="copy">
+           	  		Dark tint, works well with<br /> shades 6.0–12.0.
+              </div>
+            </div>
+            </div>
+        </div>
+  </div>
+  <div class="banner2"><a href="$url('Page-Show','cid','returns')$"><img src="images/landing/beauty_balm/freereturns2.jpg?$staticlink$" width="940" height="29" alt="Free returns. Now offering free returns&mdash;making our Love-It-Or-Leave-It Guarantee even sweeter for you." title="Free returns. Now offering free returns&mdash;making our Love-It-Or-Leave-It Guarantee even sweeter for you." /></a></div>
+  <div id="proof_section"><a id="proof_top" class="shift_anchor"></a>
+  	<div class="title">
+    	<img src="images/landing/beauty_balm/proof_title.gif?$staticlink$" width="725" height="57" alt="Your Skin Will Thank You" title="Your Skin Will Thank You" />
+<div class="desc">Many beauty balms provide a lot of empty promises (and not much else) &ndash; but not Naked Skin Beauty Balm.  The results of our clinical study speak for themselves.</div>
+	</div>
+  	<div class="product"><a href="$url('Product-Show','pid','358')$"><img src="images/landing/beauty_balm/bb_product.jpg?$staticlink$" width="185" height="520" alt="Naked Skin Beauty Balm" title="Naked Skin Beauty Balm" /></a></div>
+    <div class="results"><img src="images/landing/beauty_balm/instant_results.gif?$staticlink$" width="310" height="79" alt="Instant Results" title="Instant Results" />
+    	<div class="description"><img src="images/landing/beauty_balm/instant_perc.gif?$staticlink$" width="110" height="219" alt="65%, 59%, 68%" title="65%, 59%, 68%" /></div>
+        <div class="copy">
+        	of participants' <strong>COMPLEXION</strong> looked significantly improved.<br/><br/>
+        	of participants' skin looked <strong>LIFTED</strong>.<br/><br/>
+   	  		of participants' skin <strong>HYDRATION</strong> improved significantly. 
+		</div>
+    </div>
+    <div class="results"><img src="images/landing/beauty_balm/8wk_results.gif?$staticlink$" width="310" height="79" alt="8-Week Results" title="8-Week Results" />
+    	<div class="description"><img src="images/landing/beauty_balm/8wk_perc.gif?$staticlink$" width="110" height="219" alt="93%, 90%, 84%, >84%" title="93%, 90%, 84%, >84%" /></div>
+   	  <div class="copy">
+        of participants had significantly <strong>FIRMER</strong>, more <strong>LIFTED</strong> skin.<br/><br/>
+        had significantly more <strong>RADIANT</strong> skin.<br/><br/>
+        had a significant improvement in <strong>FINE LINES.*</strong><br/><br/>
+       	had significantly <strong>SMOOTHER</strong> and more <strong>HYDRATED</strong> skin.<br/><br/>
+      <span class="note">*Based on subjective analysis.</span></div>
+    </div>
+  </div>
+  <div class="banner3"><img src="images/landing/beauty_balm/banner3.jpg?$staticlink$" width="940" height="29" alt="" />	</div>
+  <div id="product_section">
+  	<div class="title"><img src="images/landing/beauty_balm/naked_title.gif?$staticlink$" width="603" height="48" alt="More Ways To Get Naked" title="More Ways To Get Naked" /></div>
+    <div class="products">
+    	<div class="product"><a href="$url('Product-Show','pid','359')$"><img src="images/landing/beauty_balm/naked_flushed.jpg?$staticlink$" width="350" height="180" alt="Naked Flushed" title="Naked Flushed" /></a>
+    		<div class="copy">
+        		<strong>NAKED FLUSHED</strong><br/><br/>
+				Go ahead, get Naked...and FLUSHED...with our super silky bronzer, highlighter and blush.
+			</div>
+        	<div class="cta"><a href="$url('Product-Show','pid','359')$"><img src="images/landing/beauty_balm/shop_now_btn.gif?$staticlink$" width="119" height="24" alt="Shop Now" title="Shop Now" /></a></div>
+    	</div>
+    	<div class="product"><a href="$url('Product-Show','pid','355')$"><img src="images/landing/beauty_balm/naked_basics.jpg?$staticlink$" width="350" height="180" alt="Naked Basics" title="Naked Basics" /></a>
+    		<div class="copy">
+        		<strong>NAKED BASICS</strong><br/><br/>
+				Our first MATTE palette features 6 Nakedly MATTE neutrals to build on or wear alone.
+  	   		</div>
+        	<div class="cta"><a href="$url('Product-Show','pid','355')$"><img src="images/landing/beauty_balm/shop_now_btn.gif?$staticlink$" width="112" height="24" alt="Shop Now" title="Shop Now" /></a></div>
+    	</div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+ 	jQuery(document).ready(function() {
+
+		$(window).load(function(){
+			$("#stickynav").sticky({ topSpacing: 0 });
+         });
+ 		
+ 	});
+ 
+</script>

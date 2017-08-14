@@ -1,0 +1,160 @@
+<style>
+.prime_background_image summary h2, 
+.prime_background_image summary p, 
+.prime_background_image summary span {
+    color: #000;
+}
+
+.storelocator-module-container {
+    padding: 50px 0;
+}
+
+.maison_intro {
+   background: #f7f7f7;
+}
+
+.maison_intro .video_content {
+   text-align: left;
+   box-sizing: content-box;
+   padding: 0 0 0 10%;
+   width: 820px;
+}
+
+.maison_intro.prime_background_image summary h2 {
+    font-size: 41px;
+    line-height: 45px;
+    margin: 30px auto;
+}
+
+.maison_intro.prime_background_image summary span {
+     display: block;
+     font-size: 30px;
+     line-height: 30px;
+}
+
+.maison_intro.prime_background_image .background_image_content_wrapper.right {
+    right: 10%;
+    top: 35% !important;
+}
+
+.maison_intro.prime_background_image summary p {
+   font-family: 'Garamond Regular', Arial, serif;
+   font-size: 20px;
+}
+
+.white_button .main_button {
+     height: 35px;
+     line-height: 35px;
+     background: #fff;
+     border: 1px solid #d5d5d5;  
+     color: #000;
+     position: relative;
+     margin: 20px 0 0;
+     min-width: 135px;
+}
+
+.white_button .main_button:after,
+.white_button .main_button:before {
+        content: "";
+  position: absolute;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+        bottom: -13px;
+        width: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+}
+
+.white_button .main_button:before {
+  border-top: 7px solid #000;
+}
+
+.white_button .main_button:after {
+  border-top: 7px solid #f7f7f7;
+  bottom: -12px;
+  z-index: 1;
+}
+
+.white_button .main_button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.maison_intro .intro_bg {
+width: 100%;
+max-width: 100%;
+}
+
+@media (max-width: 1440px) {
+.maison_intro .video_content {
+padding: 0;
+width: 60%;
+}
+
+.maison_intro.prime_background_image .background_image_content_wrapper.right {
+    right: 0;
+    top: 25% !important;
+}
+}
+
+@media (max-width:750px) {
+.maison_intro {
+   background: #fff;
+}
+
+.maison_intro .intro_bg {
+display: block;
+width: 100%;
+max-width: 100%;
+}
+
+}
+
+@media (max-width:640px) {
+.storelocator-module-container .storelocator_module_body {
+padding: 0;
+}
+.maison_intro .video_content {
+    padding: 20px 0 0;
+    width: 100%;
+}
+
+.maison_intro {
+padding: 42px 0 0;
+}
+
+.maison_intro .prime_background_image summary {
+padding: 0;
+}
+
+.maison_intro.prime_background_image summary h2 {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto 20px;
+}
+
+.maison_intro.prime_background_image summary span {
+    font-size: 23px;
+    line-height: 23px;
+}
+
+.maison_intro .white_button .main_button {
+    margin: 15px 0 50px;
+}
+
+}
+</style>
+<div class="prime_background_image maison_intro">
+<img class="intro_bg"  $responsiveSrc(landing-page/maison/maison-intro.jpg,2000|2000|500|500,,,,,landing-page/maison/maison-intro-mob.jpg,landing-page/maison/maison-intro-tab.jpg,landing-page/maison/maison-intro.jpg)$ alt="Cover Image" />
+
+<div class="background_image_content_wrapper right">
+<div class="background_image_content_text white_button">
+<summary><h2>MAISON LANC&Ocirc;ME<span>HAUTE PARFUMERIE PARIS</span></h2>
+<p>Les Parfums Grands Crus </p>
+</summary>
+<a class="main_button scroll_to_selected" href="#history-section">DISCOVER</a>
+</div>
+</div>
+<div id="history-section"></div>
+</div>

@@ -1,0 +1,110 @@
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".bloggers-grid-item .fancybox-image").fancybox({
+			helpers: {
+				title : {
+					type : 'float'
+				}
+			},
+                        afterLoad: function() {
+                                 var url  = $(this.element).data('show-url');
+                                 $('.fancybox-outer').append('<div class="show-the-look"><a class="button" href=' +  url  + '>Get the Look</a>div>');
+                        }
+		});
+	})
+</script>
+
+
+<div class="bloggers-section">
+	<div class="bloggers-container">
+		<div class="bloggers-title">
+			<h3 class="title">Need more inspiration?</h3>
+			<p class="subtitle">Try out these looks from bloggers all around the globe.</p>
+		</div>
+		<div class="bloggers-grid">
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-1.jpg?$staticlink$" data-show-url="$httpUrl('Search-ShowContent', 'fdid', 'udedit-hp')$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-1.jpg?$staticlink$"/>
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-2.jpg?$staticlink$"  data-show-url="$httpUrl('Search-ShowContent', 'fdid', 'master-landing')$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-2.jpg?$staticlink$">
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-3.jpg?$staticlink$" data-show-url="$httpUrl('Search-ShowContent', 'fdid', 'naked-smoky')$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-3.jpg?$staticlink$">
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-2.jpg?$staticlink$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-2.jpg?$staticlink$">
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-1.jpg?$staticlink$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-1.jpg?$staticlink$">
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-2.jpg?$staticlink$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-2.jpg?$staticlink$">
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-3.jpg?$staticlink$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-3.jpg?$staticlink$">
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-2.jpg?$staticlink$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-2.jpg?$staticlink$">
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+			<div class="bloggers-grid-item">
+				<a class="fancybox-image" data-fancybox="images" href="images/landing/naked-heat/blogger-1.jpg?$staticlink$">
+					<img class="bloggers-grid-item-img" src="images/landing/naked-heat/croped-blogger-1.jpg?$staticlink$">
+				</a>
+				<div class="bloggers-grid-item-footer">
+					<h4 class="name">Blogger Name</h4>
+					<h5 class="country">country</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>.bloggers-section{clear:both;background-color:#3a0a00}.bloggers-container{text-align:center}.bloggers-title{padding:40px 20px;color:#fff;background:-ms-linear-gradient(top,#7a0d0b 0,#3a0a00 100%);background:-moz-linear-gradient(top,#7a0d0b 0,#3a0a00 100%);background:-o-linear-gradient(top,#7a0d0b 0,#3a0a00 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#7a0d0b),color-stop(100,#3a0a00 ));background:-webkit-linear-gradient(top,#7a0d0b 0,#3a0a00 100%);background:linear-gradient(to bottom,#7a0d0b 0,#3a0a00 100%)}.bloggers-title .title{margin:0;font-family:ProximaNova-Semibold,sans-serif;text-transform:uppercase;letter-spacing:.04em;line-height:normal;font-size:35px}.bloggers-title .subtitle{margin:.5em 0 0;font-family:ProximaNova-Regular,sans-serif;letter-spacing:.04em;line-height:normal;font-size:20px}.bloggers-grid{display:inline-block;margin-bottom:130px}.bloggers-grid-item{width:395px;height:395px;float:left;position:relative;margin:20px 20px 0 0;background-color:#a0a0a0;overflow:hidden;cursor:pointer}.bloggers-grid-item-img{width:100%;height:100%;max-width:none!important;-moz-transition:all .3s ease-out 75ms;-o-transition:all .3s ease-out 75ms;-webkit-transition:all .3s ease-out 75ms;transition:all .3s ease-out 75ms}.bloggers-grid-item-img:hover{width:120%;height:120%;margin-top:-10%;margin-left:-10%}.bloggers-grid-item-footer{position:absolute;left:0;right:0;bottom:0;padding:5px 20px 20px;text-align:right;color:#fff;background:-moz-linear-gradient(90deg,#000 0,rgba(160,160,160,0) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(160,160,160,0)),color-stop(100%,#000));background:-webkit-linear-gradient(90deg,#000 0,rgba(160,160,160,0) 100%);background:-o-linear-gradient(90deg,#000 0,rgba(160,160,160,0) 100%);background:-ms-linear-gradient(90deg,#000 0,rgba(160,160,160,0) 100%);background:linear-gradient(0deg,#000 0,rgba(160,160,160,0) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a0a0', endColorstr='#000000', GradientType=0 )}.bloggers-grid-item-footer .name{margin:0;font-family:ProximaNova-Semibold,sans-serif;letter-spacing:.04em;line-height:normal;font-size:20px}.bloggers-grid-item-footer .country{margin:.5em 0 0;font-family:ProximaNova-Regular,sans-serif;text-transform:uppercase;letter-spacing:.1em;line-height:normal;font-size:14px}@media screen and (max-width:767px){.bloggers-title{padding:35px 20px 25px}.bloggers-title .title{font-size:21px}.bloggers-title .subtitle{font-size:11px}.bloggers-grid{margin-bottom:30px}.bloggers-grid-item{width:175px;height:175px;margin:10px 10px 0 0}.bloggers-grid-item:nth-child(1),.bloggers-grid-item:nth-child(2){margin-top:0}.bloggers-grid-item:nth-child(2n){margin-right:0}.bloggers-grid-item:nth-child(2n+1){clear:left}.bloggers-grid-item-footer{padding:5px 10px 10px}.bloggers-grid-item-footer .name{font-size:9px}.bloggers-grid-item-footer .country{font-size:7px}}@media screen and (min-width:768px){.bloggers-grid-item:nth-child(1),.bloggers-grid-item:nth-child(2),.bloggers-grid-item:nth-child(3){margin-top:0}.bloggers-grid-item:nth-child(3n){margin-right:0}.bloggers-grid-item:nth-child(3n+1){clear:left}}@media screen and (min-width:768px) and (max-width:1279px){.bloggers-title{padding:30px 20px}.bloggers-title .title{font-size:22px}.bloggers-grid-item-footer .name,.bloggers-title .subtitle{font-size:12px}.bloggers-grid{margin-bottom:40px}.bloggers-grid-item{width:222px;height:222px}.bloggers-grid-item-footer{padding:5px 10px 10px}.bloggers-grid-item-footer .country{font-size:8px}}.show-the-look{position:absolute;bottom:-55px;right:0;left:0;text-align:center}.show-the-look .button{display:inline-block;padding:9px 20px;outline:0 none;border:0 none;background-color:#461b69;cursor:pointer;-moz-transition-property:all;-o-transition-property:all;-webkit-transition-property:all;transition-property:all;-moz-transition-duration:150ms;-o-transition-duration:150ms;-webkit-transition-duration:150ms;transition-duration:150ms;font-family:"ProximaNova-Bold",sans-serif;text-transform:uppercase;text-decoration:none;letter-spacing:.04em;line-height:17px;font-size:14px;color:#fff}.show-the-look .button:hover{background-color:#B69FC5;text-decoration:none;color:#fff}</style>

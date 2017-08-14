@@ -1,0 +1,24 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000;">
+                    Body Lotion & Body Care
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000;">
+                    DEODORANT, SHOWER GEL, HAND CREAM
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000;">
+                    Deliciously fresh and moisturizing body care. Nourish your skin with our luxurious body care products. <br>
+Indulge with unique olfactory fragrances and textures that comes with our body lotion, deodorant, hand cream, body cream and shower gel. <br>
+Softly moisturize your skin and leave it feeling soft and hydrated.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l3/L3_SKINCARE_By_Product_Category_1600x267.png, categoryHeader, category title, categoryimageclass,,,category/landing-l3/L3_SKINCARE_By_Product_Category_1035x286.png,category/landing-l3/L3_SKINCARE_By_Product_Category_1600x267.png, null, true)$
+    </div>
+</div>

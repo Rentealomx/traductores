@@ -1,0 +1,430 @@
+<script>
+	var getUrlParams = function(str) {
+		return (str || document.location.search).replace(/(^\?)/,'').split("&").map(function(n){return n = n.split("="),
+		this[n[0]] = decodeURIComponent(n[1]),this}.bind({}))[0];
+	}
+	var urlParams = getUrlParams();
+	$(function() {
+		if (typeof urlParams.step === "undefined" && urlParams.step != "2" && urlParams.step != "3") {
+			$("#step11").show();
+			$("#step12").show();
+			$("#step21").hide();
+			$("#step22").hide();
+			$("#step3").hide();
+		} else if (urlParams.step == "2") {
+			$("#step11").hide();
+			$("#step12").hide();
+			$("#step21").show();
+			$("#step22").show();
+			$("#step3").hide();
+		} else if (urlParams.step == "3") {
+			$("#step11").hide();
+			$("#step12").hide();
+			$("#step21").hide();
+			$("#step22").hide();
+			$("#step3").show();
+		}
+		if (typeof urlParams.errMsg !== "undefined") {
+			$("#email-error").show();
+		} else { 
+			$("#email-error").hide();
+		}
+		
+		// step 1
+		$("#dwfrmbutton").click(function() {
+			$("input[name='_successURL']").val($("input[name='_successURL']").val() + '&email=' + $("#dwfrm_newsletter_email").val());
+			$("#dwfrm_newsletter").submit();
+		});
+		
+		// step 2
+		if (typeof urlParams.email !== "undefined") {
+			$("input[name='dwfrm_newsletter_email']").remove();
+			$("<input>", { type: "hidden", name: "dwfrm_newsletter_email", value: urlParams.email }).appendTo("#dwfrm_newsletterconfirmation"); 
+			
+			$("input[name='dwfrm_newsletterconfirmation_subscribe']").click(function() {
+				$("#dwfrm_newsletterconfirmation").submit();
+			});
+		}
+	});
+</script>
+<style type="text/css">
+
+strong { font-family: "Gotham Bold",Arial,serif; }
+
+/* Newsletter Popup Hide */
+.sidebar-wrapper .content_asset.email-sign-up-sidebar-default {
+	display: none !important;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_image {
+    padding: 50px 0 0 50px;
+    width: 31%;
+    height: 440px;
+    box-sizing: border-box;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content {
+    width: 69%;
+    padding: 50px 10% 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content p {
+   font-size: 20px;
+   line-height: 25px;
+   color: #000;
+    margin: 0 0 25px 0;
+}
+
+.newsletter_subscribe_confirm p span {
+    font-family: "Gotham Bold",Arial,serif;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content form .f_field_email .textinput {
+    max-width: 365px;
+    margin: auto;
+    height: 40px;
+    text-align: center;
+    text-transform: none;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Gotham Book';
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content form .f_field_email .textinput::placeholder {
+color: #848484;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content form .f_field_email {
+    width: 90%;
+    margin: 15px auto 10px;
+    float: none;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .privacy_policy {
+   text-align: left;
+    width: 90%;
+    max-width: 365px;
+    margin: 0 auto 30px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .privacy_policy a {
+   text-transform: none;
+    font-family: "Gotham Book",Arial,serif;
+    color: #818181;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content form .button {
+   float: none;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content form .error_message {
+    color: #ff4a78;
+    font-family: "Gotham Book",Arial,serif;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_image#step21 {
+    padding: 0;
+    width: 50%;
+    height: auto;
+margin: 50px 0 0;
+text-align: center;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content#step22 {
+    width: 50%;
+    padding: 0 6.5% 0;
+margin: 50px 0 0;
+    border-left: 1px solid #c6c6c6;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm #step21 h2 {
+    font-size: 28px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm .coupon {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm .code {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Gotham Bold';
+    margin: 15px 0 10px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content #step21 p {
+    font-size: 11px;
+    line-height: 17px;
+    color: #848484;
+    margin: 0 0 20px 0;
+    font-family: 'Gotham Light';
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm img {
+    margin-top: 0;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_image#step21 small {
+    display: block;
+    font-size: 9px;
+    font-family: 'Gotham Book';
+margin: 20px 0 0;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm h5 {
+    font-size: 18px;
+    color: #848484;
+    padding: 0 0 10px;
+}
+
+.newsletter_subscribe_confirm .form_block.form_block_name div:first-child {
+    padding: 0 4% 0 0 !important;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm .form_block.form_block_name .f_field_textinput {
+    margin-bottom: 25px;
+    width: 48%;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm .f_label_value {
+    color: #848484;
+    font-size: 13px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm .f_label:after {
+    color: #848484;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm .form_block.form_block_name .f_field_textinput input {
+    border-color: #ebebeb;
+    padding: 0 10px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .form_block_interests {
+   clear: both;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .form_block_interests .f_label_value {
+  margin: 0 0 10px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content .f_field_checkbox {
+padding-bottom: 0;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content .f_field_checkbox .f_label_value {
+    color: #848484;
+    font-family: "Gotham Light",Arial,serif;
+    font-size: 13px;
+    height: auto;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content .f_field_checkbox input.f_checkbox {
+  display: none;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content#step22 form .button {
+   float: left;
+margin: 30px 0 15px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm .mandatory_fields_notice {
+    float: right;
+    margin: 0;
+    color: #848484;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content form .form_block_name .error_message {
+text-align: left;
+}
+
+@media only screen and (max-width: 979px) {
+	.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm .form_block.form_block_name .f_field_textinput {
+    width: 100%;
+}
+
+
+.newsletter_subscribe_popup.ui-dialog-content #step3 .modal_image {
+width: 100%;
+padding: 50px 0 0;
+text-align: center;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content #step3 .modal_content {
+width: 100%;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .newsletter_subscribe_confirm {
+overflow: visible;
+}
+
+}
+
+@media (max-width:640px) {
+.newsletter_subscribe_confirm .form_block.form_block_name .f_field_textinput input {
+    width: 100%;
+}
+.newsletter_subscribe_popup.ui-dialog-content {
+    max-height: none !important;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_image,
+.newsletter_subscribe_popup.ui-dialog-content .modal_image#step21,
+.newsletter_subscribe_popup.ui-dialog-content .modal_content,
+.newsletter_subscribe_popup.ui-dialog-content .modal_content#step22 {
+width: 100%;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_image:not(#step21) {
+    padding: 50px 0 0 0px;
+}
+
+.newsletter_subscribe_popup.ui-dialog-content .modal_content#step22 {
+   border-left: none;
+   border-top: 1px solid #c6c6c6;
+       padding: 50px 6% 0;
+}
+
+}
+
+</style>
+
+	
+<div class="newsletter_subscribe_popup ui-dialog-content ui-widget-content" data-ispopup="true" data-sourceinfo="Header" id="ui-id-7">
+
+<div class="newsletter_subscribe_confirm">
+
+<div class="newsletter_popin_container disable_scroll_on_error">
+	<div class="pull_left modal_image" id="step11">
+		<img $responsiveSrc(landing-page/welcomepage/newsletter-confirmation-new.jpg, 395|395|395|395)$ alt="" />
+	</div>
+	<div class="pull_right modal_content" id="step12">
+		<h2>Coucou<br> to your inbox</h2>
+		<p>Sign up to our mailing list today.</p>
+		<p class="offer">Receive <span>10% OFF</span><span> and free shipping</span><br> on your first purchase.</p>
+		<div class="newsletter_subscribe_box js_newsletter_subscribe_content">
+		   <form class="js_newsletter_subscribe_form" action="http://cl.s7.exct.net/DEManager.aspx" id="dwfrm_newsletter" method="post" name="dwfrm_newsletter" novalidate="novalidate">
+				<fieldset>
+					<input name="_clientID" type="hidden" value="7206982" /> 
+					<input name="_deExternalKey" type="hidden" value="72EC1C0F-730A-4EE1-BE81-F00585A260AD" /> 
+					<input name="preferred-locale" type="hidden" value="en_CA" /> 
+					<input name="_action" type="hidden" value="add" />
+					<input name="_returnXML" type="hidden" value="0" />
+					<input name="_successURL" type="hidden" value="$url('Search-ShowContent', 'fdid', 'landing-page-welcome', 'step', '2')$" /> 
+					<input name="_errorURL" type="hidden" value="$url('Search-ShowContent', 'fdid', 'landing-page-welcome', 'step', '1')$" /> 
+				 	<div class="f_field f_field_email  formfield formfield_email formfield_subscribe_email required" data-required-text="Please enter your email address">
+						<input class="textinput f_email   required" id="dwfrm_newsletter_email" maxlength="75" name="dwfrm_newsletter_email" placeholder="Your email address" tabindex="-1" type="email" value="">
+					
+					</div>
+                                        <div class="privacy_policy">
+                                             <a href="$url('Page-Show', 'cid', 'customer-service-security-policy')$">Privacy Policy</a>
+					</div>
+					<button id="dwfrmbutton" class="button" name="dwfrm_newsletter_signup" type="submit" value="Submit">Sign up</button>
+					
+					<div id="email-error" class="f_field f_field_email error_message formfield formfield_email formfield_subscribe_email required" style="display:none;">
+						Your email address is already registered. Thank you! 
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="pull_left modal_image" id="step21" style="display:none;">
+	<h2>Bienvenu</h2>
+	<div class="coupon">
+		Start shopping now!<br />
+		Add the following code at checkout to receive<br />
+		<strong>10% off* and free shipping:</strong>
+	</div>
+	<div class="code">
+		BONJOUR10
+	</div>
+	<p>This code will be emailed to you as well.</p>
+	<img $responsiveSrc(landing-page/welcomepage/medium_newsletter_image_new.jpg, 278|278|278|278)$ alt="" />
+	<small>*Cannot be combined with any other offer. Valid for a limited time on Lancome.ca only.</small>
+</div>
+	
+<div class="pull_right modal_content" id="step22" style="display:none;">
+	<h5>Tell us a little more:</h5>
+	<form action="http://cl.s7.exct.net/DEManager.aspx" method="post" id="dwfrm_newsletterconfirmation" class="newsletter_subscribe_form js_newsletter_subscribe_confirmation_form" novalidate="novalidate">
+		<input name="_clientID" type="hidden" value="7206982" /> 
+		<input name="_deExternalKey" type="hidden" value="72EC1C0F-730A-4EE1-BE81-F00585A260AD" /> 
+		<input name="preferred-locale" type="hidden" value="en_CA" /> 
+		<input name="_action" type="hidden" value="update" />
+		<input name="_returnXML" type="hidden" value="0" />
+		<input name="_successURL" type="hidden" value="$url('Search-ShowContent', 'fdid', 'landing-page-welcome', 'step', '3')$" /> 
+		<input name="_errorURL" type="hidden" value="$url('Search-ShowContent', 'fdid', 'landing-page-welcome', 'step', '1')$" /> 
+
+
+		<div class="form_block form_block_name">
+			<div class="f_field f_field_textinput  formfield formfield_textinput required" data-required-text="Please enter your firstname">
+				<label class="f_label" for="dwfrm_newsletterconfirmation_firstname">
+					<span color="#FFFFF" class="f_label_value">First name</span>
+				</label>
+				<input type="text" id="dwfrm_newsletterconfirmation_firstname" name="first name" class="textinput f_textinput  account_customer_firstname required" value="">
+			</div>
+			<div class="f_field f_field_textinput  formfield formfield_textinput required" data-required-text="Please enter your last name">
+				<label class="f_label" for="dwfrm_newsletterconfirmation_lastname">
+					<span  color="#FFFFF" class="f_label_value">Last name</span>
+				</label>
+				<input type="text" id="dwfrm_newsletterconfirmation_lastname" name="last name" class="textinput f_textinput  account_customer_lastname required" value="">
+				<span class="error_message f_error_message" data-for="dwfrm_newsletterconfirmation_lastname" data-generated="true"></span>
+			</div>
+		</div>
+
+		<div class="form_block form_block_interests">
+			<span class="f_label_value">Your interests</span>
+		
+			<div class="f_field f_field_checkbox  formfield formfield_checkbox">
+			<input type="checkbox" id="dwfrm_newsletterconfirmation_interestsMakeup" name="makeup" class="checkbox f_checkbox " value="true">
+			<label color="#FFFFF" class="f_label" for="dwfrm_newsletterconfirmation_interestsMakeup"><span class="f_label_value"> MAKEUP</span></label>
+			<span class="error_message f_error_message" data-for="dwfrm_newsletterconfirmation_interestsMakeup" data-generated="true"></span>
+			</div>
+			<div class="f_field f_field_checkbox  formfield formfield_checkbox">
+			<input type="checkbox" id="dwfrm_newsletterconfirmation_interestsSkincare" name="skincare" class="checkbox f_checkbox " value="true">
+			<label color="#FFFFF" class="f_label" for="dwfrm_newsletterconfirmation_interestsSkincare"><span class="f_label_value">SKINCARE</span></label>
+			<span class="error_message f_error_message" data-for="dwfrm_newsletterconfirmation_interestsSkincare" data-generated="true"></span>
+			</div>
+			<div class="f_field f_field_checkbox  formfield formfield_checkbox">
+			<input type="checkbox" id="dwfrm_newsletterconfirmation_interestsFragrance" name="Fragrance" class="checkbox f_checkbox" value="true">
+			<label color="#FFFFF" class="f_label" for="dwfrm_newsletterconfirmation_interestsFragrance"><span class="f_label_value">FRAGRANCE</span></label>
+			<span class="error_message f_error_message" data-for="dwfrm_newsletterconfirmation_interestsFragrance" data-generated="true"></span>
+			</div>
+		</div>
+
+		<button type="submit" class="button btn_cta_primary sm_cta_button" value="Send" name="dwfrm_newsletterconfirmation_subscribe">
+		<span>Submit</span>
+		</button>
+		<div class="f_field f_field_hidden  formfield formfield_hidden">
+		</div>
+		<div class="mandatory_fields_notice">
+		<span class="notice_label_value">*Mandatory fields</span>
+		</div>
+	</form>
+</div>
+	
+<div  id="step3" style="display:none;">
+<div class="pull_left modal_image">
+<img $responsiveSrc(landing-page/welcomepage/newsletter-confirmation-new.jpg, 395|395|395|395)$ alt="" />
+	</div>
+	<div id="email-thankyou" class="pull_right modal_content">
+		<h2>Add more beauty<br> to your inbox</h2>
+		<p>You are registered thank you.</p>
+	</div>
+</div>
+
+</div>
+
+</div>

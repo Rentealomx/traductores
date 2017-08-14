@@ -1,0 +1,84 @@
+<style>
+.giftevents.landing-page .product_details .product_tile .jcarousel-clip {
+width: 165px !important;
+}
+
+.giftevents .product_gift .product_name {
+text-transform: none;
+font-size: 30px;
+}
+
+.giftevents.landing-page .product_details .product_tile .jcarousel-clip .product_swatch_list .product_swatch_list_item:first-child {
+    margin-left: 3px;
+}
+
+.giftevents .headline-wrapper {
+margin: 35px 0 0;
+}
+
+.giftevents .beauty_codes .beauty_moods .moods_titles {
+    left: auto;
+    right: 10%;
+}
+
+.giftevents .studio_lancome_subtitle {
+    margin: -10px auto 15px;
+}
+
+@media (max-width:1127px) {
+.giftevents .beauty_codes {
+    margin: 80px auto 0;
+}
+
+.pt_landing_pages .beauty_codes .beauty_moods .content_box {
+    padding: 25px;
+    margin: 0 auto -80px;
+}
+}
+
+@media only screen and (max-width: 640px) {
+.pt_landing_pages div.beauty_codes div.beauty_moods .content_box, .beauty_codes div.beauty_moods .content_box {
+    margin: 0 auto -30px;
+}
+
+.giftevents .header_start .header_content {
+    width: 60%;
+    left: 0%;
+}
+
+.giftevents .studio_lancome_subtitle {
+    margin: 20px auto 15px;
+}
+
+.giftevents .gift_page_carousel .height_variation .contentcarousel_list_item {
+    min-height: 450px;
+}
+
+.pt_landing_pages .landing-page .gift_page_carousel .horizontal_carousel .height_variation ~ .jcarousel-prev,
+.pt_landing_pages .landing-page .gift_page_carousel .horizontal_carousel .height_variation ~ .jcarousel-next {
+    top: 250px;
+}
+}
+.giftevents .headline-wrapper {
+display:none;
+} 
+
+.giftevents .prime_video {
+display:none;
+}
+.giftevents .beauty_codes {
+display:none;
+}
+</style>
+
+<div class="header_image">
+<img alt="Banner" src="landing-page/giftEvents/meet-the-icons.jpg?$staticlink$" />
+</div>
+
+<div class="header_content">
+<h1>Meet the Icons</h1>
+<div class="studio_lancome_subtitle">DISCOVER OUR MUST-HAVES</div>
+<div class="short_description">
+<p> Can't decide? Pick a gift for your loved one or treat yourself to one of Lancôme's iconic products. May it be Skincare, Makeup or Fragrance, you can't go wrong with these all time favorites!</p>
+</div>
+</div>

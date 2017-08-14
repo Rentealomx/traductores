@@ -1,0 +1,120 @@
+<div class="article_title_module">
+		<p class="publishing_date">17/06/2016</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-2693', 'fdid', 'secrets-for-perfect-skin')$
+		<h1>Water-based care to wake up your skin </h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/energie_de_vie_Article_MediaModule_Horizontal_Desktop.jpg, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph">As fresh as a lotion, with the concentrated power of a serum and the moisturizing properties of a cream, <i>Soin Liquide Energie de Vie</i> promises to revolutionize your beauty routine and tired skin. Three good reasons to test it out.</p>
+	<p></p>
+	<p><b>How does Energie de Vie Soin Liquide manage to combine the best of a toner, a serum and a cream all into one power-packed skincare product?</b></p>
+	<p></p>
+	<p>Soin Liquide’s fluid, fresh texture is inspired by the cosmetic waters commonly used in Asia. Lancôme teams worked to concentrate 24% hydrating agents into the formula so that in just a single application, skin is quenched and able to more easily eliminate signs of tiredness.</p>
+	<p></p>
+	<p><b>What you need to know about Soin Liquide</b></p>
+	<p>1. <i> </i>Energie de Vie Soin Liquide contains a trio of powerful actives - French lemon balm, Goji berries and gentian - to combat oxidative stress and redness, all the while revitalizing the skin.</p>
+	<p>2. Lancôme developers also drew on metabolomics, a new skin science that allows scientists to analyze activity deep inside skin cells.</p>
+	<p></p>
+	<p><i> </i><i>* Consumer tests made on 108 women, comparing against their usual lotion.</i></p>
+	<p></p>
+	<p><i>Énergie de Vie Soin Liquide, Lancôme.</i></p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-2693', 'fdid', 'secrets-for-perfect-skin')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', 'A00068-LAC ', 'title', 'Shop the article ')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2240')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/innovation_mai-belledeteint_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/innovation_mai-belledeteint_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/innovation_mai-belledeteint_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/innovation_mai-belledeteint_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">19/05/16</p>
+									<h4 class="article_title">Illuminate your way to perfect skin</h4>
+									<p class="article_content">Discover how you can illuminate your way to perfect skin with Lanc&ocirc;me Belle de Teint Light-Reflecting makeup powder &amp; achieve a natural-looking glow.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2240')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2432')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/spf_1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/spf_1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/spf_1_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/spf_1_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">30/05/16</p>
+									<h4 class="article_title">Is it too early for sunscreen? </h4>
+									<p class="article_content">Learn how applying Lanc&ocirc;me SPF sunscreen in the spring helps combat UV ray sun damage, premature aging, wrinkles &amp; fine lines.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2432')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2499')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/SUN_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/SUN_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/SUN_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/SUN_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">07/06/16</p>
+									<h4 class="article_title">Touch-ups for fresher-feeling skin</h4>
+									<p class="article_content">Discover how Lanc&ocirc;me&rsquo;s Advanced G&eacute;nifique  Serum can rescue sweltering skin after a lunch in the sunshine. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2499')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2688')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Innovation_juicy_shaker_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Innovation_juicy_shaker_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Innovation_juicy_shaker_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Innovation_juicy_shaker_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">02/06/16</p>
+									<h4 class="article_title"> Juicy Shaker: a lip oil cushion that packs a pigment punch</h4>
+									<p class="article_content">Meet Juicy Shaker,  the latest lip-plumping make up innovation from Lanc&ocirc;me. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2688')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-2693', 'fdid', 'secrets-for-perfect-skin')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-2693')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-2693', 'fdid', 'secrets-for-perfect-skin')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=2693&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

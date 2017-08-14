@@ -1,0 +1,84 @@
+<center><p>Advanced Génifique Sensitive Dual Concentrate is your best bet to soothe sensitive skin.</br>No more bad skin days!</p></center>
+<div class="effects_video_container" style="">
+    <div class="effects_video">
+        <div class="media_content video">
+                	<div style="width: 100%; height: 100%">
+
+            <iframe width="100%" height="260" src="https://www.youtube.com/embed/jzFAY1yX_sc?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>        </div>
+
+    </div>
+    <h3 class="video_title">#1 Pollution</h3>
+    <center><p style="font-size: 17px">Live in a big city? Have no fear, Advanced Génifique Sensitive Dual Concentrate will protect your sensitive skin against pollution!</p></center>
+</div>
+<div class="effects_video_container">
+    <div class="effects_video">
+        <div class="media_content video">
+            <iframe width="100%" height="260" src="https://www.youtube.com/embed/V3-VeBgY5e8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <h3 class="video_title">#2 Season Change</h3>
+    <center><p style="font-size: 17px">No more dry, tight skin. Soothe your sensitive skin and give it back a softer feeling.</p></center>
+</div>
+<div class="effects_video_container" style="">
+    <div class="effects_video">
+        <div class="media_content video">
+            <iframe width="100%" height="260" src="https://www.youtube.com/embed/BsOEyo1JjdM?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <h3 class="video_title">#3 Friction</h3>
+    <center><p style="font-size: 17px">No more redness! Give your skin its glow back.</p></center>
+</div>
+<div class="effects_video_container">
+    <div class="effects_video">
+        <div class="media_content video">
+            <iframe width="100%" height="260" src="https://www.youtube.com/embed/VGhEiWgKb2g?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <h3 class="video_title">#4 Dryness</h3>
+    <center><p style="font-size: 17px">No need to call the fire fighters, you can stop the burning in a click</p></center>
+</div>
+
+<style>
+    .effects_video_container {
+        display: inline-block;
+        width: 49%;
+    }
+
+    .effects_video {
+        border: 1px solid #989898;
+        padding: 15px;
+    }
+
+    .video_title {
+        font-size: 30px;
+        text-align: center;
+        padding: 15px 0 25px;
+    }
+    .media_content.video {
+        max-height: 256px;
+    }
+    .advanced-genifique-effects-videos .how_to_apply {
+        padding: 0;
+        font-size: 0;
+        text-align: center;
+    }
+    @media only screen and (max-width: 780px) {
+        .advanced-genifique-effects-videos .how_to_apply {
+            margin: auto;
+        }
+
+        .pt_product_details .how_to_apply_pdp .media_content.video {
+            max-height: 145px;
+        }
+    }
+    @media only screen and (max-width: 640px) {
+        .advanced-genifique-effects-videos .how_to_apply {
+            display: block;
+        }
+        .effects_video_container {
+            width: 100%;
+            margin-right: 0 !important;
+        }
+    }
+</style>

@@ -1,0 +1,31 @@
+<div class="header_image">
+<img class="is_hidden_mobile" alt="" src="landing-page/giftWithPurchase/gift_with_purchase_header_img.png?$staticlink$" />
+<img class="is_hidden_desktop is_visible_mobile" alt="" src="landing-page/giftWithPurchase/gift_with_purchase_header_img_mobile.png?$staticlink$" />
+</div>
+
+<div class="header_content">
+<h1>Vos Cadeaux : <span>le rituel fra&icirc;cheur</span><br />
+dans une d&eacute;licate pochette vert d'eau pour pr&eacute;parer l'&eacute;t&eacute;</h1>
+
+<div class="products">
+<p class="total-price">D&egrave;s 80 &euro; d&rsquo;achat</p>
+
+<ul>
+	<li>&Ocirc; de Lanc&ocirc;me <span>7,5 ml</span></li>
+	<li>Hydra Zen NeurocalmTM SPF 15 <span>15 ml</span></li>
+	<li>Mascara Hypn&ocirc;se Star Waterproof <span>2 ml</span></li>
+	<li>La Rose Baume Corps Confort <span>40 ml</span></li>
+</ul>
+</div>
+
+<div class="left-product">
+<p>Votre pochette verte aux reflets iris&eacute;s</p>
+<span>Taille 23 cm x 7 cm x 14 cm</span></div>
+
+<div style="clear: both;"></div>
+
+<div class="header_bottom">
+<p>*Photo non contractuelle. Offre valable jusqu&rsquo;au 30/06/1014, dans la limite des stocks disponibles.<br />
+Si ce cadeau n&rsquo;est plus disponible, vous recevrez un autre cadeau d&rsquo;une valeur &eacute;quivalente.</p>
+<span>*Prize draw open to UK &amp; ROI residents aged 18+. Entrants must complete the online entry form at Hypn&ocirc;se 10 Years to be entered into the prize draw. Entries must be received by midnight on XX/XX/XXXX. 5 winners will be drawn at random. Winners will each receive an Hypnose 01, Hypnose Base Paupieres 03, Le Sourcil Pro 01, Artliner and Hypnose Palette DO8. 50 runners up will be drawn at random. Each runner up will receive an Hypnose 01. For full T&amp;Cs please visit the following page. Promoter: Lanc&ocirc;me, a division of L&rsquo;Or&eacute;al (UK) Limited of 255 Hammersmith Road London W6 8AZ</span></div>
+</div>

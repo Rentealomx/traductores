@@ -1,0 +1,86 @@
+<div class="top_billboard_area">
+	<div class="main_image">
+		<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5763')$">
+		<img $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/test1_Billboard_Desktop.jpg, billboard, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/test1_Billboard_Desktop.jpg, billboard, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/test1_Billboard_Desktop.jpg, billboard, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/test1_Billboard_Mobile.jpg, billboard, forced, mobile)$ alt="" />
+		</a>
+	</div>
+	<div class="main_article_box">
+		<div class="article_box">
+			<h3>
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5763')$">
+					French Touch
+				</a>
+			</h3>
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5763')$">
+				<span class="date">21/09/15</span>
+			</a>
+				<p class="keyword">
+					<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5763')$">
+					Exclu
+					</a>
+				</p>
+			<h2 class="title">
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5763')$">
+				Lancôme s'expose au Printemps 
+				</a>
+			</h2>
+		</div>
+	</div>
+</div>
+			 $include('BeautyMag-IncludeNewsfeeds','cid','fs-beauty-mag-article-basic-4672;fs-beauty-mag-article-basic-6016;fs-beauty-mag-article-basic-5120;fs-beauty-mag-article-basic-4997')$
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5505')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/cou~1_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5505')$">Et si un joli cou fa&ccedil;onnait l&rsquo;allure ?</a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5505')$">
+			        <p >
+			            Finalement tr&egrave;s expos&eacute;, et jamais bien soign&eacute;, le cou risque de vieillir plus vite que le visage. Petit protocole beaut&eacute; pour un port de reine.
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3144')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/beauty_lab/cilstint_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3144')$">Le mascara Cils Tint tr&egrave;s longue dur&eacute;e</a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3144')$">
+			        <p >
+			            Tr&egrave;s attendu en cosm&eacute;tique, le mascara semi-permanent Cils Tint r&eacute;ussit le pari d&rsquo;une formule ultra-pigment&eacute;e, sans effet de mati&egrave;re. 
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+		$include('BeautyMag-IncludeHomeProductPushes', 'pid', '278104-LAC;27803u-LAC;128032-LAC;008112-LAC;', 'title', 'Sélection', 'desc','')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_14413/?project=14413&entity=6208&store=contentstore&element=15170" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

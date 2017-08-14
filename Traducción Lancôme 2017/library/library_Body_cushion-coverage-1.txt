@@ -1,0 +1,138 @@
+<style>
+#cushion-coverage-content {
+    margin: 0 0 100px;
+}
+
+#cushion-coverage-content.prime_slider .carousel_navigation_list {
+   margin: 0;
+   float: right;
+   width: 50%;
+}
+
+#cushion-coverage-content .contentcarousel_list_item {
+   height: 575px;
+}
+
+#cushion-coverage-content.prime_slider.horizontal_carousel .jcarousel-prev {
+    left: 50%;
+}
+
+#cushion-coverage-content .text_section,
+#cushion-coverage-content .image_section {
+   width: 50%;
+   box-sizing: border-box;
+   float: right;
+}
+
+#cushion-coverage-content .text_section {
+    padding: 195px 60px 0;
+}
+
+#cushion-coverage-content.prime_slider .contentcarousel_list_item .slider_text .title_text {
+   font-size: 45px;
+   line-height: 40px;
+   margin: 0 0 25px;
+}
+
+#cushion-coverage-content .slider_text:after {
+   display: block;
+clear: both;
+content: '';
+}
+
+#cushion-coverage-content .contentcarousel_list_item .slider_text {
+width: 100%;
+}
+
+#cushion-coverage-content .image_section {
+border: 1px solid #dedddd;
+padding: 25px;
+background: #fff;
+}
+
+
+@media (max-width:979px) {
+#cushion-coverage-content .text_section, 
+#cushion-coverage-content .image_section {
+   float: none;
+margin: auto;
+width: 60%;
+}
+
+#cushion-coverage-content .contentcarousel_list_item {
+   height: 800px;
+}
+
+#cushion-coverage-content .contentcarousel_list_item .slider_text {
+   top: 0 !important;
+}
+
+#cushion-coverage-content .text_section {
+    padding: 80px 10px 0;
+}
+
+#cushion-coverage-content {
+    margin: 0 0 10px;
+}
+
+#cushion-coverage-content.prime_slider.horizontal_carousel .jcarousel-prev {
+    left: -2px;
+}
+
+#cushion-coverage-content.prime_slider .carousel_navigation_list {
+    float: none;
+    width: 100%;
+    position: absolute;
+    top: 485px;
+}
+
+#cushion-coverage-content.horizontal_carousel .jcarousel-prev, 
+#cushion-coverage-content.horizontal_carousel .jcarousel-next {
+top: 30%;
+}
+
+}
+
+
+@media (max-width:640px) {
+#cushion-coverage-content .text_section {
+   width: 100%;
+} 
+
+#cushion-coverage-content .image_section {
+   width: 75%;
+   padding: 12px;
+}
+
+#cushion-coverage-content.prime_slider .carousel_navigation_list {
+   top: 350px;
+}
+
+#cushion-coverage-content .contentcarousel_list_item {
+    height: 655px;
+}
+
+#cushion-coverage-content.prime_slider .contentcarousel_list_item .slider_text .title_text {
+    font-size: 37.5px;
+    margin: 0 0 25px;
+}
+
+}
+
+@media (max-width:321px) {
+#cushion-coverage-content.prime_slider .carousel_navigation_list {
+    top: 290px;
+}
+
+
+}
+</style>
+<div id="cushion_teint_ultra_section"></div>
+<div class="image_section">
+              <img  src="landing-page/cushion/cushion-coverage-1.jpg?$staticlink$" alt="Coverage" />
+</div>
+<div class="text_section">
+<h2 class="title_text">«This product is very easy to slip into your bag, super liquid, super fresh, it's just awesome!»</h2>
+<p class="description_text">Natamélie, Youtube Beauty Blogger, from France</p>
+</div>
+<div id="cushion_new_section" style="clear:both;"></div>

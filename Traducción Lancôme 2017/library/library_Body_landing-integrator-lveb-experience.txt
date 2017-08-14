@@ -1,0 +1,39 @@
+<style type="text/css">
+  @import url("http://lveb2015.g-l.solutions/styles/main.css");
+</style>
+    <div id="lveb" class="header-small">
+
+      <header>
+
+          <div class="opener" data-action="toggleMenu"></div>
+          
+          <nav>
+
+            <div class="closer" data-action="toggleMenu"></div>
+
+            <ul id="menu">
+                <li data-uri="menu.homepage.url"><a href="#"><span data-trad="menu.homepage.label"></span></a>
+                <li data-uri="menu.watch.url"><a href="#"><span data-trad="menu.watch.label"></span></a>
+                <li class="active" data-uri="menu.spread.url"><a href="#" ><span data-trad="menu.spread.label"></span></a>
+                <li data-uri="menu.collection.url"><a href="#"><span data-trad="menu.collection.label"></span></a>
+                <li data-uri="menu.sample.url"><a href="#"><span data-trad="menu.sample.label"></span></a>
+                <li data-uri="menu.perfumers.url"><a href="#"><span data-trad="menu.perfumers.label"></span></a>
+                <li data-uri="menu.bottle.url" class="last"><a href="#"><span data-trad="menu.bottle.label"></span></a>
+            </ul>
+
+          </nav>
+
+      </header>
+
+    <div id="render">
+        <canvas id="scene" width="400" height="400"></canvas>
+    </div>
+    <div id="videoStage"></div>
+    <div id="loader" class="preloader bg">
+        <div class="spinner" style="text-transform:uppercase;">
+            <img src="http://lveb2015.g-l.solutions/media/images/loader.png" alt="">
+            <span class="loading" data-trad="loading"></span> <span class="percent"></span>
+        </div>
+    </div>
+    <div id="bg"></div>
+</div>

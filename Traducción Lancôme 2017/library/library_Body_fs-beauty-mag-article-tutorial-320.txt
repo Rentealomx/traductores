@@ -1,0 +1,43 @@
+<div class="tutorial_template" >
+	<div class="article_title_module">
+		<p class="publishing_date">9/28/15</p>
+		<h1>Confidence Boosting Makeup</h1>
+	</div>
+		<div class="article_media_module_video" >
+	<div class="video_holder_wrapper">
+	    <div class="video_holder">
+	        <iframe allowfullscreen="" frameborder="0" hspace="0" showinfo="0" src="https://www.youtube.com/embed/_BrdaHoPSJI?wmode=opaque&rel=0&showinfo=0&autoplay=0&enablejsapi=1" vspace="0" width="100%"></iframe>
+	    </div>
+	</div>
+    <div class="tutorial_body">
+        <div class="clearfix">
+            <div class="tutorial_description">
+	                <h2 >confidence boosting makeup by Lisa Eldridge with Lancôme</h2>
+                	<p >What if self-confidence could shine through your eyes? Lisa Eldridge shares her key tips for boosting your self-confidence with makeup, from the right face brightening foundation, to subtle ways to lift the brows and even picking the perfect lipstick to suit your personality. Her biggest piece of advice? Turn to mascara for a beauty that never fails. </p>
+            </div>
+            <div class="before_after_tutorial">
+                <h2 >Before / After</h2>
+                	<div >
+					<img $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/CONFIDENCE_BOOSTING_MAKEUP_POSTER_BA_TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/CONFIDENCE_BOOSTING_MAKEUP_POSTER_BA_TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/CONFIDENCE_BOOSTING_MAKEUP_POSTER_BA_TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/CONFIDENCE_BOOSTING_MAKEUP_POSTER_BA_TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, mobile)$ alt="" />
+					</div>
+			</div>
+        </div>
+    </div>
+</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', '29201v-LAC ; 025172-LAC ; 319215-LAC ; 16210z-LAC ; 25301w-LAC ', 'title', 'The Products Used in the Tutorial')$		
+	$include('BeautyMag-IncludeMoreArticles', 'cid','fs-beauty-mag-article-tutorial-320 ; fs-beauty-mag-article-basic-321 ', 'currentid', 'fs-beauty-mag-article-tutorial-320', 'fdid', 'lisa-eldridge-tutorials')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-tutorial-320')$
+</div>
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=320&store=contentstore&element=82602" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

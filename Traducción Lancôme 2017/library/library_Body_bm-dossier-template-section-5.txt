@@ -1,0 +1,43 @@
+<div class="module1">
+<div class="left_img"><img alt="" src="beauty_mag/dossier/section5_module1.jpg?$staticlink$" /></div>
+
+<div class="module_content">
+<p class="book_style_paragraph">Dolor sit amet, consectetuer adipiscing elit, sed adi diam nonummy nibhreet euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut veniam, quis nostrud exeri. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum Accumsan et iusto odio dignissim qui blandit praesent luptatum zzril. Delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, nulla facilisis at vero eros.</p>
+</div>
+</div>
+
+<div class="module2">
+<div class="module_content">
+<h3>Ut wisi enim ad minim veniam exerci sit amet tation ullamcorper.</h3>
+
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br />
+<br />
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<div class="right_img"><img alt="" src="beauty_mag/dossier/section5_module2.jpg?$staticlink$" /></div>
+</div>
+
+
+
+<div class="module3">
+	<div class="left_img">
+		<img alt="" src="beauty_mag/dossier/section5_module3_img1.jpg?$staticlink$" />
+	</div>
+
+<div class="module_content">
+	<h3>Lorem ipsum dolor sit amet, consictetuer adip iscing elit, sed diam</h3>
+	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br />
+	<br />
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<div class="left_img">
+	<img alt="" src="beauty_mag/dossier/section5_module3_img2.jpg?$staticlink$" />
+</div>
+<div class="module_content">
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br />
+<br />
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at eros.</p>
+</div>
+</div>

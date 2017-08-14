@@ -1,0 +1,41 @@
+<div class="tutorial_template" >
+	<div class="article_title_module">
+		<p class="publishing_date">9/29/15</p>
+		<h1>Classic Parisian Makeup</h1>
+	</div>
+		<div class="article_media_module_video" >
+	<div class="video_holder_wrapper">
+	    <div class="video_holder">
+	        <iframe allowfullscreen="" frameborder="0" hspace="0" showinfo="0" src="https://www.youtube.com/embed/RXk2czG5uhA?wmode=opaque&rel=0&showinfo=0&autoplay=0&enablejsapi=1" vspace="0" width="100%"></iframe>
+	    </div>
+	</div>
+    <div class="tutorial_body">
+        <div class="clearfix">
+            <div class="tutorial_description">
+	                <h2 >Classic Parisian Makeup by Lisa Eldridge with Lancôme</h2>
+                	<p >So how do Parisians pull off such a sophisticated makeup look with just a hint of lipstick? Lisa Eldridge shows you how with her latest classic makeup how-to. Think: natural, fresh skin with the help of Teint Miracle and Belle de Teint, contrasted with a bold and graphic slick of red.</p>
+            </div>
+            <div class="before_after_tutorial">
+                <h2 >Before / After</h2>
+                	<div >
+					<img $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/CLASSIC_PARISIAN_MAKEUP_POSTER_BA_2_TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/CLASSIC_PARISIAN_MAKEUP_POSTER_BA_2_TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/CLASSIC_PARISIAN_MAKEUP_POSTER_BA_2_TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/CLASSIC_PARISIAN_MAKEUP_POSTER_BA_2_TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, mobile)$ alt="" />
+					</div>
+			</div>
+        </div>
+    </div>
+</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', '26901c-LAC ; 292013-LAC ; 29201u-LAC ; 25301w-LAC ', 'title', 'Our selection')$		
+</div>
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=328&store=contentstore&element=82602" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

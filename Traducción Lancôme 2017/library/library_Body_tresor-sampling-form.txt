@@ -1,0 +1,98 @@
+<style>
+@media only screen and (max-width: 700px) {
+.prime_sampling_content .sampling-form-container form .formfield_email {
+margin:0;
+}
+.prime_sampling_content .sampling-confirmation-container h2 {
+color:#000;
+}
+.prime_sampling_content .sampling-form-container {
+    padding: 10% 15%;
+}
+.prime_sampling_content .sampling-form-container .subtitle {
+    font-size:18px;
+}
+.prime_sampling_content .sampling-form-container .btn_cta_secondary {
+margin-top:95px;
+}
+}
+.prime_sample_form_module > form {
+width:68%!important;
+z-index:0;
+}
+@media only screen and (max-width: 979px) {
+.prime_sample_form_module>form {
+width:96%!important;
+}
+}
+.sampling-bg .prime_sample_form_module > form > fieldset > div.formfield_button {
+    width:auto;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.prime_sample_form_module .button {
+    text-transform: uppercase;
+    margin: 0;
+    color: black;
+    background: white;
+}
+.prime_sample_form_module .button span {
+color:#000;
+}
+.prime_sampling_content .sampling-confirmation-container h2 {
+color:#fff;
+}
+.prime_sample_form_module .form-field__label-value {
+    color: #fff;
+}
+.prime_sample_form_module .c-prime-sampling__formfield--right {
+    padding: 0 0 0 5%;
+}
+.prime_sample_form_module .f_field_checkbox .f_label_value {
+    padding-left: 25px;
+}
+</style>
+<span id="samplingform" class="campaignId-container" data-campaignid="samples"></span>
+
+<div class="is_hidden_mobile_large is_visible_tablet is_visible_desktop">
+<img  class="form_background" alt="" $responsiveSrc(landing-page/tresor/sample-bg.jpg,1500|1500|780|10,,,,,landing-page/tresor/sample-bg.jpg,landing-page/tresor/sample-bg.jpg,landing-page/tresor/form-bg-mobile.jpg)$/>
+
+<div class="js_hide sampling-confirmation-container">
+<h2>Thank you for signing up to receive your complimentary sample.</h2>
+</div>
+</div>
+
+<div class="is_hidden_desktop is_hidden_tablet is_visible_mobile_large">
+<img class="form_background" alt="" $responsiveSrc(landing-page/tresor/form-bg-mobile.jpg?$staticlink$,, forced, mobile)$   title="" />
+<div class="sampling-form-container">
+<h2>Fill-in your contact details and receive a sample</h2>
+
+<span class="open_sampling_popup btn_cta_secondary">Get a sample</span></div>
+
+<div class="js_hide sampling-confirmation-container">
+<h2>Thank you. Your sample request has been taking into account.</h2>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+
+$(document).on('click', '.open_sampling_popup', function() {
+	$('.sampling_form_container_js').show();
+});
+
+if ($(window).width() <= 750) {
+   $('.landing_slider_page').find('.prime_sampling_content').parents('.row_section').css('margin-top', '40px');
+}
+ $('.js_sample_scroll').on('click', function() {
+            var $id = $(this).attr('href');
+
+            $('html, body').animate({
+                scrollTop: $($id).offset().top
+            }, 400);
+        });
+$('.sampling-form-container').parent('.prime_module').addClass('sampling-bg');
+
+
+
+});
+</script>

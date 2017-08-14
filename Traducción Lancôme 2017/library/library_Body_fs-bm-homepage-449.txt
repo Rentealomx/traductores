@@ -1,0 +1,43 @@
+<div class="top_billboard_area">
+	<div class="main_image">
+		<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-325')$">
+		<img $responsiveSrc(/fs/media/beauty_mag_visuals/caroline_de_maigret/CDM_palette1_CMS_Billboard_Desktop.jpg, billboard, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/caroline_de_maigret/CDM_palette1_CMS_Billboard_Desktop.jpg, billboard, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/caroline_de_maigret/CDM_palette1_CMS_Billboard_Desktop.jpg, billboard, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/caroline_de_maigret/CDM_palette1_CMS_NewsFeed_Desktop.jpg, billboard, forced, mobile)$ alt="" />
+		</a>
+	</div>
+	<div class="main_article_box">
+		<div class="article_box">
+			<h3>
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-325')$">
+					Les parisiennes
+				</a>
+			</h3>
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-325')$">
+				<span class="date">29/09/15</span>
+			</a>
+				<p class="keyword">
+					<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-325')$">
+					Paris Inspires
+					</a>
+				</p>
+			<h2 class="title">
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-325')$">
+				Caroline de Maigret’s collector’s edition make-up palette
+				</a>
+			</h2>
+		</div>
+	</div>
+</div>
+			 $include('BeautyMag-IncludeNewsfeeds','cid','fs-beauty-mag-article-basic-737;fs-beauty-mag-article-basic-336;fs-beauty-mag-article-tutorial-329;fs-beauty-mag-article-basic-337')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=449&store=contentstore&element=82934" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

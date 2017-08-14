@@ -1,0 +1,642 @@
+<script type="text/javascript" src="js/jquery.sticky.js?$staticlink$"></script>
+<style>
+#stickynav {background-image:url('images/landing/naked2_basics/upperbanner.png?$staticlink$');width:1000px;height:130px;z-index:100000;}
+#stickynav .title {text-align:center;padding-top:17px;}
+
+#navlist{position:relative;margin:10px 0 0 133px;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#navlist li, #navlist a{height:30px;display:block;}
+
+#sequel{left:0px; width:243px;}
+#sequel{background:url('images/landing/naked2_basics/uppernav2_naked2_basics.jpg?$staticlink$') 0 0;}
+#sequel a:hover{background:url('images/landing/naked2_basics/uppernav2_naked2_basics.jpg?$staticlink$') 0px -30px;}
+
+#bloggers{left:243px; width:155px;}
+#bloggers{background:url('images/landing/naked2_basics/uppernav_naked2_basics.jpg?$staticlink$') -243px 0;}
+#bloggers a:hover{background:url('images/landing/naked2_basics/uppernav2_naked2_basics.jpg?$staticlink$') -243px -30px;}
+
+#getdown{left:398px; width:192px;}
+#getdown{background:url('images/landing/naked2_basics/uppernav_naked2_basics.jpg?$staticlink$') -398px 0;}
+#getdown a:hover{background:url('images/landing/naked2_basics/uppernav2_naked2_basics.jpg?$staticlink$') -398px -30px;}
+
+#getitnow{left:590px; width:143px;}
+#getitnow{background:url('images/landing/naked2_basics/uppernav2_naked2_basics.jpg?$staticlink$') -590px 0;}
+
+#naked2basics_container{margin:0 auto;padding:0 30px;margin-top:-12px;}
+#naked2basics_billboard{background-image:url('images/landing/naked2_basics/naked2basics_billboard.jpg?$staticlink$');display:block;width:940px;height:541px;position:relative;}
+#naked2basics_billboard .cta {padding:285px 0 0 213px;}
+
+.tooltip2 {width:100%;height:auto;display:none;position:absolute;}
+.tooltip2 .dots {float:left;position:relative;}
+.tooltip2 .title {font:24px "ProximaNova-Bold",sans-serif;text-transform:uppercase;position:relative;top:60px;left:15px;}
+.tooltip2 .desc {font:16px "ProximaNova-Regular",sans-serif;position:relative;top:60px;float:left;text-align:center;left:-7px;}
+.tooltip2 .desc2 {font:16px "ProximaNova-Regular",sans-serif;position:relative;top:60px;float:left;text-align:center;left:-12px;}
+.tooltip2 .desc3 {font:16px "ProximaNova-Regular",sans-serif;position:relative;top:60px;float:left;text-align:center;left:-27px;}
+
+#theshades {float:left;width:940px;height:216px;position:relative;} 
+#theshades .palette .box.shade-1 {float:left;width:73px;height:216px;}
+#theshades .palette .tooltip2.shade-1 {position:absolute;left:20px;top:20px;}
+#theshades .palette .box.shade-2 {float:left;width:94px;height:216px;}
+#theshades .palette .tooltip2.shade-2 {position:absolute;left:120px;top:20px;}
+#theshades .palette .box.shade-3 {float:left;width:102px;height:216px;}
+#theshades .palette .tooltip2.shade-3 {position:absolute;left:212px;top:20px;}
+#theshades .palette .box.shade-4 {float:left;width:125px;height:216px;}
+#theshades .palette .tooltip2.shade-4 {position:absolute;left:318px;top:20px;}
+#theshades .palette .box.shade-5 {float:left;width:81px;height:216px;}
+#theshades .palette .tooltip2.shade-5 {position:absolute;left:423px;top:20px;}
+#theshades .palette .box.shade-6 {float:left;width:99px;height:216px;}
+#theshades .palette .tooltip2.shade-6 {position:absolute;left:522px;top:20px;}
+#theshades .rollover {float:left;padding:20px 0 0 15px;}
+#theshades .rollover .arrow {float:left;}
+#theshades .rollover .copy {font:14px "ProximaNova-Regular",sans-serif;width:230px;float:left;margin:5px 0 0 5px;}
+#theshades .topproduct {float:left;margin-top:84px;display:block;}
+
+#sequel_section {clear:both;width:940px;height:auto;}
+#sequel_section .bottomproduct {float:right;height:446px;display:block;}
+#sequel_section .product_info {float:left;width:460px;margin:30px 0 0 80px;text-align:center;}
+#sequel_section .title {float:left;}
+#sequel_section .copy {font:16px "ProximaNova-Regular",sans-serif;margin-top:10px;}
+#sequel_section .cta {margin-top:20px;}
+
+#looks_section {clear:both;width:940px;height:auto;}
+#looks_section .details {float:right;width:546px;display:block;text-align:center;}
+#looks_section .copy {margin:20px 0 30px;font:16px "ProximaNova-Regular",sans-serif;}
+#looks_section .product {float:left;}
+
+#thelooks{position:relative;margin:0;width:546px;}
+#thelooks li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#thelooks li, #thelooks a{height:70px;display:block;}
+
+#blog1{left:0px; width:70px;}
+#blog1{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') 0 0;}
+#blog1 a:hover{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') 0px -70px;}
+
+#blog2{left:70px; width:75px;}
+#blog2{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -70px 0;}
+#blog2 a:hover{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -70px -70px;}
+
+#blog3{left:145px; width:75px;}
+#blog3{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -145px 0;}
+#blog3 a:hover{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -145px -70px;}
+
+#blog4{left:220px; width:75px;}
+#blog4{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -220px 0;}
+#blog4 a:hover{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -220px -70px;}
+
+#blog5{left:295px; width:75px;}
+#blog5{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -295px 0;}
+#blog5 a:hover{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -295px -70px;}
+
+#blog6{left:370px; width:75px;}
+#blog6{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -370px 0;}
+#blog6 a:hover{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -370px -70px;}
+
+#blog7{left:445px; width:75px;}
+#blog7{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -445px 0;}
+#blog7 a:hover{background:url('images/landing/naked2_basics/bloggers.jpg?$staticlink$') -445px -70px;}
+
+a.showSingle {display:block;cursor:pointer;}
+#displaylooks {clear:both;width:940px;height:860px;}
+.targetDiv {display:none;}
+.producthighlight {float:left;width:335px;margin-left:25px;}
+.blog_copy {float:left;width:580px;text-align:center;padding-top:10px;}
+.blog_copy .blog_title {text-transform:uppercase;font:26px "ProximaNova-Regular",sans-serif;}
+.blog_copy a.bloggerlink {text-transform:uppercase;text-decoration:none;font:14px "ProximaNova-Semibold",sans-serif;color:#46166b;}
+.blog_copy .subtitle {font:14px "ProximaNova-Regular",sans-serif;padding-top:20px;}
+.theblogger {clear:left;float:left;width:320px;margin:0 0 40px 20px;}
+a.video_section {float:left;width:570px;margin-left:15px;}
+a.video_section img {display:block;}
+.product_section {clear:left;float:left;width:940px;height:auto;}
+.product_section .oneproduct {float:left;width:235px;height:335px;text-align:center;}
+.product_section a.oneproduct_copy {text-decoration:none;text-transform:uppercase;font:16px "ProximaNova-Bold",sans-serif;color:#46166b;padding-top:20px;}
+.product_section a.subtitle {text-decoration:none;font:14px "ProximaNova-Regular",sans-serif;color:#46166b;}
+.product_section a.subtitle2 {display:block;height:25px;line-height:25px;text-transform:uppercase;text-decoration:none;font:10px "ProximaNova-Regular",sans-serif;color:#9574ac;padding-top:5px;}
+.product_section .cta2 {width:235px;}
+
+#getdown_section {clear:both;background-image:url('images/landing/naked2_basics/naked_basics_lineup.jpg?$staticlink$');display:block;width:940px;height:1146px;}
+#getdown_section .title {font:56px "ProximaNova-Semibold",sans-serif;text-transform:uppercase;padding:50px 0 0 178px;}
+#getdown_section .copy {font:16px "ProximaNova-Regular",sans-serif;padding:15px 0 0 255px;}
+#getdown_section .prod_details {float:left;width:470px;height:auto;padding-top:810px;}
+#getdown_section .cta1 {text-align:center;}
+#getdown_section .prod_details .sub_product {float:left;width:320px;text-align:center;}
+.shiftleft {margin-left:100px;}
+#getdown_section .prod_details .sub_product .desc {font:16px "ProximaNova-Regular",sans-serif;margin:18px 0 15px;}
+a.shift_anchor {clear:both;float:left;position:relative;top:-125px;margin:0;padding:0;}
+</style>
+<a id="top"></a>
+<div id="stickynav">
+	<div class="title">
+		<a href="#top"><img src="images/landing/naked2_basics/naked2_basics_title.gif?$staticlink$" width="409" height="46" alt="Naked2 Basics" title="Naked2 Basics"></a>
+	</div>
+	<ul id="navlist">
+		<li id="sequel">
+			<a href="#top" title="The Sequel You Demanded"></a>
+		</li>
+	  	<li id="bloggers">
+			<a href="#bloggers_top" title="Blogger Looks"></a>
+	  	<li id="getdown">
+			<a href="#getdown_top" title="Get Down To Basics"></a>
+	  	</li>
+      	<li id="getitnow">
+			<a href="$url('Product-Show','pid','283')$" title="Get It Now"></a>
+	 	</li>
+	</ul>
+</div>
+<div id="naked2basics_container">
+	<div id="naked2basics_billboard">
+    	<div class="cta"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/get_it_now_btn.gif?$staticlink$" width="129" height="24" alt="Get it now >" title="Get it now >" /></a></div>
+    </div>
+  <div id="theshades">
+    	<div class="palette">
+		  <div class="box shade-1">
+				<img src="images/landing/naked2_basics/skimp_shade.jpg?$staticlink$" width="73" height="216" alt="Skimp" title="Skimp" />
+			</div>
+			<div class="tooltip2 shade-1">
+           	  <div class="dots"><img src="images/landing/naked2_basics/skimp.png?$staticlink$" width="674" height="71" alt="dots pointing to Skimp" /></div>
+				<div class="title">Skimp</div>
+				<div class="desc">Pale nude satin</div>
+			</div>
+	  	</div>
+        <div class="palette">
+		  <div class="box shade-2">
+				<img src="images/landing/naked2_basics/stark_shade.jpg?$staticlink$" width="94" height="216" alt="Stark" title="Stark" />
+			</div>
+			<div class="tooltip2 shade-2">
+            	<div class="dots"><img src="images/landing/naked2_basics/stark.png?$staticlink$" width="579" height="71" alt="dots pointing to Stark" /></div>
+				<div class="title">Stark</div>
+				<div class="desc">Nude-pink matte</div>
+			</div>
+	  	</div>
+        <div class="palette">
+		  <div class="box shade-3">
+				<img src="images/landing/naked2_basics/frisk_shade.jpg?$staticlink$" width="102" height="216" alt="Frisk" title="Frisk" />
+			</div>
+		  <div class="tooltip2 shade-3">
+            	<div class="dots"><img src="images/landing/naked2_basics/frisk.png?$staticlink$" width="481" height="71" alt="dots pointing to Frisk" /></div>
+				<div class="title">Frisk</div>
+				<div class="desc2">Warm gray matte</div>
+		  </div>
+	  	</div>
+        <div class="palette">
+		  <div class="box shade-4">
+				<img src="images/landing/naked2_basics/cover_shade.jpg?$staticlink$" width="125" height="216" alt="Cover" title="Cover" />
+			</div>
+		  <div class="tooltip2 shade-4">
+            	<div class="dots"><img src="images/landing/naked2_basics/cover.png?$staticlink$" width="375" height="72" alt="dots pointing to Cover" /></div>
+				<div class="title">Cover</div>
+				<div class="desc3">Muted red-brown matte</div>
+		  </div>
+	  	</div>
+        <div class="palette">
+		  <div class="box shade-5">
+				<img src="images/landing/naked2_basics/primal_shade.jpg?$staticlink$" width="81" height="216" alt="Primal" title="Primal" />
+			</div>
+		  <div class="tooltip2 shade-5">
+            	<div class="dots"><img src="images/landing/naked2_basics/primal.png?$staticlink$" width="274" height="71" alt="dots pointing to Primal" /></div>
+				<div class="title">Primal</div>
+				<div class="desc2">Muted brown matte</div>
+		  </div>
+	  	</div>
+        <div class="palette">
+		  <div class="box shade-6">
+				<img src="images/landing/naked2_basics/undone_shade.jpg?$staticlink$" width="99" height="216" alt="Undone" title="Undone" />
+			</div>
+		  <div class="tooltip2 shade-6">
+            	<div class="dots"><img src="images/landing/naked2_basics/undone.png?$staticlink$" width="173" height="71" alt="dots pointing to Undone" /></div>
+				<div class="title">Undone</div>
+				<div class="desc3">Deep, smoky brown matte</div>
+		  </div>
+	  	</div>
+        <div class="rollover">
+   	  		<div class="arrow"><img src="images/landing/naked2_basics/arrow.gif?$staticlink$" width="54" height="27" alt="arrow" /></div>
+            <div class="copy">Roll over each shade to learn more.</div> 
+        </div>
+        <div class="topproduct">
+        	<img src="images/landing/naked2_basics/naked2_basics_product_top.jpg?$staticlink$" width="366" height="85" alt="Naked2 Basics" title="Naked2 Basics" />
+        </div>
+  </div>
+  <a id="sequel_top" class="shift_anchor"></a>
+  <div id="sequel_section">
+  	<div class="bottomproduct">
+    	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2_basics_product_bottom.jpg?$staticlink$" width="366" height="446" alt="Naked2 Basics" title="Naked2 Basics" /></a>
+    </div>
+    <div class="product_info">
+    	<div class="title">
+    		<img src="images/landing/naked2_basics/sequel_title.gif?$staticlink$" width="459" height="104" alt="It's The Sequel You Demanded" title="It's The Sequel You Demanded" />
+      <div class="copy">
+        	Cooler in tone than the original, this palette complements<br /> Naked2 perfectly. Naked2 Basics features <strong>six TAUPE-hued<br /> matte neutrals</strong>, including <strong>five never-before seen shades</strong>.<br />
+It's so versatile, you’ll wonder how you ever lived without it!<br /><br />
+
+Use these shades to create the perfect neutral matte eye,<br />
+or pair them with your favorite bolder shadows.<br /><br />
+
+We made Naked2 Basics <strong>small and compact</strong> so it travels<br />well, yet we still packed it with six FULL-size shadows. </div> 
+        <div class="cta"> 
+        	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/get_naked2_basics_btn.gif?$staticlink$" width="194" height="24" alt="Get Naked2 Basics >" title="Get Naked2 Basics >" /></a> 
+        </div>
+    </div>
+    </div>
+  </div>
+  <a id="bloggers_top" class="shift_anchor"></a>
+  <div id="looks_section">
+  	<div class="details">
+    	<img src="images/landing/naked2_basics/steal_looks_title.gif?$staticlink$" width="546" height="193" alt="Steal These Looks: See Naked2 Basics in Action" title="Steal These Looks: See Naked2 Basics in Action" />
+        <div class="copy">
+              We asked some of our favorite beauty bloggers to pair<br>Naked2 Basics with their favorite Urban Decay products.<br>Get inspired by the endless combinations.
+      	</div>
+        <ul id="thelooks">
+			<li id="blog1">
+				<a class="showSingle" target="1"></a>
+			</li>
+	  		<li id="blog2">
+				<a class="showSingle" target="2"></a>
+			<li id="blog3">
+				<a class="showSingle" target="3"></a>
+			</li>
+            <li id="blog4">
+				<a class="showSingle" target="4"></a>
+			</li>
+            <li id="blog5">
+				<a class="showSingle" target="5"></a>
+			</li>
+            <li id="blog6">
+				<a class="showSingle" target="6"></a>
+			</li>
+            <li id="blog7">
+				<a class="showSingle" target="7"></a>
+			</li>
+		</ul>
+    </div>
+    <div class="product">
+    	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2_basics_product_open.jpg?$staticlink$" width="394" height="371" alt="Naked2 Basics" title="Naked2 Basics" /></a> 
+    </div>
+    <div id="displaylooks">
+		<div id="div1" class="targetDiv">
+        	<div class="producthighlight"><a href="$url('Product-Show','pid','604214920859')$"><img src="images/landing/naked2_basics/velvet_pencil.jpg?$staticlink$" width="336" height="137" alt="24/7 Velvet Glide-On Eye Pencil - Black Velvet" title="24/7 Velvet Glide-On Eye Pencil - Black Velvet" /></a></div>
+            <div class="blog_copy">
+            	<div class="blog_title">The Smoky Eye</div>
+            	<div><a class="bloggerlink" href="https://www.youtube.com/user/MakeupBySona" target="_blank">MakeUpBySona</a></div>
+              <div class="subtitle">Naked2 Basics + 24/7 Velvet Glide-On Eye Pencil (Black Velvet)</div>
+            </div>
+            <div class="theblogger"><img src="images/landing/naked2_basics/sona.jpg?$staticlink$" width="319" height="320" alt="Sona" title="Sona"></div>
+            <a class="video_section" href="#"><img src="images/landing/naked2_basics/VideoThumb_Sona.jpg?$staticlink$" width="570" height="320" id="blogger_19" alt="" /></a>
+            <div class="video_section video-overlay" style="display:none;overflow:auto;">
+				$include('Page-Include', 'cid', 'video-blog1')$
+			</div>  
+            <div class="product_section">
+            	<div class="oneproduct">
+                	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2basics.jpg?$staticlink$" width="235" height="210" alt="Naked2 Basics" title="Naked2 Basics" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','283')$">Naked2 Basics</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','283')$">Eyeshadow Palette</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','283')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214920859')$"><img src="images/landing/naked2_basics/247_black_velvet_pencil.jpg?$staticlink$" width="235" height="210" alt="24/7 Velvet Glide-On Eye Pencil - Black Velvet" title="24/7 Velvet Glide-On Eye Pencil - Black Velvet" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214920859')$">24/7 Velvet</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214920859')$">Glide-On Eye Pencil</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214920859')$">Black Velvet</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214920859')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','429')$"><img src="images/landing/naked2_basics/perversion_brush.jpg?$staticlink$" width="235" height="210" alt="Perversion Angled Brush" title="Perversion Angled Brush" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','429')$">Perversion</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','429')$">Angled Brush</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','429')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','429')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+               	  <a href="$url('Product-Show','pid','457')$"><img src="images/landing/naked2_basics/perversion_mascara.jpg?$staticlink$" width="235" height="210" alt="Perversion Mascara" title="Perversion Mascara" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','457')$">Perversion</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','457')$">Mascara</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','457')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','457')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="div2" class="targetDiv">
+        	<div class="producthighlight"><a href="$url('Product-Show','pid','604214400009')$"><img src="images/landing/naked2_basics/zodiac.jpg?$staticlink$" width="336" height="137" alt="Moondust Eyeshadow - Zodiac" title="Moondust Eyeshadow - Zodiac" /></a></div>
+            <div class="blog_copy">
+            	<div class="blog_title">The Basics + a Hit of Zodiac</div>
+            	<div><a class="bloggerlink" href="https://www.youtube.com/user/start2finishmua" target="_blank">Missy Lynn</a></div>
+              <div class="subtitle">Naked2 Basics + 15 Year Anniversary Palette + Moondust Eyeshadow (Zodiac)</div>
+            </div>
+            <div class="theblogger"><img src="images/landing/naked2_basics/missy_lynn.jpg?$staticlink$" width="319" height="320" alt="Missy Lynn" title="Missy Lynn"></div>
+            <a class="video_section" href="#"><img src="images/landing/naked2_basics/VideoThumb_MissyLynn.jpg?$staticlink$" width="570" height="320" id="blogger_19" alt="" /></a>
+            <div class="video_section video-overlay" style="display:none;overflow:auto;">
+				$include('Page-Include', 'cid', 'video-blog2')$
+			</div>
+            <div class="product_section">
+            	<div class="oneproduct">
+                	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2basics.jpg?$staticlink$" width="235" height="210" alt="Naked2 Basics" title="Naked2 Basics" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','283')$">Naked2 Basics</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','283')$">Eyeshadow Palette</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','283')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214400009')$"><img src="images/landing/naked2_basics/moodust.jpg?$staticlink$" width="235" height="210" alt="Moondust Eyeshadow - Zodiac" title="Moondust Eyeshadow - Zodiac" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214400009')$">Moondust</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214400009')$">Eyeshadow</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214400009')$">Zodiac</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214400009')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','448')$"><img src="images/landing/naked2_basics/subversion.jpg?$staticlink$" width="235" height="210" alt="Subversion Lash Primer" title="Subversion Lash Primer" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','448')$">Subversion</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','448')$">Lash Primer</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','448')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','448')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+               	  <a href="$url('Product-Show','pid','457')$"><img src="images/landing/naked2_basics/perversion_mascara.jpg?$staticlink$" width="235" height="210" alt="Perversion Mascara" title="Perversion Mascara" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','457')$">Perversion</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','457')$">Mascara</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','457')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','457')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="div3" class="targetDiv">
+        	<div class="producthighlight"><a href="$url('Product-Show','pid','604214643109')$"><img src="images/landing/naked2_basics/naked_combo.jpg?$staticlink$" width="336" height="137" alt="Naked Flushed and Naked Skin Illuminating Beauty Balm" title="Naked Flushed and Naked Skin Illuminating Beauty Balm" /></a></div>
+            <div class="blog_copy">
+            	<div class="blog_title">Naked and Flushed</div>
+            	<div><a class="bloggerlink" href="https://www.youtube.com/user/ItsMyRayeRaye" target="_blank">ItsMyRayeRaye</a></div>
+              <div class="subtitle">Naked2 Basics + Naked Flushed and Naked Skin Illuminating Beauty Balm</div>
+            </div>
+            <div class="theblogger"><img src="images/landing/naked2_basics/rayeraye.jpg?$staticlink$" width="319" height="320" alt="It's My Raye Raye" title="It's My Raye Raye"></div>
+            <a class="video_section" href="#"><img src="images/landing/naked2_basics/VideoThumb_RayeRaye.jpg?$staticlink$" width="570" height="320" id="blogger_19" alt="" /></a>
+            <div class="video_section video-overlay" style="display:none;overflow:auto;">
+				$include('Page-Include', 'cid', 'video-blog3')$
+			</div>
+            <div class="product_section">
+            	<div class="oneproduct">
+                	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2basics.jpg?$staticlink$" width="235" height="210" alt="Naked2 Basics" title="Naked2 Basics" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','283')$">Naked2 Basics</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','283')$">Eyeshadow Palette</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','283')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','445')$"><img src="images/landing/naked2_basics/illuminating.jpg?$staticlink$" width="235" height="210" alt="Naked Skin Illuminating Beauty Balm" title="Naked Skin Illuminating Beauty Balm" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','445')$">Naked Skin</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','445')$">Illuminating Beauty Balm</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','445')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','445')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214643109')$"><img src="images/landing/naked2_basics/flushed.jpg?$staticlink$" width="235" height="210" alt="Naked Flushed" title="Naked Flushed" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214643109')$">Naked</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214643109')$">Flushed</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214643109')$">Naked</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214643109')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+               	  <a href="$url('Product-Show','pid','604214922686')$"><img src="images/landing/naked2_basics/false_lashes.jpg?$staticlink$" width="235" height="210" alt="Fast Easy Sexy False Lashes - Instalush" title="Fast Easy Sexy False Lashes - Instalush" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214922686')$">Fast Easy Sexy</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214922686')$">False Lashes</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214922686')$">Instalush</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214922686')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="div4" class="targetDiv">
+        	<div class="producthighlight"><a href="$url('Product-Show','pid','604214856103')$"><img src="images/landing/naked2_basics/acdc.jpg?$staticlink$" width="336" height="137" alt="Heavy Metal Glitter Eyeliner - ACDC" title="Heavy Metal Glitter Eyeliner - ACDC" /></a></div>
+            <div class="blog_copy">
+            	<div class="blog_title">Naked With Glitter</div>
+            	<div><a class="bloggerlink" href="https://www.youtube.com/user/xsparkage" target="_blank">xSparkage</a></div>
+              <div class="subtitle">Naked2 Basics + Heavy Metal Glitter Eyeliner</div>
+            </div>
+            <div class="theblogger"><img src="images/landing/naked2_basics/xsparkage.jpg?$staticlink$" width="319" height="320" alt="xSparkage" title="xSparkage"></div>
+            <a class="video_section" href="#"><img src="images/landing/naked2_basics/VideoThumb_xSparkage.jpg?$staticlink$" width="570" height="320" id="blogger_19" alt="" /></a>
+            <div class="video_section video-overlay" style="display:none;overflow:auto;">
+				$include('Page-Include', 'cid', 'video-blog4')$
+			</div>
+            <div class="product_section">
+            	<div class="oneproduct">
+                	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2basics.jpg?$staticlink$" width="235" height="210" alt="Naked2 Basics" title="Naked2 Basics" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','283')$">Naked2 Basics</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','283')$">Eyeshadow Palette</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','283')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214459007')$"><img src="images/landing/naked2_basics/psychedelic_pencil.jpg?$staticlink$" width="235" height="210" alt="24/7 Glide-On Eye Pencil" title="24/7 Glide-On Eye Pencil" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214459007')$">24/7</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214459007')$">Glide-On Eye Pencil</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214459007')$">Psychedelic Sister</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214459007')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214450608')$"><img src="images/landing/naked2_basics/perversion_pencil.jpg?$staticlink$" width="235" height="210" alt="24/7 Glide-On Eye Pencil - Perversion" title="24/7 Glide-On Eye Pencil - Perversion" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214450608')$">24/7</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214450608')$">Glide-On Eye Pencil</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214450608')$">Perversion</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214450608')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+               	  <a href="$url('Product-Show','pid','604214856103')$"><img src="images/landing/naked2_basics/heavy_metal.jpg?$staticlink$" width="235" height="210" alt="Heavy Metal Glitter Eyeliner - ACDC" title="Heavy Metal Glitter Eyeliner - ACDC" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214856103')$">Heavy Metal</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214856103')$">Glitter Eyeliner</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214856103')$">ACDC</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214856103')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="div5" class="targetDiv">
+        	<div class="producthighlight"><a href="$url('Product-Show','pid','604214450608')$"><img src="images/landing/naked2_basics/perversion_pencil_sideview.jpg?$staticlink$" width="336" height="137" alt="24/7 Glide-On Eye Pencil - Perversion" title="24/7 Glide-On Eye Pencil - Perversion" /></a></div>
+            <div class="blog_copy">
+            	<div class="blog_title">Taupe by Night</div>
+            	<div><a class="bloggerlink" href="https://www.youtube.com/user/lilpumpkinpie05" target="_blank">Makeup Game On Point</a></div>
+              <div class="subtitle">Naked2 Basics + 24/7 Glide-On Eye Pencil (Perversion)</div>
+            </div>
+            <div class="theblogger"><img src="images/landing/naked2_basics/mu_game.jpg?$staticlink$" width="319" height="320" alt="Makeup Game On Point" title="Makeup Game On Point"></div>
+            <a class="video_section" href="#"><img src="images/landing/naked2_basics/VideoThumb_MakeupGame.jpg?$staticlink$" width="570" height="320" id="blogger_19" alt="" /></a>
+            <div class="video_section video-overlay" style="display:none;overflow:auto;">
+				$include('Page-Include', 'cid', 'video-blog5')$
+			</div>
+            <div class="product_section">
+            	<div class="oneproduct">
+                	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2basics.jpg?$staticlink$" width="235" height="210" alt="Naked2 Basics" title="Naked2 Basics" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','283')$">Naked2 Basics</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','283')$">Eyeshadow Palette</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','283')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214738904')$"><img src="images/landing/naked2_basics/primer_potion.jpg?$staticlink$" width="235" height="210" alt="Eyeshadow Primer Potion - Sin" title="Eyeshadow Primer Potion - Sin" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214738904')$">Eyeshadow Primer<br />Potion</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214738904')$">Sin</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214738904')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214450608')$"><img src="images/landing/naked2_basics/perversion_pencil.jpg?$staticlink$" width="235" height="210" alt="24/7 Glide-On Eye Pencil - Perversion" title="24/7 Glide-On Eye Pencil - Perversion" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214450608')$">24/7</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214450608')$">Glide-On Eye Pencil</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214450608')$">Perversion</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214450608')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+               	  <a href="$url('Product-Show','pid','457')$"><img src="images/landing/naked2_basics/perversion_mascara.jpg?$staticlink$" width="235" height="210" alt="Perversion Mascara" title="Perversion Mascara" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','457')$">Perversion</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','457')$">Mascara</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','457')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','457')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="div6" class="targetDiv">
+        	<div class="producthighlight"><a href="$url('Product-Show','pid','421')$"><img src="images/landing/naked2_basics/electricpalette.jpg?$staticlink$" width="336" height="137" alt="Electric Pressed Pigment Palette" title="Electric Pressed Pigment Palette" /></a></div>
+            <div class="blog_copy">
+            	<div class="blog_title">Basics Goes Electric</div>
+            	<div><a class="bloggerlink" href="https://www.youtube.com/user/nitraab" target="_blank">NitraaB</a></div>
+              <div class="subtitle">Naked2 Basics + Electric Pressed Pigment Palette</div>
+            </div>
+            <div class="theblogger"><img src="images/landing/naked2_basics/nitraab.jpg?$staticlink$" width="319" height="320" alt="NitraaB" title="NitraaB"></div>
+            <a class="video_section" href="#"><img src="images/landing/naked2_basics/VideoThumb_NitraaB.jpg?$staticlink$" width="570" height="320" id="blogger_19" alt="" /></a>
+            <div class="video_section video-overlay" style="display:none;overflow:auto;">
+				$include('Page-Include', 'cid', 'video-blog6')$
+			</div>
+            <div class="product_section">
+            	<div class="oneproduct">
+                	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2basics.jpg?$staticlink$" width="235" height="210" alt="Naked2 Basics" title="Naked2 Basics" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','283')$">Naked2 Basics</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','283')$">Eyeshadow Palette</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','283')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','421')$"><img src="images/landing/naked2_basics/electric_palette.jpg?$staticlink$" width="235" height="210" alt="Electric Pressed Pigment Palette" title="Electric Pressed Pigment Palette" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','421')$">Electric</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','421')$">Pressed Pigment Palette</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','421')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','421')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214738805')$"><img src="images/landing/naked2_basics/primer_potion_orig.jpg?$staticlink$" width="235" height="210" alt="Eyeshadow Primer Potion - Original" title="Eyeshadow Primer Potion - Original" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214738805')$">Eyeshadow Primer<br />Potion</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214738805')$">Original</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214738805')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+               	  <a href="$url('Product-Show','pid','457')$"><img src="images/landing/naked2_basics/perversion_mascara.jpg?$staticlink$" width="235" height="210" alt="Perversion Mascara" title="Perversion Mascara" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','457')$">Perversion</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','457')$">Mascara</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','457')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','457')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="div7" class="targetDiv">
+        	<div class="producthighlight"><a href="$url('Product-Show','pid','604214383500')$"><img src="images/landing/naked2_basics/grifter.jpg?$staticlink$" width="336" height="137" alt="Eyeshadow - Grifter" title="Eyeshadow - Grifter" /></a></div>
+            <div class="blog_copy">
+            	<div class="blog_title">The Iconic Purple Eye</div>
+            	<div><a class="bloggerlink" href="https://www.youtube.com/user/MakeupbyMel/" target="_blank">MelRose</a></div>
+              <div class="subtitle">Naked2 Basics + Eyeshadow (Grifter)</div>
+            </div>
+            <div class="theblogger"><img src="images/landing/naked2_basics/melrose.jpg?$staticlink$" width="319" height="320" alt="MelRose" title="MelRose"></div>
+            <a class="video_section" href="#"><img src="images/landing/naked2_basics/VideoThumb_MelRose.jpg?$staticlink$" width="570" height="320" id="blogger_19" alt="" /></a>
+            <div class="video_section video-overlay" style="display:none;overflow:auto;">
+				$include('Page-Include', 'cid', 'video-blog7')$
+			</div>
+            <div class="product_section">
+            	<div class="oneproduct">
+                	<a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/naked2basics.jpg?$staticlink$" width="235" height="210" alt="Naked2 Basics" title="Naked2 Basics" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','283')$">Naked2 Basics</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','283')$">Eyeshadow Palette</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','283')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214383500')$"><img src="images/landing/naked2_basics/grifter_eyeshadow.jpg?$staticlink$" width="235" height="210" alt="Eyeshadow - Grifter" title="Eyeshadow - Grifter" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214383500')$">Eyeshadow</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214383500')$">&nbsp;</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214383500')$">Grifter</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214383500')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+                	<a href="$url('Product-Show','pid','604214922495')$"><img src="images/landing/naked2_basics/plushie.jpg?$staticlink$" width="235" height="210" alt="24/7 Velvet Glide-On Eye Pencil - Plushie" title="24/7 Velvet Glide-On Eye Pencil - Plushie" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','604214922495')$">24/7 Velvet</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','604214922495')$">Glide-On Eye Pencil</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','604214922495')$">Plushie</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','604214922495')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+                <div class="oneproduct">
+               	  <a href="$url('Product-Show','pid','424')$"><img src="images/landing/naked2_basics/inkforeyes.jpg?$staticlink$" width="235" height="210" alt="Ink For Eyes" title="Ink For Eyes" /></a> 
+                <div><a class="oneproduct_copy" href="$url('Product-Show','pid','424')$">Ink For Eyes</a></div>
+                <div><a class="subtitle" href="$url('Product-Show','pid','424')$">Waterproof Precision Eye Pen</a></div>
+                <div><a class="subtitle2" href="$url('Product-Show','pid','424')$">&nbsp;</a></div>
+                <div class="cta2"><a href="$url('Product-Show','pid','424')$"><img src="images/landing/naked2_basics/shop_now.gif?$staticlink$" width="103" height="29" alt="Shop now >" title="Shop now >"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <a id="getdown_top" class="shift_anchor"></a>
+  <div id="getdown_section">
+  	<div class="title">Get Down to Basics</div>
+    <div class="copy">Two Naked Matte Palettes, Plus the Perfect Pencil and Brush</div>
+    <div class="prod_details">
+    	<div class="cta1"><a href="$url('Product-Show','pid','283')$"><img src="images/landing/naked2_basics/get_naked2_basics_btn.gif?$staticlink$" width="194" height="24" alt="Get Naked2 Basics >" title="Get Naked2 Basics >" /></a></div>
+   	  <div class="sub_product shiftleft">
+      		<div class="desc"><strong>Naked Basics</strong><br/>
+              <strong>24/7 Glide-On Double-Ended Eye Pencil</strong><br/>
+Two versatile liner shades<br/>
+inspired by Naked Basics.
+        </div>
+        	<div class="cta1"><a href="$url('Product-Show','pid','410')$"><img src="images/landing/naked2_basics/get_it_now_btn.gif?$staticlink$" width="129" height="24" alt="Get it now >" title="Get it now >" /></a></div>
+   	  </div>
+    </div>
+    <div class="prod_details">
+    	<div class="cta1"><a href="$url('Product-Show','pid','355')$"><img src="images/landing/naked2_basics/get_naked_basics_btn.gif?$staticlink$" width="184" height="24" alt="Get Naked Basics >" title="Get Naked Basics >" /></a></div>
+      <div class="sub_product">
+        	<div class="desc"><strong>Naked Basics</strong><br/>
+              <strong>Double-Ended Brush</strong><br/>
+The ultimate accoutrement for<br/>
+our Naked Basics palettes.</div>
+        	<div class="cta1"><a href="$url('Product-Show','pid','458')$"><img src="images/landing/naked2_basics/get_it_now_btn.gif?$staticlink$" width="129" height="24" alt="Get it now >" title="Get it now >" /></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function() {	
+
+		$(window).load(function(){
+			$("#stickynav").sticky({ topSpacing: 0 });
+			$('#div1').show();
+         });
+		 
+		 $(".palette").hover(
+  			function() { $(this).children(".tooltip2").show(); },
+  			function() { $(this).children(".tooltip2").hide(); }
+		);
+		
+		jQuery(function () {
+    		jQuery('.showSingle').click(function () {
+        	var index = $(this).parent().index(),
+            	newTarget = jQuery('.targetDiv').eq(index);
+        jQuery('.targetDiv').not(newTarget).slideUp('fast')
+        newTarget.delay('fast').slideToggle('fast')
+        return false;
+    	})
+	});
+	
+	$('.video_section').each(function() {
+    		var popup = $(this).next('.video-overlay').dialog({
+				autoOpen: false,
+				modal: true,
+		    	        height: 500,
+				width: 850,
+				resizable: false
+    	});
+
+    	$(this).click(function(event) {
+        	event.preventDefault();
+                popup.dialog('open');
+    		});
+		});
+
+
+});
+</script>

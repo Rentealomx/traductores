@@ -1,0 +1,26 @@
+<div class="instant_happiness_module" >
+    <div class="pushes_instant_box clearfix">
+        <div class="instant_box_content">
+	            <div class="article_description_wrapper">
+	                <div class="article_description" >
+	<p>Grâce à sa haute teneur en glucides, vitamine C, vitamine B9, potassium, zinc et manganèse, la betterave a un effet coup de fouet étonnant. Autant de bonnes raisons de la consommer, mais en glace pour changer. Il suffit de porter à ébullition 500gr de sucre dans un litre d’eau. Puis de verser ce sirop dans un blender avec 4 betteraves rouges cuites et d’y ajouter 4cl de vinaigre balsamique. Placer le tout au congélateur jusqu’à ce que le sorbet prenne et consommer à chaque baisse de régime… </p>
+	                </div>
+	            </div>
+        </div>
+    </div>
+</div>
+$include('NewsletterPushes-Mini', 'fdid', 'fs-bm-homepage')$
+	$include('ProductFinder-IncludeProductFinderSection', 'fdid', 'SKIN-BEAUTY-FINDER')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_27810/?project=27810&entity=2324&store=templatestore&element=27874" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

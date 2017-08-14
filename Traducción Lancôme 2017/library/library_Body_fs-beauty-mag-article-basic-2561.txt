@@ -1,0 +1,112 @@
+<div class="article_title_module">
+		<p class="publishing_date">02/06/2016</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-2561', 'fdid', 'les-parisiennes')$
+		<h1>Beauty fixes for life in the fast lane</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/CDM_Mum_1_Article_MediaModule_Vertical_Desktop.jpg, articlevertical, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>In life I try to do it all, </b>both as a mother and as a loving partner. And, all while working and going out in the evening if I want to. Better yet, I pull it off! Not always perfectly, but I do my best to juggle the things I love while having fun and without beating myself about having to be the best all the time.</p>
+	<p></p>
+	<p>Physically, I’ve adopted the same attitude too, taking care of myself even though I can’t spend as much time on it as I’d probably like. Because not looking tired and having a great complexion without lots of makeup even on weekends makes me feel better about myself, my biggest lifesaver, which I always carry in my bag, has become the new <b>Énergie de Vie</b><i> </i>treatment from <b>Lancôme. </b>It’s an incredible all-in-one product that simultaneously brightens and hydrates, making it ideal for my fast-paced lifestyle.</p>
+	<p></p>
+	<p><i>Energie de Vie, <b>Lancôme</b>. </i></p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-2561', 'fdid', 'les-parisiennes')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', 'CA-326109-LAC ', 'title', 'Shop the article ')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2560')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/CDM_playlist_1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/CDM_playlist_1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/CDM_playlist_1_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/CDM_playlist_1_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">16/06/16</p>
+									<h4 class="article_title">Caroline de Maigret&rsquo;s playlist</h4>
+									<p class="article_content">Caroline de Maigret shares her of-the-moment, mood-boosting playlist with six must-listen tunes. Discover the playlist.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2560')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1666')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/eye_makeup_remover_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/eye_makeup_remover_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/eye_makeup_remover_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/eye_makeup_remover_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">17/03/16</p>
+									<h4 class="article_title">Look younger with the right makeup remover</h4>
+									<p class="article_content">What if your first step towards a great anti-aging began with a well-honed makeup removing routing? That&rsquo;s what Lisa Eldridge believes. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1666')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2176')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/no_makeup_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/no_makeup_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/no_makeup_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/no_makeup_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">21/05/16</p>
+									<h4 class="article_title">Makeup free weekends </h4>
+									<p class="article_content">Discover the latest no makeup trend with this go-to adopted byactresses looking for brighter, more relaxed and more radiant-looking skin. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2176')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2370')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/lupita_9_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lupita_9_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lupita_9_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lupita_9_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">10/05/16</p>
+									<h4 class="article_title">Lupita Nyong&rsquo;o&rsquo;s Beauty &amp; Makeup Routine</h4>
+									<p class="article_content">Discover Lupita Nyong&rsquo;o day-to-day beauty and makeup routine. Only on Lancome! </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2370')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-2561', 'fdid', 'les-parisiennes')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-2561')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-2561', 'fdid', 'les-parisiennes')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=2561&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

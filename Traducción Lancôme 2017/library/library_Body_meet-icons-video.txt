@@ -1,0 +1,47 @@
+<style>
+#meet-icons-video  .video_box_wrapper .video_box {
+padding-bottom: 51.5%;
+}
+
+#meet-icons-video  .video_box_wrapper {
+margin: 0 auto;
+}
+
+#meet-icons-video .inner_border {
+    z-index: 1;
+}
+
+
+.video-block__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.video-block__cover {
+   position: relative;
+   width: 100%;
+}
+
+.prime.full_section {
+position: relative;
+}
+</style>
+
+
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(homepage/desktop/expertise.jpg, videoCoverLarge, video cover, videoblockcoverimage,,,homepage/desktop/expertise.jpg,homepage/desktop/expertise.jpg)$
+<div class="video-block__youtube">
+    <div class="video-block__iframe js-youtube-video" id="player_ZdfhfMuG9DE" data-video-id="ZdfhfMuG9DE"></div>
+</div>
+</div>
+  <div class="video-constructor">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>

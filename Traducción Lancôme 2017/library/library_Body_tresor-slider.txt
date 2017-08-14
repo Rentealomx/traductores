@@ -1,0 +1,131 @@
+<style>
+#tresor .tresor-slider .wrap .inner {
+padding:0;
+}
+#tresor .tresor-slider {
+background:#000;
+}
+</style>
+ <section class="section slidewidget" style="display: block; opacity: 1;">
+            <div class="wrap">
+                <div class="inner">
+                    <!-- CONTENTS -->
+                    <div class="contents">
+                        <article>
+                            <div id="slideWidget" data-revealtrigger="50%" data-revealaction="playSlideWidgetTuto" style="font-size: 1rem; height: 880px;" data-revealeltop="1788" data-revealelheight="880" class="">
+                                <div class="ruler" style="transform: translate(513.99px, 0px);">
+                                    <div class="inner">
+                                        <div class="grip">
+                                            <div class="left-arrow"></div>
+                                            <div class="right-arrow"></div>
+                                        </div>
+                                        <div class="bg"></div>
+                                    </div>
+                                </div>
+                                <div class="left-holder" style="margin-right: 0.01px;">
+                                    <div class="contents" style="width: 1080px;">
+                                        <div class="content-block">
+                                            <h5>
+                                                <span class="title1">
+                                                    La Nuit Trésor
+                                                </span>
+                                                <span class="desc">
+                                                    L'Eau de Parfum
+                                                </span>
+                                            </h5>
+                                            <p>
+                                                The irresistible attraction between a <br class="desktop-break"><br class="tablet-break"><br class="phone-break">hypnotic Rose and the Tahitensis <br class="desktop-break"><br class="tablet-break"><br class="phone-break">Vanilla Orchid
+                                            </p>
+                                            <button class="quickshop white link-bt" data-ganame="Quickshop fragrance1" data-gatype="button" data-url="http://duckduckgo.com">QUICK SHOP</button>
+                                        </div>
+                                        <h4>
+                                            <span class="title2">
+                                                The
+                                            </span>
+                                            <span class="title3">
+                                                APHRODISIAC
+                                            </span>
+                                            <span class="title4">
+                                                Rose
+                                            </span>
+                                        </h4>
+                                    </div>
+                                    <div class="left" style="width: 1080px;"></div>
+                                </div>
+                                <div class="right-holder">
+                                    <div class="contents" style="width: 1080px;">
+                                        <div class="content-block">
+                                            <h5>
+                                                <span class="title1">
+                                                    La Nuit Trésor
+                                                </span>
+                                                <span class="desc">
+                                                    La nouvelle <br class="phone-break">Eau de Parfum Caresse
+                                                </span>
+                                            </h5>
+                                            <p>
+                                                A tender touch of Musk skin to skin<br class="desktop-break"><br class="tablet-break"><br class="phone-break">with a soft Rose
+                                            </p>
+                                            <button class="quickshop white link-bt" data-ganame="Quickshop fragrance2" data-gatype="button" data-url="http://duckduckgo.com">QUICK SHOP</button>
+                                        </div>
+                                        <h4>
+                                            <span class="title2">
+                                                The
+                                            </span>
+                                            <span class="title3">
+                                                CARESSING
+                                            </span>
+                                            <span class="title4">
+                                                Rose
+                                            </span>
+                                        </h4>
+                                    </div>
+                                    <div class="right"></div>
+                                </div>
+                                <div class="tutocursor" style="transform: translate(-19.491px, 0px);">
+                                </div>
+                            </div>
+                            <!-- end slidewidget -->
+                            <!--<div class="alternate-contents" data-revealtrigger="80%" data-revealtranslateend="20%" data-revealtranslatetotop="0%" data-revealtranslatefromtop="20%">-->
+                            <div class="alternate-contents" style="height: 0px;">
+                                <div class="contents-holder">
+                                    <div class="content-block content_1">
+                                        <h4>
+                                            Let the Aphrodisiac <br class="desktop-break"><br class="tablet-break"><br class="phone-break">do the spell
+                                        </h4>
+                                    </div>
+                                    <div class="content-block content_2">
+                                        <h5>
+                                            <span class="title1">
+                                                La Nuit Trésor
+                                            </span>
+                                            <span class="desc">
+                                                L'Eau de Parfum
+                                            </span>
+                                        </h5>
+                                        <p>
+                                            The irresistible attraction between a <br class="desktop-break"><br class="tablet-break"><br class="phone-break">hypnotic Rose and the Tahitensis <br class="desktop-break"><br class="tablet-break"><br class="phone-break">Vanilla Orchid
+                                        </p>
+                                        <button class="quickshop white link-bt" data-ganame="Quickshop fragrance1" data-gatype="button" data-url="http://duckduckgo.com">QUICK SHOP</button>
+                                    </div>
+                                    <div class="content-block content_3">
+                                        <h5>
+                                            <span class="title1">
+                                                La Nuit Trésor
+                                            </span>
+                                            <span class="desc">
+                                                La nouvelle <br class="phone-break">Eau de Parfum Caresse
+                                            </span>
+                                        </h5>
+                                        <p>
+                                            A tender touch of Musk skin to skin<br class="desktop-break"><br class="tablet-break"><br class="phone-break">with a soft Rose
+                                        </p>
+                                        <button class="quickshop white link-bt" data-ganame="Quickshop fragrance2" data-gatype="button" data-url="http://duckduckgo.com">QUICK SHOP</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>

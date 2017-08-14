@@ -1,0 +1,97 @@
+<style>
+.prime_background_image summary h2, 
+.prime_background_image summary p, 
+.prime_background_image summary span {
+    color: #000;
+}
+
+#grandiose-liner-intro summary h2 {
+margin: 0 auto 20px;
+font-size: 60px;
+}
+
+#grandiose-liner-intro summary p {
+font-size: 20px;
+line-height: 1em;
+}
+ 
+.white_button .main_button {
+     height: 35px;
+     line-height: 35px;
+     background: #fff;
+     border: 1px solid #d5d5d5;  
+     color: #000;
+     position: relative;
+}
+
+.white_button .main_button:after,
+.white_button .main_button:before {
+        content: "";
+	position: absolute;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+        bottom: -13px;
+        width: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+}
+
+.white_button .main_button:before {
+	border-top: 7px solid #000;
+}
+
+.white_button .main_button:after {
+	border-top: 7px solid #f9f9f9;
+	bottom: -12px;
+	z-index: 1;
+}
+
+.white_button .main_button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1127px) {
+#grandiose-liner-intro summary h2 {
+   font-size: 45px;
+   line-height: 33px;
+   padding: 0 70px;
+}
+
+#grandiose-liner-intro summary p {
+font-size: 14px;
+}
+
+#grandiose-liner-intro .main_button {
+   margin: 20px 0 0;
+}
+}
+
+@media (max-width:640px) {
+#grandiose-liner-intro {
+margin: 43px 0 0;
+padding: 0 0 60px;
+background: #f6f6f6;
+}
+
+#grandiose-liner-intro summary p {
+    padding: 0;
+}
+
+#grandiose-liner-intro .main_button {
+   margin: 0;
+}
+
+}
+</style>
+
+<div class="background_image_content_text white_button">
+<summary><h2>Grandiôse Liner</h2>
+<p>BENDABLE EYELINER</p>
+<p>HIGH PRECISION LONG WEARING LINE</p>
+<br />
+<p>INTENSE MATTE FINISH</p>
+</summary>
+<a class="main_button" href="#grandiose-go-outside-the-lines-section">Discover</a>
+</div>

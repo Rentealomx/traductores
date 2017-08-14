@@ -1,0 +1,55 @@
+<style>.l-vicelp-allshades{padding-top:0}.b-vicelp-shade-product{width:100%;max-width:none}.b-vicelp-shades{background:#3a0a00}#va-colorSelectBoxItOptions{width:1146px;height:418px;display:flex!important;justify-content:space-around;background-color:transparent;background-image:url(images/landing/naked-heat/naked_heat_alt1+shadow.png?$staticlink$);background-repeat:no-repeat;background-size:contain;max-height:none!important;margin:auto;padding:200px 108px 0 110px;overflow:visible}.selectboxit-list{border:none;z-index:1}.selectboxit-option,.selectboxit-option.selectboxit-focus{padding:0;width:60px;height:62px;background:transparent;border-bottom-right-radius:6px;border-bottom-left-radius:6px;cursor:pointer}.selectboxit-option:hover,.selectboxit-option.selected{background:transparent;border:2px solid #f8f3f9;box-shadow:0 0 5px 2px rgba(255,255,255,.5),inset 0 0 5px 2px rgba(255,255,255,.5)}.b-vicelp-shades-carousel{margin-top:560px}.b-vicelp-shades-carousel:after{content:"";position:absolute;left:0;right:0;bottom:0;height:320px;z-index:1;background:-moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#000000',GradientType=0)}.b-vicelp-shades-carousel .contentcarousel_list{height:155px;z-index:2}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item{width:160px;margin:0 -10px}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item.selected{width:280px;margin:-120px -20px 0}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item.selected img{width:100%}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item.preselected{width:200px;margin:-60px -15px 0}#va-colorSelectBoxIt,.b-404,.login-faqs,.login-live-chat,.login-customer-service,.js-vicelp-shade-product,.b-vicelp-shades-carousel .jcarousel-control{display:none!important}.selectboxit-option .selectboxit-option-anchor,.selectboxit-option .caption{display:none}.selectboxit-option.selected .caption{display:block;position:absolute;left:0;right:0;bottom:-5px;text-align:center}.selectboxit-option .caption .name{margin:2px 0;font-family:"ProximaNova-Semibold",sans-serif;letter-spacing:.04em;line-height:normal;font-size:20px;color:#fff}.selectboxit-option .caption .subtitle{margin:0;font-family:"ProximaNova-Regular",sans-serif;text-transform:uppercase;letter-spacing:.1em;line-height:normal;font-size:14px;color:#fff}@media screen and (min-width:768px) and (max-width:1279px){#va-colorSelectBoxItOptions{width:674px;height:244px;padding:117px 69px 0 63px}.selectboxit-option,.selectboxit-option.selectboxit-focus{width:34px;height:35px;border-bottom-right-radius:3px;border-bottom-left-radius:3px}.b-vicelp-shades-carousel{margin-top:340px}.b-vicelp-shades-carousel:after{height:205px}.b-vicelp-shades-carousel .contentcarousel_list{height:100px}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item{width:100px;margin:0 -8px}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item.selected{width:150px;margin:-70px -15px 0}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item.preselected{width:120px;margin:-30px -12px 0}.selectboxit-option.selected .caption{bottom:-10px}.selectboxit-option .caption .name{font-size:13px}.selectboxit-option .caption .subtitle{font-size:9px}}@media screen and (max-width:767px){.b-vicelp-shades .l-vicelp-content{padding:0}#va-colorSelectBoxItOptions{width:375px;height:145px;padding:65px 35px 0 35px}.selectboxit-option,.selectboxit-option.selectboxit-focus{width:20px;height:20px;border-bottom-right-radius:2px;border-bottom-left-radius:2px}.selectboxit-option:hover,.selectboxit-option.selectboxit-focus{border-width:1px}.b-vicelp-shades-carousel{margin-top:210px}.b-vicelp-shades-carousel:after{height:135px}.b-vicelp-shades-carousel .contentcarousel_list{height:60px}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item{width:62px;margin:0 -5px}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item.selected{width:85px;margin:-40px -8px 0}.b-vicelp-shades-carousel .contentcarousel_list_item.contentcarousel_list_item.preselected{width:65px;margin:-15px -6px 0}.selectboxit-option.selected .caption{bottom:-13px}.selectboxit-option .caption .name{font-size:13px}.selectboxit-option .caption .subtitle{font-size:9px}}</style>
+
+<script>
+$('.l-vicelp-allshades-1').addClass('l-vicelp-allshades');
+
+
+
+$(function() {
+﻿var variants = [];
+$("li.contentcarousel_list_item[data-product-id^='nakedheat-landing-v']").each( function (i, e) { variants .push($(this).clone());  });
+
+for (var i = variants.length - 1; i >= 0; i--) {
+var newAttr = variants[i].attr('data-product-id') + '-1';
+$('.contentcarousel_list').prepend(variants[i].attr('data-product-id', newAttr));
+}
+
+for (var i = 0; i <  variants.length; i++) {
+$('.contentcarousel_list').append(variants[i].clone());
+}
+
+$("li.contentcarousel_list_item[data-product-id$='-1']").on('click', function() { 
+var trueId = $(this).attr('data-product-id').substring(0, $(this).attr('data-product-id').length -2);
+$("li.contentcarousel_list_item[data-product-id='" + trueId + "']").trigger('click');})
+
+setTimeout(function(){
+$('#va-colorSelectBoxItOptions li').attr('data-preventclose',"true");
+
+$('#va-colorSelectBoxItOptions li').each(function() {
+         var shadowItems =  $(this).text().split('|');
+         var shadowDesc = shadowItems.length > 1 ? shadowItems[1] : "";
+ $(this).text('').append("<div class=\"caption\"><h4 class=\"name\">" + shadowItems[0] + "</h4><h5 class=\"subtitle\">" + shadowDesc + "</h5></div>");
+});
+
+}, 3000);
+
+
+$(document).on('product.changeVariation', function(event, response) {
+	var productId = $('.l-vicelp-allshades').find('select').find(':selected').data('productId');
+	
+	$('#va-colorSelectBoxItOptions li').removeClass('selected');
+	$('#va-colorSelectBoxItOptions li[data-product-id="' + productId + '"]').addClass('selected');
+
+
+        if (app.isMobileUserAgent) {
+                setTimeout(function() {
+                        $(window).trigger('resize');
+                }, 500);
+        }
+});
+
+});
+
+
+
+</script>

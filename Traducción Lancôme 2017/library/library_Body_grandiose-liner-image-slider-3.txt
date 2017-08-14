@@ -1,0 +1,27 @@
+<h3 class="title_text">EFFORTLESS<br />LINER STYLE</h3>
+
+<div class="description_list">
+<div class="description_list_item">
+<img src="landing-page/grandiose/slider-3-1.jpg?$staticlink$" alt="Cover Image" />
+
+<p>Draw two small points with the tip of the applicator: one at the outside of the base of the eyelashes and one 5mm above. Draw a line from the inner corner of the eye towards each point. To create a perfect smoky effect, fill in between the two lines with the liner.</p>
+</div>
+
+<div class="description_list_item">
+<img src="landing-page/grandiose/slider-3-2.jpg?$staticlink$" alt="Cover Image" />
+
+<p>Draw a short line upwards on the upper eyelid, starting from the inner corner of the eye. Draw a second line below the first starting from the outer corner of the eye.</p>
+</div>
+
+<div class="description_list_item">
+<img src="landing-page/grandiose/slider-3-3.jpg?$staticlink$" alt="Cover Image" />
+
+<p>Draw a line from the inner corner to the outer corner of the eye, making it thicker at the end. Start from the end of this line and continue it towards the lower inner corner of the eye, making it progressively thinner. Ideal to create mysterious eyes.</p>
+</div>
+
+<div class="description_list_item">
+<img src="landing-page/grandiose/slider-3-4.jpg?$staticlink$" alt="Cover Image" />
+
+<p>Draw a line from the inner corner to the outer corner of the eye. To give depth to the eyes, draw a line along the crease of the eyelid and meet the first line at the outer corner of the eye.</p>
+</div>
+</div>

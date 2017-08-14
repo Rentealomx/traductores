@@ -1,0 +1,109 @@
+<div class="article_title_module">
+		<p class="publishing_date">30/09/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-332', 'fdid', 'beauty-tips')$
+		<h1>The Brow Beat </h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/sourcils_tint_cms_Article_MediaModule_Horizontal_Desktop.jpg, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>With their ability to update and refresh any look, there’s no wonder that Parisians pay plenty of attention to their brows.</b></p>
+	<p>With a love of all things natural and unpretentious, it’s hardly surprising that Parisians favour fresh-faced beauty. No wonder then that eyes often also become the focus of a Parisian look, with brows taking the spotlight. After all, thick yet beautifully tamed brows that frame the face can reflect any change in mood, convey feelings and offer an effortless way to bring some real character to any look.<b> </b></p>
+<h3 style="text-align: left"><b>Shock Factor</b></h3>
+	<p>Long gone are the highly tweezed and arched surprised-face brows of old, today’s brows are worn much thicker and denser than before.</p>
+<h3 style="text-align: left"><b>Tweeze Techniques</b></h3>
+	<p>To perfect your brows, always tweeze from below using a super-fine pair of tweezers. Pluck slowly, taking care to maintain your overall brow shape. Don’t go overboard, once hairs have been over-plucked they don’t necessarily grow back.</p>
+<h3 style="text-align: left"><b>Make-up Magic</b></h3>
+	<p>To accentuate the natural shape of your brows, start by smoothing brows with a small brow brush. Then simply and carefully fill brows with a pencil, using gentle cross-hatched strokes. For the most natural result, move from bottom to top, filling in sparse areas. If you prefer using a loose brow powder over a pencil, be sure to apply using a short-fibred beveled brush that has been lightly dampened to pick up all the powder pigment.</p>
+<div class="article_text module_title"><h2><b>Brows as seen by two make-up artists</b></h2></div>
+	<p><b>1/ “</b>Brows that are too perfectly shaped tend to give the face a fake look, harden features and can even be a little ageing. To keep a natural look, better to avoid waxing or tweezing the upper brow line and opt for bleaching.” <b>Lisa Eldridge</b>, Lancôme’s Creative Director of make-up.</p>
+	<p><b>2/</b> “I always like finishing up a make-up look by highlighting the tips of the brows with a cream shadow or with a illuminating cream. The cream texture gives a much softer, more modern result than highlighting powder, not to mention bringing a little depth to the entire look.” <b>Georgina Graham</b>, make-up artist.</p>
+<div class="article_text module_title"><h2><b>Well-kept brows: Our pro product picks for thickening, tinting, taming and achieving perfectly polished brows</b></h2></div>
+	<p><b>1/ </b>Sourcils Gel by Lancôme. Designed to hold brows in perfect shape for 20 hours all without risk of colour bleeding.<br><br> <b>2/</b>Sourcils Pro by Lancôme. This double-tipped pencil defines on one end and highlights on the other. <b><br><br>3/ </b>Sourcils Tint by Lancôme. With a super-fine nib, this tinting pencil is the ideal brow colour for barely-there brows.<br><br> <b>4/</b>Stylo Sublimateur Teint by Lancôme. With this brush that has been designed to deliver the perfect amount of highlighter to accentuate arches and widen eyes.</p>
+	<p><b>Who is Lisa Eldridge?</b></p>
+	<p>Everything began for Lisa Eldridge at the tender age of six when she discovered her mother’s make-up brushes. Fast forward to today and she’s the queen of video make-up tutorials.<br> Recently named Creative Director of make-up at Lancôme, her goal is to share her pragmatic view of beauty, making it truly accessible.</p>
+	<p><b>Who is Georgina Graham?</b></p>
+	<p>After completing her studies in art and architecture at the University of Manchester, Georgina returned to her native London to begin a career as a freelance make-up artist. Having collaborated on numerous fashion editorials and fashion shows, she began teaching at the London College of Fashion, Central Saint Martins and the Surrey Institute. When she’s not out enjoying techno music or cooking at home, she’s blogging about her life.</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-332', 'fdid', 'beauty-tips')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', '05403y-LAC ', 'title', 'Our selection')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-329')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/HOW_TO_USE_AN_EYEBROW_PENCIL_POSTER_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/HOW_TO_USE_AN_EYEBROW_PENCIL_POSTER_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/HOW_TO_USE_AN_EYEBROW_PENCIL_POSTER_Homepage_Slot4_MustSee_Tablet.png, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/HOW_TO_USE_AN_EYEBROW_PENCIL_POSTER_Homepage_Slot4_MustSee_Mobile.png, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">29/09/15</p>
+									<h4 class="article_title">How to use an eyebrow pencil?</h4>
+									<p class="article_content">How to use an eyebrow pencil</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-329')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-333')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/mascara_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/mascara_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/mascara_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/mascara_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">30/09/15</p>
+									<h4 class="article_title">Precision Mascara</h4>
+									<p class="article_content">As the little black dress of the make-up world, mascara elevates your look. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-333')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-336')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Capture_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture_Homepage_Slot4_MustSee_Tablet.png, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture_Homepage_Slot4_MustSee_Mobile.png, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">30/09/15</p>
+									<h4 class="article_title">Lisa&rsquo;s fade-out lip colour how-to</h4>
+									<p class="article_content">Faded lip colour: it&rsquo;s the latest way to wear bold and bright lip shades. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-336')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-332', 'fdid', 'beauty-tips')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-332')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-332', 'fdid', 'beauty-tips')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=332&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

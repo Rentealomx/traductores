@@ -1,0 +1,86 @@
+<div class="top_billboard_area">
+	<div class="main_image">
+		<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7424')$">
+		<img $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/rouge-a-la-francaise_Billboard_Desktop.jpg, billboard, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/rouge-a-la-francaise_Billboard_Desktop.jpg, billboard, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/rouge-a-la-francaise_Billboard_Desktop.jpg, billboard, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/rouge-a-la-francaise_Billboard_Mobile.jpg, billboard, forced, mobile)$ alt="" />
+		</a>
+	</div>
+	<div class="main_article_box">
+		<div class="article_box">
+			<h3>
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7424')$">
+					French Touch
+				</a>
+			</h3>
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7424')$">
+				<span class="date">21/10/15</span>
+			</a>
+				<p class="keyword">
+					<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7424')$">
+					Focus
+					</a>
+				</p>
+			<h2 class="title">
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7424')$">
+				Porter le rouge comme une Française
+				</a>
+			</h2>
+		</div>
+	</div>
+</div>
+			 $include('BeautyMag-IncludeNewsfeeds','cid','fs-beauty-mag-article-basic-6851;fs-beauty-mag-article-basic-7172;fs-beauty-mag-article-basic-7425;fs-beauty-mag-article-basic-7232')$
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7361')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/feel_good/piscine/_Alexandre_Soria_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7361')$">4 jolies piscines pour nager &agrave; Paris</a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7361')$">
+			        <p >
+			            Parce qu&rsquo;il y a tout juste deux mois, on nageait tous les jours, voici 4 adresses pour entretenir sa silhouette en faisant des longueurs en toute s&eacute;r&eacute;nit&eacute;.
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7298')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/lolita_jacobs/1-Lolita_Jacobs_N79A4850_CMS_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7298')$">La jeunesse spontan&eacute;e de Lolita Jacobs</a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-7298')$">
+			        <p >
+			            Depuis son charmant duplex, nich&eacute; au sommet d&rsquo;un immeuble du quartier Saint-Germain, elle nous r&eacute;v&egrave;le ses habitudes et r&eacute;flexions de Parisienne...
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+		$include('BeautyMag-IncludeHomeProductPushes', 'pid', '338019-LAC;044519-LAC;25301z-LAC;12941y-LAC;', 'title', 'Sélection', 'desc','')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_14413/?project=14413&entity=7426&store=contentstore&element=15170" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

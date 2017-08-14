@@ -1,0 +1,26 @@
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(LAR_Rebirth_Icon_Thumbnail.jpg, videoCoverLarge, video cover, videoblockcoverimage,,,LAR_Rebirth_Icon_Thumbnail.jpg,LAR_Rebirth_Icon_Thumbnail.jpg)$
+           <div class="video-block__youtube">
+               <div class="video-block__iframe js-youtube-video" id="player_LdFJDWBxjU8" data-video-id="LdFJDWBxjU8"></div>
+           </div>
+</div>
+  <div class="video-constructor video-constructor--centered">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>
+
+
+<!--
+<div class="image" style="margin-top:30px;">
+<div class="media_content video"><img alt="" src="LAR_Rebirth_Icon_Thumbnail.jpg?$staticlink$" title="" /><iframe allowfullscreen="" frameborder="0" src="https://youtu.be/LdFJDWBxjU8?rel=0&amp;controls=0&amp;showinfo=0"></iframe></div>
+</div>
+
+<div class="text">
+<h2 style="font-size:42px;">More than a lipstick...</h2>
+
+<p style="text-align:center;font-size:15px;">The emblematic Lancôme lipstick has evolved over the years.<br/> Today, 25 years after its creation, L'Absolu Rouge reinvents itself,</a> becoming even more precious, feminine and suprising than ever. </p>
+</div>--!>

@@ -1,0 +1,86 @@
+<div class="top_billboard_area">
+	<div class="main_image">
+		<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6016')$">
+		<img $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/ad364ab10482c98445c87947833e3a29_1_Billboard_Desktop.jpg, billboard, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/ad364ab10482c98445c87947833e3a29_1_Billboard_Desktop.jpg, billboard, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/ad364ab10482c98445c87947833e3a29_1_Billboard_Desktop.jpg, billboard, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/ad364ab10482c98445c87947833e3a29_1_Billboard_Mobile.jpg, billboard, forced, mobile)$ alt="" />
+		</a>
+	</div>
+	<div class="main_article_box">
+		<div class="article_box">
+			<h3>
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6016')$">
+					French Touch
+				</a>
+			</h3>
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6016')$">
+				<span class="date">24/09/15</span>
+			</a>
+				<p class="keyword">
+					<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6016')$">
+					Exclu
+					</a>
+				</p>
+			<h2 class="title">
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6016')$">
+				Anthony Vaccarello For Lancôme
+				</a>
+			</h2>
+		</div>
+	</div>
+</div>
+			 $include('BeautyMag-IncludeNewsfeeds','cid','fs-beauty-mag-article-basic-6082;fs-beauty-mag-article-basic-6083;fs-beauty-mag-article-basic-6084;fs-beauty-mag-article-basic-4738')$
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5763')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/LANCOME_AU_PRINTEMPS_HAUSSMANN_1_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5763')$">Lanc&ocirc;me s'expose au Printemps </a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-5763')$">
+			        <p >
+			            Mi-atelier, mi-appartement, le nouvel espace Lanc&ocirc;me du Printemps Haussmann propose un tout nouveau concept de consultation beaut&eacute;. 
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-4739')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/caroline_de_maigret/1280x720-xaf_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-4739')$">Maquillage "effortless" </a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-4739')$">
+			        <p >
+			            "Effortless"&hellip; S&rsquo;il ne devait y avoir qu&rsquo;un adjectif pour qualifier la beaut&eacute; de la Parisienne, ce serait lui, forc&eacute;ment. 
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+		$include('BeautyMag-IncludeHomeProductPushes', 'pid', '23805f-LAC;22301g-LAC;034069f-LAC;25301f-LAC;', 'title', 'Sélection', 'desc','')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_14413/?project=14413&entity=6085&store=contentstore&element=15170" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

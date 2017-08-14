@@ -1,0 +1,79 @@
+<table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="margin: 0 auto; border-top: 2px solid #e8e8e8; border-bottom: 2px solid #e8e8e8;">
+                                            <tr height="35"><td height="35" style="line-height: 35px;">&nbsp;</td></tr>
+                                            <tr>
+                                                <td class="black_text" style="font-family: ‘Times New Roman’, Times, serif; padding: 0; font-size: 20px; line-height: 23px; margin:0 auto;" align="center">
+                                                    4 REASONS TO PURCHASE ON <a style="text-decoration: none; color:#000000;" href="$httpUrl('Home-Show')$">LANCÔME.COM</a>
+                                                </td>
+                                            </tr>
+                                            <tr height="30"><td height="30" style="line-height: 30px;">&nbsp;</td></tr>
+                                            <tr>
+                                                <td>
+                                                    <table align="left" width="50%"  cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="fullTable reasonsFirstTable">
+                                                        <tr>
+                                                            <td class="reason" style="border-right: 1px solid #dedddd;">
+                                                                <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="margin: 0 auto;">
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: ‘Times New Roman’, Times, serif;font-size: 12px; color: #000000; font-style: italic;">Free standard</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: ‘Times New Roman’, Times, serif; font-size: 13px; color: #000000;">DELIVERY</td>
+                                                                    </tr>
+                                                                    <tr height="10"><td height="10" style="line-height: 10px;">&nbsp;</td></tr>
+                                                                    <tr>
+                                                                        <td class="grey_text" align="center" style="font-family: Verdana, Geneva, sans-serif; font-size: 10px; color: #a0a0a0;">for any purchase on<br/> <a style="text-decoration: none; color:#a0a0a0;" href="$httpUrl('Home-Show')$">Lancôme.com</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td class="reason no_border_on_mob" style="border-right: 1px solid #dedddd;">
+                                                                <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="margin: 0 auto;">
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: ‘Times New Roman’, Times, serif;font-size: 12px; color: #000000; font-style: italic;">Satisfied or</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: ‘Times New Roman’, Times, serif; font-size: 13px; color: #000000;">MONEY BACK</td>
+                                                                    </tr>
+                                                                    <tr height="10"><td height="10" style="line-height: 10px;">&nbsp;</td></tr>
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: Verdana, Geneva, sans-serif; font-size: 10px; color: #a0a0a0;">7 days if the product<br/> does not suit you</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                        
+                                                    <table align="right" width="48%"  cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="fullTable">
+                                                        <tr>
+                                                            <td class="reason" style="border-right: 1px solid #dedddd;">
+                                                                <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="margin: 0 auto;">
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: ‘Times New Roman’, Times, serif;font-size: 12px; color: #000000; font-style: italic;">Free Deluxe</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: ‘Times New Roman’, Times, serif; font-size: 13px; color: #000000;">SAMPLES</td>
+                                                                    </tr>
+                                                                    <tr height="10"><td height="10" style="line-height: 10px;">&nbsp;</td></tr>
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: Verdana, Geneva, sans-serif; font-size: 10px; color: #a0a0a0;">3 complimentary free<br/> samples during checkou</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td class="reason">
+                                                                <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="margin: 0 auto;">
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: ‘Times New Roman’, Times, serif;font-size: 12px; color: #000000; font-style: italic;">Your exclusive</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: ‘Times New Roman’, Times, serif; font-size: 13px; color: #000000;">LANCÔME GIFTS</td>
+                                                                    </tr>
+                                                                    <tr height="10"><td height="10" style="line-height: 10px;">&nbsp;</td></tr>
+                                                                    <tr>
+                                                                        <td align="center" style="font-family: Verdana, Geneva, sans-serif; font-size: 10px; color: #a0a0a0;">Your Free Gift for any<br/> purchase over $50.00</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr height="30"><td height="30" style="line-height: 30px;">&nbsp;</td></tr>
+                                        </table>

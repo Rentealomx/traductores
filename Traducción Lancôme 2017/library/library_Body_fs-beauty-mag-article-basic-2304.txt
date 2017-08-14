@@ -1,0 +1,102 @@
+<div class="article_title_module">
+		<p class="publishing_date">25/05/2016</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-2304', 'fdid', 'beauty-tips')$
+		<h1>Soften your way to mascara success</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Mascara_Article_MediaModule_Horizontal_Desktop.jpg, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph">Pale complexions, dark lashes, under-eye circles and heavily made-up eyelids... it doesn’t take much for a simple eye makeup look to become overly severe. To keep things looking fabulously fresh, look no further than this super-effective expert tip, taking two shades of mascara to troubleshoot your way to pretty perfection:</p>
+	<p></p>
+	<p><b> </b><b> </b><b>1)</b><b> </b>To nix signs of fatigue, start by restricting all but the darkest of mascara shades to the upper lashes. Then, opt for a more brown-colored eye shade for the lower lash line. Its discreet tone won’t just draw attention to upper lashes, it will also reduce the appearance of dark circles.</p>
+	<p><b>2)</b><b> </b>Next, to tone down a pale-skinned look, make like the pros and ditch the dark black eye makeup across both lash lines, opting instead for something much less dramatic with two coats of dark brown mascara.</p>
+	<p></p>
+	<p><b> </b> No matter the scenario, always opt for a rich formula that serves up great coverage with a product like <i>Hypnôse Drama</i> in <i>Excessive Black</i> or<i> Hypnôse Chromatics in #03 Saint Honoré</i> which promise to thicken and volumize lashes by up to six times without heavy stickiness.</p>
+	<p></p>
+	<p><b> </b><i>Hypnôse Drama</i> in <i>Excessive Black, Hypn</i><i>ôse Chromatics in #03 Saint Honoré, <b>Lancôme.</b></i><b> </b></p>
+	<p></p>
+	<p><i>© Nicolas Valois</i></p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-2304', 'fdid', 'beauty-tips')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', '162049-LAC ', 'title', 'Shop the article ')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1600')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Capture~7_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture~7_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture~7_Homepage_Slot4_MustSee_Tablet.png, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture~7_Homepage_Slot4_MustSee_Mobile.png, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">05/04/16</p>
+									<h4 class="article_title">Juicy Shaker shakes up the lipstick world</h4>
+									<p class="article_content">Part innovative gem, part heritage lip color, Lanc&ocirc;me&rsquo;s new lip oil, is set to blaze new trails in the beauty world -- and all for super sexy lips.  </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1600')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1924')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/articles/JuicyShaker_ok_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/articles/JuicyShaker_ok_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/articles/JuicyShaker_ok_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/articles/JuicyShaker_ok_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">13/03/16</p>
+									<h4 class="article_title">Lip tint without lipstick texture</h4>
+									<p class="article_content"> Looking to give your lips some texture-free tint? Enter the latest generation in lipstick with Lanc&ocirc;me&rsquo;s Gloss in Love.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1924')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2112')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Eyebrow_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Eyebrow_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Eyebrow_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Eyebrow_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">24/05/16</p>
+									<h4 class="article_title">How to bring depth to light brows without over-powering your look. </h4>
+									<p class="article_content">Learn expert tips on how to add depth &amp; fill-in brows with Lanc&ocirc;me Sourcils D&eacute;finis brow pencil makeup &amp; how to finish the look with Hypn&ocirc;se volumizing mascara.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2112')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-2304', 'fdid', 'beauty-tips')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-2304')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-2304', 'fdid', 'beauty-tips')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=2304&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

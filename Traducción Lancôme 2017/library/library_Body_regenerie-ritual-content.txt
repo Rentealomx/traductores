@@ -1,0 +1,104 @@
+<style>
+.extrait_ritual_content:after {
+display: block;
+content: '';
+clear: both;
+}
+
+.extrait_ritual_content .how_item {
+float: left;
+width: 32%;
+margin: 0 0 0 2%;
+text-align: center;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item p {
+   text-align: center;
+}
+
+.extrait_ritual_content .how_item p {
+   font-size: 14px;
+   font-family: 'Gotham Book';
+    margin: 15px auto 25px;
+    line-height: 18px;
+    max-width: 65%;
+    height: auto;
+}
+
+.extrait_ritual_content .how_item b {
+   font-family: 'Gotham Bold';
+}
+
+.extrait_ritual_content .how_item img {
+   display: inline-block;
+   max-width: 100%;
+}
+
+@media (max-width:979px) {
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0 0 0 2%;
+}
+
+.extrait_ritual_content .how_item:nth-child(2n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item {
+width: 49%;
+}
+}
+
+@media (max-width:640px) {
+.extrait_ritual_content .how_item {
+    width: 100%;
+    float: none;
+margin: 0;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item h2 {
+   font-size: 30px;
+   line-height: 30px;
+   margin: 25px 0 40px;
+}
+
+.extrait_ritual_content .how_item p {
+   margin: 10px auto 20px;
+}
+
+#extrait-ritual-text {
+    max-width: 300px;
+    margin: auto;
+padding: 0;
+}
+
+#extrait-ritual-text p {
+    margin: 0 auto 25px;
+}
+
+}
+</style>
+
+<div class="extrait_ritual_content">
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/Regenerie/22-LANCOME-PICTO-GEST-RENERGIE_1.jpg,345|345|345|345)$  />
+       <p><b>1.</b> Apply the product first on the face by using essential gesture. Applying gentle pressure with both hands, make upward movements from the middle of your chin along the outline of the face and under the jaw to the bottom of the ears. Execute six movements alternating between the two hands.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/Regenerie/22-LANCOME-PICTO-GEST-RENERGIE_2.jpg,345|345|345|345)$  />
+       <p><b>2.</b> Continue with the same movements firmly smoothing from the chin, along the outline of the face, following the outline of the face up to the ear. Then from the upper lip to the top of the ear. Then from the cheekbones to the temples. Execute six movements alternating between the two hands on each outline.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/Regenerie/22-LANCOME-PICTO-GEST-RENERGIE_3.jpg,345|345|345|345)$  />
+       <p><b>3.</b> Begin the technique with more strength at the outer corner of the eyebrow and make small movements, alternating between the two hands, moving up perpendicularly over the forehead to the hairline. Repeat this step three times. Then carry out a second and third cycle, starting from the middle and then the inner corner of the brow.</p>
+   </div>
+</div>

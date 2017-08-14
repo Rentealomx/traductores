@@ -1,0 +1,27 @@
+<div class="slot-wrapper">
+    <p class="slot-image-holder">
+<a href="$url('Search-Show', 'cgid', 'L3_Fragrance_Women_Maison_Lancome')$" title="Your Gift Finder">
+        <picture>
+            <source media="(min-width: 1024px)" data-srcset="$disUrl(MEGA_NAV_MAISON_LANCOME.jpg?$staticlink$, {"scaleWidth" : 115})$">
+            <img alt="" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" /> 
+        </picture>
+</a>
+    </p>
+    <div class="slot-text">
+        <span class="slot-text__title">
+<a href="$url('Search-Show', 'cgid', 'L3_Fragrance_Women_Maison_Lancome')$" title="Maison Lancôme">
+            Maison Lancôme
+</a>
+        </span>
+        <p class="slot-text__description">
+<a href="$url('Search-Show', 'cgid', 'L3_Fragrance_Women_Maison_Lancome')$" title="Maison Lancôme">
+            Haute parfumerie
+</a>
+        </p>
+        <a href="$url('Search-Show', 'cgid', 'L3_Fragrance_Women_Maison_Lancome')$" title="Maison Lancôme" class="slot-text__link">
+            Discover
+        </a>
+
+        <span data-tracking-promotion-impression='{"id": "gifts-make-up-custom-navigation-2","name" : "Make up Gifts custom navigation","creative":"summer_banner", "position":  "slot2"}' style="display:none;"></span>
+    </div>
+</div>

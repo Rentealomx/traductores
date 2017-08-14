@@ -1,0 +1,35 @@
+<style>
+   #extrait-pearl-text.prime_text p {
+      margin: 30px auto 0;
+   }
+
+   .row_section:nth-child(14) .three_quarter_section {
+      float: right;
+   }
+
+   @media (max-width:979px) {
+      .row_section:nth-child(14) .three_quarter_section {
+	 float: none;
+      }
+
+      #extrait-pearl-text h2 {
+	 max-width: 410px;
+	 margin: 40px auto 0;
+      }
+
+      #extrait-pearl-text.prime_text p {
+	 max-width: 480px;
+      }
+   }
+
+   @media screen and (min-width: 640px) {
+      .prime-row.layout {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+      }
+   }
+</style>
+
+<h2>Preserving the properties of precious rose oil extracts</h2>
+<p>Each of our precious <i>Ultimate Mask Rose Pearls</i> is crafted using advanced Microfluidics Pearl Technology. This technique helps measure perfectly-controlled concentrations of rose oil extracts within each pearl. A unique technology, to release the radiance regenerative properties within each pearl only at the very last moment.</p>

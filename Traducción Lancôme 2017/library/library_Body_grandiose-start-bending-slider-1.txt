@@ -1,0 +1,84 @@
+<script>
+$(document).on('click', '#grandiose-start-bending-slider .js_quickshoppopin ', function() {
+    var leftValue = parseInt($('#grandiose-start-bending-slider .contentcarousel_list').css('left'));
+    if (leftValue) {
+        $('#grandiose-start-bending-slider .contentcarousel_list').css('transform', 'translate3d(' + leftValue + 'px, 0px, 0px)');
+        $('#grandiose-start-bending-slider .contentcarousel_list').css('left', '0');
+    }
+ });
+</script>
+<style>
+#grandiose-start-bending-slider .contentcarousel_list_item .slider_text .title_text {
+    font-size: 45px;
+line-height: 40px;
+margin: 0 0 40px;
+padding: 0;
+}
+
+#grandiose-start-bending-slider .contentcarousel_list_item .slider_text .description_text {
+    padding: 0 25px;
+    margin: 0;
+}
+
+#grandiose-start-bending-slider .contentcarousel_list_item .wide_text_section {
+    width: 335px;
+    margin: 120px 0 0 -90px;
+}
+
+#grandiose-start-bending-slider .contentcarousel_list_item .slider_text .wide_text_section .title_text {
+   margin: 0 0 15px;
+}
+
+@media (max-width: 1127px) {
+#grandiose-start-bending-slider .contentcarousel_list_item .slider_text .title_text {
+    font-size: 40px;
+}
+#grandiose-start-bending-slider .contentcarousel_list_item .slider_text .description_text {
+    font-size: 12px;
+}
+
+#grandiose-start-bending-slider .buttons_block {
+    margin-top: 25px;
+}
+}
+
+@media (max-width:979px) {
+   #grandiose-start-bending-slider .contentcarousel_list_item .wide_text_section {
+    margin: 100px 0 0 -35px;
+}
+}
+
+@media (max-width:640px) {
+#grandiose-start-bending-slider .contentcarousel_list_item .slider_text .title_text {
+    margin: 0 0 20px;
+}
+
+#grandiose-start-bending-slider .buttons_block {
+    margin-top: 0;
+}
+
+.prime_slider .carousel_navigation_list {
+    margin: 10px 0 0;
+}
+
+#grandiose-start-bending-slider .contentcarousel_list_item .wide_text_section {
+    width: 100%;
+    margin: 0;
+}
+
+}
+</style>
+<h3 class="title_text">Grandiôse Extrême</h3>
+
+<p class="description_text">This new mascara provides homogeneous volume, from root
+to tip. The eyelashes fringe has an extreme look, amplified fom corner
+to corner, for a lash by lash & instant volume in a few easy strokes.
+</p>
+
+<div class="buttons_block">
+<div class="quick_shop">
+<a class="js_quickshoppopin btn_cta_primary fuchsia_animate" href="$url('Product-Show', 'pid', '3605533303252')$" title="Grandiose">SHOP NOW</a>
+</div>
+</div>
+
+<div id="grandiose-master-the-line-section"></div>

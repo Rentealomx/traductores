@@ -1,0 +1,209 @@
+<style>
+    .only_for_you_inner .jcarousel-clip {
+        height: auto !important;
+    }
+    .only_for_you_inner .jcarousel-clip > ul {
+        width: 100%;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    .service_push {
+        border: 1px solid #dadada;
+        text-align: center;
+        box-sizing: border-box;
+        width: 49.4%;
+        margin: 0 0 17px;
+        float: left;
+    }
+
+    .service_push.service_push_right {
+        margin-left: 1.2%;
+    }
+
+    .service_push_txt {
+        padding: 35px 14%;
+    }
+
+    .service_push_txt h2 {
+        font-size: 30px;
+        line-height: 30px;
+        white-space: normal;
+    }
+
+    .service_push .service_img {
+        width: 100%;
+    }
+
+    .service_push .btn_cta_primary {
+        text-transform: uppercase;
+        background: #fff;
+        color: #000;
+        border: 1px solid #000;
+    }
+
+    .service_push .btn_cta_primary:hover {
+        background: #e8e8e8;
+    }
+
+    .service_push p {
+        font-family: "Gotham Book", Arial, serif;
+        font-size: 15px;
+        line-height: 20px;
+        color: #666;
+        margin: 0.5em 0 1.2em 0;
+        min-height: 2.5em;
+        max-height: 2.6em;
+        white-space: normal;
+        overflow: hidden;
+    }
+
+    .only_for_you_inner .carousel_navigation_list {
+        text-align: center;
+    }
+    
+    .engraving-module-step2-content-products-carousel .jcarousel-clip > ul > li {
+        max-width: 172px;
+    }
+
+    .only_for_you_inner .jcarousel-clip > ul {
+        width: 20000px;
+        position: relative;
+    }
+
+    .carousel_slide_width_sample {
+        width: calc(49% - 1px);
+        margin: 0 2% 0 0;
+    }
+
+    @media only screen and (max-width: 1127px) {
+        .only_for_you_inner {
+            padding: 0 20px;
+        }
+
+        .gift_finder_category_section[data-section-title*="Our Makeup Gifts"] .gift_content_carousel {
+            padding: 20px 0 0;
+        }
+    }
+
+    @media only screen and (max-width: 979px) {
+        .service_push p {
+            min-height: 4em;
+            max-height: 4em;
+        }
+
+        .service_push_txt h2 {
+            min-height: 2.1em;
+            margin: 0 0 5px;
+            font-size: 23px;
+            line-height: 23px;
+            position: relative;
+        }
+
+        .service_push_txt h2 span {
+            background: #fff;
+            position: relative;
+            z-index: 2;
+        }
+
+        .service_push_txt h2:after {
+            content: ' ';
+            display: inline-block;
+            width: 20px;
+            left: 50%;
+            margin-left: -10px;
+            border-top: 1px solid #000;
+            position: absolute;
+            bottom: 0.5em;
+            z-index: 1;
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        .only_for_you_inner .jcarousel-clip {
+            width: 79%;
+            height: auto !important;
+            margin: 0 auto;
+            overflow: visible;
+        }
+
+        .only_for_you_inner .jcarousel-clip > ul > li {
+            max-width: 230px;
+        }
+
+        .only_for_you_inner .horizontal_carousel .jcarousel-prev, 
+        .only_for_you_inner .horizontal_carousel .jcarousel-next {
+            display: none;
+        }
+
+        .service_push.service_push_right {
+            margin-left: 0; 
+        }
+
+        .engraving-module-step2-content-products-carousel .jcarousel-clip > ul > li {
+            max-width: auto;
+        }
+
+        .carousel_slide_width_sample {
+            width: 95%;
+            margin: 2.5%;
+        }
+        
+        .prime_html .only_for_you_inner {
+            padding: 0 20px;
+        }
+
+        .carousel_navigation_list {
+            display: block;
+        }
+    }
+
+</style>
+
+<div class="only_for_you_inner">
+<div class="content clearfix">
+<div class="carousel  horizontal_carousel" 
+        data-visibleondevices="['mobile']" 
+        data-pagination-enabled="true" 
+        data-pagination-event="click" 
+        data-show-pagination-content="true" 
+        data-carousel-wrap="null"
+        data-slide-width-sample=".carousel_slide_width_sample">
+            <div class="jcarousel-clip jcarousel-clip-horizontal">
+    <ul class="french_gifting">
+	<li class="contentcarousel_list_item service_push">
+            <div class="service_img">
+            <img
+                    alt="Online Only"
+                    src="images/loading-small.gif?$staticlink$"
+                    class="responsive_image"
+                    $responsiveSrc(GIFT_FINDER_Online_Only_Push.jpg, 529|529|529|529,,,,,GIFT_FINDER_Online_Only_Push.jpg,GIFT_FINDER_Online_Only_Push.jpg,GIFT_FINDER_Online_Only_Push.jpg)$
+            />
+            </div>
+            <div class="service_push_txt">
+                <h2><span>Online Only</span></h2>
+                <p>Spoil yourself and discover our online exclusivities.</p>
+                <a href="#" class="btn_cta_primary">Discover</a>
+            </div>
+        </li>
+	<li class="contentcarousel_list_item service_push service_push_right">
+    <div class="service_img">
+            <img
+                    alt="Personalized Engraving"
+                    src="images/loading-small.gif?$staticlink$"
+                    class="responsive_image"
+                    $responsiveSrc(GIFT_FINDER_Engraving_Push.jpg, 529|529|529|529,,,,,GIFT_FINDER_Engraving_Push.jpg,GIFT_FINDER_Engraving_Push.jpg,GIFT_FINDER_Engraving_Push.jpg)$
+            />
+        </div>
+        <div class="service_push_txt">
+            <h2><span>Personalized Engraving</span></h2>
+            <p>Add initials or names for a unique touch.</p>
+            <a href="#" class="btn_cta_primary">Personalize It</a>
+        </div>
+        </li>
+    </ul>
+    <div class="carousel_slide_width_sample"></div>
+</div>
+</div>
+</div>
+</div>

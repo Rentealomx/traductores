@@ -1,0 +1,90 @@
+<style type="text/css">.emerchandising_banner {
+    position: relative;
+    margin: 23px auto 60px auto;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-image: url("ONLINE_EXCLUSIVES_SAMPLING_PUSH_2.jpg?$staticlink$");
+}
+
+.emerchandising_banner > img {
+    margin: 0 auto;
+}
+
+.emerchandising_banner_txt {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    -ms-transform: translateY(-50%); /* IE 9 */
+    -webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
+    transform: translateY(-50%);
+}
+
+.emerchandising_banner h3 {
+    font-size: 40px;
+    color: #fff;
+    margin: 0.35em 0;
+    font-family: "Garamond Medium", Arial, serif;
+    font-weight: normal;
+}
+
+.emerchandising_banner p.subtitle {
+    font-family: "Gotham Medium",Arial,serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.emerchandising_banner p.optional {
+    font-family: "Gotham Book", Arial, serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1127px) {
+    .emerchandising_banner {
+        background-size: 150% auto;
+    }
+}
+
+@media only screen and (max-width: 979px) {
+    .emerchandising_banner {
+        background-size: initial;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .emerchandising_banner h3 {
+        font-size: 25px;
+        margin: 2px 0;
+    }
+
+    .emerchandising_banner p.subtitle {
+        font-size: 11px;
+    }
+
+    .emerchandising_banner p.optional {
+        font-size: 10px;
+    }
+
+    .emerchandising_banner {
+        background-size: 700px;
+        height: 120px;
+    }
+}
+</style>
+<div class="emerchandising_banner parallax-elem" data-scrollrate="0.23">
+<div class="emerchandising_banner_txt">
+<p class="subtitle"><span style="color:#000000;">For all orders today</span></p>
+
+<h3><span style="color:#000000;">Free Deluxe Samples</span></h3>
+
+<p class="optional"><font color="#000000">GET YOURS!</font></p>
+</div>
+</div>

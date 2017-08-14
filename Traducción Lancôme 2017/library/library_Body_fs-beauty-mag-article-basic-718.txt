@@ -1,0 +1,98 @@
+<div class="article_title_module">
+		<p class="publishing_date">09/10/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-718', 'fdid', 'feel-good')$
+		<h1>Swim Chic at these 4 Paris Pools </h1>
+	</div>
+		<div class="connected-carousels" >
+	<div class="stage" data-slide-width-sample=".carousel_slide_width_sample">
+	    <div class="carousel carousel-stage jcarousel-clip height_variation">
+			<ul>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_2_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_2_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_2_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_2_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/_FrCdCric_Baron-Morin_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_FrCdCric_Baron-Morin_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_FrCdCric_Baron-Morin_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_FrCdCric_Baron-Morin_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/_Alexandre_Soria_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_Alexandre_Soria_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_Alexandre_Soria_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_Alexandre_Soria_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+            </ul>
+            <div class="carousel_slide_width_sample"></div>
+        </div>
+        <a href="#" class="prev prev-stage" data-jcarouselcontrol="true"><span></span></a>
+        <a href="#" class="next next-stage" data-jcarouselcontrol="true"><span></span></a>
+    </div>
+    <div class="connected-carousel-navigation">
+        <a href="#" class="prev prev-navigation" data-jcarouselcontrol="true"></a>
+        <a href="#" class="next next-navigation" data-jcarouselcontrol="true"></a>
+        <div class="carousel carousel-navigation">
+            <ul>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_2_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_2_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_2_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_2_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/_FrCdCric_Baron-Morin_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_FrCdCric_Baron-Morin_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_FrCdCric_Baron-Morin_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_FrCdCric_Baron-Morin_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/_Alexandre_Soria_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_Alexandre_Soria_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_Alexandre_Soria_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_Alexandre_Soria_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Boris_Zuliani_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+			</ul>
+		</div> 
+	</div>
+	<ul class="slide_description">
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	</ul>
+</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+				<p class="book_style_paragraph">Even if it’s been a few months since summer swimming was the order of the day, now’s the perfect time to discover four of Paris’ best pools for staying in shape and enjoying a few laps in complete calm and tranquility.</p><h3 style="text-align: left"><b>1/ Pontoise Swimming Pool</b></h3>
+	<p class="book_style_paragraph">Large in size (it’s 33m x 15m) and heated to a constant 28°C, Pontoise pool has been a local favourite ever since it opened in 1933. Regulars love its art deco architecture, its 160 individual changing rooms set on two levels overlooking the pool, its glass ceiling which soaks the pool in plenty of natural light and its strong underwater lighting for evening swimming. It’s worth noting that several days a week the pool offers up extended hours, to allow for relaxing swims until as late at 11:45 pm. Luxury awaits! <br>La Piscine Pontoise, 19 Rue de Pontoise, 75005 Paris. Open until 11:45pm during the week and between 10am and 7pm on Saturday. 4.80 euros for daytime swimming, 11.10 euros for evenings after 8pm.</p>
+<h3 style="text-align: left"><b>2/ The Molitor</b></h3>
+	<p>Boasting an indoor glass-roofed 33m pool, a second outdoor 46m pool, workout rooms, individual coaching service, members-only club, gourmet restaurant, rooftop terrace and 124-bedroom <b>Mgallery</b>-designed hotel, <b>Piscine Molitor</b> reopened just this past spring after massive renovation work. First opened in 1929, the pool was widely regarded as Paris’ best until it closed in 1989. Today, two options allow you to swim there: 1/Stay over at the hotel (talk about great weekend getaway idea). 2/Become a member, fees permitting. <b><br>La Piscine Molitor, </b>8 Avenue de la Porte Molitor, 75016 Paris. Open from 7am to 10pm during the week and from 8am to 8pm at the weekend. www.mltr.fr/fr</p>
+<h3 style="text-align: left"><b>3/Neuilly Aquatic Center</b></h3>
+	<p>The Neuilly-sur-Seine Aquatic Center’s biggest attraction? Not one, not two, but three swimming pools. Often classed as one of the best places to swim in the French capital, the first 25m pool offers up swimming space for sporty lap swimmers, the second 15m pool features space that’s perfect for learner swimmers and the third outdoor pool offers a playful outdoor swim area. Add to that a sauna, solarium, steam room and a large array of classes including aqua aerobics, gentle aqua aerobics, baby swim sessions and swimming classes and you have all the makings of a great morning of sport for the whole family – at a very reasonable €8.50 entry price. <b><br>Le Centre Aquatique de Neuilly, </b>27-31 Boulevard d&#39;Inkermann, 92200 Neuilly-sur-Seine. €5.80. for non residents. Opening times vary. www.neuillysurseine.fr/centre-aquatique</p>
+<h3 style="text-align: left"><b>4/ The Royal Monceau</b></h3>
+	<p>Opened in 2011, this private 28m pool is situated within the <b>Royal Monceau’s</b> Starck-designed spa, becoming the largest hotel pool in Paris. Not surprising then that many a Paris businesswoman has made it her relaxation HQ. As for the ambiance, think pure white zen with pools of natural light that make any grey-day swim feel like an outdoor escape -- all topped off with sensitive, coloured adjustable-jet showers that round up any fitness routine perfectly. The only downside? The €200 a day spa entry price or €4,500 annual spa membership fee. <b><br>La piscine Royal Monceau, </b>37 Avenue Hoche, Paris 8. Open from 6 am to 10 pm. www.leroyalmonceau.com</p>
+	<p><b>Photos</b>: Alexandre Soria, Frédéric Baron-Morin, Boris Zuliani</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-718', 'fdid', 'feel-good')$
+	</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-718', 'fdid', 'bm-tag-bien-etre')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-718')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-718', 'fdid', 'feel-good')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=718&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

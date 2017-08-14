@@ -1,0 +1,238 @@
+<style>
+    .service_push {
+        border: 1px solid #dadada;
+        text-align: center;
+        box-sizing: border-box;
+        width: 49.4%;
+        margin: 0 0 17px;
+        float: left;
+    }
+
+    .service_push.service_push_right {
+        margin-left: 1.2%;
+    }
+
+    .service_push_txt {
+        padding: 35px 14%;
+    }
+
+    .service_push_txt h2 {
+            min-height: 3em;
+    }
+
+    .service_push .service_img {
+        width: 100%;
+    }
+
+    .service_push .btn_cta_primary {
+        text-transform: uppercase;
+        background: #fff;
+        color: #000;
+        border: 1px solid #000;
+    }
+
+    .service_push .btn_cta_primary:hover {
+        background: #e8e8e8;
+    }
+
+    .service_push p {
+        font-family: "Gotham Book", Arial, serif;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000;
+        margin: 0.5em 0 1.2em 0;
+        min-height: 2.5em;
+        max-height: 2.6em;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 1127px) {
+        .only_for_you_inner {
+            padding: 0 20px;
+        }
+.service_push_txt h2 {
+            font-size: 1.5rem;
+}
+    }
+
+    @media only screen and (max-width: 979px) {
+        .service_push p {
+            min-height: 4em;
+            max-height: 4em;
+        }
+
+        .service_push_txt h2 {
+            position: relative;
+        }
+
+        .service_push_txt h2 span {
+            background: #fff;
+            position: relative;
+            z-index: 2;
+        }
+
+        .service_push_txt h2:after {
+            content: ' ';
+            display: inline-block;
+            width: 20px;
+            left: 50%;
+            margin-left: -10px;
+            border-top: 1px solid #000;
+            position: absolute;
+            bottom: 0.5em;
+            z-index: 1;
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        .only_for_you_inner {
+            padding: 0 15px;
+        }
+
+        .service_push {
+            width: 100%;
+            float: none;
+            text-align: left;
+            padding: 12px 20px 12px 12px;
+            position: relative;
+        }
+
+        .service_push.service_push_right {
+            margin-left: 0;
+        }
+
+        .service_push:before {
+            content: "\203A";
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            font-size: 35px;
+        }
+
+        .service_push:after {
+            content:"";
+            display:block;
+            clear:both;
+        }
+
+
+        .service_push h2 {
+            font-size: 23px;
+            line-height: 1;
+            min-height: 0;
+margin: 10px 0 0;
+        }
+
+        .service_push_txt {
+            padding: 0;
+        }
+
+        .service_push p {
+            min-height: 0;
+margin: 10px 25px 0 0;
+    max-height: 40px;
+        }
+
+        .service_push .btn_cta_primary {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            font-size: 0;
+            background: transparent;
+            border: none;
+            box-sizing: border-box;
+z-index: 9;
+        }
+
+        .service_push .btn_cta_primary:hover {
+            background: transparent;
+        }
+
+        .service_push .service_img {
+            width: 95px;
+            margin: 0 15px 0 0;
+            float: left;
+        }
+    }
+</style>
+
+<div class="only_for_you_inner">
+    <div class="service_push">
+        <div class="service_img">
+            <a href="$url('Search-ShowContent', 'fdid','gift-finder-mother-day')$">
+            <img
+                    alt="Gift Finder"
+                    src="images/loading-small.gif?$staticlink$"
+                    class="responsive_image"
+                    $responsiveSrc(ONLINE_EXCLUSIVES_GIFT_FINDER_Push.jpg, 630|630|630|161,,,,,merchandising/mobile/CATEGORY-PAGE_1COLUMN_MOBILE_Gift_Finder_580x325.jpg,ONLINE_EXCLUSIVES_GIFT_FINDER_Push.jpg,ONLINE_EXCLUSIVES_GIFT_FINDER_Push.jpg)$
+            />
+            </a>
+        </div>
+        <div class="service_push_txt">
+            <h2><span>GIFT FINDER</span></h2>
+            <p>Spoil your loved ones - or yourself! - with the perfect gift</p>
+            <a href="$url('Search-ShowContent', 'fdid','gift-finder-mother-day')$" class="btn_cta_primary">Find it</a>
+        </div>
+    </div>
+
+    <div class="service_push service_push_right">
+        <div class="service_img">
+            <a href="$httpsUrl('Search-ShowContent', 'fdid','landing-page-oh-special-offers')$">
+            <img
+                    alt="Special Offers"
+                    src="images/loading-small.gif?$staticlink$"
+                    class="responsive_image"
+                    $responsiveSrc(ONLINE_EXCLUSIVES_SPECIAL_OFFERS_Push.jpg, 630|630|630|161,,,,,ONLINE_EXCLUSIVES_SPECIAL_OFFERS_Push.jpg,ONLINE_EXCLUSIVES_SPECIAL_OFFERS_Push.jpg,ONLINE_EXCLUSIVES_SPECIAL_OFFERS_Push.jpg)$
+            />
+            </a>
+        </div>
+        <div class="service_push_txt">
+            <h2><span>SPECIAL OFFERS</span></h2>
+            <p> Enjoy exclusives offers & gifts only at Lancôme.com !</p>
+            <a href="$httpsUrl('Search-ShowContent', 'fdid','landing-page-oh-special-offers')$" class="btn_cta_primary">Shop Now</a>
+        </div>
+    </div>
+
+    <div class="service_push">
+        <div class="service_img">
+            <a href="http://dev09-latam-loreal.demandware.net/s/lancome/en/engraving/">
+            <img
+                    alt="Personalized Engraving"
+                    src="images/loading-small.gif?$staticlink$"
+                    class="responsive_image"
+                    $responsiveSrc(ONLINE-EXCLUSIVES_ENGRAVING_Push-3.jpg, 630|630|630|161,,,,,ONLINE-EXCLUSIVES_ENGRAVING_Push-3.jpg,ONLINE-EXCLUSIVES_ENGRAVING_Push-3.jpg,ONLINE-EXCLUSIVES_ENGRAVING_Push-3.jpg)$
+            />
+            </a>
+        </div>
+        <div class="service_push_txt">
+            <h2><span>ENGRAVING</span></h2>
+            <p>Add initials or names for a unique touch.</p>
+            <a href="http://dev09-latam-loreal.demandware.net/s/lancome/en/engraving/" class="btn_cta_primary">Personalize It</a>
+        </div>
+    </div>
+
+<div class="service_push service_push_right">
+        <div class="service_img">
+            <a href="$httpsUrl('Search-ShowContent', 'fdid','landing-page-e-gift-card')$">
+            <img
+                    alt="Online Only"
+                    src="images/loading-small.gif?$staticlink$"
+                    class="responsive_image"
+                    $responsiveSrc(ONLINE-EXCLUSIVES_ONLINE-ONLY.jpg,
+630|630|630|161,,,,,ONLINE-EXCLUSIVES_ONLINE-ONLY.jpg,ONLINE-EXCLUSIVES_ONLINE-ONLY.jpg,ONLINE-EXCLUSIVES_ONLINE-ONLY.jpg)$
+            />
+            </a>
+        </div>
+        <div class="service_push_txt">
+            <h2><span>ONLINE ONLY</span></h2>
+            <p>Spoil yourself and discover our online exclusivities</p>
+            <a href="http://dev09-latam-loreal.demandware.net/s/lancome/en/online-exclusives/" class="btn_cta_primary">Get it now</a>
+        </div>
+    </div>
+</div>

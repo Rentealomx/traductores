@@ -1,0 +1,113 @@
+<div class="storelocator-module-direction-error-label" style="display:none;">No route could be found</div>
+<div class="storelocator-module-step-one storelocator-module-landing">
+    <div class="section_wrapper">
+        <div class="nearest-store"><span></span>
+            <div id="storelocator-module-search-form">
+                <p class="storelocator_subtitle">La boutique Lanc&ocirc;me la plus proche</p>
+                <span>Trouvez la boutique Lanc&ocirc;me la plus proche de chez vous en ecrivant votre adresse ou a l'aide de la geolocalisation.</span>
+               <form>
+                <div class="f_field f_field_address formfield formfield_address required" data-required-text="Please enter your address">
+                    <input class="textinput f_address required" data-nearme="true" data-required-text="Please enter your address" id="storelocator-module-search-text" maxlength="75" name="store_search_query" placeholder="Paris, 92100, nom de la boutique..." type="text" value="" />
+                </div>
+                <button class="button" id="storelocator-module-search-form-submit" name="dwfrm_storelocator_find" type="submit" value="Submit"></button>
+             </form>
+            </div>
+            <div class="divider">
+                <span>OU</span>
+            </div>
+                <button class="button" id="storelocator-module-search-location" name="dwfrm_storelocator_find" type="submit" value="Submit">Trouver ma position actuelle</button> <span class="storelocator-module-search-location-details-text" style="display:none;"> l'emplacement actuel</span>
+        </div>
+        <div class="country-store">
+            <h2>Trouvez</h2>
+            <h2>une boutique Lanc&ocirc;me</h2>
+<form class="storelocator-module-selects">
+            <select id="storelocator-module-continent"><option value="">Continent</option><option data-country-id="Europe" value="Europe">Europe</option><option data-country-id="Asia-Pacific" value="Asia-Pacific">Asia-Pacific</option><option data-country-id="North-America" value="North America">North America</option><option data-country-id="Latin-America" value="Latin America">Latin America</option><option data-country-id="Middle-East" value="Middle East">Middle East</option> </select> <select disabled="disabled" id="storelocator-module-country"><option value="">Pays</option><option class="Europe" value="Belgique">Belgique</option><option class="Europe" value="Denmark">Denmark</option><option class="Europe" value="Deutschland">Deutschland</option><option class="Europe" value="Spain">Spain</option><option class="Europe" value="Greece">Greece</option><option class="Europe" value="France">France</option><option class="Europe" value="Italy">Italy</option><option class="Europe" value="Luxembourg">Luxembourg</option><option class="Europe" value="Netherland">Netherland</option><option class="Europe" value="Norway">Norway</option><option class="Europe" value="Austria">Austria</option><option class="Europe" value="Poland">Poland</option><option class="Europe" value="Portugal">Portugal</option><option class="Europe" value="Russia">Russia</option><option class="Europe" value="Finland">Finland</option><option class="Europe" value="Sweden">Sweden</option><option class="Europe" value="Suisse">Suisse</option><option class="Europe" value="Turkey">Turkey</option><option class="Europe" value="United Kingdom">United Kingdom</option><option class="Asia-Pacific" value="Australia">Australia</option><option class="Asia-Pacific" value="China">China</option><option class="Asia-Pacific" value="Hong Kong">Hong Kong</option><option class="Asia-Pacific" value="India">India</option><option class="Asia-Pacific" value="Japan">Japan</option><option class="Asia-Pacific" value="Malaysia">Malaysia</option><option class="Asia-Pacific" value="Singapore">Singapore</option><option class="Asia-Pacific" value="South Korea">South Korea</option><option class="Asia-Pacific" value="Taïwan">Ta&iuml;wan</option><option class="Asia-Pacific" value="Thailand">Thailand</option><option class="North-America" value="Canada">Canada</option><option class="North-America" value="USA">USA</option><option class="Latin-America" value="Argentina">Argentina</option><option class="Latin-America" value="Brasil">Brasil</option><option class="Latin-America" value="Chile">Chile</option><option class="Latin-America" value="Mexico">Mexico</option><option class="Latin-America" value="Perú">Per&uacute;</option><option class="Latin-America" value="Uruguay">Uruguay</option><option class="Middle-East" value="United Arab Emirates">United Arab Emirates</option> </select> <input disabled="disabled" id="storelocator-module-city" placeholder="Ville" type="text" /><button class="button" disabled="disabled" id="storelocator-module-search-another-country" name="dwfrm_storelocator_find_another" type="submit" value="submit">Rechercher</button>
+</form>
+        </div>
+    </div>
+    <div id="storelocator-landing-module-map" class="storelocator-landing-module-map">&nbsp</div>
+</div>
+
+<div class="storelocator-module-step-two" style="display:none;">
+    <div class="storelocator-module-step-two-header">
+        <a class="storelocator-module-back-to-step-one" href="${'#'}"></a>
+        <a class="storelocator-module-mobile-menu" href="${'#'}"></a>
+        <span class="storelocator-module-search"></span>
+        <input data-nearme="true" id="store_search_query" name="store_search_query" placeholder="Où?" type="text" value="" />
+        <div class="storelocator-mobile-menu">
+            <a href="${'#'}" class="storelocator-module-close-menu"></a>
+            <a href="${'#'}" class="storelocator-mobile-logo">
+                <img alt="" src="logo.png?$staticlink$" title=""/>
+            </a>
+            <a class="storelocator-module-back-to-step-one" href="${'#'}">Modifier mes crit&egrave;res</a>
+            <a class="storelocator-module-step-two-my-account" href="$url('Account-Show')$">Mon compte</a>
+            <a href="$url('Home-Show')$">Voir le catalogue</a>
+            <p class="storelocator-copyright">Copyright © 2016 Lancôme <span>Tous droits réservés.</span></p>
+        </div>
+    </div>
+    <div class="filter_content">
+        <div class="storelocator-module-step-two-content">
+            <div class="storelocator-module-step-two-content-left-details">&nbsp;</div>
+            <div class="storelocator-module-step-two-content-left-filter">
+                <span>Par Type</span>
+                <div>
+                    <p>Maquillage <input class="storelocator-module-step-two-content-left-filter-checkbox" name="productType" type="checkbox" value="Makeup" /></p>
+                    <p>Soins <input class="storelocator-module-step-two-content-left-filter-checkbox" name="productType" type="checkbox" value="Care" /></p>
+                    <p>Parfum <input class="storelocator-module-step-two-content-left-filter-checkbox" name="productType" type="checkbox" value="Parfume" /></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="storelocator-module-step-two-content">
+        <div class="storelocator-module-step-two-content-right">
+            <div class="storelocator-module-step-two-content-right-directions">&nbsp;</div>
+            <div class="storelocator-module-step-two-content-right-move">
+                <p><input class="storelocator-module-step-two-content-right-movemap" name="movemap" type="checkbox" /> Rechercher quand je d&eacute;place la carte</p>
+            </div>
+            <div class="google_map" id="google_map">&nbsp;</div>
+        </div>
+        <div class="storelocator-module-step-two-content-left">
+            <div class="storelocator-module-step-two-content-left-results-container">
+                <div class="storelocator-module-step-two-content-left-results">&nbsp;</div>
+                <div class="storelocator-module-step-two-content-left-results-error" style="display:none;">There is no store available near your current location. Please try again with another address</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script id="storelocator-module-step-two-content-store-list-item-template" type="text/template">
+            <div class="storelocator-module-store-list-item">
+                <div class="store_list_item_name">{{name}}<div class="store_list_item_distance">{{distance}}</div></div>
+                <div class="mobile_itinerary">Itinéraire</div>
+                <div class="mobile_name">{{name}}</div>
+                <div class="store_list_item_address">{{address}}</div>
+                <div class="storelocator-module-store-list-item-data" {{position}} {{markerId}}></div>
+
+                <div class="storelocator-module-store-list-item-actions" style="display:none;">
+                    <span>
+                        <div class="storelocator-module-store-list-item-actions-hours">{{hours}}</div>
+                        <div class="storelocator-module-store-list-item-actions-phone">{{phone}}</div>
+                    </span>
+                    <span class="store_actions">
+                        <a href="" class="storelocator-module-store-list-item-actions-send">Envoyer par email</a>
+                        <a href="#contact-us-form" class="storelocator-module-store-list-item-actions-print">Imprimer l'itinéraire</a>
+                        <a href="" class="storelocator-module-store-list-item-actions-direction">Itinéraire</a>
+                    </span>
+                </div>
+            </div>
+        </script><script id="storelocator-module-step-two-content-right-directions-template" type="text/template">
+            <div>
+                <span>
+                    <a class="storelocator-module-step-two-content-right-directions-mode direction_mode_walking" href="">à pied</a>
+                    <a class="storelocator-module-step-two-content-right-directions-mode direction_mode_driving" href="">En voiture</a>
+                </span>
+                <span><span>Durée</span> <span> {{time}} minutes</span></span>
+                <span><span>Distance</span><span> {{distance}} km</span><span>
+            </div>
+        </script><script id="storelocator-module-step-two-content-right-details-template" type="text/template">
+            <div>
+                <span class="storelocator-module-step-two-content-left-details-count">{{count}}</span>
+                <span class="storelocator-module-step-two-content-left-details-label">boutiques Lancôme a</span>
+                <span class="storelocator-module-step-two-content-left-details-location">{{location}}</span>
+            </div>
+        </script>

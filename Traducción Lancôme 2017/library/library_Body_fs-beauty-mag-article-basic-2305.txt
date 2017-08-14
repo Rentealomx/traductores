@@ -1,0 +1,111 @@
+<div class="article_title_module">
+		<p class="publishing_date">11/05/2016</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-2305', 'fdid', 'beauty-tips')$
+		<h1>Makeup no-go: Applying eyeliner to the wetline</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Khol_Article_MediaModule_Horizontal_Desktop.jpg, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>“</b>While eyeliner applied to the wetline can make you look mysterious and sexy, peskily enough, it also has a habit of making eyes often look smaller too.</p>
+	<p>A no-go then if you have heavy lids or small eyes. Instead, go for a kohl pencil that will accentuate your look like<b> Lancôme’s Crayon Khôl. </b>Simply dot on across the root of the lash instead of the wetline for a sensual, smokey look that makes eyes look bolder without changing their shape or structure.”</p>
+	<p></p>
+	<p>© Sarah Ford</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-2305', 'fdid', 'beauty-tips')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', '034019-LAC ', 'title', 'Shop this article ')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1600')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Capture~7_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture~7_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture~7_Homepage_Slot4_MustSee_Tablet.png, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture~7_Homepage_Slot4_MustSee_Mobile.png, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">05/04/16</p>
+									<h4 class="article_title">Juicy Shaker shakes up the lipstick world</h4>
+									<p class="article_content">Part innovative gem, part heritage lip color, Lanc&ocirc;me&rsquo;s new lip oil, is set to blaze new trails in the beauty world -- and all for super sexy lips.  </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1600')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1924')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/articles/JuicyShaker_ok_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/articles/JuicyShaker_ok_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/articles/JuicyShaker_ok_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/articles/JuicyShaker_ok_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">13/03/16</p>
+									<h4 class="article_title">Lip tint without lipstick texture</h4>
+									<p class="article_content"> Looking to give your lips some texture-free tint? Enter the latest generation in lipstick with Lanc&ocirc;me&rsquo;s Gloss in Love.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1924')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1985')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/articles/innovation_grandiose_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/articles/innovation_grandiose_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/articles/innovation_grandiose_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/articles/innovation_grandiose_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">11/05/16</p>
+									<h4 class="article_title">Re-discover Lanc&ocirc;me&rsquo;s Grandi&ocirc;se mascara</h4>
+									<p class="article_content">Discover the incredible benefits of Lanc&ocirc;me&rsquo;s Grandi&ocirc;se mascara which lengthens and plumps lashes for endless style. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1985')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2112')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Eyebrow_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Eyebrow_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Eyebrow_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Eyebrow_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">24/05/16</p>
+									<h4 class="article_title">How to bring depth to light brows without over-powering your look. </h4>
+									<p class="article_content">Learn expert tips on how to add depth &amp; fill-in brows with Lanc&ocirc;me Sourcils D&eacute;finis brow pencil makeup &amp; how to finish the look with Hypn&ocirc;se volumizing mascara.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2112')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-2305', 'fdid', 'beauty-tips')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-2305')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-2305', 'fdid', 'beauty-tips')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=2305&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

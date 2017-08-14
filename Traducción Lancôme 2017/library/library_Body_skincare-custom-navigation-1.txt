@@ -1,0 +1,27 @@
+<div class="slot-wrapper">
+    <p class="slot-image-holder">
+<a href="$url('Product-Show', 'pid', '064033-LAC')$" title="Bi-Facil">
+        <picture>
+            <source media="(min-width: 1024px)" data-srcset="$disUrl(CLEANSERS_2017_MEGA_NAV_115x117.jpg?$staticlink$, {"scaleWidth" : 115})$">
+            <img alt="" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" /> 
+        </picture>
+</a>
+    </p>
+    <div class="slot-text">
+        <span class="slot-text__title">
+<a href="$url('Product-Show', 'pid', '064033-LAC')$" title="Bi-Facil">
+           Bi-Facil
+</a>
+        </span>
+        <p class="slot-text__description">
+<a href="$url('Product-Show', 'pid', '064033-LAC')$" title="Bi-Facil">
+            Instant Makeup Remover
+</a>
+        </p>
+        <a href="$url('Product-Show', 'pid', '064033-LAC')$" title="Bi-Facil" class="slot-text__link">
+            Discover
+        </a>
+
+        <span data-tracking-promotion-impression='{"id": "gifts-make-up-custom-navigation-2","name" : "Make up Gifts custom navigation","creative":"summer_banner", "position":  "slot2"}' style="display:none;"></span>
+    </div>
+</div>

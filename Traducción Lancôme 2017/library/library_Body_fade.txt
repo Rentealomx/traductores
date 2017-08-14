@@ -1,0 +1,68 @@
+<ul class="contentcarousel_list">
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Fade-Web-desktop.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Fade-Web-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Fade-Web-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Fade-Web-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Fade-Web-2.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Fade-Web-2-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Fade-Web-2-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Fade-Web-2-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Dylan-Left-desktop.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Dylan-Left-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Dylan-Left-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Dylan-Left-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Dylan-Right-desktop.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Dylan-Right-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Dylan-Right-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Dylan-Right-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Dylan-Back-desktop.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Dylan-Back-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Dylan-Back-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Dylan-Back-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+
+</ul>
+
+<ul class="dialog_content">
+<li><img alt="" src=wisdom/getthelook/desktop/Fade-Web-desktop.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/960/Fade-Web-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/768/Fade-Web-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/320/Fade-Web-320.jpg?$staticlink$" /></li>
+ <li><img alt="" src="wisdom/getthelook/desktop/Fade-Web-2.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/960/Fade-Web-2-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/768/Fade-Web-2-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/320/Fade-Web-2-320.jpg?$staticlink$" /></li>
+
+ <li><img alt="" src="wisdom/getthelook/desktop/Dylan-Left-desktop.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/desktop/Dylan-Left-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/desktop/Dylan-Left-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/desktop/Dylan-Left-320.jpg?$staticlink$" /></li>
+ <li><img alt="" src="wisdom/getthelook/desktop/Dylan-Right-desktop.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/desktop/Dylan-Right-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/desktop/Dylan-Right-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/desktop/Dylan-Right-320.jpg?$staticlink$" /></li>
+ <li><img alt="" src="wisdom/getthelook/320/Dylan-Back-desktop.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/320/Dylan-Back-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/320/Dylan-Back-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/320/Dylan-Back-320.jpg?$staticlink$" /></li>
+</ul>
+
+	<div class="article_content">
+		<h2>Fade</h2>
+		<div class="article_description">
+			For guys that want minimal fuss in the morning, the Fade might be just the ticket. This haircut entails very short hair on the back/sides and gradually gets longer going towards the top of the head. Choose the length of hair on top that works best for you. 
+
+		</div>
+
+<div class="use_product"><span>Use</span> <a href="$url('Product-Show', 'pid', 'C-SWP')$">Soft Water Pomade</a>, <a href="$url('Product-Show', 'pid', 'CP-75')$">Clay Pomade</a></div>
+	</div>

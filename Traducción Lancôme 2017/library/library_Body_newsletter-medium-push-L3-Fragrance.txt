@@ -1,0 +1,21 @@
+<p>Get notified first about new Lancome products and continue to enjoy beauty tips, exclusive online offers, luxury samples and much more by subscribing to our newsletter.</p>
+<div class="newsletter_mini_signup_button">
+    <button class="button js_medium_subscription" name="dwfrm_newsletter_signup" type="submit">Sign Up</button>
+</div>
+<div class="newsletter_subscribe_box js_newsletter_subscribe_content js_hide">
+    <form action="$url('Newsletter-SubscribeStart')$" class="js_newsletter_subscribe_form" id="dwfrm_newsletter" method="post" name="dwfrm_newsletter" novalidate="novalidate">
+        <fieldset>
+            <div class="f_field f_field_checkbox  formfield formfield_checkbox formfield_addtolist">
+                <input type="checkbox" id="dwfrm_newsletter_addtolist" name="dwfrm_newsletter_addtolist" class="checkbox f_checkbox newsletter_confirm_subscription" value="true">
+                <label class="f_label" for="dwfrm_newsletter_addtolist">
+                    <span class="f_label_value">Please add me to the Lancome email list. Lancome doesnt share or sell your personal information. <a href="#">see privacy policy</a></span>
+                </label>
+            </div>            
+            <div class="f_field f_field_email  formfield formfield_email formfield_subscribe_email required" data-required-text="Please enter your email address">
+                <input class="textinput f_email   required" id="dwfrm_newsletter_email" maxlength="75" name="dwfrm_newsletter_email" placeholder="Your Email Address" tabindex="-1" type="email" value="" />
+            </div>
+            <input name="dwfrm_newsletter_signup" type="hidden" />
+            <button class="button" name="dwfrm_newsletter_signup" type="submit" value="Submit">Sign Up</button>
+        </fieldset>
+    </form>
+</div>

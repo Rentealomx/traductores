@@ -1,0 +1,50 @@
+<div class="footer-box secure-payment">
+<h3>Secure Payment</h3>
+
+<p>Pay for your order using<br />
+secure methods</p>
+
+<ul>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment1.jpg?$staticlink$" style="width: 36px; height: 25px;" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment2.jpg?$staticlink$" style="width: 36px; height: 25px;" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment3.jpg?$staticlink$" style="width: 36px; height: 25px;" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment4.jpg?$staticlink$" style="width: 36px; height: 25px;" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment5.jpg?$staticlink$" style="width: 36px; height: 24px;" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment6.jpg?$staticlink$" style="width: 36px; height: 25px;" /></li>
+</ul>
+<img alt="Norton Secured" class="norton_secured_img" src="footer/footer_icons/payment_methods/icon_payment7.jpg?$staticlink$" style="width: 74px; height: 43px;" /></div>
+
+<div class="footer-box consumer-service">
+<h3>Consumer Service</h3>
+
+<p>Receive emails<br />
+describing<br />
+the next steps.</p>
+
+<p>For any question,<br />
+please <a href="$url('CustomerService-ContactUsForm')$" target="_blank">contact us.</a></p>
+</div>
+
+<div class="footer-box advantages">
+<h3>Your Advantages</h3>
+
+<ul>
+	<li>3 free samples<br />
+	for all order over $30</li>
+	<li>Free shipping<br />
+	for all order over $40</li>
+</ul>
+</div>
+
+<div class="footer-box delivery">
+<h3>Delivery</h3>
+
+<p>3 shipping<br />
+methods available</p>
+
+<ul>
+	<li>Mail</li>
+	<li>Express mail</li>
+	<li>Shop partner</li>
+</ul>
+</div>

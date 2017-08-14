@@ -1,0 +1,521 @@
+<script type="text/javascript" src="js/jquery.sticky.js?$staticlink$"></script>
+
+<style>
+#stickynav {background-image:url('images/landing/247_eyepencils/upper_banner.png?$staticlink$');width:1000px;height:132px;z-index:100000;}
+#stickynav .title {text-align:center;padding-top:12px;}
+
+#navlist{position:relative;margin:10px 0 0 80px;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#navlist li, #navlist a{height:24px;display:block;}
+
+#hype{left:0px;width:99px;}
+#hype{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') 0 0;}
+#hype a:hover {background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') 0 -24px;}
+
+#checkout{left:99px;width:213px;}
+#checkout{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') -99px 0;}
+#checkout a:hover{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') -99px -24px;}
+
+#bloggers{left:312px;width:189px;}
+#bloggers{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') -312px 0;}
+#bloggers a:hover{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') -312px -24px;}
+
+#discontinued{left:501px;width:206px;}
+#discontinued{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') -501px 0;}
+#discontinued a:hover{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') -501px -24px;}
+
+#getitnow{left:707px;width:121px;}
+#getitnow{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') -707px 0;}
+#getitnow a:hover{background:url('images/landing/247_eyepencils/img_navsprite.gif?$staticlink$') -707px -24px;}
+
+#eyepencils_container{margin:0 auto;padding:0 30px;font-family:Arial,Helvetica,sans-serif;}
+#eyepencils_billboard{background-image:url('images/landing/247_eyepencils/40ways.jpg?$staticlink$');width:940px;height:465px;position:relative;margin-top:-12px;}
+#eyepencils_billboard .copy{color:#fff;font-size:24px;font-weight:bold;width:675px;height:auto;padding:335px 0 0 130px;line-height:1.30em;text-align:center;}
+#eyepencils_billboard .copy2{color:#fff;font-size:14px;font-weight:normal;}
+#eyepencils_billboard .cta {margin-top:10px;}
+.cta2 {margin-left:30px;}
+.banner1,
+.banner2 {margin-top:20px;}
+
+#hype_section{width:940px;height:auto;margin-top:20px;}
+#hype_section .copy{color:#000;font-size:18px;font-weight:bold;width:610px;height:auto;margin:0 0 0 170px;text-align:center;}
+#hype_section .copy2{color:#000;font-size:14px;font-weight:normal;margin-top:10px;}
+#hype_section .billboard {margin-top:30px;background-image:url('images/landing/247_eyepencils/whyitsawesome.jpg?$staticlink$');width:940px;height:276px;}
+#hype_section .billboard .copy2 {color:#000;font-size:14px;font-weight:normal;float:left;margin:65px 0 0 220px;width:380px;}
+#hype_section .billboard .copy {color:#000;font-size:14px;font-weight:normal;float:right;margin-top:130px;text-align:right;padding-right:25px;}
+
+#checkout_section{width:905px;height:auto;margin-top:20px;}
+#checkout_section .new1 {clear:left;width:940px;height:auto;margin:0 30px;padding:10px 0 0 35px;}
+#checkout_section .new2 {clear:left;width:840px;height:auto;margin:0 30px;padding:10px 0 0 100px;}
+#checkout_section .new3 {clear:left;width:720px;height:auto;margin:0 30px;padding:10px 0 0 220px;}
+#checkout_section .new1 .shade, 
+#checkout_section .new2 .shade,
+#checkout_section .new3 .shade {float:left;margin-left:20px;width:100px;text-align:center;background:#fff;}
+#checkout_section .new1 .shade .copy,
+#checkout_section .new2 .shade .copy,
+#checkout_section .new3 .shade .copy  {color:#000;font-size:9px;font-weight:bold;text-transform:uppercase;padding-top:5px;}
+#checkout_section .title {padding-bottom:5px;}
+#checkout_section .title2 {clear:left;padding-top:20px;}
+#checkout_section .ctas {clear:left;float:left;width:940px;text-align:center;margin:20px 0;}
+a.viewall {margin-left:30px;z-index: 99999;}
+
+#bloggers_section{width:940px;height:auto;}
+#bloggers_section .title {width:940px;margin-top:30px;text-align:center;}
+#bloggers_section .blogger {float:left;width:940px;height:270px;margin-top:20px;}
+#bloggers_section .blogger .face {float:left;width:304px;margin:0 30px 0 60px;}
+#bloggers_section .ruler {clear:both;width:940px;position:relative;left:0;top:0px;}
+#bloggers_section .bloggerdetails {float:left;width:500px;height:270px;}
+#bloggers_section .bloggerdetails .name {width:100%;}
+#bloggers_section .bloggerdetails .web,
+#bloggers_section .bloggerdetails .web a:link {width:100%;color:#46166b;font-size:11px;font-weight:bold;padding-top:5px;text-transform:uppercase;text-decoration:none;cursor:pointer;}
+#bloggers_section .bloggerdetails .hershades {width:100%;color:#000;font-size:14px;font-weight:bold;padding-top:15px;text-transform:uppercase;}
+#bloggers_section .bloggerdetails .shades,
+#bloggers_section .bloggerdetails .shades a:link {width:100%;color:#46166b;font-size:14px;font-weight:normal;padding-top:5px;text-decoration:none;cursor:pointer;}
+#bloggers_section .bloggerdetails .video {width:100%;height:24px;margin:15px 0;}
+#bloggers_section .bloggerdetails .quote {color:#000;font-size:16px;}
+
+#discontinued_section{clear:both;width:940px;height:1040px;background:#fff;}
+#discontinued_section .title {float:left;width:940px;margin-top:30px;text-align:center;}
+#discontinued_section .title .copy {color:#000;font-size:14px;font-weight:normal;padding-top:10px;}
+#discontinued_section .title .copy2,
+#discontinued_section .title .copy2 a:link {color:#46166b;font-size:11px;font-weight:bold;padding-top:5px;text-transform:uppercase;text-decoration:none;}
+#discontinued_section .prodcol {float:left;width:440px;height:auto;border-right:1px #000 dotted;margin:20px 0 0 30px;}
+#discontinued_section .prodcol2 {float:left;width:440px;height:auto;margin:20px 0 0 20px;}
+#discontinued_section td  {text-align:center;}
+#discontinued_section td .copy {color:#000;font-size:9px;font-weight:bold;text-transform:uppercase;padding:5px 0;}
+#discontinued_section .ctas {float:left;width:940px;text-align:center;margin-top:10px;}
+.trynew {margin-left:100px;}
+a.shift_anchor {clear:both;float:left;position:relative;top:-125px;margin:0;padding:0;}
+</style>
+
+<a id="top"></a>
+<div id="stickynav">
+    <div class="title"><a href="#top"><img src="images/landing/247_eyepencils/247_title.gif?$staticlink$" width="703" height="58" alt="24/7 Glide-On Eye Pencil" title="24/7 Glide-On Eye Pencil" /></a></div>
+    <ul id="navlist">
+  		<li id="hype"><a href="#hype_top" title="The Hype"></a></li>
+  		<li id="checkout"><a href="#checkout_top" title="Check Out The Shades"></a></li>
+  		<li id="bloggers"><a href="#bloggers_top" title="The Bloggers' Take"></a></li>
+        <li id="discontinued"><a href="#discontinued_top" title="Discontinued Shades"></a></li>
+        <li id="getitnow"><a href="$url('Product-Show','pid','122')$" title="Get It Now"></a></li>
+	</ul>
+</div>
+<div id="eyepencils_container">
+	<div id="eyepencils_billboard">
+    	<div class="copy">
+        	28 NEWLY ADDED SHADES!<br />
+             <span class="copy2">
+			Satiate your color lust with our creamy, forever-lasting, waterproof liner&mdash;now in 40 habit-forming shades.
+        	</span>
+            <div class="cta">
+        	<a href="$url('Product-Show','pid','122')$"><img src="images/landing/247_eyepencils/ShopAll.jpg?$staticlink$" width="180" height="32" alt="Shop All Shades" title="Shop All Shades" /></a>
+            <span class="cta2"><a href="#checkout_top"><img src="images/landing/247_eyepencils/SeeNew.jpg?$staticlink$" width="180" height="32" alt="See New Shades" title="See New Shades" /></a></span>
+            </div> 
+		</div>
+    </div>
+    <div class="banner1"><a href="$url('Page-Show','cid','returns')$"><img src="images/landing/247_eyepencils/freereturns1.jpg?$staticlink$" width="940" height="29" alt="Free Returns - Try It Risk Free With Our Love-It-Or-Leave-It Guarantee" title="Free Returns - Try It Risk Free With Our Love-It-Or-Leave-It Guarantee" /></a></div>
+    <div id="hype_section"><a id="hype_top" class="shift_anchor"s></a> 
+   	  <div class="copy">
+        	THE MOST SHADES OF ANY LUXE BRAND!
+        <div class="copy2">
+			You've never seen such an insane range of shades—crazy-vivid brights, shimmering metallics, wear-anywhere neutrals, sexy mattes and dark, smoky hues&mdash;all in one award-winning formula.
+        	</div>
+		</div>
+        
+   	  <div class="billboard">
+      		<div class="copy2">Made with jojoba oil, vitamin E and cottonseed oil, our highly saturated formula glides on, stays creamy for blending and dries down to a waterproof finish that won’t budge. What more could you ask for?</div>
+        	<div class="copy">
+       	  		<strong>PRO TIP</strong>: To keep these pencils from drying out, always close the caps tightly. </div> 
+      		</div>       
+    </div>
+    <div class="banner2"><a href="$url('Page-Show','cid','returns')$"><img src="images/landing/247_eyepencils/freereturns2.jpg?$staticlink$" width="940" height="29" alt="Free returns. Now offering free returns&mdash;making our Love-It-Or-Leave-It Guarantee even sweeter for you." title="Free returns. Now offering free returns&mdash;making our Love-It-Or-Leave-It Guarantee even sweeter for you." /></a></div>
+    <div id="checkout_section"><a id="checkout_top" class="shift_anchor"></a>
+    	<div class="title"><img src="images/landing/247_eyepencils/13brandnew.jpg?$staticlink$" width="940" height="130" alt="13 Brand New Shades" title="13 Brand New Shades" /></div>
+        <div class="new1">
+   	    	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214460706')$"><img src="images/landing/247_eyepencils/new_shades/46070_247eyeliner_smoke.jpg?$staticlink$" width="100" height="100" alt="Smoke" title="Smoke" /></a>
+              <span class="copy">Smoke</span>
+		  	</div> 
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214461000')$"><img src="images/landing/247_eyepencils/new_shades/46100_247eyeliner_roach.jpg?$staticlink$" width="100" height="100" alt="Roach" title="Roach" /></a>
+                <span class="copy">Roach</span>
+          	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214461109')$"><img src="images/landing/247_eyepencils/new_shades/46110_247eyeliner_desperation.jpg?$staticlink$" width="100" height="100" alt="Desperation" title="Desperation" /></a>
+                <span class="copy">Desperation</span>
+          	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214461208')$"><img src="images/landing/247_eyepencils/new_shades/46120_247eyeliner_scorch.jpg?$staticlink$" width="100" height="100" alt="Scorch" title="Scorch" /></a>
+            	<span class="copy">Scorch</span>
+         	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214461307')$"><img src="images/landing/247_eyepencils/new_shades/46130_247eyeliner_goldmine.jpg?$staticlink$" width="100" height="100" alt="Goldmine" title="Goldmine" /></a>
+                <span class="copy">Goldmine</span>
+          	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214461406')$"><img src="images/landing/247_eyepencils/new_shades/46140_247eyeliner_loaded.jpg?$staticlink$" width="100" height="100" alt="Loaded" title="Loaded" /></a>
+            	<span class="copy">Loaded</span>
+          	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214461505')$"><img src="images/landing/247_eyepencils/new_shades/46150_247eyeliner_freak.jpg?$staticlink$" width="100" height="100" alt="Freak" title="Freak"  /></a>
+                <span class="copy">Freak</span>
+		  </div>
+        </div>
+        <div class="new2">
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214461604')$"><img src="images/landing/247_eyepencils/new_shades/46160_247eyeliner_invasion.jpg?$staticlink$" width="100" height="100" alt="Invasion" title="Invasion" /></a>
+              <span class="copy">Invasion</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214461901')$"><img src="images/landing/247_eyepencils/new_shades/46190_247eyeliner_abyss.jpg?$staticlink$" width="100" height="100" alt="Abysss" title="Abysss" /></a>
+              <span class="copy">Abyss</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214462007')$"><img src="images/landing/247_eyepencils/new_shades/46200_247_eyeliner_chaos.jpg?$staticlink$" width="100" height="100" alt="Chaos" title="Chaos" /></a>
+              <span class="copy">Chaos</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214462106')$"><img src="images/landing/247_eyepencils/new_shades/46210_247eyeliner_ether.jpg?$staticlink$" width="100" height="100" alt="Ether" title="Ether" /></a>
+              <span class="copy">Ether</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214462304')$"><img src="images/landing/247_eyepencils/new_shades/46230_247eyeliner_vice.jpg?$staticlink$" width="100" height="100" alt="Vice" title="Vice" /></a>
+              <span class="copy">Vice</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214462502')$"><img src="images/landing/247_eyepencils/new_shades/46250_247eyeliner_cuff.jpg?$staticlink$" width="100" height="100" alt="Cuff" title="Cuff" /></a>
+              <span class="copy">Cuff</span>
+		  	</div>    
+        </div>
+    	<div class="title2"><img src="images/landing/247_eyepencils/15exclusive.jpg?$staticlink$" width="940" height="130" alt="15 Shades Previously Exclusive To Sets" title="15 Shades Previously Exclusive To Sets" /></div>
+        <div class="new3">
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214460805')$"><img src="images/landing/247_eyepencils/new_shades/46080_247eyeliner_uzi.jpg?$staticlink$" width="100" height="100" alt="Uzi" title="Uzi" /></a>
+              <span class="copy">Uzi</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214459106')$"><img src="images/landing/247_eyepencils/new_shades/45910_247eyeliner_mushroom.jpg?$staticlink$" width="100" height="100" alt="Mushroom" title="Mushroom" /></a>
+              <span class="copy">Mushroom</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214460904')$"><img src="images/landing/247_eyepencils/new_shades/46090_247eyeliner_smog.jpg?$staticlink$" width="100" height="100" alt="Smog" title="Smog" /></a>
+              <span class="copy">Smog</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214458901')$"><img src="images/landing/247_eyepencils/new_shades/45890_247eyeliner_hustle.jpg?$staticlink$" width="100" height="100" alt="Hustle" title="Hustle" /></a>
+              <span class="copy">Hustle</span>
+		  	</div>  
+   	  </div>
+      <div class="new1">
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214449909')$"><img src="images/landing/247_eyepencils/new_shades/44990_247eyeliner_whiskey.jpg?$staticlink$" width="100" height="100" alt="Whiskey" title="Whiskey" /></a>
+              <span class="copy">Whiskey</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214450400')$"><img src="images/landing/247_eyepencils/new_shades/45040_247eyeliner_corrupt.jpg?$staticlink$" width="100" height="100" alt="Corrupt" title="Corrupt" /></a>
+              <span class="copy">Corrupt</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214458703')$"><img src="images/landing/247_eyepencils/new_shades/45870_247eyeliner_junkie.jpg?$staticlink$" width="100" height="100" alt="Junkie" title="Junkie" /></a>
+              <span class="copy">Junkie</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214462601')$"><img src="images/landing/247_eyepencils/new_shades/46260_247eyeliner_mainline.jpg?$staticlink$" width="100" height="100" alt="Mainline" title="Mainline" /></a>
+              <span class="copy">Mainline</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214461703')$"><img src="images/landing/247_eyepencils/new_shades/46170_247eyeliner_deepend.jpg?$staticlink$" width="100" height="100" alt="Deep End" title="Deep End" /></a>
+              <span class="copy">Deep End</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214458802')$"><img src="images/landing/247_eyepencils/new_shades/45880_247eyeliner_lsd.jpg?$staticlink$" width="100" height="100" alt="LSD" title="LSD" /></a>
+              <span class="copy">LSD</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214461802')$"><img src="images/landing/247_eyepencils/new_shades/46180_247eyeliner_sabbath.jpg?$staticlink$" width="100" height="100" alt="Sabbath" title="Sabbath" /></a>
+              <span class="copy">Sabbath</span>
+		  	</div>      
+        </div>
+		<div class="new3">
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214462205')$"><img src="images/landing/247_eyepencils/new_shades/46220_247eyeliner_delinquent.jpg?$staticlink$" width="100" height="100" alt="Delinquent" title="Delinquent" /></a>
+              <span class="copy">Delinquent</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214459007')$"><img src="images/landing/247_eyepencils/new_shades/45900_247eyeliner_psychedelicsister.jpg?$staticlink$" width="100" height="100" alt="Psychedelic Sister" title="Psychedelic Sister" /></a>
+              <span class="copy">Psychedelic Sister</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214462403')$"><img src="images/landing/247_eyepencils/new_shades/46240_247eyeliner_empire.jpg?$staticlink$" width="100" height="100" alt="Empire" title= "Empire" /></a>
+              <span class="copy">Empire</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214450806')$"><img src="images/landing/247_eyepencils/new_shades/45080_247eyeliner_asphyxia.jpg?$staticlink$" width="100" height="100" alt="Asphyxia" title="Asphyxia" /></a>
+              <span class="copy">Asphyxia</span>
+		  	</div>  
+      	</div> 
+        <div class="ctas">
+       	  <a href="$url('Product-Show','pid','122')$"><img src="images/landing/247_eyepencils/ShopAll.jpg?$staticlink$" width="180" height="32" alt="Shop All Shades" title="Shop All Shades" /></a>
+        </div>
+    </div>
+    <div class="banner1"><a href="$url('Page-Show','cid','returns')$"><img src="images/landing/247_eyepencils/freereturns1.jpg?$staticlink$" width="940" height="29" alt="Free Returns - Try It Risk Free With Our Love-It-Or-Leave-It Guarantee" title="Free Returns - Try It Risk Free With Our Love-It-Or-Leave-It Guarantee" /></a></div>
+    <div id="bloggers_section"><a id="bloggers_top" class="shift_anchor"></a>
+    	<div class="title"><img src="images/landing/247_eyepencils/favoritebloggers.jpg?$staticlink$" width="940" height="41" alt="Some Of Our Favorite Bloggers Test Out The New Shades" title="Some Of Our Favorite Bloggers Test Out The New Shades" /></div>
+        <div class="blogger">
+   	    	<div class="face"><img src="images/landing/247_eyepencils/LaurenPic.jpg?$staticlink$" width="304" height="270" alt="Lauren" title="Lauren" /></div>
+            <div class="bloggerdetails">
+   	    	  <div class="name"><img src="images/landing/247_eyepencils/LaurenName.jpg?$staticlink$" width="170" height="38" alt="Lauren" title="Lauren" /></div>	
+               	<div class="web"><a href="http://www.queenofblending.com/" target="_blank">QueenofBlending.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.youtube.com/user/QueenofBlendingMUA" target="_blank">Subscribe to her channel</a></div>
+              	<div class="hershades">Her Shades:</div>
+                <div class="shades"><a href="$url('Product-Show','pid','604214458703')$">Junkie</a>, <a href="$url('Product-Show','pid','604214458802')$">LSD</a>, <a href="$url('Product-Show','pid','604214462205')$">Delinquent</a>, <a href="$url('Product-Show','pid','604214461406')$">Loaded</a>, <a href="$url('Product-Show','pid','604214461901')$">Abyss</a>, <a href="$url('Product-Show','pid','604214460805')$">Uzi</a>, <a href="$url('Product-Show','pid','604214462106')$">Ether</a> and <a href="$url('Product-Show','pid','604214459007')$">Psychedelic Sister</a></div> 
+                <div class="video"><a href="http://youtu.be/5CJq3wIt2lY" target="_blank"><img src="images/landing/247_eyepencils/watchhervideo.jpg?$staticlink$" width="142" height="24" alt="Watch Her Video" title="Watch Her Video" /></a></div>
+                <div class="quote">"The 24/7 Glide-On Eye Pencils are awesome! They're super creamy, yet stay on til you're ready to take your makeup off! I love using the 24/7 pencils as color accents to an eye look or even in my brows!"</div>
+            </div>
+   	    <img src="images/landing/247_eyepencils/horizontalrule.gif" width="940" height="1" alt="" /> 
+        </div>
+      <div class="blogger">
+   	    	<div class="face"><img src="images/landing/247_eyepencils/SonaPic.jpg?$staticlink$" width="304" height="270" alt="Sona" title="Sona" /></div>
+            <div class="bloggerdetails">
+   	    	  <div class="name"><img src="images/landing/247_eyepencils/SonaName.jpg?$staticlink$" width="170" height="38" alt="Sona" title="Sona" /></div>	
+               	<div class="web"><a href="http://makeupbysona.com/" target="_blank">MAKEUPBYSONA.COM</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.youtube.com/user/MakeupBySona" target="_blank">Subscribe to her channel</a></div>
+              	<div class="hershades">Her Shades:</div>
+              <div class="shades"><a href="$url('Product-Show','pid','604214462601')$">Mainline</a>, <a href="$url('Product-Show','pid','604214459106')$">Mushroom</a>, <a href="$url('Product-Show','pid','604214460706')$">Smoke</a>, <a href="$url('Product-Show','pid','604214462403')$">Empire</a>, <a href="$url('Product-Show','pid','604214461604')$">Invasion</a>, <a href="$url('Product-Show','pid','604214461802')$">Sabbath</a> and <a href="$url('Product-Show','pid','604214461109')$">Desperation</a></div> 
+                <div class="video"><a href="http://youtu.be/OAoqZpCoCsE" target="_blank"><img src="images/landing/247_eyepencils/watchhervideo.jpg?$staticlink$" width="142" height="24" alt="Watch Her Video" title="Watch Her Video" /></a></div>
+                <div class="quote">"Hands down the best waterproof pencils I have tried in 8 years. The colors glide on and stay put all day."</div>
+            </div>
+        	<img src="images/landing/247_eyepencils/horizontalrule.gif" width="940" height="1" alt="" /> 
+        </div>
+      <div class="blogger">
+   	    	<div class="face"><img src="images/landing/247_eyepencils/LeeshaPic.jpg?$staticlink$" width="304" height="270" alt="Leesha" title="Leesha" /></div>
+            <div class="bloggerdetails">
+   	    	  <div class="name"><img src="images/landing/247_eyepencils/LeeshaName.jpg?$staticlink$" width="170" height="38" alt="Leesha" title="Leesha" /></div>	
+               	<div class="web"><a href="http://www.xsparkage.com/" target="_blank">Xsparkage.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.youtube.com/user/xsparkage" target="_blank">Subscribe to her channel</a></div>
+              	<div class="hershades">Her Shades:</div>
+              <div class="shades"><a href="$url('Product-Show','pid','604214461307')$">Goldmine</a>, <a href="$url('Product-Show','pid','604214461703')$">Deep End</a>, <a href="$url('Product-Show','pid','604214461505')$">Freak</a>, <a href="$url('Product-Show','pid','604214462502')$">Cuff</a>, <a href="$url('Product-Show','pid','604214462304')$">Vice</a>, <a href="$url('Product-Show','pid','604214450806')$">Asphyxia</a> and <a href="$url('Product-Show','pid','604214462007')$">Chaos</a></div>  
+                <div class="video"><a href="http://youtu.be/KXP1ZavCGco" target="_blank"><img src="images/landing/247_eyepencils/watchhervideo.jpg?$staticlink$" width="142" height="24" alt="Watch Her Video" title="Watch Her Video" /></a></div>
+                <div class="quote">"Deep End is the most amazing teal, Chaos and Vice are perfect darker-but-still-vivid shades, and Freak is the coolest, most unique shade I've seen! These liners are great to use under eyeshadows to make them pop like no other, or to add some flare to an otherwise run-of-the-mill neutral look."</div>
+            </div>
+        	<img src="images/landing/247_eyepencils/horizontalrule.gif" width="940" height="1" alt="" /> 
+        </div>
+      <div class="blogger">
+   	    	<div class="face"><img src="images/landing/247_eyepencils/HollyPic.jpg?$staticlink$" width="304" height="270" alt="Holly" title="Holly" /></div>	
+            <div class="bloggerdetails">
+   	    	  <div class="name"><img src="images/landing/247_eyepencils/HollyName.jpg?$staticlink$" width="170" height="38" alt="Holly" title="Holly" /></div>	
+               	<div class="web"><a href="http://hollyannaeree.com/" target="_blank">hollyannaeree.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.youtube.com/user/hollyannaeree" target="_blank">Subscribe to her channel</a></div>
+              	<div class="hershades">Her Shades:</div>
+              <div class="shades"><a href="$url('Product-Show','pid','604214458901')$">Hustle</a>, <a href="$url('Product-Show','pid','604214460904')$">Smog</a>, <a href="$url('Product-Show','pid','604214449909')$">Whiskey</a>, <a href="$url('Product-Show','pid','604214461208')$">Scorch</a>, <a href="$url('Product-Show','pid','604214461000')$">Roach</a> and <a href="$url('Product-Show','pid','604214450400')$">Corrupt</a></div> 
+                <div class="video"><a href="http://www.youtube.com/watch?v=GlhTsPE2GH8" target="_blank"><img src="images/landing/247_eyepencils/watchhervideo.jpg?$staticlink$" width="142" height="24" alt="Watch Her Video" title="Watch Her Video" /></a></div>
+                <div class="quote">"With such an amazing array of colors and finishes to choose from, these are so much more than eyeliners. Use the 24/7 Glide-On Eye Pencils as an eyeshadow and you'll have a long-lasting look that takes you from day to night...and maybe then some!"</div>
+            </div>
+       	 <img src="images/landing/247_eyepencils/horizontalrule.gif" width="940" height="1" alt="" /> 
+        </div>
+  </div>
+    <div class="banner2" style="float:left;"><a href="$url('Page-Show','cid','returns')$"><img src="images/landing/247_eyepencils/freereturns2.jpg?$staticlink$" width="940" height="29" alt="Free returns. Now offering free returns&mdash;making our Love-It-Or-Leave-It Guarantee even sweeter for you." title="Free returns. Now offering free returns&mdash;making our Love-It-Or-Leave-It Guarantee even sweeter for you." /></a></div>
+    <div id="discontinued_section"><a id="discontinued_top" class="shift_anchor"></a>
+    	<div class="title">
+        	<img src="images/landing/247_eyepencils/discontinued.jpg?$staticlink$" width="940" height="45" alt="Has Your Shade Been Discontinued?" title="Has Your Shade Been Discontinued?" />
+            <div class="copy">Don't fret! We have suggestions. FYI: You can still buy them while supplies last.</div>
+          <div class="copy2"><a href="$url('Product-Show','pid','369')$">Get them before they're gone &#8250;</a></div>
+        </div>
+        <div class="prodcol">
+   	    	<img src="images/landing/247_eyepencils/ifyouloved.jpg?$staticlink$" width="125" height="25" alt="If You Loved" title="If You Loved" />
+        	<span class="trynew"><img src="images/landing/247_eyepencils/trythenew.jpg?$staticlink$" width="125" height="25" alt="Try The New" title="Try The New" /></span>
+		<table width="420" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+		    <td width="120">
+            	<img src="images/landing/247_eyepencils/old_shades/44530_1999.jpg?$staticlink$" width="100" height="100" alt="1999" title="1999"  />
+                <div class="copy">1999</div>
+            </td>
+		    <td width="50">
+            	<img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" />
+           	</td>
+		    <td width="120">
+            	<a href="$url('Product-Show','pid','604214462304')$"><img src="images/landing/247_eyepencils/new_shades/46230_247eyeliner_vice.jpg?$staticlink$" width="100" height="100" alt="Vice" title="Vice" /></a>
+                <div class="copy">Vice</div>
+            </td>
+		    <td width="50"><span class="copy">OR</span></td>
+            <td width="120">
+            	<a href="$url('Product-Show','pid','604214447905')$"><img src="images/landing/247_eyepencils/new_shades/44790_247eyeliner_underground.jpg?$staticlink$" width="100" height="100" alt="Underground" title="Underground" /></a>
+                <div class="copy">Underground</div>
+            </td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44910_Binge.jpg?$staticlink$" width="100" height="100" alt="Binge" title="Binge"  />
+                <div class="copy">Binge</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214461802')$"><img src="images/landing/247_eyepencils/new_shades/46180_247eyeliner_sabbath.jpg?$staticlink$" width="100" height="100" alt="Sabbath" title="Sabbath"  /></a>
+                <div class="copy">Sabbath</div>
+            </td>
+		    <td>&nbsp;</td>
+		    <td>&nbsp;</td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44490_Covet.jpg?$staticlink$" width="100" height="100" alt="Covet" title="Covet"  />
+                <div class="copy">Covet</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214458703')$"><img src="images/landing/247_eyepencils/new_shades/45870_247eyeliner_junkie.jpg?$staticlink$" width="100" height="100" alt="Junkie" title="Junkie"  /></a>
+                <div class="copy">Junkie</div>
+            </td>
+		    <td>&nbsp;</td>
+		    <td>&nbsp;</td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44890_Crash.jpg?$staticlink$" width="100" height="100" alt="Crash" title="Crash"  />
+                <div class="copy">Crash</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214462205')$"><img src="images/landing/247_eyepencils/new_shades/46220_247eyeliner_delinquent.jpg?$staticlink$" width="100" height="100" alt="Delinquent" title="Delinquent"  /></a>
+                <div class="copy">Delinquent</div>
+            </td>
+		    <td><span class="copy">OR</span></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214445802')$"><img src="images/landing/247_eyepencils/new_shades/44580_247eyeliner_rockstar.jpg?$staticlink$" width="100" height="100" alt="Rockstar" title="Rockstar"  /></a>
+                <div class="copy">Rockstar</div>
+            </td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44500_Deviant.jpg?$staticlink$" width="100" height="100" alt="Deviant" title="Deviant"  />
+                <div class="copy">Deviant</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214461901')$"><img src="images/landing/247_eyepencils/new_shades/46190_247eyeliner_abyss.jpg?$staticlink$" width="100" height="100" alt="Abyss" title="Abyss"  /></a>
+                <div class="copy">Abyss</div>
+            </td>
+		    <td><span class="copy">OR</span></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214462007')$"><img src="images/landing/247_eyepencils/new_shades/46200_247_eyeliner_chaos.jpg?$staticlink$" width="100" height="100" alt="Chaos" title="Chaos"  /></a>
+                <div class="copy">Chaos</div>
+            </td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44970_Eldorado.jpg?$staticlink$" width="100" height="100" alt="Eldorado" title="Eldorado"  />
+                <div class="copy">ElDorado</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214461307')$"><img src="images/landing/247_eyepencils/new_shades/46130_247eyeliner_goldmine.jpg?$staticlink$" width="100" height="100" alt="Goldmine" title="Goldmine"  /></a>
+                <div class="copy">Goldmine</div>
+            </td>
+		    <td>&nbsp;</td>
+		    <td>&nbsp;</td>
+	      </tr>
+		  </table>
+		</div>
+      	<div class="prodcol2">
+        	<img src="images/landing/247_eyepencils/ifyouloved.jpg?$staticlink$" width="125" height="25" alt="If You Loved" title="If You Loved" />
+        	<span class="trynew"><img src="images/landing/247_eyepencils/trythenew.jpg?$staticlink$" width="125" height="25" alt="Try The New" title="Try The New" /></span>
+            <table width="420" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+		    <td width="120">
+            	<img src="images/landing/247_eyepencils/old_shades/44780_Flipside.jpg?$staticlink$" width="100" height="100" alt="Flipside" title="Flipside"  />
+                <div class="copy">Flipside</div>
+            </td>
+		    <td width="50">
+            	<img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" />
+           	</td>
+		    <td width="120">
+            	<a href="$url('Product-Show','pid','604214461703')$"><img src="images/landing/247_eyepencils/new_shades/46170_247eyeliner_deepend.jpg?$staticlink$" width="100" height="100" alt="Deep End" title="Deep End" /></a>
+                <div class="copy">Deep End</div>
+            </td>
+		    <td width="50">&nbsp;</td>
+            <td width="120">&nbsp;</td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44770_Graffiti.jpg?$staticlink$" width="100" height="100" alt="Graffiti" title="Graffiti"  />
+                <div class="copy">Graffiti</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214461505')$"><img src="images/landing/247_eyepencils/new_shades/46150_247eyeliner_freak.jpg?$staticlink$" width="100" height="100" alt="Freak" title="Freak"  /></a>
+                <div class="copy">Freak</div>
+            </td>
+		    <td>&nbsp;</td>
+		    <td>&nbsp;</td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44510_Gunmetal.jpg?$staticlink$" width="100" height="100" alt="Gunmetal" title="Gunmetal"  />
+                <div class="copy">Gunmetal</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214460805')$"><img src="images/landing/247_eyepencils/new_shades/46080_247eyeliner_uzi.jpg?$staticlink$" width="100" height="100" alt="Uzi" title="Uzi"  /></a>
+                <div class="copy">Uzi</div>
+            </td>
+		    <td><span class="copy">OR</span></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214459106')$"><img src="images/landing/247_eyepencils/new_shades/45910_247eyeliner_mushroom.jpg?$staticlink$" width="100" height="100" alt="Mushroom" title="Mushroom"  /></a>
+                <div class="copy">Mushroom</div>
+            </td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44430_Lucky.jpg?$staticlink$" width="100" height="100" alt="Lucky" title="Lucky"  />
+                <div class="copy">Lucky</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214461208')$"><img src="images/landing/247_eyepencils/new_shades/46120_247eyeliner_scorch.jpg?$staticlink$" width="100" height="100" alt="Scorch" title="Scorch"  /></a>
+                <div class="copy">Scorch</div>
+            </td>
+		    <td>&nbsp;</td>
+		    <td>&nbsp;</td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44460_Lust.jpg?$staticlink$" width="100" height="100" alt="Lust" title="Lust"  />
+                <div class="copy">Lust</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214462007')$"><img src="images/landing/247_eyepencils/new_shades/46200_247_eyeliner_chaos.jpg?$staticlink$" width="100" height="100" alt="Chaos" title="Chaos"  /></a>
+                <div class="copy">Chaos</div>
+            </td>
+		    <td>&nbsp;</td>
+		    <td>&nbsp;</td>
+	      </tr>
+		  <tr>
+		    <td>
+            	<img src="images/landing/247_eyepencils/old_shades/44760_Ransom.jpg?$staticlink$" width="100" height="100" alt="Ransom" title="Ransom"  />
+                <div class="copy">Ransom</div>
+            </td>
+		    <td><img src="images/landing/247_eyepencils/arrow.jpg?$staticlink$" width="40" height="25" alt="arrow" /></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214459007')$"><img src="images/landing/247_eyepencils/new_shades/45900_247eyeliner_psychedelicsister.jpg?$staticlink$" width="100" height="100" alt="Psychedelic Sister" title="Psychedelic Sister"  /></a>
+                <div class="copy">Psychedelic<br />
+              Sister</div>
+            </td>
+		    <td><span class="copy">WITH</span></td>
+		    <td>
+            	<a href="$url('Product-Show','pid','604214450806')$"><img src="images/landing/247_eyepencils/new_shades/45080_247eyeliner_asphyxia.jpg?$staticlink$" width="100" height="100" alt="Asphyxia" title="Asphyxia"  /></a>
+                <div class="copy">Asphyxia</div>
+            </td>
+	      </tr>
+		  </table>
+        </div>
+        <div class="ctas">
+        	<a href="$url('Product-Show','pid','122')$"><img src="images/landing/247_eyepencils/ShopAll.jpg?$staticlink$" width="180" height="32" alt="Shop All Shades" title="Shop All Shades" /></a>
+        </div>
+    </div>
+</div>
+ <script type="text/javascript">
+ 	jQuery(document).ready(function() {
+
+		$(window).load(function(){
+			$("#stickynav").sticky({ topSpacing: 0 });
+         });
+ 		
+ 	});
+ 
+ </script>

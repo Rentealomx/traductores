@@ -1,0 +1,106 @@
+<div class="article_title_module">
+		<p class="publishing_date">17/03/2016</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-1666', 'fdid', 'secrets-for-perfect-skin')$
+		<h1>Look younger with the right makeup remover</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/LOVEYOURAGE-TONIQUE-ECLAT--BI-FACIL--GALATEE-CONFORT--EAU-MICELLAIRE-DOUCEUR-2X1_Article_MediaModule_Horizontal_Desktop.jpg, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>What if your first step towards a flawless anti-aging routine began with a well-honed cleansing regimen? That’s what Lisa Eldridge believes. Discover her tried-and-true tips to make the most of your makeup remover and even win back a few years. </b></p>
+	<p><b>Lisa Eldridge’s makeup removal step-by-step </b></p>
+	<p><b>The theory? </b>Adopting a multi-staged makeup removal routine will also help you avoid lipstick and mascara pigments bleeding across the face and irritated skin.</p>
+	<p>- <b>For lips</b>, go for a slightly oil product that dislodges even the darkest of lipstick pigments.</p>
+	<p>- <b>For eyes, </b>Eldridge recommends cutting a cotton pad in two and dousing it with eye makeup remover. Place each half-moon shaped pad under the lower lashes and then cover closed eyes using a similarly soaked whole disk. Using gentle horizontal tapping movements you’ll carefully and gradually dissolve pigments without marking skin or damaging lashes.</p>
+	<p>- <b>For the face and neck, </b>it’s best to go for two sweeps of a creamy textured cleansing milk. The first will rid the face of any foundation, powder and blush, the second will clean away sebum, dead cells and toxins that have built up throughout the day. Don’t skimp on how much remover you use as the more product you apply the better it will dissolve makeup pigments.</p>
+	<p><b>The finishing touch? </b>Splash on some cold water to tighten up skin, revitalize skin cells and boost circulation.</p>
+	<p><b>Four anti-aging-ready makeup removers</b></p>
+	<p><b>GALATÉE CONFORT</b> Specially formulated for dry skin, this comforting milk rids the skin of every last particle of irritant while smoothing and hydrating. From the get-go you’ll see dehydration-caused fine lines disappear and plenty of skin shimmer.</p>
+	<p><b>BI-FACIL</b> This two-phase, non-greasy eye makeup remover works to remove pigments and cleanse the edges of the eye for a sparklingly clean look.</p>
+	<p><b>TONIQUE ÉCLAT </b>This gentle clarifying lotion eliminates dead skin, diminishes the sallow look of skin and oxygenates the face to give you plenty of glow.</p>
+	<p><b>EAU MICELLAIRE DOUCEUR </b>For the busiest among us, this delicate yet highly efficient cleansing water speedily removes makeup from the face, lips and eyes helping you achieve purer skin and a serenely beautiful look.</p>
+	<p></p>
+	<p><i>Galatée Confort, <b>Lancôme</b>. Bi-facil,<b> Lancôme</b>. Tonique Eclat, <b>Lancôme</b>. Eau Micellaire Douceur,<b> Lancôme</b>.</i><br></p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-1666', 'fdid', 'secrets-for-perfect-skin')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', '127043-LAC ; 064033-LAC ; 128053-LAC ; 12705w-LAC ', 'title', 'Shop the story ')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Ypu may also like </h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-326')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/QUICK_WAKEUP_MAKEUP_POSTER_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/QUICK_WAKEUP_MAKEUP_POSTER_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/QUICK_WAKEUP_MAKEUP_POSTER_Homepage_Slot4_MustSee_Tablet.png, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/QUICK_WAKEUP_MAKEUP_POSTER_Homepage_Slot4_MustSee_Mobile.png, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">29/09/15</p>
+									<h4 class="article_title">Rejuvenating wakeup makeup</h4>
+									<p class="article_content">Rejuvenating wakeup makeup</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-326')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1537')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/MAKEUPSTORIESDEFINICILSGRANDIOSEHYPNOSEHYPNOSE_DOLL_EYES_2X1~1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/MAKEUPSTORIESDEFINICILSGRANDIOSEHYPNOSEHYPNOSE_DOLL_EYES_2X1~1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/MAKEUPSTORIESDEFINICILSGRANDIOSEHYPNOSEHYPNOSE_DOLL_EYES_2X1~1_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/MAKEUPSTORIESDEFINICILSGRANDIOSEHYPNOSEHYPNOSE_DOLL_EYES_2X1~1_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">04/04/16</p>
+									<h4 class="article_title">4 different eye shapes, 4 different mascaras and 4 amazing results for your eyes. </h4>
+									<p class="article_content"> 4 different eye shapes, 4 different mascaras and 4 amazing results for your eyes. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1537')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1542')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/articles/Serum_OK_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/articles/Serum_OK_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/articles/Serum_OK_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/articles/Serum_OK_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">04/04/16</p>
+									<h4 class="article_title">Do's and dont's: serums</h4>
+									<p class="article_content">Discover Lancome&rsquo;s how-to tips on maximizing your anti-aging serum for pro results,  </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1542')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-1666', 'fdid', 'secrets-for-perfect-skin')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-1666')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-1666', 'fdid', 'secrets-for-perfect-skin')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=1666&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

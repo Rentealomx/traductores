@@ -1,0 +1,106 @@
+<style>
+.extrait_ritual_content:after {
+display: block;
+content: '';
+clear: both;
+}
+
+.extrait_ritual_content .how_item {
+float: left;
+width: 32%;
+margin: 0 0 0 2%;
+text-align: center;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item p {
+   text-align: center;
+}
+
+.extrait_ritual_content .how_item p {
+   font-size: 14px;
+   font-family: 'Gotham Book';
+    margin: 15px auto 25px;
+    line-height: 18px;
+    max-width: 65%;
+    height: 55px;
+}
+
+.extrait_ritual_content .how_item b {
+   font-family: 'Gotham Bold';
+}
+
+.extrait_ritual_content .how_item img {
+   display: inline-block;
+   max-width: 100%;
+}
+
+@media (max-width:979px) {
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0 0 0 2%;
+}
+
+.extrait_ritual_content .how_item:nth-child(2n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item {
+width: 49%;
+}
+}
+
+@media (max-width:640px) {
+.extrait_ritual_content .how_item {
+    width: 100%;
+    float: none;
+margin: 0;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item h2 {
+   font-size: 30px;
+   line-height: 30px;
+   margin: 25px 0 40px;
+}
+
+.extrait_ritual_content .how_item p {
+   margin: 10px auto 20px;
+}
+
+#extrait-ritual-text {
+    max-width: 300px;
+    margin: auto;
+padding: 0;
+}
+
+#extrait-ritual-text p {
+    margin: 0 auto 25px;
+}
+
+}
+</style>
+<p style="text-align: center;font-size:17px;margin-bottom:20px;"> Monsieur Big mascara’s best kept secret? The equation of a big, soft brush and an ultra black,<br/>
+volumizing and longwearing formula.<br/>
+Get ready to meet your match, and forget all the others!</p>
+<div class="extrait_ritual_content">
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(/RichPDP/Monsieur_Big/Mascara_brush_2017_1.jpg,345|345|345|345)$  />
+       <p><b>WAVY FIBERS</b><br/> Innovative bristle fibers for quick volume and sensorial application.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(/RichPDP/Monsieur_Big/Mascara_brush_2017_2.jpg,345|345|345|345)$  />
+       <p><b>A BIG FORMULA</b><br/>Our blackest formula, with longwearing polymers and volumizing supple waxes.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(/RichPDP/Monsieur_Big/Mascara_brush_2017_3.jpg,345|345|345|345)$  />
+       <p><b>INTENSIVE BRUSH SHAPE</b><br/>Bulk reservoirs to encapsulate formula and deliver the right amount.</p>
+   </div>
+</div>

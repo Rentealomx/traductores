@@ -1,0 +1,110 @@
+<style>
+
+.extrait_results_content:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.extrait_results_content .how_item {
+  float: left;
+  width: 32%;
+  margin: 0 0 0 2%;
+  text-align: center;
+}
+
+.extrait_results_content .how_item:nth-child(3n+1) {
+  margin: 0;
+}
+
+.extrait_results_content .how_item p {
+  text-align: center;
+}
+
+.extrait_results_content .how_item p {
+  font-size: 14px;
+  font-family: 'Gotham Book';
+  margin: 15px auto 25px;
+  line-height: 18px;
+  max-width: 85%;
+  height: auto;
+  text-align: left;
+}
+
+.extrait_results_content .how_item .result_title {
+  font-family: "Garamond italic",Arial,serif;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.extrait_results_content .how_item .result_title span {
+  font-family: "Garamond",Arial,serif;
+  color: #3d92a3;
+  font-style: initial;
+font-weight: 600;
+}
+
+.extrait_results_content .how_item .result_subtitle {
+  color: #a1a1a1;
+  text-transform: uppercase;
+  font-family: "Garamond",Arial,serif;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.extrait_results_content .how_item .result_text {
+  margin-top: 0;
+}
+
+@media (max-width:979px) {
+  .extrait_results_content .how_item:nth-child(3n+1) {
+    margin: 0 0 0 2%;
+  }
+
+  .extrait_results_content .how_item:nth-child(2n+1) {
+    margin: 0;
+  }
+
+  .extrait_results_content .how_item {
+    width: 49%;
+  }
+}
+
+@media (max-width:640px) {
+  .extrait_results_content .how_item {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+
+  .extrait_results_content .how_item:nth-child(3n+1) {
+    margin: 0;
+  }
+
+  .extrait_results_content .how_item p {
+    margin: 10px auto 20px;
+  }
+
+}
+</style>
+
+<div class="extrait_results_content">
+   <div class="how_item">
+       <p class="result_title"><span class="number">1</span> day</p>
+       <p class="result_subtitle">INSTANTLY SMOOTHER</p>
+       <p class="result_text">Fresh, easy to apply, Visionnaire’s fluid texture is quickly absorbed to leave your skin visibly smoother and looking beautiful from the first application.</p>
+   </div>
+
+   <div class="how_item">
+       <p class="result_title"><span class="number">3</span> days</p>
+       <p class="result_subtitle">Fresh and Comfortable</p>
+       <p class="result_text">Your skin feels comfortable and feels moisturized all day long. Your complexion looks fresher.</p>
+   </div>
+
+   <div class="how_item">
+       <p class="result_title"><span class="number">1</span> bottle</p>
+       <p class="result_subtitle">Beautiful Skin All Day Long</p>
+       <p class="result_text">After 4 weeks your overall skin appearance looks improved: Texture looks refined, fine lines appear reduced and pores looks less visible. Your complexion looks clearer and more even and dullness is reduced.</p>
+   </div>
+</div>

@@ -1,0 +1,1205 @@
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><![endif]-->
+<link href="TIU-Wear/shade-finder/css/custom-sf.css?$staticlink$" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"> 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- Owl Carousel Assets -->
+<link href="TIU-Wear/shade-finder/owl-carousel/owl.carousel.css?$staticlink$" rel="stylesheet">
+<link href="TIU-Wear/shade-finder/owl-carousel/owl.theme.css?$staticlink$" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+
+<script src="TIU-Wear/shade-finder/owl-carousel/owl.carousel.js?$staticlink$"></script>
+
+<style type="text/css">
+    .shade-finder-wrapper .container {
+        width: 75%;
+        float: left;
+    }
+    .owl-pagination {
+        display: none;
+    }
+    .prime_module_title h2>span {
+        max-width: 60%;
+    }
+
+    .prime_html .mini_slider .product_tile .product_image {
+        width: 100%;
+    }
+
+    .shade-finder-wrapper .shade-product-tile {
+        float: right;
+        width: 24.5%;
+    }
+    #selectcolormobile h3 {
+        text-align: center;
+        margin: 50px 0 20px 0;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .mobile-shade-1 {
+        margin: 0 0 -2vw;
+    }
+    .mobile-shade-2 {
+        margin: 0 0 -3vw;
+    }
+    .mobile-shade-3 {
+        margin: 0 0 -4vw;
+    }
+    .mobile-shade-4 {
+        margin: 0 0 -3.5vw;
+    }
+    img.selectcolormobile-text-1{
+        position: absolute;
+        width: 21vw !important;
+        left: -20vw;
+        right: 0;
+        margin: -15vw auto;
+    }
+    img.selectcolormobile-text-2 {
+        position: absolute;
+        width: 21vw !important;
+        left: -20vw;
+        right: 0;
+        margin: -11vw auto;
+    }
+    img.selectcolormobile-text-3 {
+        position: absolute;
+        width: 28vw !important;
+        left: -20vw;
+        right: 0;
+        margin: -9vw auto;
+    }
+    img.selectcolormobile-text-4 {
+        position: absolute;
+        width: 23vw !important;
+        left: -20vw;
+        right: 0;
+        margin: -9.5vw auto;
+    }
+    img.selectcolormobile-text-5 {
+        position: absolute;
+        width: 20vw !important;
+        left: -20vw;
+        right: 0;
+        margin: -15vw auto;
+    }
+    @media (max-width: 960px) {
+        .shade-finder-wrapper .container,
+        .shade-finder-wrapper .shade-product-tile {
+            float: none;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .prime_html .mini_slider .product_tile {
+            width: 40%;
+        }
+    }
+    @media (max-width: 640px) {
+        .hide-carousel {
+            display: none;
+        }
+        .mobile-step-2 {
+            margin: 0 0 20px 0 !important;
+        }
+        .back-btn-mobile {
+            display: none;
+        }
+        .mobile_carousels .owl-carousel .owl-wrapper-outer .owl-wrapper .owl-item {
+            text-align: center !important;
+        }
+        .mobile_carousels {
+            transform: translate(-10vw, -70vw);
+            margin: 0 0 -60vw 0;
+        }
+        .mobile_carousels .owl-carousel .owl-wrapper-outer .owl-wrapper .owl-item .item {
+            display: inline-block !important;
+        }
+        .prime_html .mini_slider .product_tile {
+            width: 60%;
+        }
+        #selectcolormobile .owl-theme .owl-controls .owl-buttons div {
+            padding: 3px 10px 5px !important;
+            font-size: 40px!important;
+            margin: 0 60px 0;
+            transform: translateY(-32vw);
+        }
+        .shopnow-mobile {
+            margin: 0;
+            display: block;
+            padding: 10px;
+            background-color: black;
+            font-size: 14px;
+            line-height: 13px;
+            text-transform: uppercase;
+            color: #fff;
+            font-family: 'EB Garamond', serif;
+        }
+        .owl-pagination {
+            display: inline;
+       }
+    }
+    @media (max-width: 375px) {
+        #selectcolormobile .owl-theme .owl-controls .owl-buttons div {
+            transform: translateY(-60vw);
+        }
+        .mobile_carousels {
+            margin: 0 0 -90vw 0;
+        }
+    }
+</style>
+
+<div class="shade-finder-wrapper clearfix">
+    <div class="container">
+        <a href="#" id="lancomecover">
+            <picture>
+                <source srcset="TIU-Wear/shade-finder/img/mobile/shade_finder.JPG?$staticlink$" media="(max-width: 640px)">
+                <img src="TIU-Wear/shade-finder/img/MOSAIQUE_738x639_OK_SHADE FINDER.JPG?$staticlink$" alt="shade-finder">
+            </picture>
+        </a>
+        <div id="selectyourskin" style="display:none;">
+            <div class="row">                
+                <div class="skinleftCol"> 
+                   <div id="selectshade">                    
+                       <a href="#" id="goback"><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp;    Go back</a>        
+                       <h3>STEP 2 : SELECT THE BELOW LANCOME BEAUTY ADVISOR THAT MATCHES YOUR OWN SHADE</h3>                             
+
+
+                       <div class="row selectshade" data-selectskin="option1">
+
+                        <div id="owl-demo" class="owl-carousel">
+                            <div class="item">
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '005_Beige_Ivoire')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04913_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#ceac89;">NEUTRAL<br>#005 BEIGE IVOIRE</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '005_Beige_Ivoire')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '007 BEIGE ROSE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04460_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d6a88e;">COOL<br>#007 BEIGE ROSÉ</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '007 BEIGE ROSE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '008 BEIGE OPALE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-05057_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#e7ceb8;">COOL<br>#008 BEIGE OPALE</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '008 BEIGE OPALE')$" class="shopnow">Shop now</a>
+                                </div>    
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '010_Beige_Porcelaine')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04414_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d5b086;">COOL<br>#010 BEIGE PORCELAINE</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '010_Beige_Porcelaine')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '011 BEIGE CRISTALLIN')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04643_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#e4be99;">NEUTRAL<br>#011 BEIGE CRISTALLIN</p>
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '011 BEIGE CRISTALLIN')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '010_Beige_Alb%c3%a2tre')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2425_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d9ae8b;">WARM<br>#01 BEIGE ALBÂTRE</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '010_Beige_Alb%c3%a2tre')$" class="shopnow">Shop now</a>
+                                </div>
+                            </div>
+                        </div>                                                                 
+                    </div>
+                    <div class="row selectshade" data-selectskin="option2">
+
+                        <div id="owl-demo1" class="owl-carousel">
+                            <div class="item">
+
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '02_Lys_Rose')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04714.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#dbaf8c;">COOL<br>#02    Lys rosé    </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '02_Lys_Rose')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '021 BEIGE JASMIN')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04862_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d8b58f;">NEUTRAL<br>#021 Beige Jasmin </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '021 BEIGE JASMIN')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '023 BEIGE AURORE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Crystal_215Buff_33_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#dab48f;">NEUTRAL<br>#023 Beige Aurore </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '023 BEIGE AURORE')$" class="shopnow">Shop now</a>                                        
+                                </div>    
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '024 BEIGE VANILLE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2116_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#e2b78c;">WARM<br>#024 Beige Vanille </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '024 BEIGE VANILLE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '025 BEIGE LIN')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2025_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#dbb48d;">WARM<br>#025 Beige lin </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '025 BEIGE LIN')$" class="shopnow">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row selectshade" data-selectskin="option3">
+
+                        <div id="owl-demo2" class="owl-carousel">
+                            <div class="item">
+
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '03_Beige_Diaphane')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2200_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d39e76;">NEUTRAL<br>#03    Beige diaphane </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '03_Beige_Diaphane')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '032 BEIGE CENDR%c3%89')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_1939_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#cea27b;">COOL<br>#032 Beige cendré</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '032 BEIGE CENDR%c3%89')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '035_Beige_Dore')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2006_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#cd926a;">WARM<br>#035 Beige Doré </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '035_Beige_Dore')$" class="shopnow">Shop now</a>                                        
+                                </div>    
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '038 BEIGE CUIVR%c3%89')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Kimberly_230Buff_089_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d4a27f;">NEUTRAL<br>#038 Beige cuivré    </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '038 BEIGE CUIVR%c3%89')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '04_BEIGE_NATURE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2188_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#cd9f7d;">COOL<br>#04    Beige nature </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '04_BEIGE_NATURE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '045_Sable_Beige')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Sonia_210Buff_145_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d09c74;">WARM<br>#045 Sable beige </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '045_Sable_Beige')$" class="shopnow">Shop now</a>                                        
+                                </div> 
+                            </div>
+                            <div class="item">
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '048 BEIGE CH%c3%a2TAIGNE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04804_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d39e76;">NEUTRAL<br>#048 Beige châtaigne </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '048 BEIGE CH%c3%a2TAIGNE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '049 BEIGE PECHE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2278_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#dba374;">WARM<br>#049 Beige Pêche</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '049 BEIGE PECHE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '05_Beige_Noisette')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-05007_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#dda071;">WARM<br>#05    Beige noisette </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '05_Beige_Noisette')$" class="shopnow">Shop now</a>                                        
+                                </div>    
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '050 BEIGE AMBRE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04769_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d99c6f;">WARM<br>#050 Beige Ambré </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '050 BEIGE AMBRE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '051 CHATAIGNE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04318_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d19a64;">NEUTRAL<br>#051 Châtaigne</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '051 CHATAIGNE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '055_Beige_Ideal')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04235_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d19863;">NEUTRAL<br>#055 Beige idéal </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '055_Beige_Ideal')$" class="shopnow">Shop now</a>                                        
+                                </div>                                     
+                            </div>
+                        </div>
+                    </div>
+                    <!-- here -->
+                    <div class="row selectshade" data-selectskin="option4">
+
+                        <div id="owl-demo3" class="owl-carousel">
+                            <div class="item">
+                                <div class="shadeblocks text-center">
+                                    <a href="$url('Product-Show', 'pid', '3614271430366')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-05098_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#db9e71;">COOL<br>#06    Beige cannelle </p>                                        
+                                    <a href="$url('Product-Show', 'pid', '3614271430366')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '07 SABLE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Yudelissa_410Bisque_128_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d4976b;">WARM<br>#07    Sable</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '07 SABLE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '08 CARAMEL')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2355_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d29569;">NEUTRAL<br>#08    Caramel </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '08 CARAMEL')$" class="shopnow">Shop now</a>                                        
+                                </div>    
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '09 COOKIE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Lilliana_420Bisque_007_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#b57549;">WARM<br>#09    Cookie</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '09 COOKIE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10_Praline')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04601_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#965036;">WARM<br>#10    Praline</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10_Praline')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10%2e1 ACAJOU')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Jennifer_460Suede_092_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#b6754f;">COOL<br>#10.1    Acajou    </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10%2e1 ACAJOU')$" class="shopnow">Shop now</a>                                        
+                                </div>        
+                            </div>
+                            <div class="item">
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10%2e2 BRONZE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2591_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#b77650;">COOL<br>#10.2    Bronze</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10%2e2 BRONZE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '11_Muscade')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04127_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#984e31;">WARM<br>#11    Muscade </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '11_Muscade')$" class="shopnow">Shop now</a>                                        
+                                </div>        
+                            </div>                                    
+                        </div>                                                             
+                    </div>                                                                                                
+                    <div class="row selectshade" data-selectskin="option5">
+                        <div id="owl-demo4" class="owl-carousel">                                    
+                            <div class="item">
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '12_Ambre')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/mobile/very_deep_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#8d4a2d;">COOL<br>#12    Ambre </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '12_Ambre')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e1 CACAO')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Jisleen_465Suede_106_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#8c472a;">WARM<br>#13,1    Cacao </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e1 CACAO')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13_Sienne')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04945_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#864a32;">WARM<br>#13    Sienne </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13_Sienne')$" class="shopnow">Shop now</a>                                        
+                                </div>    
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e2 BRUN')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Cecilia_470Bisque_153_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#753a1a;">COOL<br>#13,2    Brun</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e2 BRUN')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e3 SANTAL')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04159_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#673e22;">WARM<br>#13,3    Santal </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e3 SANTAL')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '14_Brownie')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Nycole_520Suede_79_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#663723;">NEUTRAL<br>#14    Brownie </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '14_Brownie')$" class="shopnow">Shop now</a>                                        
+                                </div>     
+                            </div>
+                            <div class="item">                                        
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '15 MOKA')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04284_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#4e2718;">COOL<br>#15    Moka </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '15 MOKA')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '17 EBENE')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Salena_530Suede_032_1_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#592f21;">COOL<br>#17    Ebene </p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '17 EBENE')$" class="shopnow">Shop now</a>
+                                </div>
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '16_Cafe')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2530_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#3d2217;">COOL<br>#16    Café</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '16_Cafe')$" class="shopnow">Shop now</a>                                        
+                                </div> 
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="selectcolor">
+                    <h3 class="steponeheading">STEP 1 : SELECT THE BELOW LANCOME BEAUTY ADVISOR THAT MATCHES YOUR SKIN COLOUR</h3>
+
+                    <div class="row selectskin text-left">
+
+                        <img class="img-responsive" src="TIU-Wear/shade-finder/img/fysstep1/1-VERY LIGHT.jpg?$staticlink$" data-selectskin="option1" />
+
+
+                        <img class="img-responsive" src="TIU-Wear/shade-finder/img/fysstep1/2-LIGHT.jpg?$staticlink$" data-selectskin="option2" />
+
+
+                        <img class="img-responsive" src="TIU-Wear/shade-finder/img/fysstep1/3-MEDIUM.jpg?$staticlink$" data-selectskin="option3" />
+
+
+                        <img class="img-responsive" src="TIU-Wear/shade-finder/img/fysstep1/4-DEEP.jpg?$staticlink$" data-selectskin="option4" />
+
+
+                        <img class="img-responsive" src="TIU-Wear/shade-finder/img/fysstep1/5-VERY DEEP.jpg?$staticlink$" data-selectskin="option5" />
+
+                    </div>
+                </div>
+                <br class="clearBoth" />                                
+                <div class="selectskintoneabsolute">&nbsp;</div>
+                <div class="row selectskintone">
+                    <div class="skintopneblocks text-center" style="position:relative">
+                        <img class="textures img-responsive center-block" src="TIU-Wear/shade-finder/img/1 - VERY LIGHT.png?$staticlink$" data-selectskin="option1"    style="position:absolute; z-index:999; left:0; top:30px; width:185px;" />
+
+                        <img class="texturestext img-responsive center-block" src="TIU-Wear/shade-finder/img/textures_typo_03.png?$staticlink$" data-selectskin="option1"    style="position:absolute; z-index:9999; left:37px; top:170px; width:78px;" />
+
+                        <img class="textures img-responsive center-block" src="TIU-Wear/shade-finder/img/2 - LIGHT.png?$staticlink$" data-selectskin="option2" style="position:absolute; z-index:899; left:125px; top:0;    width:183px;" />
+
+                        <img class="texturestext img-responsive center-block" src="TIU-Wear/shade-finder/img/textures_typo_07.png?$staticlink$" data-selectskin="option2" style="position:absolute; z-index:9999;    left:186px; top:185px; width:70px;" />
+
+                        <img class="textures img-responsive center-block" src="TIU-Wear/shade-finder/img/3 - MEDIUM.png?$staticlink$" data-selectskin="option3" style="position:absolute; z-index:799; left:250px; top:20px;    width:218px;" />
+
+                        <img class="texturestext img-responsive center-block" src="TIU-Wear/shade-finder/img/textures_typo_11.png?$staticlink$" data-selectskin="option3" style="position:absolute; z-index:9999; left:306px; top:185px; width:104px;" />
+
+                        <img class="textures img-responsive center-block" src="TIU-Wear/shade-finder/img/4 - DEEP.png?$staticlink$" data-selectskin="option4" style="position:absolute; z-index:999; left:421px; top:0;    width:186px;" />
+
+                        <img class="texturestext img-responsive center-block" src="TIU-Wear/shade-finder/img/textures_typo_15.png?$staticlink$" data-selectskin="option4" style="position:absolute; z-index:9999; left:476px; top:185px; width:70px;" />
+
+                        <img class="textures img-responsive center-block" src="TIU-Wear/shade-finder/img/5 - VERY DEEP.png?$staticlink$" data-selectskin="option5" style="position:absolute; z-index:899; left:526px; top:0;    width:218px;" />
+
+                        <img class="texturestext img-responsive center-block" src="TIU-Wear/shade-finder/img/textures_typo_19.png?$staticlink$" data-selectskin="option5" style="position:absolute; z-index:9999; left:603px; top:170px; width:70px;" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div id="selectcolormobile" style="display:none;">
+            <h3 class="mobile-step-1">STEP 1:<br>SELECT YOUR SKIN COLOR</h3>
+            <span class="back-btn-mobile"> &#8249; Go back</span>
+            <h3 class="mobile-step-2" style="display: none;">STEP 2:<br>CHOOSE YOUR OWN SHADE</h3>
+            <div class='mobile-shades-palette'>
+                <img class="selectcolormobile-p-1 mobile-shade-1" src="TIU-Wear/shade-finder/img/mobile/very_light.png?$staticlink$"/>
+                <img class="selectcolormobile-text-1" src="TIU-Wear/shade-finder/img/mobile/1.png?$staticlink$"/>
+
+                <img class="selectcolormobile-p-1 mobile-shade-2" src="TIU-Wear/shade-finder/img/mobile/light.png?$staticlink$"/>
+                <img class="selectcolormobile-text-2" src="TIU-Wear/shade-finder/img/mobile/2.png?$staticlink$"/>
+
+                <img class="selectcolormobile-p-1 mobile-shade-3" src="TIU-Wear/shade-finder/img/mobile/medium.png?$staticlink$"/>
+                <img class="selectcolormobile-text-3" src="TIU-Wear/shade-finder/img/mobile/3.png?$staticlink$"/>
+
+                <img class="selectcolormobile-p-1 mobile-shade-4" src="TIU-Wear/shade-finder/img/mobile/deep.png?$staticlink$"/>
+                <img class="selectcolormobile-text-4" src="TIU-Wear/shade-finder/img/mobile/4.png?$staticlink$"/>
+
+                <img class="selectcolormobile-p-1 mobile-shade-5" src="TIU-Wear/shade-finder/img/mobile/very_deep.png?$staticlink$"/>
+                <img class="selectcolormobile-text-5" src="TIU-Wear/shade-finder/img/mobile/5.png?$staticlink$"/>
+            </div>
+            <div class="mobile_very_light mobile_carousels hide-carousel">
+                <div class="owl-carousel owl-theme" id='mobile-one' style="display: inline;">
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '005_Beige_Ivoire')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04913_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#ceac89;">NEUTRAL<br>#005 BEIGE IVOIRE</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '005_Beige_Ivoire')$" class="shopnow-mobile">Shop now</a>
+                         </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '007 BEIGE ROSE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04460_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d6a88e;">COOL<br>#007 BEIGE ROSÉ</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '007 BEIGE ROSE')$" class="shopnow-mobile">Shop now</a>
+                         </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '008 BEIGE OPALE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-05057_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#e7ceb8;">COOL<br>#008 BEIGE OPALE</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '008 BEIGE OPALE')$" class="shopnow-mobile">Shop now</a>
+                         </div>
+                    </div>
+                    <div class="item">
+                                <div class="shadeblocks text-center">                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '010_Beige_Porcelaine')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04414_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#d5b086;">COOL<br>#010 BEIGE PORCELAINE</p>                                        
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '010_Beige_Porcelaine')$" class="shopnow-mobile">Shop now</a>
+                         </div>
+                    </div>
+                    <div class="item">
+                                <div class="shadeblocks text-center">                                    
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '011 BEIGE CRISTALLIN')$">
+                                        <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04643_1.jpg?$staticlink$" />
+                                    </a>
+                                    <p style="background-color:#e4be99;">NEUTRAL<br>#011 BEIGE CRISTALLIN</p>
+                                    <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '011 BEIGE CRISTALLIN')$" class="shopnow-mobile">Shop now</a>
+                         </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '010_Beige_Alb%c3%a2tre')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2425_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d9ae8b;">WARM<br>#01 BEIGE ALBÂTRE</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '010_Beige_Alb%c3%a2tre')$" class="shopnow-mobile">Shop now</a>
+                         </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="mobile_light mobile_carousels hide-carousel">
+                <div class="owl-carousel owl-theme" id='mobile-two' style="display: inline;">
+                    <div id="owl-demo1" class="owl-carousel">
+                        <div class="item">
+                            <div class="shadeblocks text-center">                                        
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '02_Lys_Rose')$">
+                                   <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04714.jpg?$staticlink$" />
+                                </a>
+                                <p style="background-color:#dbaf8c;">COOL<br>#02    Lys rosé    </p>                                        
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '02_Lys_Rose')$" class="shopnow-mobile">Shop now</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shadeblocks text-center">                                    
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '021 BEIGE JASMIN')$">
+                                    <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04862_1.jpg?$staticlink$" />
+                                </a>
+                                <p style="background-color:#d8b58f;">NEUTRAL<br>#021 Beige Jasmin </p>                                        
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '021 BEIGE JASMIN')$" class="shopnow-mobile">Shop now</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shadeblocks text-center">                                        
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '023 BEIGE AURORE')$">
+                                    <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Crystal_215Buff_33_1_1.jpg?$staticlink$" />
+                                </a>
+                                <p style="background-color:#dab48f;">NEUTRAL<br>#023 Beige Aurore </p>                                        
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '023 BEIGE AURORE')$" class="shopnow-mobile">Shop now</a>                      
+                            </div>    
+                        </div>
+                        <div class="item">
+                            <div class="shadeblocks text-center">                                        
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '024 BEIGE VANILLE')$">
+                                    <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2116_1.jpg?$staticlink$" />
+                                </a>
+                                <p style="background-color:#e2b78c;">WARM<br>#024 Beige Vanille </p>                                        
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '024 BEIGE VANILLE')$" class="shopnow-mobile">Shop now</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shadeblocks text-center">                                    
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '025 BEIGE LIN')$">
+                                    <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2025_1.jpg?$staticlink$" />
+                                </a>
+                                <p style="background-color:#dbb48d;">WARM<br>#025 Beige lin </p>                                        
+                                <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '025 BEIGE LIN')$" class="shopnow-mobile">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="mobile_medium mobile_carousels hide-carousel">
+                <div id="mobile-three" class="owl-carousel">
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '03_Beige_Diaphane')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2200_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d39e76;">NEUTRAL<br>#03    Beige diaphane </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '03_Beige_Diaphane')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '032 BEIGE CENDR%c3%89')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_1939_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#cea27b;">COOL<br>#032 Beige cendré</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '032 BEIGE CENDR%c3%89')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '035_Beige_Dore')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2006_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#cd926a;">WARM<br>#035 Beige Doré </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '035_Beige_Dore')$" class="shopnow-mobile">Shop now</a>                                        
+                        </div>    
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '038 BEIGE CUIVR%c3%89')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Kimberly_230Buff_089_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d4a27f;">NEUTRAL<br>#038 Beige cuivré    </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '038 BEIGE CUIVR%c3%89')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '04_BEIGE_NATURE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2188_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#cd9f7d;">COOL<br>#04    Beige nature </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '04_BEIGE_NATURE')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '045_Sable_Beige')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Sonia_210Buff_145_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d09c74;">WARM<br>#045 Sable beige </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '045_Sable_Beige')$" class="shopnow-mobile">Shop now</a>                                  
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '048 BEIGE CH%c3%a2TAIGNE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04804_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d39e76;">NEUTRAL<br>#048 Beige châtaigne </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '048 BEIGE CH%c3%a2TAIGNE')$" class="shopnow-mobile">Shop now</a>
+                        </div>                                     
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '049 BEIGE PECHE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2278_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#dba374;">WARM<br>#049 Beige Pêche</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '049 BEIGE PECHE')$" class="shopnow-mobile">Shop now</a>
+                        </div>                                     
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '05_Beige_Noisette')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-05007_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#dda071;">WARM<br>#05    Beige noisette </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '05_Beige_Noisette')$" class="shopnow-mobile">Shop now</a>                        
+                        </div>                                     
+                    </div>
+                    <div class="item">  
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '050 BEIGE AMBRE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04769_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d99c6f;">WARM<br>#050 Beige Ambré </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '050 BEIGE AMBRE')$" class="shopnow-mobile">Shop now</a>
+                        </div>                                     
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '051 CHATAIGNE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04318_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d19a64;">NEUTRAL<br>#051 Châtaigne</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '051 CHATAIGNE')$" class="shopnow-mobile">Shop now</a>
+                        </div>                                     
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '055_Beige_Ideal')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04235_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d19863;">NEUTRAL<br>#055 Beige idéal </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '055_Beige_Ideal')$" class="shopnow-mobile">Shop now</a>                           
+                        </div>                                     
+                    </div>
+                </div>
+            </div> 
+            <div class="mobile_deep mobile_carousels hide-carousel">
+                <div id="mobile-four" class="owl-carousel">
+                    <div class="item">
+                        <div class="shadeblocks text-center">
+                            <a href="$url('Product-Show', 'pid', '3614271430366')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-05098_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#db9e71;">COOL<br>#06    Beige cannelle </p>                                        
+                            <a href="$url('Product-Show', 'pid', '3614271430366')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '07 SABLE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Yudelissa_410Bisque_128_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d4976b;">WARM<br>#07    Sable</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '07 SABLE')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '08 CARAMEL')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2355_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#d29569;">NEUTRAL<br>#08    Caramel </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '08 CARAMEL')$" class="shopnow-mobile">Shop now</a>                            
+                        </div> 
+                    </div>
+                    <div class="item">   
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '09 COOKIE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Lilliana_420Bisque_007_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#b57549;">WARM<br>#09    Cookie</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '09 COOKIE')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10_Praline')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04601_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#965036;">WARM<br>#10    Praline</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10_Praline')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10%2e1 ACAJOU')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Jennifer_460Suede_092_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#b6754f;">COOL<br>#10.1    Acajou    </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10%2e1 ACAJOU')$" class="shopnow-mobile">Shop now</a>                                  
+                        </div>        
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10%2e2 BRONZE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2591_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#b77650;">COOL<br>#10.2    Bronze</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '10%2e2 BRONZE')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '11_Muscade')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04127_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#984e31;">WARM<br>#11    Muscade </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '11_Muscade')$" class="shopnow-mobile">Shop now</a>                                  
+                        </div>        
+                    </div>                                    
+                </div> 
+            </div> 
+            <div class="mobile_very_deep mobile_carousels hide-carousel">
+                <div id="mobile-five" class="owl-carousel">                                 
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '12_Ambre')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/mobile/very_deep_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#8d4a2d;">COOL<br>#12    Ambre </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '12_Ambre')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>                    
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e1 CACAO')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Jisleen_465Suede_106_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#8c472a;">WARM<br>#13,1    Cacao </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e1 CACAO')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>                    
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13_Sienne')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04945_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#864a32;">WARM<br>#13    Sienne </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13_Sienne')$" class="shopnow-mobile">Shop now</a>                                      
+                        </div>    
+                    </div>                    
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e2 BRUN')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Cecilia_470Bisque_153_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#753a1a;">COOL<br>#13,2    Brun</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e2 BRUN')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>                    
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e3 SANTAL')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04159_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#673e22;">WARM<br>#13,3    Santal </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '13%2e3 SANTAL')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>                    
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '14_Brownie')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Nycole_520Suede_79_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#663723;">NEUTRAL<br>#14    Brownie </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '14_Brownie')$" class="shopnow-mobile">Shop now</a>                                      
+                        </div>     
+                    </div>
+                    <div class="item">                                        
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '15 MOKA')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/Lancome_TeintIdole_ER-04284_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#4e2718;">COOL<br>#15    Moka </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '15 MOKA')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>                    
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                    
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '17 EBENE')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/WH161932_Beauty_Advisers_Salena_530Suede_032_1_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#592f21;">COOL<br>#17    Ebene </p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '17 EBENE')$" class="shopnow-mobile">Shop now</a>
+                        </div>
+                    </div>                    
+                    <div class="item">
+                        <div class="shadeblocks text-center">                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '16_Cafe')$">
+                                <img class="img-responsive center-block" src="TIU-Wear/shade-finder/img/shades/DSC_2530_1.jpg?$staticlink$" />
+                            </a>
+                            <p style="background-color:#3d2217;">COOL<br>#16    Café</p>                                        
+                            <a href="$url('Product-Show', 'pid', 'A00235-LAC', 'dwvar_A00235-LAC_color', '16_Cafe')$" class="shopnow-mobile">Shop now</a>                                        
+                        </div> 
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    <br class="clearBoth" />
+
+
+    </div><!-- /.container -->
+
+    <div class="shade-product-tile">
+        <div class="mini_slider">
+            $include('Lancome-ProductModule', 'pid', 'A00235-LAC')$
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    $( document ).ready(function() {
+    //select your skin
+        var windowsize = $(window).width();
+    $("#owl-demo, #owl-demo1, #owl-demo2, #owl-demo3, #owl-demo4, #mobile-one, #mobile-two, #mobile-three, #mobile-four, #mobile-five").owlCarousel({
+
+            navigation : true, // Show next and prev buttons
+            navigationText:    ['<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>','<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>'],
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true,
+            pagination:true
+        });
+
+
+$(".selectskin img").hover(function() { // Mouse over
+    $(".selectskin img").addClass('transparent');
+    $(".skintopneblocks img.textures").addClass('transparent2');
+    $(this).removeClass('transparent');
+    var selectedelement = $(this).data('selectskin');    
+    $(".selectskintoneabsolute").addClass('opacity');
+
+
+    $(".skintopneblocks img[data-selectskin='" + selectedelement +"']").removeClass('transparent2');
+    
+}, function() { // Mouse out
+    $(".selectskin img").removeClass('transparent');
+    $(".skintopneblocks img.textures").removeClass('transparent2');
+    $(".selectskintoneabsolute").removeClass('opacity');
+/*    $(".selectskintone").removeAttr('style');
+$(".selectskintone img").removeAttr('style');*/
+});
+
+$(".skintopneblocks img").hover(function() { // Mouse over
+    $(".selectskin img").addClass('transparent');
+
+    if($('.selectskintone').css('height')=='160px') {
+
+        $( ".skintopneblocks img.textures" ).each(function( index ) {
+
+            if($(this).css('padding-top')=='0px') {
+                $(this).removeClass('transparent2');
+            }
+            else {
+                $(this).addClass('transparent2');
+            }
+        });
+    }
+    else {
+        $('.skintopneblocks img.textures').addClass('transparent2');
+    }
+
+    $(".selectskintoneabsolute").addClass('opacity');
+    $(this).removeClass('transparent2');
+    var selectedelement = $(this).data('selectskin');    
+
+    $(".selectskin img[data-selectskin='" + selectedelement +"']").removeClass('transparent');
+    $(".skintopneblocks img.textures[data-selectskin='" + selectedelement +"']").removeClass('transparent2');
+
+}, function() { // Mouse out
+    $(".selectskin img").removeClass('transparent');
+    $(".skintopneblocks img.textures").removeClass('transparent2');
+    $(".selectskintoneabsolute").removeClass('opacity');
+});
+
+
+$( ".selectskin img, .skintopneblocks img.textures, .skintopneblocks img.texturestext" ).on( "click", function() {
+    $(".selectskintone").css('height','160');
+    $(".selectskintone img.textures").css('padding-top','60px');
+    $(".skinleftCol h3").css('margin-bottom','5px');
+
+    $(".selectskintoneabsolute").css('height','160px').css('background-position','0 54px');
+
+
+    var selectedelement = $(this).data('selectskin');    
+    $(".skintopneblocks img[data-selectskin='" + selectedelement +"']").css('padding-top','0px');
+
+    $( ".skintopneblocks img.textmoved" ).each(function( index ) {
+        var gettexttopposition = $(this).css('top'); 
+        gettexttopposition = parseInt(gettexttopposition, 10);
+        var    newposition = gettexttopposition+130;        
+        $(this).css('top',newposition+'px').removeClass('textmoved');            
+            //console.log( index + ": " + $( this ).text() );
+        });
+
+    var gettexttopposition = $(".skintopneblocks img.texturestext[data-selectskin='" + selectedelement +"']").css('top'); 
+    gettexttopposition = parseInt(gettexttopposition, 10);
+    var    newposition = gettexttopposition-130;        
+    $(".skintopneblocks img.texturestext[data-selectskin='" + selectedelement +"']").css('top',newposition+'px').addClass('textmoved');
+
+    $("#selectcolor").hide();
+    $("#selectshade").show();
+    $(".selectshade").hide();
+    $(".selectshade[data-selectskin='" + selectedelement +"']").show();
+
+});
+
+
+$( "#lancomecover" ).on( "click", function() {
+    var windowsize = $(window).width();
+    if(windowsize > 640) {
+        $("#selectyourskin").show();
+        $("#lancomecover").hide();
+    } else if (windowsize <= 640) {
+        $("#selectcolormobile").show();
+        $("#lancomecover").hide();
+        
+    }
+    return false;
+});
+$( ".back-btn-mobile" ).on( "click", function() {
+    $(".mobile_carousels").addClass("hide-carousel");
+    $(".mobile-shades-palette").css({
+        "transform": "translateX(0vw)"
+    });
+    $(".selectcolormobile-p-1").css({
+        "transform": "translateX(0vw)"
+    });
+    $(".mobile-step-1").show();
+    $(".mobile-step-2").hide();
+});
+$( ".mobile-shade-1" ).on( "click", function() {
+    $(".back-btn-mobile").hide();
+    $(".mobile-step-1").hide();
+    $(".mobile-step-2").show();
+    $(".mobile-shades-palette").css({
+        "transform": "translateX(80vw)"
+    });
+    $(".selectcolormobile-p-1").css({
+        "transform": "translateX(0vw)"
+    });
+    $(".mobile_carousels").addClass("hide-carousel");
+    $(".mobile_very_light").removeClass("hide-carousel");
+    $(".back-btn-mobile").css({
+        "display": "inline"
+    });
+    $(this).css({
+        "transform": "translateX(-10vw)"
+    });
+});
+$( ".mobile-shade-2" ).on( "click", function() {
+    $(".back-btn-mobile").hide();
+    $(".mobile-step-1").hide();
+    $(".mobile-step-2").show();
+    $(".mobile-shades-palette").css({
+        "transform": "translateX(80vw)"
+    });
+    $(".selectcolormobile-p-1").css({
+        "transform": "translateX(0vw)"
+    });
+    $(".mobile_carousels").addClass("hide-carousel");
+    $(".mobile_light").removeClass("hide-carousel");
+    $(".back-btn-mobile").css({
+        "display": "inline"
+    });
+    $(this).css({
+        "transform": "translateX(-10vw)"
+    });
+});
+$( ".mobile-shade-3" ).on( "click", function() {
+    $(".back-btn-mobile").hide();
+    $(".mobile-step-1").hide();
+    $(".mobile-step-2").show();
+    $(".mobile-shades-palette").css({
+        "transform": "translateX(80vw)"
+    });
+    $(".selectcolormobile-p-1").css({
+        "transform": "translateX(0vw)"
+    });
+    $(".mobile_carousels").addClass("hide-carousel");
+    $(".mobile_medium").removeClass("hide-carousel");
+    $(".back-btn-mobile").css({
+        "display": "inline"
+    });
+    $(this).css({
+        "transform": "translateX(-10vw)"
+    });
+});
+$( ".mobile-shade-4" ).on( "click", function() {
+    $(".back-btn-mobile").hide();
+    $(".mobile-step-1").hide();
+    $(".mobile-step-2").show();
+    $(".mobile-shades-palette").css({
+        "transform": "translateX(80vw)"
+    });
+    $(".selectcolormobile-p-1").css({
+        "transform": "translateX(0vw)"
+    });
+    $(".mobile_carousels").addClass("hide-carousel");
+    $(".mobile_deep").removeClass("hide-carousel");
+    $(".back-btn-mobile").css({
+        "display": "inline"
+    });
+    $(this).css({
+        "transform": "translateX(-10vw)"
+    });
+});
+$( ".mobile-shade-5" ).on( "click", function() {
+    $(".back-btn-mobile").hide();
+    $(".mobile-step-1").hide();
+    $(".mobile-step-2").show();
+    $(".mobile-shades-palette").css({
+        "transform": "translateX(80vw)"
+    });
+    $(".selectcolormobile-p-1").css({
+        "transform": "translateX(0vw)"
+    });
+    $(".mobile_carousels").addClass("hide-carousel");
+    $(".mobile_very_deep").removeClass("hide-carousel");
+    $(".back-btn-mobile").css({
+        "display": "inline"
+    });
+    $(this).css({
+        "transform": "translateX(-10vw)"
+    });
+});
+$( "#goback" ).on( "click", function() {
+    $("#selectcolor").show();
+    $(".selectskintoneabsolute").css('height','400px').css('background-position','0 -6px');
+    $("#selectshade").hide();
+    $(".selectshade").hide();        
+    $(".selectskintone").removeAttr('style');
+    $(".skinleftCol h3").removeAttr('style');
+    $(".selectskintone img.textures").css('padding-top', '0px');        
+
+    $( ".skintopneblocks img.textmoved" ).each(function( index ) {
+        var gettexttopposition = $(this).css('top'); 
+        gettexttopposition = parseInt(gettexttopposition, 10);
+        var    newposition = gettexttopposition+130;        
+        $(this).css('top',newposition+'px').removeClass('textmoved');            
+            //console.log( index + ": " + $( this ).text() );
+        });
+
+    return false;
+});
+
+
+});
+    //select your skin
+</script>

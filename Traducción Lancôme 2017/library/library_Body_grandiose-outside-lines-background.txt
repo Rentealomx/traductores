@@ -1,0 +1,60 @@
+<style>
+img {
+max-width: 100%;
+}
+
+.grandiose-outside-lines-content {
+    text-align: right;
+    margin: -25px 85px 0 0;
+}
+
+.grandiose-outside-lines-content p {
+    font-size: 64px;
+    font-family: 'Notera', serif;
+    line-height: 40px;
+}
+
+.grandiose-outside-lines-content p:first-child {
+     margin: 0 140px 0 0;
+     font-size: 73px;
+}
+
+
+@media only screen and (max-width: 979px) {
+.grandiose-outside-lines-content {
+margin: -15px 55px 0 0;
+}
+
+.grandiose-outside-lines-content p {
+font-size: 42px;
+line-height: 30px;
+}
+
+
+.grandiose-outside-lines-content p:first-child {
+margin: 0 115px 0 0;
+     font-size: 48px;
+}
+}
+
+@media (max-width:640px) {
+.grandiose-outside-lines-content {
+margin: -10px 10px 0 0;
+}
+.grandiose-outside-lines-content p {
+    font-size: 35px;
+    line-height: 22px;
+}
+.grandiose-outside-lines-content p:first-child {
+margin: 0 70px 0 0;
+     font-size: 35px;
+}
+}
+
+</style>
+
+<img  $responsiveSrc(landing-page/grandiose/outside-lines.jpg,1075|1075|1075|1075,,,,,landing-page/grandiose/outside-lines-mob.jpg,landing-page/grandiose/outside-lines-tab.jpg,landing-page/grandiose/outside-lines-tab.jpg)$ alt="Cover Image" />
+<div class="grandiose-outside-lines-content">
+<p>Be Confident</p>
+<p>& Creative !</p>
+</div>

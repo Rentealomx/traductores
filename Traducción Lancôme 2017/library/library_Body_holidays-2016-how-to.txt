@@ -1,0 +1,46 @@
+<div class="image" >
+<div class="media_content video"><img alt="" src="video_image/HOLIDAY-COLLECTION-2016-TUTORIAL-POSTER.jpg?$staticlink$" title="" /><iframe allowfullscreen="" frameborder="0" src="//www.youtube.com/embed/kolZi5jsQvI?rel=0&amp;controls=0&amp;showinfo=0"></iframe>
+</div>
+</div>
+
+<style>
+.newsletter_medium_push {
+    display: none !important;
+}
+
+.pt_product_search_result .newsletter_medium_push {
+    display: none !important;
+}
+
+.studio_lancome .selection-price {
+    display: none !important;
+}
+
+.studio_lancome .studio_add_to_cart {
+    display: none !important;
+}
+
+.studio_lancome .add_selection_cart {
+    display: none !important;
+}
+
+.studio_lancome .studio_lancome_article_follow_us {
+    display: none;
+}
+
+.studio_lancome .studio_lancome_article_border {
+display:none;
+}
+
+.clp .clp_slot .share-container {
+    display: none;
+}
+
+.pt_product_search_result>.wrapper .clp_slot .recommendation_subtitle {
+    font-family: "Garamond Medium",Arial,serif;
+    font-size: 39px;
+    margin: 10px 0 25px 0;
+    line-height: 1em;
+}
+</style>
+</style>

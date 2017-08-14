@@ -1,0 +1,43 @@
+<style>
+
+.row_section:not(.constrained) .half_section {
+   text-align: left;
+}
+.row_section:not(.constrained) .half_section:first-child {
+  text-align: right;
+}
+
+#cushion-new-image {
+   display: inline-block;
+   width: 540px;
+max-width: 90%;
+}
+
+#cushion-new-text {
+   display: inline-block;
+   width: 535px;
+   padding: 0;
+    max-width: 100%;
+}
+
+@media (max-width:979px) {
+.row_section:not(.constrained) .half_section,
+.row_section:not(.constrained) .half_section:first-child {
+   text-align: center;
+}
+
+.row_section:not(.constrained) .half_section:first-child {
+margin: 0 0 30px;
+}
+}
+</style>
+
+<h2>Teint Idole Ultra Cushion</h2>
+<p>Our best long-wear and high coverage<br />liquid foundation in a cushion.</p>
+<p>Velvety flawless complexion.<br />Effortless application, ultra-fresh finish.</p>
+
+<div class="buttons_block">
+<div class="quick_shop">
+<a class="js_quickshoppopin btn_cta_primary fuchsia_animate" href="$url('Product-Show', 'pid', 'A00115-LAC')$" title="Grandiose">SHOP NOW</a>
+</div>
+</div>

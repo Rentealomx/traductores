@@ -1,0 +1,25 @@
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(LIP ART TUTORIAL - FRENCH RED LIP POSTER 1.jpg, videoCoverLarge, video cover, videoblockcoverimage,,,LIP ART TUTORIAL - FRENCH RED LIP POSTER 1.jpg,LIP ART TUTORIAL - FRENCH RED LIP POSTER 1.jpg)$
+           <div class="video-block__youtube">
+               <div class="video-block__iframe js-youtube-video" id="player_f7iLLUrKTs8" data-video-id="f7iLLUrKTs8"></div>
+           </div>
+</div>
+  <div class="video-constructor video-constructor--centered">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>
+
+<!--
+<div class="image" style="margin-top:30px;">
+<div class="media_content video"><img alt="" src="LIP ART TUTORIAL - FRENCH RED LIP POSTER 1.jpg?$staticlink$" title="" /><iframe allowfullscreen="" frameborder="0" src="https://youtu.be/f7iLLUrKTs8?list=PLTM3BDfPM5TqCY4eTeb60FHtrr3zhX1QC?rel=0&amp;controls=0&amp;showinfo=0"></iframe></div>
+</div>
+
+<div class="text">
+<h2 style="font-size:42px;">Lisa Eldridge Tutorial</h2>
+
+<p style="text-align:center;font-size:15px;">Makeup artist Lisa Eldridge shows you how to mix & match with the<br/> sheer, cream & matte finishes of L'Absolu Rouge, on different</a> skin tones. Combines the textures, accentuate the contrasts,<br/>unleash your creativity.</p>
+</div>--!>

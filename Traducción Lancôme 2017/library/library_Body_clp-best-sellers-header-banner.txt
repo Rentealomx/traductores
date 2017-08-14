@@ -1,0 +1,18 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000000;">Best Sellers</h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000000;">BEST SELLERS, BEST SELLING BEAUTY PRODUCTS</h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000000;">Beautifully sophisticated, effortlessly evocative; re-discover an old favourite or find your new signature with Lancôme <br>best sellers. From La Vie est Belle to Génifique through L’Absolu Rouge, browse among Lancome's best perfumes for <br> women, best skin care products, and best makeup products. Explore our range of unforgettable items and best sellers.</p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image">
+
+        $renderContentImage(L1_BEST_SELLERS_1600x267 3.png, categoryHeader, category title, categoryimageclass,,,L1_BEST_SELLERS_1600x267 3.png,L1_BEST_SELLERS_1600x267 3.png)$
+
+    </div>
+</div>

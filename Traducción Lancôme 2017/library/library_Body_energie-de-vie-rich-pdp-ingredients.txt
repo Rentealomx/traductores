@@ -1,0 +1,25 @@
+<div class="gif_module">
+	<div class="content_box" >
+		<img style="border: none; padding: 0px;" alt="" src="RichPDP/Energie_de_vie/french-melissa.jpg?$staticlink$" title="" />
+		<p style="font-family:'Gotham light', Arial,serif; font-size: 14px; line-height: 1.5em;">
+			<span style="font-weight: bold;">FRENCH MELISSA</span>
+			<br>
+			Fill up on antioxidants to protect your skin. 
+		</p>
+	</div>
+	<div class="content_box">
+		<img style="border: none; padding: 0px;" alt="" src="RichPDP/Energie_de_vie/cranberry.jpg?$staticlink$" title="" />
+		<p style="font-family:'Gotham light', Arial,serif; font-size: 14px; line-height: 1.5em;">
+			<span style="font-weight: bold;">CRANBERRY</span>
+			<br>
+			Get your daily dose of natural essential components for your skin.
+		</p>
+	</div>
+	<div class="content_box">
+		<img style="border: none; padding: 0px;" alt="" src="RichPDP/Energie_de_vie/ginseng.jpg?$staticlink$" title="" />
+		<p style="font-family:'Gotham light', Arial,serif; font-size: 14px; line-height: 1.5em;">
+			<span style="font-weight: bold;">GINSENG</span><br>
+			Wake your skin up with a shot of energy.  
+		</p>
+	</div>
+</div>

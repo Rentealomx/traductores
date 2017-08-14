@@ -1,0 +1,203 @@
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+
+<script type="text/javascript" src="TIU-Wear/before-after/js/jquery.beforeafter-1.4.js?$staticlink$"></script>
+<script type="text/javascript" src="TIU-Wear/before-after/owl-carousel/owl.carousel.js?$staticlink$"></script>
+
+<style>
+    .container .beforeandaftercontainer img {
+            max-width: none;
+    }
+    #videocbeforeandafter iframe {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+</style>
+
+<div class="container">
+    <div id="mainheadingselect" data-base-url="TIU-Wear/before-after/?$staticlink$"></div>
+    <div class="row">
+        <div class="leftCol">
+         <div id="youtubeVideo">
+             <div id="videocbeforeandafter">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/farzZBMT3KM" frameborder="0" allowfullscreen></iframe>   
+             </div>
+             <div id="videocbeforeandafter2">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JHkLF49_vkQ" frameborder="0" allowfullscreen></iframe>    
+             </div>
+             <div id="videocbeforeandafter3">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ESfQtn8zvgI" frameborder="0" allowfullscreen></iframe>     
+             </div>
+             <div id="videocbeforeandafter4">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b8MlHlOihb4" frameborder="0" allowfullscreen></iframe> 
+             </div>
+         </div>
+         <div id="beforeandafter" class="beforeandaftercontainer">
+           <div><img alt="before" src="TIU-Wear/before-after/img/face_B01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" width="598" height="398" /></div>
+           <div><img alt="after" src="TIU-Wear/before-after/img/face_B02_LANCÔME_DEF_20160920_resize.jpg?$staticlink$" width="598" height="398" /></div>
+         </div>
+         <div id="beforeandafter2" class="beforeandaftercontainer">
+           <div><img alt="before" src="TIU-Wear/before-after/img/face_A01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" width="598" height="398" /></div>
+           <div><img alt="after" src="TIU-Wear/before-after/img/face_A02_LANCÔME_DEF_20160920_resize.jpg?$staticlink$" width="598" height="398"  /></div>
+         </div>
+         <div id="beforeandafter3" class="beforeandaftercontainer">
+           <div><img alt="before" src="TIU-Wear/before-after/img/face_D01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" width="598" height="398" /></div>
+           <div><img alt="after" src="TIU-Wear/before-after/img/face_D02_LANCÔME_DEF_20160919_resize.jpg?$staticlink$" width="598" height="398"  /></div>
+         </div>
+         <div id="beforeandafter4" class="beforeandaftercontainer">
+            <div><img alt="before" src="TIU-Wear/before-after/img/face_C01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" width="598" height="398" /></div>
+           <div><img alt="after" src="TIU-Wear/before-after/img/face_C02_LANCÔME_DEF_20160919_resize.jpg?$staticlink$" width="598" height="398"  /></div>
+         </div>
+        <div id="selectyourshape">
+        <h3>SELECT YOUR FACE SHAPE BELOW</h3>
+        <div class="row selectshape">
+          <div class="fourblocks text-center">
+            <img class="img-responsive center-block" src="TIU-Wear/before-after/img/face_B01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter" />
+          </div>
+          <div class="fourblocks text-center">
+            <img class="img-responsive center-block" src="TIU-Wear/before-after/img/face_A01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter2" />
+          </div>
+          <div class="fourblocks text-center">
+            <img class="img-responsive center-block" src="TIU-Wear/before-after/img/face_D01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter3" />
+          </div>
+          <div class="fourblocks text-center">
+            <img class="img-responsive center-block" src="TIU-Wear/before-after/img/face_C01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter4" />
+          </div>                                                      
+        </div>
+        </div>
+        </div>
+        <div class="rigthCol text-center">
+        <h3 class="topheading">Watch how to</h3>
+        <div class="videoright">
+            <div class="videobeforeandafter" id="videobeforeandafter">
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter" />
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/face_B01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter" />
+              <h3>Square face</h3>
+              <p>Highlight : under the eyes, at the center of nose, center of forehead, center of chin<br>
+              Contouring: top of the forehead, jawline, bottom of chin,  sides of nose<br>
+              Blush : apples of the cheeks                      
+            </p>
+            <img class="playbutton active" src="TIU-Wear/before-after/img/play.png?$staticlink$" data-beforeandafter="beforeandafter" />
+            </div>
+            <div class="videobeforeandafter" id="videobeforeandafter2">
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-A02-oct2016_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter2" />
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/face_A01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter2" />
+              <h3>Round face</h3>
+              <p>Highlight : chin, forehead, middle of the nose, under the eyes<br>
+                Contouring: temples, jawline, from the side of the jawline up to the ears<br>
+                Blush : on the apples of the cheeks down to the level below mid-eye  with a straight line
+               </p>
+               <img class="playbutton active" src="TIU-Wear/before-after/img/play.png?$staticlink$" data-beforeandafter="beforeandafter2" />
+            </div>
+            <div class="videobeforeandafter" id="videobeforeandafter3">
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-D02-oct2016_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter3" />
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/face_D01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter3" />
+              <h3>Diamond face</h3>
+              <p>Highlight : under the eyes, at the center of forehead, middle of nose, center of chin<br>
+              Contouring: around both sides of forehead, along the jawline, sides of the nose<br>
+              Blush : on the apples of the cheeks in a crescent shape
+              </p>
+              <img class="playbutton active" src="TIU-Wear/before-after/img/play.png?$staticlink$" data-beforeandafter="beforeandafter3"/>
+            </div>
+            <div class="videobeforeandafter" id="videobeforeandafter4">
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-C02-oct2016_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter4" />
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/face_C01_LANCÔME_DEF_20160914_resize.jpg?$staticlink$" data-beforeandafter="beforeandafter4" />
+              <h3>Oval face</h3>
+              <p>Highlight : chin, under the eyes, middle of the nose, lower forehead<br>
+                 Contouring:  sides of  the nose, below the structure of cheeks<br>
+                Blush : on cheekbones</p>
+                <img class="playbutton active" src="TIU-Wear/before-after/img/play.png?$staticlink$" data-beforeandafter="beforeandafter4" />
+            </div> 
+          </div>
+        </div>
+        <br class="clearBoth" />
+      </div>
+</div><!-- /.container -->
+<script type="text/javascript">
+$( document ).ready(function() {
+
+  //select your face
+  $(".beforeandaftercontainer:first").addClass('active');
+  $(".videobeforeandafter:first").addClass('active');  
+  $(".videoright div:first img:first").addClass('active');  
+  $(".videoright div:first img:eq(1)").addClass('hidden');  
+
+  //container_width = $(".beforeandaftercontainer").width();
+  //$(".beforeandaftercontainer img").width(container_width);
+
+  windowsize = $(window).width();
+  if(windowsize<1024) {
+    $(".beforeandaftercontainer img").width(windowsize-50);
+    $(".beforeandaftercontainer img").height('auto');
+    newheight = $(".beforeandaftercontainer img").height();
+    $(".beforeandaftercontainer img").height(newheight);
+    $("#youtubeVideo video").width(windowsize-50);
+    $("#youtubeVideo video").height(newheight);
+
+    $("#mainheadingselect").html($("#selectyourshape").html());
+    $("#mainheading").hide();
+    $("#selectyourshape").html('');
+    
+  }
+
+  
+  $( ".selectshape img" ).on( "click", function() {
+    selectedContainer = $(this).data('beforeandafter');    
+    $(".beforeandaftercontainer").removeClass('active');
+    $("#"+selectedContainer).addClass('active');
+    $(".videobeforeandafter").removeClass('active');
+    $("#video"+selectedContainer).addClass('active');    
+    $("#video"+selectedContainer+" img:first").removeClass('hidden').addClass('active');    
+    $("#video"+selectedContainer+" img:eq(1)").removeClass('active');        
+    $("#youtubeVideo").removeClass('active');
+    $("#youtubeVideo div").removeClass('active');
+    $(".rigthCol .topheading").html('Watch how to');
+    $("#video"+selectedContainer+" img.playbutton").removeClass('hidden').addClass('active');
+  });
+  $( ".videobeforeandafter img" ).on( "click", function() {
+        selectedContainer = $(this).data('beforeandafter');
+        $(".beforeandaftercontainer").removeClass('active');
+        $("#youtubeVideo div").removeClass('active');
+        $("#videoc"+selectedContainer).addClass('active');  
+        if($("#youtubeVideo").hasClass('active')) {
+        $("#video"+selectedContainer+" img:first").removeClass('hidden').addClass('active');  
+        $("#video"+selectedContainer+" img:eq(1)").removeClass('active').addClass('hidden');      
+        $("#youtubeVideo").removeClass('active');
+        $("#youtubeVideo div").removeClass('active');    
+        $("#"+selectedContainer).addClass('active');
+        $(".rigthCol .topheading").html('Watch how to');
+        $("#video"+selectedContainer+" img.playbutton").removeClass('hidden').addClass('active');
+    }
+    else {
+        $("#video"+selectedContainer+" img:first").removeClass('active').addClass('hidden');  
+        $("#video"+selectedContainer+" img:eq(1)").removeClass('hidden').addClass('active');      
+        $("#youtubeVideo").addClass('active');
+        $(".rigthCol .topheading").html('View before/after');
+        $("#video"+selectedContainer+" img.playbutton").removeClass('active').addClass('hidden');
+    }
+    
+  });
+  
+  $('#beforeandafter').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter2').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter3').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter4').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+    });
+
+  //select your face 
+});
+
+</script>

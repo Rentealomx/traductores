@@ -1,0 +1,196 @@
+<div class="article_title_module">
+		<p class="publishing_date">08/10/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-709', 'fdid', 'les-parisiennes')$
+		<h1>Leslie David’s playful outlook</h1>
+	</div>
+		<div class="connected-carousels" >
+	<div class="stage" data-slide-width-sample=".carousel_slide_width_sample">
+	    <div class="carousel carousel-stage jcarousel-clip height_variation">
+			<ul>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/1-Leslie_David_907B2536_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Leslie_David_907B2536_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Leslie_David_907B2536_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Leslie_David_907B2536_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/2-Leslie_David_907B2441_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Leslie_David_907B2441_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Leslie_David_907B2441_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Leslie_David_907B2441_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/3-Leslie_David_907B2457_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Leslie_David_907B2457_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Leslie_David_907B2457_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Leslie_David_907B2457_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/4-Leslie_David_907B2483_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Leslie_David_907B2483_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Leslie_David_907B2483_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Leslie_David_907B2483_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/5-Leslie_David_907B2480_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Leslie_David_907B2480_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Leslie_David_907B2480_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Leslie_David_907B2480_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/6-Leslie_David_N79A6424_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Leslie_David_N79A6424_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Leslie_David_N79A6424_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Leslie_David_N79A6424_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+            </ul>
+            <div class="carousel_slide_width_sample"></div>
+        </div>
+        <a href="#" class="prev prev-stage" data-jcarouselcontrol="true"><span></span></a>
+        <a href="#" class="next next-stage" data-jcarouselcontrol="true"><span></span></a>
+    </div>
+    <div class="connected-carousel-navigation">
+        <a href="#" class="prev prev-navigation" data-jcarouselcontrol="true"></a>
+        <a href="#" class="next next-navigation" data-jcarouselcontrol="true"></a>
+        <div class="carousel carousel-navigation">
+            <ul>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/1-Leslie_David_907B2536_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Leslie_David_907B2536_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Leslie_David_907B2536_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Leslie_David_907B2536_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/2-Leslie_David_907B2441_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Leslie_David_907B2441_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Leslie_David_907B2441_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Leslie_David_907B2441_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/3-Leslie_David_907B2457_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Leslie_David_907B2457_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Leslie_David_907B2457_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Leslie_David_907B2457_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/4-Leslie_David_907B2483_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Leslie_David_907B2483_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Leslie_David_907B2483_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Leslie_David_907B2483_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/5-Leslie_David_907B2480_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Leslie_David_907B2480_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Leslie_David_907B2480_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Leslie_David_907B2480_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/6-Leslie_David_N79A6424_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Leslie_David_N79A6424_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Leslie_David_N79A6424_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Leslie_David_N79A6424_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+			</ul>
+		</div> 
+	</div>
+	<ul class="slide_description">
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	</ul>
+</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>Boasting clients like Metronomy, Kitsuné, Le Mont Saint Michel and Lancôme, Leslie David’s colourfully dynamic, graphic artwork has charmed more than just a few customers. We meet the candid, hard-working art director in her charming Montmartre apartment and enjoy the view from her patio garden.</b></p>
+	<p><b> </b><b>Profession:</b> Art Director <br><b>Neighbourhood</b>: 18th arrondissement</p>
+	<p><b> </b><b>As a Parisian at heart (even though you grew up in Montélimar) what Parisian habits have you adopted?</b> Taking the Metro every day, it’s a habit that gradually takes hold.</p>
+	<p><b> </b><b>Where do you go in the capital to relax and recharge?</b> My Saturday morning ceramics class. Getting into contact with the clay for 3 hours without emails and phone calls leaves me feeling like I’ve been to a yoga class. Creativity and a zen attitude make for the perfect combination.</p>
+	<p><b> </b><b>What’s inspiring you right now?</b> Nail varnish. I was Creative Director for the “You are Lancôme” project and I had a lot of fun blending together glitter and nail varnish colours. Together they create some surprising kaleidoscopic effects.</p>
+	<p><b> </b><b>Other than illustration and design, what other passions and interests inspire you?</b> Music, cooking, my family, my daughter, my friends’ kids and kids in general. I love watching kids. In fact some friends and I (<b>Pedro Winter,</b><b>Antoine Lampérière</b> and <b>Justine Valletoux</b>) have launched the Stéréokids Festival with the idea that we can introduce children to the artists their parents love with afternoons filled with concerts and shows. It makes for a really joyful, sharing experience.<br> Stéréokids, 120 Boulevard de Rochechouart, 75018 Paris.</p>
+	<p><b> </b><b>You tend to use a lot of colour, is that a stylistic choice, or a passion? And, in your mind is colour an essential component of beauty?</b> It’s really by chance that I use colour, or maybe it’s a phase I’m going through. I used to work with a lot of black and white and colour’s only been appearing in my work for a little while. I think colour challenges beauty, because it can make it something look either outrageous and bold or quite delicate. It’s all a question of balance and good pairing.</p>
+	<p><b>Do you have a good luck charm that inspires you?</b> I have a growing collection of ceramic hands (ring holders) that I’ve picked up here and there over the years.</p>
+	<p><b> </b><b>Name a movie that brings a smile to your face</b> Jacques Démy’s The Young Girls of Rochefort, always brings back lots of memories for me.</p>
+	<p><b>How about a piece of artwork that seems to makes life more beautiful?</b> Anything by the English artist David Hockney, because his work is joyful, relaxing, naïf and colourful.</p>
+	<p><b> </b><b>Name three energizing songs.</b> Blue Boy by <b>Mac DeMarco</b>, Let it Happen by <b>Tame Impala</b>, Ancora Tu by <b>Lucio Battisti </b>and 10,000 others.</p>
+	<p><b> </b><b>What thought gets you out of bed in the morning?</b> Is it Friday yet?</p>
+	<p><b> </b><b>How do you beat the blues?</b> With a good sleep.</p>
+	<p><b> </b><b>Do you have any favourite French foods?</b> I love foie gras.</p>
+	<p><b> </b><b>What kind of breakfast gets you up and going?</b> For the first time in my life, I’ve got myself into a regular breakfast routine that I can easily follow: lemon juice, tea and a chia seed pudding. I’m not sure how long it’ll last as I can get bored quickly.</p>
+	<p><b> </b><b>What do you eat for an energy boost?</b> A green juice, it doesn’t matter what kind. The bright colour has a great psychological effect on me.</p>
+<div class="article_text module_title"><h2><b> </b><b>How would you describe the typical Parisienne?</b> As pretty, as someone who likes to complain and as someone you could be put off by at first, but who ends up being so funny that you become best friends. </h2></div>
+	<p><b> </b><b>How would you define female beauty?</b> With grace, which fortunately or unfortunately is something that can’t be bought. It is though something that is worth having. That’s the art of being a Parisienne.</p>
+	<p><b>Name a Parisian beauty habit that’s beautiful in its own right</b> It’s the quick and yet very precise way I apply nothing but mascara. I feel very chic, even when it’s the only makeup I’m wearing, I take it everywhere with me especially in my bag on a night out, or for impromptu get-togethers.</p>
+	<p><b> </b><b>What was your most recent beauty find?</b> It’s more of a new beauty habit: Now at 30 years of age I never go out without putting on sunscreen. I put it on every day.</p>
+	<p><b> </b><b>Do you have any special routines for making sure you sleep well?</b> I put a few drops of lavender essential oil on my pillow, it guarantees immediate relaxation. And, every once in a while I give myself a little course of melatonin, it’s like inviting the sandman to stay, plus it’s natural and it works on insomnia.</p>
+	<p><b>What beauty tips do you share with your daughter?</b> I tell her to smile!</p>
+	<p><b> </b><b>Your Paris address book:</b><b>Where do you go to train your eye?</b> Le Coeur art gallery, opened by my friends <b>Maroussia </b>and <b>Séverine. </b>Their exhibits are always surprising and on point. <br><b>Le Cœur, 83 Rue de Turenne, 75003 Paris. Tel. : +33 9 83 57 25 23.</b><b> </b></p>
+	<p><b>For pretty gifts? </b> I like to get something nice for the home from Th Manufacture, a resource for handmade household objects I collaborate with. Shop online at Th Manufacture. www.thmanufacture.com</p>
+	<p><b> </b><b>For a massage or treatment?</b> The Azhar hammam that just opened on my street as part of the Institut des cultures de l’Islam (Institute for Islamic Cultures). It’s nice, not too expensive and I like going there with my girlfriends. <br>Institut des cultures de l’Islam, 56 Rue Stephenson, 75018 Paris. Tel: + 33 1 53 09 99 84.</p>
+	<p><b> </b><b>For tea, coffee or a cocktail?</b> Brasserie Barbès. I worked on its visual identity and I live nearby. It’s a great spot no matter what time of day. You can either sit out on the terrace, in the ground floor and first floor dining rooms, or at the second floor drinks and dancing style bar. <br>Brasserie Barbès, 2 Boulevard Barbès, 75018 Paris. Tel. : + 33 1 42 64 52 23.</p>
+	<p><b> </b><b>For lunch with friends?</b> We tend to end up at a little Japanese Bento like Nanashi or at Super Nature, a peaceful organic place near my office in the busy Bourse area. <br>Nanashi, 31 Rue de Paradis, 75010 Paris. Tel. : + 33 1 40 22 05 55 ou au 57 Rue Charlot, 75003 Paris. Tél. : + 33 1 44 61 45 49. <br>Super Nature, 8,12 ,15 Rue Trévise, 75009 Paris. Tel. : + 33 1 42 46 58 04.</p>
+	<p><b> </b><b>For home design pieces?</b> I like to head to vintage furniture places like Maison Nordik. <br>Maison Nordik, 159 Rue Marcadet, 75018 Paris.</p>
+	<p><b>Photos : Saskia Lawaks</b></p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-709', 'fdid', 'les-parisiennes')$
+	</div>
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-728')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/ALIX_cms_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/ALIX_cms_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/ALIX_cms_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/ALIX_cms_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">09/10/15</p>
+									<h4 class="article_title">Alix Thomsen as seen by Caroline de Maigret</h4>
+									<p class="article_content">Today, Caroline introduces 30 year-old designer and decorator Alix Thomsen.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-728')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-737')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Pierrick_et_Cindy_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Pierrick_et_Cindy_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Pierrick_et_Cindy_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Pierrick_et_Cindy_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">09/10/15</p>
+									<h4 class="article_title">Cindy Thierriaz and Pierrick Leydet&rsquo;s nomadic spirit</h4>
+									<p class="article_content">Cindy Thierraz and Pierrick Leydet share their Paris life</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-737')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-832')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Clement_Saccomani_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Clement_Saccomani_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Clement_Saccomani_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Clement_Saccomani_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">13/10/15</p>
+									<h4 class="article_title">Cl&eacute;ment Saccomani&rsquo;s cosmopolitan Paris</h4>
+									<p class="article_content">Clement Saccomani talks about his Paris lifestyle</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-832')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-709', 'fdid', 'les-parisiennes')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-709')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-709', 'fdid', 'les-parisiennes')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=709&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

@@ -1,0 +1,207 @@
+<div class="article_title_module">
+		<p class="publishing_date">29/09/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-324', 'fdid', 'les-parisiennes')$
+		<h1>Julie Chaigneau’s Garden of Eden</h1>
+	</div>
+		<div class="connected-carousels" >
+	<div class="stage" data-slide-width-sample=".carousel_slide_width_sample">
+	    <div class="carousel carousel-stage jcarousel-clip height_variation">
+			<ul>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5b_001_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5b_001_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5b_001_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5b_001_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_003_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_003_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_003_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_003_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_008_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_008_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_008_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_008_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_007_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_007_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_007_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_007_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_013_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_013_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_013_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_013_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_005_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_005_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_005_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_005_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_008_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_008_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_008_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_008_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_009_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_009_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_009_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_009_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_003_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_003_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_003_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_003_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-1_002_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-1_002_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-1_002_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-1_002_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_3_001_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_3_001_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_3_001_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_3_001_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_1_005_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_1_005_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_1_005_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_1_005_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+            </ul>
+            <div class="carousel_slide_width_sample"></div>
+        </div>
+        <a href="#" class="prev prev-stage" data-jcarouselcontrol="true"><span></span></a>
+        <a href="#" class="next next-stage" data-jcarouselcontrol="true"><span></span></a>
+    </div>
+    <div class="connected-carousel-navigation">
+        <a href="#" class="prev prev-navigation" data-jcarouselcontrol="true"></a>
+        <a href="#" class="next next-navigation" data-jcarouselcontrol="true"></a>
+        <div class="carousel carousel-navigation">
+            <ul>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5b_001_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5b_001_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5b_001_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5b_001_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_003_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_003_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_003_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_003_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_008_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_008_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_008_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-5_008_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_007_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_007_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_007_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_007_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_013_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_013_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_013_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_013_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_005_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_005_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_005_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-4_005_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_008_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_008_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_008_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-3_008_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_009_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_009_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_009_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_009_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_003_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_003_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_003_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-2_003_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-1_002_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-1_002_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-1_002_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU-1_002_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_3_001_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_3_001_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_3_001_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_3_001_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_1_005_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_1_005_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_1_005_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/JULIA_CHAIGNEAU_1_005_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+			</ul>
+		</div> 
+	</div>
+	<ul class="slide_description">
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	</ul>
+</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>Convinced that life is all the better when it’s filled with fragrant flowers, the slender, blue-eyed florist Julie Chaigneau been scattering her beautifully original arrangements across Paris as if they were flower seeds. As she welcomes us into her very own Garden of Eden, Chaigneau talks about Paris, her favourite Parisian walks and sensory memories.</b></p>
+	<p><b> </b><b>Profession:</b> Florist <br><b>Neighbourhood:</b> 6thArrondissement</p>
+	<p><b> </b><b>As a born and bred Parisian, which typically Parisian habits have you adopted from living here?</b> On Saturday and Sunday mornings I like to have coffee at a corner bistro with lots of newspapers and magazines. Very Parisian right?</p>
+	<p><b>Which places in Paris make you happy?</b> The Théâtre des Champs Elysées with its beautiful architecture and flawless programming. <br><b>Théâtre des Champs Elysées</b>, 15 Avenue Montaigne, 75008 Paris. Tel. : + 33 1 49 52 50 00</p>
+<div class="article_text module_title"><h2><b>If </b><b>Paris was a flower what would it be?</b> I associate Paris with roses: classic, elegant, timeless and a lasting symbol of love and passion. </h2></div>
+	<p><b>Name three unexpected places that sum up Paris in your mind.</b> The large squares that offer up dazzling views of Paris’ most famous monuments and which tell a complete story of the city. Think Place du Palais-Bourbon in the 7th arrondissement across from the National Assembly, Place des Petits Pères in the 2nd arrondissement and of course the massive courtyard in front of the Louvre.</p>
+	<p><b>Where do you like to go to relax and recharge the batteries?</b> I like to have tea in the gardens of the <b>Musée de la Vie Romantique</b> museum. That or just go and lie and daydream in almost-secret gardens of Saint-Gilles Grand Veneur square in the Marais. <br><b>Musée de la Vie Romantique</b>, 16 Rue Chaptal, 75009 Paris. Tel. : + 33 1 55 31 95 67.</p>
+	<p><b>What’s your favourite local stroll?</b> I always go straight for the market on Rue Poncelet where you can always find row after row of wonderful fruit and vegetable stalls as well as lots of rare and hard-to-find products. In all, it’s an early morning stroll that certainly awakens the senses. <br><b>Marché Poncelet</b>, 9 Rue Poncelet, 75017 Paris. Open every day except Monday and Sunday afternoon from 9 am to 1pm and then 3 pm to 7 pm.</p>
+	<p><b>Where do you go in Paris to find inspiration?</b> I love to admire the architectural perfection of the <b>Palais Royal</b>, or simply cross one of Paris’ many bridges to see a ballet at <b>Opéra Garnier.<br></b><b>Opéra National de Paris – Palais Garnier</b>, 8 Rue Scribe, 75009 Paris. Tel. : +33 1 71 25 24 23.</p>
+	<p><b>Sight or scent, which is most important in your job?</b> Above all, sight because it’s essential for creating different floral compositions. Scent comes afterwards as a type of sensory reward!</p>
+	<p><b>Where do you get your passion for flowers from?</b> I grew up in homes with gardens. My mother always told me, as if it were an essential life lesson, that it’s always important to surround yourself with nature. I have to admit that I can’t conceive of anybody who couldn’t be affected by the beauty of flowers. That’s why I love to work with them and spread them around the homes and cities I work in.</p>
+	<p><b>Is there an unusual floral scent you would like to see used in a fragrance?</b> Mexican orange flower, it has a totally addictive fragrance.</p>
+	<p><b>Which typically French gifts do you like to give foreigners?</b> A scented candle from <b>Cire Trudon</b>, a chocolate assortment from <b>Debauve et Gallais </b>or a beautiful box of <b>Mariage Frères</b> tea. <br><b>Cire Trudon, </b>78 Rue de Seine, 75006 Paris. Tel : + 33 1 43 26 46 50. <br><b>Debauve et Gallais,</b> 30 Rue des Saints-Pères, 75007 Paris. Tel : + 33 1 45 48 54 67. <br><b>Mariage Frères</b>, 13 rue des Grands-Augustins, 75006 Paris. Tel : +33 1 40 51 82 50.</p>
+	<p><b>Do you have a mood-boosting motto you live by?</b> Never let yourself become overwhelmed by negative feelings or stress.</p>
+	<p><b>Name three energizing songs</b> Mexico by the group <b>Bangkok</b>, In the Upper Room by <b>Philip Glass </b>and Kingston Town by <b>UB40.</b></p>
+	<p><b>What gets you out of bed on difficult mornings?</b> The thought of a good coffee on a café terrace.</p>
+	<p><b>How do you disconnect?</b> There’s nothing better than reading.</p>
+	<p><b> </b><b>What little things always make you smile?</b> When dogs look like their owners and all the little complaints grumpy old Parisians like to make, it’s pretty endearing really.</p>
+	<p><b>How do you beat the blues?</b> With a long walk along the Seine without any real destination or goal in mind.</p>
+	<p><b>What’s your favourite French dish?</b> Bone marrow on a piece of toast with a little salt. It’s not something you should indulge in too much! (laughs)</p>
+	<p><b>What do you like to cook for your friends and family?</b> An oven-baked ratatouille cooked with a spoonful of honey to help caramelize everything.</p>
+	<p><b>What are your favourite energy-boosting recipes?</b> Well, take a deep breath, it’s a salad made from chickpeas, cherry tomatoes, spring onions, coriander, parsley, chives, rocket, Zante currants, cinnamon and chilies – all tossed in lemon juice and olive oil!</p>
+	<p><b>Do you have any favourite sports for releasing the day’s tensions?</b> Iyengar yoga, a very strict form of yoga that’s both mentally and physically demanding.</p>
+	<p><b>Who are your Parisian icons?</b> I’m inspired by so many New Wave cinema actresses, like <b>Brigitte Bardot</b>, <b>Jeanne Moreau</b> and <b>Jean Seberg.</b></p>
+	<p><b>How would you describe the typical Parisian?</b> As elegant, natural, nonchalant and funny.</p>
+	<p><b>Which flower would you say represents you?</b> Apparently sweet peas for their light and musk-like fragrance and slim and bright flowers.</p>
+	<p><b>Have you had any recent beauty discoveries?</b> A CC cream that’s part face cream, part matte foundation makeup. Also, for legs I’ve found a BB cream that offers up good coverage for minor imperfections – I’d never have thought of it.</p>
+	<p><b>In what ways are your beauty habits very Parisian?</b> I get ready very quickly with just a light amount of makeup, it’s the perfect beauty combo.</p>
+	<p><b>What do you tell yourself when you look in the mirror?</b> That entirely depends on my mood. <b>Do you have any beauty obsessions?</b> Day cream with a high UV protection.</p>
+	<p><b>What fragrance brings you back to your youth?</b> The scent of baby products.</p>
+	<p><b>If you could only bring one beauty product out on a Parisian night out what would it be?</b> A deep, dark coloured matte lipstick.</p>
+	<p><b>Your favourite Paris addresses for </b><b>Flowers: </b><b>Stanislas Draber</b>, a really passionate florist who puts together bouquets according to his latest poetic inspiration like verses from Charles Baudelaire. He’s a real artist. <br><b>Stanislas Draber</b>, 19 Rue Racine, 75006 Paris. Tel. : + 33 1 43 29 07 88.</p>
+	<p><b>Massage or relaxation:</b> I like to have a massage by the gifted Véronique at the <b>Lucie Saint Clair</b> salon in Passy. She also does facials, it’s an address I always tell friends about. <br><b>Lucie Saint Clair</b>, 12 rue Jean Bologne, 75016 Paris. Tel. : + 33 1 40 50 09 50.</p>
+	<p><b>Coffee, tea or a cocktail: </b> I love to sit on the terrace at the <b>Nemours</b> for a coffee. For cocktails, I like to go to <b>Castel</b>. <br><b>Le Nemours</b>, 2 Galerie Nemours, 75001 Paris. Tel. : + 33 1 42 61 34 14. <br><b>Castel</b>, 15 Rue Princesse, 75006 Paris. Tel. : + 33 1 40 51 52 80.</p>
+	<p><b>Lunch with friends: </b> I like healthy and tasty lunches – so often I go for something Japanese or Korean like at<b> Ito</b> in the 9th arrondissement. <br><b>Ito Izakaya</b>, 2-4 Rue Pierre Fontaine, 75009 Paris. Tel. : + 33 9 52 91 23 00.</p>
+	<p><b>Homewares: </b> My partner has given me a taste for auctions so we like to spend time looking around Drouot. <br><b>Drouot</b>, 9 Rue Drouot, 75009 Paris. Tel. : + 33 1 48 00 20 20.</p>
+	<p><b>Photos :</b> Hannah &amp; Joël</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-324', 'fdid', 'les-parisiennes')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', 'set-15-holiday-grandiose ', 'title', 'we reco')$		
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-324', 'fdid', 'les-parisiennes')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-324')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-324', 'fdid', 'les-parisiennes')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=324&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

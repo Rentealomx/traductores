@@ -1,0 +1,68 @@
+<ul class="contentcarousel_list">
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Gentlemans-Cut-Web-desktop.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Gentlemans-Cut-Web-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Gentlemans-Cut-Web-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Gentlemans-Cut-Web-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Gentlemans-Cut-Web-2.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Gentlemans-Cut-Web-2-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Gentlemans-Cut-Web-2-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Gentlemans-Cut-Web-2-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Johnny-Left-desktop.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Johnny-Left-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Johnny-Left-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Johnny-Left-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Johnny-Right-desktop.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Johnny-Right-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Johnny-Right-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Johnny-Right-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+ <li><img alt="" data-src="wisdom/getthelook/desktop/Johnny-Back-desktop.jpg?$staticlink$"
+                   data-src-w960="wisdom/getthelook/960/Johnny-Back-960.jpg?$staticlink$"
+                   data-src-w768="wisdom/getthelook/768/Johnny-Back-768.jpg?$staticlink$"
+                   data-src-w320="wisdom/getthelook/320/Johnny-Back-320.jpg?$staticlink$"
+   class="background_image article_image" />
+</li>
+</ul>
+
+<ul class="dialog_content">
+
+
+ <li><img alt="" src="wisdom/getthelook/desktop/Gentlemans-Cut-Web-desktop.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/960/Gentlemans-Cut-Web-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/768/Gentlemans-Cut-Web-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/320/Gentlemans-Cut-Web-320.jpg?$staticlink$" /></li>
+ <li><img alt="" src="wisdom/getthelook/desktop/Gentlemans-Cut-Web-2.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/960/Gentlemans-Cut-Web-2-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/768/Gentlemans-Cut-Web-2-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/320/Gentlemans-Cut-Web-2-320.jpg?$staticlink$" /></li>
+
+<li><img alt="" src="wisdom/getthelook/desktop/Johnny-Left-desktop.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/960/Johnny-Left-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/768/Johnny-Left-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/320/Johnny-Left-320.jpg?$staticlink$" /></li>
+ <li><img alt="" src="wisdom/getthelook/desktop/Johnny-Right-desktop.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/960/Johnny-Right-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/768/Johnny-Right-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/320/Johnny-Right-320.jpg?$staticlink$" /></li>
+ <li><img alt="" src="wisdom/getthelook/desktop/Johnny-Back-desktop.jpg?$staticlink$"
+                   src-w960="wisdom/getthelook/960/Johnny-Back-960.jpg?$staticlink$"
+                   src-w768="wisdom/getthelook/768/Johnny-Back-768.jpg?$staticlink$"
+                   src-w320="wisdom/getthelook/320/Johnny-Back-320.jpg?$staticlink$" /></li>
+</ul>
+
+<div class="article_content">
+	<h2>Gentleman's Cut</h2>
+	<div class="article_description">
+ The Gentlemen's Cut is a classic look with convenient versatility. It's defined by the way it blends at the corners, and is suitable for most hair textures and hairlines. The secret? Keeping it smooth with our Cream Pomade.
+	</div>
+	<div class="use_product"><span>Use</span> <a href="$url('Product-Show', 'pid', 'CMP-75')$">Cream Pomade</a>, <a href="$url('Product-Show', 'pid', 'C-HCP')$">Hard Cream Pomade</a></div>
+</div>

@@ -1,0 +1,48 @@
+<style>
+.video-block__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.video-block__cover {
+   position: relative;
+   width: 100%;
+}
+@media (max-width: 979px) {
+.prime_info_box h3 {
+   font-size: 40px;
+}
+
+.prime_info_box p {
+   font-size: 12px;
+}
+
+@media (max-width:640px) {
+.prime_info_box p {
+    font-size: 14px;
+}
+}
+}
+</style>
+
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+       <div class="video-block__cover">
+           $renderContentImage(landing-page/grandiose/grandiose_liner_video_module.jpg, videoCoverLarge, video cover, videoblockcoverimage,,,landing-page/grandiose/grandiose_liner_video_module_mob.jpg,landing-page/grandiose/grandiose_liner_video_module_tab.jpg)$
+           <div class="video-block__youtube">
+               <div class="video-block__iframe js-youtube-video" id="player_wjS9NHfygS8" data-video-id="wjS9NHfygS8"></div>
+           </div>
+       </div>
+      <div class="video-constructor video-constructor--centered">
+          <div class="video-constructor__arrow">
+      </div>
+   </div>
+</div>
+
+<!--<img alt="" src="landing-page/landing-page-modules/grandiose_liner_video_module.png?$staticlink$" title="" />
+<img  $responsiveSrc(landing-page/grandiose/grandiose_liner_video_module.jpg,720|780|720|680,,,,,landing-page/grandiose/grandiose_liner_video_module_mob.jpg,landing-page/grandiose/grandiose_liner_video_module_tab.jpg,landing-page/grandiose/grandiose_liner_video_module_tab.jpg)$ alt="Cover Image" />
+<iframe width="100%" height="100%" src="//www.youtube.com/embed/wjS9NHfygS8?enablejsapi=1" frameborder="0" wmode="Opaque" allowfullscreen></iframe>
+-->

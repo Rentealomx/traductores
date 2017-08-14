@@ -1,0 +1,27 @@
+<div class="instant_happiness_module" >
+    <div class="pushes_instant_box clearfix">
+        <div class="instant_box_content">
+	            <div class="article_description_wrapper">
+	                <div class="article_description" >
+	<p>Les professionnels ont une technique bien à eux : 1/ A l’aide d’une brosse, coiffer les sourcils vers le haut. 2/Alterner deux fards : l’un plus foncé, à déposer sur les zones clairsemées, l’autre, plus clair, à appliquer le long de la ligne, pour harmoniser l’ensemble. 3/ Fixer le tout avec un mascara à sourcils incolore. <a href="http://bit.ly/LeCrayonSourcils" target="_blank">http://bit.ly/LeCrayonSourcils </a></p>
+	<p>© Getty Images</p>
+	                </div>
+	            </div>
+        </div>
+    </div>
+</div>
+$include('NewsletterPushes-Mini', 'fdid', 'fs-bm-homepage')$
+	$include('ProductFinder-IncludeProductFinderSection', 'fdid', 'SKIN-BEAUTY-FINDER')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_27810/?project=27810&entity=2326&store=templatestore&element=27874" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

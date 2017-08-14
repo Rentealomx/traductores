@@ -1,0 +1,62 @@
+<div class="columns medium-5 medium-offset-1">
+
+<div class="prime__summary">
+<h2 class="prime__text">This is a test</h2>
+<p class="prime__description"> Testing the functionnality of the module on rich PDP</p>
+</div>
+</div>
+
+<style>
+.prime_background_image summary h2 {
+color: #000;
+margin: 0 0 20px;
+}
+
+.prime_background_image summary p {
+color: #000;
+line-height: 18px;
+}
+
+#extrait-radiance-content.prime_background_image .background_image_content_wrapper {
+    width: 36%;
+}
+
+#extrait-radiance-content.prime_background_image h2 {
+    line-height: 47px;
+}
+
+@media (max-width:1127px) {
+#extrait-radiance-content.prime_background_image .background_image_content_wrapper {
+padding: 0;
+}
+}
+
+@media (max-width:979px) {
+#extrait-radiance-content.prime_background_image .background_image_content_wrapper {
+left: 8%;
+}
+}
+    
+
+@media (max-width: 640px) {
+#extrait-radiance-content.prime_background_image .background_image_content_wrapper {
+    width: 100%;
+}
+    .prime_background_image .background_image_content_wrapper {
+          max-width: 300px;
+margin: auto;
+    }
+
+#extrait-radiance-content.prime_background_image h2 {
+    line-height: 37px;
+}
+
+#extrait-radiance-content.prime_background_image summary p {
+    padding: 0;
+}
+
+#extrait-radiance-content.prime_background_image summary {
+    padding: 25px 0 0;
+}
+}
+</style>

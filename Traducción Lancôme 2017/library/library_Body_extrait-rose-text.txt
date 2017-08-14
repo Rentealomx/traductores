@@ -1,0 +1,53 @@
+<style>
+#extrait-rose-text.prime_text h2 {
+    max-width: 290px;
+    margin: auto;
+}
+
+#extrait-rose-text.prime_text p {
+    margin: 30px auto 0;
+    max-width: 330px;
+}
+
+.prime_module.three_quarter_section {
+    width: 60%;
+}
+
+.prime_module.one_quarter_section {
+    width: 40%
+}
+
+@media only screen and (max-width: 979px) {
+    .prime_module.three_quarter_section,
+    .prime_module.one_quarter_section {
+	width: 100%;
+	float: none;
+    }
+
+    #extrait-rose-text.prime_text h2 {
+	margin: 40px auto 0;
+	max-width: 100%;
+    }
+
+    #extrait-rose-text.prime_text p {
+	max-width: 450px;
+    }
+}
+
+@media (max-width:640px) {
+    .prime_module.one_quarter_section .prime_text  {
+	max-width: 300px;
+	margin: auto;
+	padding: 0;
+    }
+
+    .prime h2 {
+	margin: 40px auto 0;
+    }
+}
+
+</style>
+
+<h2>A precious blend
+of rose extracts</h2>
+<p>The precious extracts of the Lancôme  Rose are at the very origin of each cutting-edge <i>Absolue L'Extrait</i> Creation.<br />In our Ultimate Rose Serum Mask ritual, our Lancôme  Rose extracts are freshly blended with pearls containing precious rese oils.</p>

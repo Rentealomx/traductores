@@ -1,0 +1,26 @@
+<style>
+.full-width img {
+width: 100%;
+}
+</style>
+<div class="clear row-section layout">
+<div class="columns small-12 text-center">
+<span class="section__title">THE ARTISTS</span>
+</div>
+</div>
+
+<div class="clear row-section flex-container layout text-center">
+<div class="columns large-4 large-offset-1 medium-6 small-12 align-self-center">
+	        <h2>A&M<br>The Artists</h2></br>
+
+<p>Raising interior decoration to pictorial art, A&M take pleasure in customizing and innovating, making every fresco unique.
+These "wall tattoo artists" bring a part of a dream to every place they decorate: their art is an invitation to a journey, a truly sensorial experience.</br></br>
+For Maison Lancôme, Alex & Marine draw the imprint of the fragrance assemblage on the bottle.
+One step further, they create the universe of the collection in-store, by drawing an immersive mural fresco, narrating the creation of Les Parfums Grans Crus.
+</p>
+	</div>
+
+	<div class="columns large-6 large-offset-1 medium-6 small-12 align-self-center full-width">
+$renderContentImage(MAISON_LANCOME_ALEX_MARINE_2.jpg,,,,,MAISON_LANCOME_ALEX_MARINE_2.jpg,MAISON_LANCOME_ALEX_MARINE_2.jpg)$
+	</div>
+</div>

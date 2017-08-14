@@ -1,0 +1,22 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000;">
+                    Swing Into Summer
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000;">
+                  LIMITED EDITION MAKEUP COLLECTION
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000;">
+                  Don't you wish that Summer could last forever? Times flies when you're having sun! <br>Don't miss our exclusive Lancôme Summer 2017 Limited Edition Makeup collection. We've got you covered.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+$renderContentImage(CLP_BANNER_SUMMER_2017_1600x267.jpg, categoryHeader, category title, categoryimageclass,,,CLP_BANNER_SUMMER_2017_1600x267.jpg,CLP_BANNER_SUMMER_2017_1600x267.jpg, null, true)$
+    </div>
+</div>

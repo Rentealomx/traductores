@@ -1,0 +1,22 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000;">
+                    Moisturizer & Face Cream
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000;">
+                    ANTI AGING CREAM, WRINKLE CREAM, FACE MOISTURIZER
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000;">
+                    Tailored solutions for your skin care needs. Hydrate, correct, lift and regenerate your skin with our advanced anti aging cream, wrinkle cream, skin tightening cream and face moisturizer. Dress your skin Lancôme's iconic face creams. Enjoy ultimate comforting textures for the ultimate skin care experiences. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l3/L3_SKINCARE_By_Product_Category_1600x267.png, categoryHeader, category title, categoryimageclass,,,category/landing-l3/L3_SKINCARE_By_Product_Category_1035x286.png,category/landing-l3/L3_SKINCARE_By_Product_Category_1600x267.png, null, true)$
+    </div>
+</div>

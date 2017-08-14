@@ -1,0 +1,60 @@
+<style>
+    #landing-page-oh-special-offers-page .prime_module_title h1 {
+        text-transform: none;
+        border-top: 1px solid #000;
+        transform: none;
+        font-size: 35px;
+        line-height: 1;
+        margin: 1.5em 0 0.2em 0;
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+    #special-offers-title h1 {
+        margin: 1em 0 0 0;
+        font-family: MillerDisplay Light,Helvetica,Roboto,Arial,sans-serif;
+    }
+
+.offers_push img {
+max-width: inherit;
+}
+
+#special-offers-title {
+    text-align: center;
+    padding: 0 10%;
+}
+
+    #special-offers-title p {
+        font-family: "Gotham Book",Arial,serif;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .prime_module .carousel_navigation_list {
+        display: block;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 1281px) {
+        #landing-page-oh-special-offers-page .prime_html {
+            padding: 0 20px;
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        .hide-mobile {
+            display: none;
+        }
+
+        #landing-page-oh-special-offers-page .prime_html {
+            padding: 0 10px;
+        }
+    }
+</style>
+
+<h1>
+       Special <span style="color: #d51b51">Offers</span>
+</h1>
+  <p>
+Enjoy exclusives offers & gifts. <span class="hide-mobile">Only for you and only at Lancôme.com!</span>
+  </p>

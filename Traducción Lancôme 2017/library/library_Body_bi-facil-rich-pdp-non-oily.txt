@@ -1,0 +1,27 @@
+<style>
+.full-width img {
+width: 100%;
+}
+</style>
+<div class="clear row-section layout">
+<div class="columns small-12 text-center">
+<span class="section__title">INSTANT EYE MAKEUP REMOVER</span>
+</div>
+</div>
+
+<div class="clear row-section flex-container layout text-center">
+<div class="columns medium-4 medium-offset-1 small-12 align-self-center">
+	        <h2>Shake it off in a wink!</h2>
+		<p>It’s never been so easy to remove your eye makeup instantly thanks to Bi-Facil Eyes’ mixable dual formula: an oily phase to gently dissolve daily makeup and a watery phase to capture it all in a wink.</p></br></br>
+	 
+		<h2>The grease-free finish</h2>
+		<p>Bi-Facil Eyes will leave your skin fresh and clean with no sticky afterfeel around the eye area.</p></br></br>
+
+		<h2>Attain the no-panda-eye look</h2>
+		<p>The no-more-makeup look is trending right now, be sure to leave no eye makeup residue!</p>
+	</div>
+
+	<div class="columns medium-6 medium-offset-1 small-12 align-self-center full-width">
+$renderContentImage(RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_03.jpg,,,,,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_03.jpg,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_03.jpg)$
+	</div>
+</div>

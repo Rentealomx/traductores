@@ -1,0 +1,271 @@
+ <div class="article_title_module">
+		<p class="publishing_date">15/10/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-1025', 'fdid', 'les-parisiennes')$
+		<h1>Lolita Jacobs’ youthful spontaneity</h1>
+	</div>
+		<div class="connected-carousels" >
+	<div class="stage" data-slide-width-sample=".carousel_slide_width_sample">
+	    <div class="carousel carousel-stage jcarousel-clip height_variation">
+			<ul>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/1-Lolita_Jacobs_N79A4850_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Lolita_Jacobs_N79A4850_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Lolita_Jacobs_N79A4850_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Lolita_Jacobs_N79A4850_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/2-Lolita_Jacobs_N79A4087_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Lolita_Jacobs_N79A4087_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Lolita_Jacobs_N79A4087_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Lolita_Jacobs_N79A4087_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/3-Lolita_Jacobs_N79A4082_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Lolita_Jacobs_N79A4082_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Lolita_Jacobs_N79A4082_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Lolita_Jacobs_N79A4082_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/4-Lolita_Jacobs_N79A4278_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Lolita_Jacobs_N79A4278_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Lolita_Jacobs_N79A4278_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Lolita_Jacobs_N79A4278_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/5-Lolita_Jacobs_N79A48502_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Lolita_Jacobs_N79A48502_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Lolita_Jacobs_N79A48502_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Lolita_Jacobs_N79A48502_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/6-Lolita_Jacobs_N79A4779_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Lolita_Jacobs_N79A4779_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Lolita_Jacobs_N79A4779_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Lolita_Jacobs_N79A4779_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/7-Lolita_Jacobs_N79A4370_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-Lolita_Jacobs_N79A4370_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-Lolita_Jacobs_N79A4370_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-Lolita_Jacobs_N79A4370_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/8-Lolita_Jacobs_N79A4385_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-Lolita_Jacobs_N79A4385_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-Lolita_Jacobs_N79A4385_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-Lolita_Jacobs_N79A4385_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/9-Lolita_Jacobs_N79A4857_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-Lolita_Jacobs_N79A4857_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-Lolita_Jacobs_N79A4857_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-Lolita_Jacobs_N79A4857_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/10-Lolita_Jacobs_N79A4671_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-Lolita_Jacobs_N79A4671_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-Lolita_Jacobs_N79A4671_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-Lolita_Jacobs_N79A4671_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/11-Lolita_Jacobs_N79A4769_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-Lolita_Jacobs_N79A4769_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-Lolita_Jacobs_N79A4769_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-Lolita_Jacobs_N79A4769_2x1_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/12-Lolita_Jacobs_N79A4766_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-Lolita_Jacobs_N79A4766_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-Lolita_Jacobs_N79A4766_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-Lolita_Jacobs_N79A4766_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/13-Lolita_Jacobs_N79A4914_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-Lolita_Jacobs_N79A4914_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-Lolita_Jacobs_N79A4914_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-Lolita_Jacobs_N79A4914_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/14-Lolita_Jacobs_N79A47792_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-Lolita_Jacobs_N79A47792_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-Lolita_Jacobs_N79A47792_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-Lolita_Jacobs_N79A47792_CMS_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+            </ul>
+            <div class="carousel_slide_width_sample"></div>
+        </div>
+        <a href="#" class="prev prev-stage" data-jcarouselcontrol="true"><span></span></a>
+        <a href="#" class="next next-stage" data-jcarouselcontrol="true"><span></span></a>
+    </div>
+    <div class="connected-carousel-navigation">
+        <a href="#" class="prev prev-navigation" data-jcarouselcontrol="true"></a>
+        <a href="#" class="next next-navigation" data-jcarouselcontrol="true"></a>
+        <div class="carousel carousel-navigation">
+            <ul>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/1-Lolita_Jacobs_N79A4850_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Lolita_Jacobs_N79A4850_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Lolita_Jacobs_N79A4850_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-Lolita_Jacobs_N79A4850_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/2-Lolita_Jacobs_N79A4087_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Lolita_Jacobs_N79A4087_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Lolita_Jacobs_N79A4087_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-Lolita_Jacobs_N79A4087_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/3-Lolita_Jacobs_N79A4082_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Lolita_Jacobs_N79A4082_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Lolita_Jacobs_N79A4082_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-Lolita_Jacobs_N79A4082_2x1_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/4-Lolita_Jacobs_N79A4278_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Lolita_Jacobs_N79A4278_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Lolita_Jacobs_N79A4278_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Lolita_Jacobs_N79A4278_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/5-Lolita_Jacobs_N79A48502_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Lolita_Jacobs_N79A48502_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Lolita_Jacobs_N79A48502_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-Lolita_Jacobs_N79A48502_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/6-Lolita_Jacobs_N79A4779_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Lolita_Jacobs_N79A4779_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Lolita_Jacobs_N79A4779_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-Lolita_Jacobs_N79A4779_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/7-Lolita_Jacobs_N79A4370_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-Lolita_Jacobs_N79A4370_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-Lolita_Jacobs_N79A4370_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-Lolita_Jacobs_N79A4370_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/8-Lolita_Jacobs_N79A4385_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-Lolita_Jacobs_N79A4385_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-Lolita_Jacobs_N79A4385_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-Lolita_Jacobs_N79A4385_2x1_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/9-Lolita_Jacobs_N79A4857_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-Lolita_Jacobs_N79A4857_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-Lolita_Jacobs_N79A4857_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-Lolita_Jacobs_N79A4857_2x1_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/10-Lolita_Jacobs_N79A4671_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-Lolita_Jacobs_N79A4671_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-Lolita_Jacobs_N79A4671_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-Lolita_Jacobs_N79A4671_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/11-Lolita_Jacobs_N79A4769_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-Lolita_Jacobs_N79A4769_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-Lolita_Jacobs_N79A4769_2x1_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-Lolita_Jacobs_N79A4769_2x1_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/12-Lolita_Jacobs_N79A4766_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-Lolita_Jacobs_N79A4766_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-Lolita_Jacobs_N79A4766_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-Lolita_Jacobs_N79A4766_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/13-Lolita_Jacobs_N79A4914_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-Lolita_Jacobs_N79A4914_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-Lolita_Jacobs_N79A4914_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-Lolita_Jacobs_N79A4914_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/14-Lolita_Jacobs_N79A47792_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-Lolita_Jacobs_N79A47792_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-Lolita_Jacobs_N79A47792_CMS_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-Lolita_Jacobs_N79A47792_CMS_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+			</ul>
+		</div> 
+	</div>
+	<ul class="slide_description">
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	</ul>
+</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>As consultant and muse for the Coperni Femme brand, Lolita Jacobs boasts all the energy of someone blazing her very own trail with verve and determination. Meeting us at her charming home at the very top of a large Saint-Germain building, she reveals her typically Parisian habits with plenty of signature spontaneity.</b></p>
+	<p><b> </b><b>Profession: </b>Consultant and fashion muse <br><b>Neighbourhood:</b> 6th Arrondissement</p>
+	<p><b>As a Parisian born and bred, do you have any typically Parisian habits?</b> I’m very French in the way I act and think in general, even if I studied abroad. As for my typically Parisian habits, that would come down to complaining a little too much when I can’t get a taxi on a Friday night. I also do a lot of walking, it’s the best form of transport to enjoy the city and its architecture.</p>
+	<p><b>In what ways do you feel very Parisian?</b> I feel completely Parisian because I was born here and have always lived her. However, I don’t think you have to be born in Paris to be a ‘Parisienne’, it’s more a look and a state of mind. For example, I feel free, engaged and also somewhat rebellious. Waiting at a pedestrian crossing for a green light? Never! That’s very Parisian in my mind.</p>
+	<p><b>Do you have any favourite Parisian spots which make you happy?</b> I love to watch the highly focused chess players in the Luxembourg gardens or go for walk in the Jardin d’Acclimatation to remind myself of my childhood. <br> <b>Jardin d’Acclimatation</b>, Bois de Boulogne, 75016 Paris.</p>
+	<p><b>When you’re travelling abroad what do you miss most about Paris?</b> French expressions, ones that just can’t be translated. That and good bread, as a globetrotter I found that it’s hard to find abroad.</p>
+	<p><b>What typically French gifts do you like to give to foreigners?</b> A <b>Café de Flore</b> tea set or a great bottle of Burgundy: two typically elegant and refined French products.</p>
+	<p><b>Happiness is?</b> Sunday lunch with my parents, followed by doing nothing at their house in the afternoon, willfully procrastinating as if I’m a kid again.</p>
+	<p><b>Do you have a good luck charm?</b> Yes! I never take off my grandmother’s signet ring.</p>
+	<p><b>Name a movie that makes you smile</b> Woody Allen’s Alice, and, from a completely different movie genre, the romantic drama Dirty Dancing with its unbeatable soundtrack.</p>
+	<p><b>Name three energizing songs</b> Tiny dancer by <b>Elton John</b>, On ne change pas by<b> Céline Dion</b> and J’ai besoin d’amour by <b>France Gall</b>.</p>
+	<p><b>What thought gets you out of bed on difficult mornings?</b> Hmmm… my croissant, a real treat!</p>
+	<p><b>How do you relax and disconnect?</b> By breathing so it seems.</p>
+	<p><b>How do you beat the blues?</b> Without a doubt, with a bath in which to drown negative thoughts.</p>
+	<p><b>When did you last get the giggles?</b> With<b> Arnaud</b> and <b>Sebastien</b> two young designers from the <b>Coperni </b>label where I am artistic director. It was during our most recent meeting in their Smart Car! <b>Coperni.</b> www.copernifemme.com</p>
+	<p><b>What do you like to eat for breakfast?</b> A buttered baguette with freshly squeezed grapefruit juice.</p>
+	<p><b>What’s your favourite French dish?</b> A croque madame (toasted ham and cheese sandwich), it’s simple, crusty and appetizing – very French!</p>
+	<p><b>What do you like to cook for your family?</b> Devilled eggs, just so you know!</p>
+	<p><b>What do you eat for energy?</b> Half a grapefruit and I’m ready to go.</p>
+	<p><b>Do you follow any particular diets?</b> Yes, I never eat dairy or drink alcohol. That way life’s just more beautiful.</p>
+	<p><b>Do you have a favourite treat?</b> Sour sweets, they’re irresistible and a wonderful way to step back in time.</p>
+	<p><b> </b><b>How would you describe the typical Parisienne?</b> She’s always very natural and humourous and is never one to be pushed around.</p>
+	<p><b>Do you have any Parisian icons?</b> I love <b>Jane Birkin,</b> yes she’s English, but she’s so Parisian. And the incomparable <b>Isabelle Huppert.</b> I also love the free spirit of <b>Anne Wiazemsky,</b> the novelist, muse and wife of <b>Jean-Luc Godard</b>.</p>
+	<p><b>How would you describe female beauty?</b> I love it when a girl just doesn’t realize she’s beautiful.</p>
+	<p><b>Name a Parisian beauty trick that’s good in itself</b> Sweeping your hands through your hair.</p>
+	<p><b>In what way is your beauty routine very French?</b> I wear very little make-up, and, no matter the occasion or situation, I always wear a little mascara and some day cream.</p>
+	<p><b>Which beauty products can’t you live without?</b> Hand cream, mascara and a little concealer just in case I need it.</p>
+	<p><b>What do you tell yourself when you look in the mirror?</b> That I hate the little cowlick in my hair that stops me from having a perfectly straight parting.</p>
+	<p><b>Do you admit to any particular beauty habits?</b> A dark red almost scarlet matte lipstick that I like to take out with me on evenings out. And, <b>David Mallett </b>hair serum, I’m somewhat addicted to checking on how my hair’s falling. Plus dark, almost crimson matte lipstick, that I always make sure to take out with me on nights out. <br><b>David Mallett</b>. 14 Rue Notre-Dame des Victoires, 75002 Paris. Tel. : +33 1 40 20 00 23.</p>
+<div class="article_text module_title"><h2><b>Describe a typically Parisian attitude for an evening out.</b> Quiet mysterious attentiveness and nonchalance. </h2></div>
+	<p><b>Where do you like to go for beauty gifts?</b> One of the oldest dispensaries in the world:<b> Santa Maria Novella </b>that has a concession in <b>Bon Marché.</b></p>
+	<p><b>Name three things that make you smile:</b> My love, getting a postcard and surprises.</p>
+	<p><b>Lolita’s Paris Address Book</b></p>
+	<p><b>For gifts: <br></b><b>Aurélie Bidermann</b>. 55 bis rue des Saints-Pères, 75006 Paris.</p>
+	<p><b>To relax and get a massage: <br></b><b>La Maison Popincourt.</b> 14 Rue de Verneuil, 75006 Paris. Tel. : +33 1 43 38 96 84.</p>
+	<p><b> </b><b>For tea, coffee or a cocktail:<br></b><b>Le Télescope.</b> 5 Rue Villedo, 75001 Paris. Tel. : +33 1 42 61 33 14.</p>
+	<p><b> </b><b>For lunch with the girls:<br></b><b>Le Chardenoux des Près</b>. 27 Rue Dragon, 75006 Paris. Tel. : +33 1 45 48 29 68.</p>
+	<p><b> </b><b>For housewares:<br></b><b>Chez Moi</b>, Paris. 25 Rue Herold, 75001 Paris.</p>
+	<p><b> </b><b>Photos : Saskia Lawaks</b></p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-1025', 'fdid', 'les-parisiennes')$
+	</div>
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-338')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/test_files/Capture_dcran_2015-06-09__164606_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/test_files/Capture_dcran_2015-06-09__164606_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/test_files/Capture_dcran_2015-06-09__164606_Homepage_Slot4_MustSee_Tablet.png, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/test_files/Capture_dcran_2015-06-09__164606_Homepage_Slot4_MustSee_Mobile.png, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">30/09/15</p>
+									<h4 class="article_title">@legrandbazar: Matthieu Venot&rsquo;s pastel-tinted look at urbanism</h4>
+									<p class="article_content">The most inspiring Instagram accounts on our radar right now, to dip into on your commute or at coffee time.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-338')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-737')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Pierrick_et_Cindy_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Pierrick_et_Cindy_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Pierrick_et_Cindy_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Pierrick_et_Cindy_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">09/10/15</p>
+									<h4 class="article_title">Cindy Thierriaz and Pierrick Leydet&rsquo;s nomadic spirit</h4>
+									<p class="article_content">Cindy Thierraz and Pierrick Leydet share their Paris life</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-737')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-1025', 'fdid', 'les-parisiennes')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-1025')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-1025', 'fdid', 'les-parisiennes')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=1025&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

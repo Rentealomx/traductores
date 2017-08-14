@@ -1,0 +1,29 @@
+<div class="silky_routine_module">
+	<div class="routine_box routine_text">
+		<p>Enhance your<br/> routine with<br/> 3 bespoke<br/> gesture</p>
+	</div>
+	<div class="routine_box">
+		<img style="width:100%;" class="responsive_image" data-is-responsive="true" alt="" 
+		data-desktop-src="landing-page/silky_cream_face_img_1_desk.png?$staticlink$" 
+		data-mobile-src="landing-page/silky_cream_face_img_1_mob.png?$staticlink$" 
+		data-tablet-src="landing-page/silky_cream_face_img_1_desk.png?$staticlink$"/>
+		<span>1</span>
+		<p>Glide on the formula<br/> using outwards strokes from<br/> the centre of your face.</p>
+	</div>
+	<div class="routine_box">
+		<img style="width:100%;" class="responsive_image" data-is-responsive="true" alt="" 
+		data-desktop-src="landing-page/silky_cream_face_img_2_desk.png?$staticlink$" 
+		data-mobile-src="landing-page/silky_cream_face_img_2_mob.png?$staticlink$" 
+		data-tablet-src="landing-page/silky_cream_face_img_2_desk.png?$staticlink$"/>
+		<span>2</span>
+		<p>Place your palms on<br/> your cheeks and chin<br/> and inhale.</p> 
+	</div>
+	<div class="routine_box">
+		<img style="width:100%;" class="responsive_image" data-is-responsive="true" alt="" 
+		data-desktop-src="landing-page/silky_cream_face_img_3_desk.png?$staticlink$" 
+		data-mobile-src="landing-page/silky_cream_face_img_3_mob.png?$staticlink$" 
+		data-tablet-src="landing-page/silky_cream_face_img_3_desk.png?$staticlink$"/>
+		<span>3</span>
+		<p>Press and stretch<br/> your skin towards your<br/> ears as your exhale.</p>
+	</div>
+</div>

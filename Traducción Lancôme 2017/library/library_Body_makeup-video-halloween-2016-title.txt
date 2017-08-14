@@ -1,0 +1,36 @@
+<style type="text/css"> 
+
+.sp0oky-page{text-align: center; font-family: 'Gotham Book', arial, sans-serif; font-size: 16px; color: #000; line-height: normal; margin-top: -125px;}
+.sp0oky-divider, .sp0oky-white-divider{ margin: 20px 0; float: left; width: 100%; text-align: center; font-family: 'Garamond Medium', times, serif; font-size:24px; color: #000; line-height: normal;}
+.sp0oky-line-left { width: 20%; border-top: 3px solid #000; position: relative; left: -25px;  top: 9px; height: 15px; display: inline-block; line-height: normal;}
+.sp0oky-line-right { width: 20%; border-top: 3px solid #000; position: relative; right: -25px;  top: 9px; height: 15px; display: inline-block; line-height: normal;}
+.pt_product_search_result>.wrapper .l-listing_page-results .search_result_content {
+    margin: 92px 0 -130px 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+.sp0oky-page{text-align: center; font-family: 'Gotham Book', arial, sans-serif; font-size: 16px; color: #000; line-height: normal; margin-top: 100px; margin-bottom: 10px;}
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+.sp0oky-page{text-align: center; font-family: 'Gotham Book', arial, sans-serif; font-size: 16px; color: #000; line-height: normal; margin-top: 100px; margin-bottom: 10px;}
+.sp0oky-line-left, .sp0oky-line-right{ display: none; line-height: normal;}
+.sp0oky-divider{ border-top: 3px solid #000; border-bottom: 3px solid #000; padding: 10px 0 0px 0; line-height: normal;}
+}
+
+</style> 
+
+	<div class="sp0oky-wrapper">
+		<div class="sp0oky-page">
+			<div class="sp0oky-divider"><div class="sp0oky-line-left"></div>HALLOWEEN "HACKS"<div class="sp0oky-line-right"></div></div>
+
+			<b>STUCK FOR HALLOWEEN MAKE-UP IDEAS?</b><br/>
+			Here are 5 simple looks to get you started.<br/>
+
+		</div>
+	
+	</div>

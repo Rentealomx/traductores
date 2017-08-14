@@ -1,0 +1,22 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000;">
+                    Perfume for Men
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000;">
+                    COLOGNE, FRAGRANCE, MEN'S PERFUME
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000;">
+                    Discover Lancôme's captivating and elegant men's cologne, eau de toilette and perfume that invigorate the senses.<br>Find your signature cologne and perfume scent; from the quintessential masculine woody sents to cripsy fresh scents <br>to suble musk fragrance.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l2/L2_FRAGRANCE_Mens Perfume_1600x267.png, categoryHeader, category title, categoryimageclass,,,category/landing-l2/L2_FRAGRANCE_Mens-Perfume_1035x286.png,category/landing-l2/L2_FRAGRANCE_Mens Perfume_1600x267.png, null, true)$
+    </div>
+</div>

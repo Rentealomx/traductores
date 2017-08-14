@@ -1,0 +1,24 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000;">
+                    Halloween
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000;">
+                    DISCOVER THE HALLOWEEN LOOK IMAGINED BY LISA ELDRIDGE
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000;">
+                    Discover the full Halloween makeup look <br>
+                    imagined by Lancôme's Global Makeup <br>
+                    Creative Director Lisa Eldridge
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l3/Halloween2016_Category_page_banner.jpg, categoryHeader, category title, categoryimageclass,,,category/landing-l3/Halloween2016_Category_page_banner.jpg,category/landing-l3/Halloween2016_Category_page_banner.jpg)$
+    </div>
+</div>

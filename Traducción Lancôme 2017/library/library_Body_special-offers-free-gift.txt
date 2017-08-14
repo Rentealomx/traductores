@@ -1,0 +1,170 @@
+<style>
+.offers_push.offers_push_major {
+    position: relative;
+    margin: 25px 0 20px;
+}
+
+.offers_oh_bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    max-width: 88%;
+}
+
+.offers_push_major .offers_push_text p, .offers_push_major .offers_push_text a, .offers_push_major .offers_push_text_titles {
+    position: relative;
+    z-index: 2;
+}
+
+.offers_push_major .offers_push_text {
+    position: relative;
+}
+
+.offers_push_text b,.offers_push_text strong {
+    font-weight: normal;
+    font-family: "Gotham Bold",Arial,serif;
+}
+
+.offers_push {
+    border: 1px solid #dadada;
+    margin: 0 0 20px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.offers_push_text,.offers_push_img {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.offers_push_img {
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 260px;
+}
+
+.offers_push p {
+    color: #000;
+}
+
+.offers_push_text {
+    padding: 10px 20px 10px 5%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.offers_push_text h2 {
+    font-size: 35px;
+    line-height: 1;
+    margin: .2em 0;
+}
+
+.offers_push_text p {
+    font-family: "Gotham Book",Arial,serif;
+    font-size: 15px;
+}
+
+.offers_push_text .special {
+    font-family: "Gotham Book",Arial,serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.offers_push_text .btn_cta_primary {
+    margin: 12px 0 0;
+}
+
+.offers_push_text .btn_cta_primary:hover {
+    color: #fff;
+}
+
+@media only screen and (max-width: 1281px) {
+    .offers_push_img img {
+        max-width: initial;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .offers_push_text p {
+        line-height: 1.4em;
+    }
+
+    .offers_push_text h2 {
+        font-size: 23px;
+    }
+
+    .offers_push_img img {
+        float: none;
+        max-width: 100%;
+    }
+
+    .offers_push_img {		
+        padding: 20px;		
+        min-width: 0;		
+    }
+
+    .offers_push_text {
+        width: 57%;
+        padding: 20px 10px 20px 0;
+    }
+
+    .offers_oh_bg {
+        width: 70%;
+        max-width: 320px;
+    }
+
+    .offers_push_major .offers_push_text {
+        width: 100%;
+        display: block;
+        padding: 0 10px 20px 10px;
+        text-align: center;
+        position: static;
+    }
+
+    .offers_push_major .offers_push_img {
+        min-width: 0;
+        display: block;
+        padding: 0;
+        margin: 80px 0 25px 0;
+        position: relative;
+        z-index: 2;
+    }
+
+    .offers_push_major .offers_push_text_titles {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        width: 100%;
+    }
+
+    .offers_push .btn_cta_primary {
+        padding: 15px 30px;
+    }
+}
+</style>
+
+<div class="offers_push offers_push_major">
+    <div class="offers_push_img">
+                  <a href="#">
+<img
+  alt="Free Gift"  
+  src="images/loading-small.gif?$staticlink$"
+  class="responsive_image"
+  $responsiveSrc(SPECIAL-OFFERS_FREE-GIFT.jpg, 530|530|283|592,,,,,SPECIAL-OFFERS_FREE-GIFT.jpg,SPECIAL-OFFERS_FREE-GIFT.jpg,SPECIAL-OFFERS_FREE-GIFT.jpg)$
+/>
+                  </a>
+    </div>
+    <div class="offers_push_text">
+        <div class="offers_push_text_titles">
+            <p class="special">special offer</p>
+            <h2>Free Gift</h2>
+        </div>
+        <p>We're celebrating Singles Day. Get 3 deluxe miniatures and a free makeup bag with any order. Entrer code <span style="color: #d51b51"><strong>DOUBLE11</strong></span> at checkout.</p>
+        <a class="btn_cta_primary fuchsia_animate" href="#">GET IT NOW</a>
+        <img class="offers_oh_bg" src="landing-page/oh-special-offers/push_oh_bg.png?$staticlink$"/>
+    </div>
+</div>
+<span data-tracking-promotion-impression='{"id": "special-offers-free-gift","name" : "Free Gift","creative":"special offers", "position":  "slot1"}' style="d

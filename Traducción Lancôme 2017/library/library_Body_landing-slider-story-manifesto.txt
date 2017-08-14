@@ -1,0 +1,46 @@
+<div class="strate-manifesto strate-video">
+    <div class="row clearfix">
+        <div class="col-xs-12 col-md-6">
+            <div class="header-strate">
+                <div class="sur-title-strate">
+                    <span class="sur-title">Our manifesto</span>
+                </div>
+                <div class="title-strate">
+                     <span class="big-title black-font">MADE OF <strong>UNSTOPPABLE</strong> ENERGY</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="headline-strate">
+                <p>Putting doubts aside. Overcoming fears. Bringing dreams to life. Show the world what we are made of.
+                    <br>
+                    <br>I'm a woman. And what am I made of? 
+                    <br>A lot of things.
+                    <br><strong>Doubts?</strong> True. But I have the energy to put them aside.
+                    <br><strong>Fears?</strong> Of course. But I have the energy to overcome them.
+                    <br><strong>Dreams?</strong> Luckily! And I have the energy to bring them to life.
+                    <br><strong>Feats!</strong> For sure! And I have the energy to make the most of it.
+                </p>
+            </div>
+            <div class="collapsible-component">
+                <div class="collapsible-content">
+                    <p>
+                        <br>
+                        <br><strong>I am made of energy.</strong> 
+                        <br>Unstoppable, endless, vital. 
+                        <br>This vital energy makes me feel alive. This unstoppable energy makes my achievements even more rewarding. Happiness, self-fullfilment and beauty are fueled with this energy. They are not something we claim — but something we live.
+                        <br>
+                        <br>Lancome wants every single woman to feel this personal and vital energy, to express herself, to try new things and to forge her own beautiful personality. Every woman should make the most of her energy and live to the fullest. So don't adjust your lifestyle, we will take care of your skin.
+                    </p>
+                </div>
+                <a href="#" class="collapsible-action btn" tabindex="0">
+                <span class="title-collapsed">Read more &nbsp;&nbsp; +</span>
+                <span class="title-active">Close &nbsp;&nbsp; X</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="embed-video">
+        <div class="embed-container"><iframe src="https://www.youtube.com/embed/tDMV8w_qmsY" frameborder="0" allowfullscreen=""></iframe></div>
+    </div>
+</div>

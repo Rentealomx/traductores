@@ -1,0 +1,59 @@
+<style>
+.main {
+    background: #4b5c7f;
+}
+.constrained {
+    max-width: 100vw;
+}
+.title {
+    overflow: hidden;
+    background: #4b5c7f;
+    font-size: 27px !important;
+    letter-spacing: 0.8px;
+    padding: 45px 0;
+    color: white;
+    text-transform: uppercase;
+}
+.prime_text {
+    padding: 0 7.5%;
+    background: #4b5c7f;
+}
+.title:before,
+.title:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3px;
+    background: #FFF;
+    border: solid #FFF;
+    border-width: 0 10px;
+    margin: 0 10px;
+}
+.title:before {
+    margin-left: -100%;
+}
+.title:after {
+    margin-right: -100%;
+}
+@media only screen and (max-width: 1024px) {
+    #landing-page-genefique-advanced-header-1 .title:before, #landing-page-genefique-advanced-header-1 .title:after {
+        width: 19.5%;
+    }
+}
+@media only screen and (max-width: 1127px) {
+    .footer {
+        top: -60px !important;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .title {
+        font-size: 4vw !important;
+    } 
+    .title:before, .title:after {
+        display: none;
+    }
+}
+</style>
+<h1 class="title">the more i live, the younger i am</h1>

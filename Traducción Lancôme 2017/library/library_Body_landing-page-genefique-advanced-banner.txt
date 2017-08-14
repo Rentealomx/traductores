@@ -1,0 +1,177 @@
+<style>
+#landing-page-genefique-advanced-banner .background_image {
+    background: #4B5C7F;
+}
+#landing-page-genefique-advanced-banner .background_image img {
+    width: 85vw;
+    margin: 0 auto 50px;
+}
+#landing-page-genefique-advanced-banner .background_image_content_text {
+    width: 100vw !important;
+    margin: 0 145px !important;
+}
+#landing-page-genefique-advanced-banner .number-one {
+    color: black !important;
+    text-transform: uppercase;
+    font-size: 45px !important;
+}
+.advanced-img {
+    transform: translateX(40vw);
+    width: 20vw;
+
+}
+.advanced-sup {
+    color: black !important;
+    font-size: 12px;
+    margin: 17px 0 38px;
+
+}
+#landing-page-genefique-advanced-banner .banner-bl {
+    transform: translate(4vw,-1vw);
+}
+.btn_shop {
+    transform: translate(4.5vw, 0);
+}
+.prime_background_image summary p {
+    font-size: 17px;
+}
+ @media screen and (min-width:0\0){
+    #landing-page-genefique-advanced-banner .banner-bl{ transform: translate(4vw,-1vw); }
+ }
+@media (max-width: 1280px) {
+    #landing-page-genefique-advanced-banner .background_image_content_text {
+        margin: 0 6vw !important;
+    }
+    .advanced-img {
+        transform: translateX(42vw);
+    }
+}
+@media (max-width: 1024px) {
+    #landing-page-genefique-advanced-banner .number-one {
+        font-size: 37px !important;
+    }
+    .advanced-img {
+        transform: translateX(40vw);
+        margin: -35px 0 0;
+    }
+    .advanced-sup {
+        margin: 40px 0 15px;
+    }
+    #landing-page-genefique-advanced-banner .background_image_content_text {
+        margin: 0 21vw !important;
+    }
+} 
+@media (max-width: 800px) {
+#landing-page-genefique-advanced-banner .number-one {
+    font-size: 30px !important;
+}
+.advanced-img {
+    transform: translateX(38vw);
+}
+.prime_background_image summary p {
+    font-size: 10px;
+}
+}
+@media (max-width: 640px) {
+    #landing-page-genefique-advanced-banner .background_image_content_text {
+        margin: -50vw 15vw 0 !important;
+    }
+.footer {
+    top: 10px !important;
+}
+#landing-page-genefique-advanced-banner .number-one {
+    font-size: 4vw !important;
+}
+.advanced-img {
+    transform: translateX(30vw);
+    margin: -15px 0 0;
+    width: 30vw;
+}
+.advanced-sup {
+    margin: 20px 0 0;
+    font-size: 10px !important;
+}
+.btn_shop {
+    transform: translate(11.4vw, -3vw);
+}
+#landing-page-genefique-advanced-banner .banner-bl {
+    transform: translate(10vw,-1vw) !important;
+}
+}
+@media (max-width: 414px) {
+#landing-page-genefique-advanced-banner .banner-bl {
+    transform: translate(11vw,-9vw) !important;
+}
+.advanced-img {
+    transform: translateX(33vw);
+    margin: -20px 0 0;
+    width: 25vw;
+}
+.btn_shop {
+    height: 4vw !important;
+    line-height: 4vw !important;
+    font-size: 2vw !important;
+    padding: 1vw !important;
+    transform: translate(11vw,-16vw);
+}
+}
+@media (max-width: 375px) {
+.btn_shop {
+    height: initial !important;
+    line-height: 5vw !important;
+    margin: 4px 0 0 !important;
+    font-size: 1.8vw !important;
+    padding: 0 0 !important;
+    min-width: 20vw !important;
+}
+}
+@media (max-width: 360px) {
+    #landing-page-genefique-advanced-banner .banner-bl {
+        transform: translate(11vw,-15vw) !important;
+    }
+.advanced-sup {
+    margin: 13px 0 -20px;
+    font-size: 6px !important;
+}
+.btn_shop {
+    padding: 0vw 0 !important;
+}
+.btn_shop {
+    margin: 11px 0 0 !important;
+}
+#landing-page-genefique-advanced-banner .background_image_content_text {
+    margin: -45vw 15vw 0 !important;
+}
+}
+@media (max-width: 320px) {
+    #landing-page-genefique-advanced-banner .banner-bl {
+        transform: translate(11vw,-15vw) !important;
+    }
+.advanced-sup {
+    margin: 13px 0 -20px;
+    font-size: 6px !important;
+}
+.btn_shop {
+    padding: 0vw 0 !important;
+}
+.btn_shop {
+    margin: 11px 0 0 !important;
+}
+#landing-page-genefique-advanced-banner .background_image_content_text {
+    margin: -48vw 15vw 0 !important;
+}
+}
+</style>
+
+<div class="background_image_content_text">
+<summary class="banner-bl">
+<h2 class="number-one">our n°1 serum</h2>
+<img $responsiveSrc(landing-genefique-advanced/advanced.png,1074|1074|1074|500)$ class="advanced-img"/>
+<p class="advanced-sup">1<sup>st</sup> step of every beauty ritual </br> PATENTED UNTIL 2029</p>
+</summary>
+<div class="buttons_block">
+<div class="quick_shop">
+<a class="js_quickshoppopin btn_cta_primary fuchsia_animate btn_shop" href="$url('Product-Show', 'pid', '26901c-LAC')$" title="Grandiose">SHOP NOW</a>
+</div>
+</div>
+</div>

@@ -1,0 +1,18 @@
+<h2>SHIPPING</h2>
+
+<h3>FREE DELIVERY: </h3>
+
+<p>Receive free delivery on all standard online orders. </p>
+
+<h3> DESTINATIONS:</h3>
+<p>Your order will be processed by the logistics centre located in Nottingham, then dispatched by DPD. Only orders for which the invoice and delivery addresses are in the United Kingdom, except Channel Islands, can be processed.</p>
+<p>Orders cannot be delivered to the Channel Islands or to a P.O box delivery address. </p>
+
+<h3>DELIVERY TIMES: </h3>
+
+<p>Your order will reach you within 3 - 5 working days, aside from severe weather conditions and exceptional circumstances. Some areas of the UK, such as remote parts of Northern Scotland may take longer.</p>
+
+<h3>SENDING A GIFT:</h3>
+
+<p>If you wish to send a gift, choose the products and add them to your basket. When you are on the checkout page, you can select gift wrap. You can then send your order to another recipient. On the page "order summary and checkout", tick "new shipping address" and fill in the fields reserved for the desired delivery address. </p>
+<p>Complimentary gift wrap is not available for our Gift Sets as they already come in luxury Lancôme packaging.</p>

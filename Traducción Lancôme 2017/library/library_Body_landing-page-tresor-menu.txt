@@ -1,0 +1,202 @@
+<link rel="stylesheet" href="/landing-page/tresor/creative.min.css?$staticlink$">
+
+<style>
+#tresor.outside.static .body {
+padding-top:0;
+}
+#tresor .body {
+background:none;
+}
+#tresor .head {
+position:static;
+
+}
+#tresor .head .landing_menu ul {
+line-height:4rem;
+margin-bottom:0;
+}
+.prime_module.full_section.tresor-making-video-container {
+width:100%;
+clear:none;
+}
+.prime_module.full_section.tresor-making-product-container {
+width:30%;
+clear:none;
+}
+
+@media only screen and (max-width: 700px) {
+.prime_module.full_section.tresor-making-video-container {
+width:100%;
+clear:none;
+}
+.prime_module.full_section.tresor-making-product-container {
+display:none;
+}
+}
+
+.tresor-making-product .inner {
+padding-top:0!important;
+}
+
+.tresor-making-product .mini_slider .product_pushes_module {
+background-color:transparent;
+}
+
+.tresor-making-product .jcarousel-clip > ul > li {
+width:auto!important;
+}
+
+.tresor-making-product .jcarousel-clip > ul > li .product_name, .tresor-making-product .jcarousel-clip > ul > li .product_price {
+color:#fff;
+}
+
+.tresor-making-product .mini_slider .product_tile .carousel {
+display:none!important;
+}
+
+.tresor-making-product .jcarousel-clip > ul > li .product_price_item {
+float:none;
+margin:0 auto;
+}
+
+.tresor-making-product .jcarousel-clip > ul > li .product_price_item .price {
+float:none;
+}
+
+#tresor-making .prime_info_box .prime_info_box_inner {
+padding:30px;
+}
+
+@media only screen and (max-width: 979px) {
+.prime_info_box .prime_info_box_inner {
+    padding: 24px 13px 10px!important;
+}
+
+}
+
+#tresor-making .prime_info_box:after, #tresor-making .prime_info_box:before {
+display:none;
+}
+
+.tresor-making-product .buttons_block .quick_shop a,.tresor-making-product .buttons_block .btn_cta_primary a {
+background:white;
+color:#000; 
+}
+
+.prime_module.full_section.sampling-bg {
+background:#000;
+margin-top:15px!important;
+}
+
+@media only screen and (max-width: 640px) {
+#tresor .landing_menu .menu_toggle_button {
+margin-bottom:0;
+}
+#tresor.outside.static .head {
+height:auto;
+}
+#tresor .head .landing_menu ul {
+    text-align: center;
+    margin-left: 0;
+padding-top:60px;
+}
+#tresor .head .landing_menu ul li {
+float: none;
+    display: block;
+    margin: 0;
+}
+}
+.landing_menu.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+    margin:0 auto!important;
+}
+#landing-page-tresor-page .sticky-header {
+top: 60px !important;
+}
+
+@media only screen and (max-width: 979px) {
+.landing_menu ul {
+    margin: 0 40px;
+}
+#tresor .head .landing_menu ul {
+    line-height: 3rem;
+    margin-bottom: 0;
+    width: 100%;
+}
+.landing_menu.fixed {
+/*top:66px!important;*/
+}
+.landing_menu ul li {
+    float: left;
+    width: auto;
+    position: relative;
+    margin-right: 35px;
+    font-size: .75rem;
+}
+.landing_menu ul li:after {
+display:none;
+}
+}
+@media only screen and (max-width: 979px) {
+.pt_landing_modules form .formfield_email {
+    margin: 0;
+}
+.prime_sample_form_module>form {
+width:96px!important;
+}
+}
+@media only screen and (max-width: 768px) {
+#landing-page-tresor-page .sticky-header {
+top: 50px !important;
+}
+#landing-page-tresor-page .landing_menu {
+	z-index: 9;
+}
+}
+@media only screen and (max-width: 640px) {
+.landing_menu.fixed {
+/*top:59px!important;*/
+}
+}
+
+</style>
+<div id="main">
+<div id="tresor" class="static outside desktop" style="opacity: 1;">
+<div class="body">
+<div class="wrap bg">
+<div class="head">
+
+   <div class="landing_menu">
+    <div class="is_visible_mobile is_hidden_desktop menu_toggle_button">Menu</div>
+    <ul>
+        <li> <a class="scroll_to_selected" href=".tresor-film-title">The Film</a></li>
+        <li> <a class="scroll_to_selected" href=".tresor-secrets">The Secrets of Love</a></li>
+        <li> <a class="scroll_to_selected" href=".tresor-range-title">The Range</a></li>
+        <li> <a class="scroll_to_selected" href=".tresor-making-title">The Making Of</a></li>
+        <li> <a class="scroll_to_selected" href="#samplingform">Get a secret invitation</a></li>
+    </ul>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+
+$('.scroll_to_selected').on('click', function(e){
+e.preventDefault();
+e.stopPropagation();
+});
+
+$(window).on('scroll', _.debounce(function(){
+var navigationHeight = $('.header-container').height();
+$('.landing_menu').addClass('fixed').css('top', navigationHeight+50);
+
+if ($(window).scrollTop() <= 0) {
+$('.landing_menu').removeClass('fixed').css('top', 50);
+}
+
+}, 100));
+
+});
+</script>

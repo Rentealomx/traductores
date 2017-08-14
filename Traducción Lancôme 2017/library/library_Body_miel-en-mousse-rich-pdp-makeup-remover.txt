@@ -1,0 +1,32 @@
+<style>
+.full-width img {
+width: 100%;
+}
+</style>
+<div class="clear row-section layout">
+<div class="columns small-12 text-center">
+<span class="section__title">LUSCIOUS DOUBLE CLEANSE</span>
+</div>
+</div>
+
+<div class="clear row-section flex-container layout">
+<div class="columns medium-4 medium-offset-1 small-12 align-self-center">
+				<h3><center>Luxurious transformation</center></h3>
+		<p align="center">
+			A fascinating transformation from honey-like texture to luxurious foam that will simply spoil your skin.
+		</p></br></br>
+	 
+		<h3><center>Comfortable finish</center></h3>
+		<p align="center">
+			Enriched with acacia honey, Miel-en-Mousse provides a comfortable and nourishing feel at the end of application. A cuddle in a bottle.
+		</p></br></br>
+		<h3><center>Honey Addiction</center></h3>
+		<p align="center">
+			As a bonus, its honey and vanilla fragrance makes using it as pleasant as it is addictive...
+		</p>
+	</div>
+
+	<div class="columns medium-6 medium-offset-1 small-12 align-self-center full-width">
+$renderContentImage(RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_08.jpg,,,,,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_08.jpg,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_08.jpg)$
+	</div>
+</div>

@@ -1,0 +1,37 @@
+<div class="article_title_module">
+		<p class="publishing_date">22/03/2016</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-1545', 'fdid', 'beauty-tips')$
+		<h1>Do's and don’ts for wearing blue eye makeup</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/articles/FardBleu_OK~1_Article_MediaModule_Vertical_Desktop.jpg, articlevertical, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>Don’t: “</b>Apply blue shadow to the both upper and lower lids while also accentuating the entire look with blue mascara.”</p>
+	<p><b>Do: </b>“Play with on-trend blue tones, but by following a few golden rules: 1/ Dust on a little shadow to the lower lid by creating a washed-out daytime version of a classic smoky eye. 2/Ditch the mascara! Or, if you can’t imagine going without mascara, opt for a nude option that simply highlights lashes, making sure blue’s endless playfulness is suitably accentuated.” Miky, <b>Lancôme</b> makeup artist.</p>
+	<p><i>Color Design Mono - P207 Bleu de France, <b>Lancôme</b>.</i></p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-1545', 'fdid', 'beauty-tips')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', 'CA-328098-LAC ', 'title', 'Shop the story')$		
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-1545', 'fdid', 'beauty-tips')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-1545')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-1545', 'fdid', 'beauty-tips')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=1545&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

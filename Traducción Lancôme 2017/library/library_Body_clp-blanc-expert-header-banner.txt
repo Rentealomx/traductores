@@ -1,0 +1,22 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000;">
+                    Blanc Expert
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000;">
+                    MOISTURIZER, FACIAL CLEANSER, CUSHION FOUNDATION
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000;">
+                    Activate your inner glow. Thanks to its advanced expertise in melanin production regulation, Blanc Expert reduces dark spots,<br>brightens skin and smooths uneven skin tone.<br> This collection includes moisturizer, facial cleanser and cushion foundation to bring out your glowing skin.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l3/L3_SKINCARE_By_Range_Blanc_Expert_1600x267.png, categoryHeader, category title, categoryimageclass,,,category/landing-l3/L3_SKINCARE_By_Range_Blanc_Expert_1035x286.png,category/landing-l3/L3_SKINCARE_By_Range_Blanc_Expert_1600x267.png, null, true)$
+    </div>
+</div>

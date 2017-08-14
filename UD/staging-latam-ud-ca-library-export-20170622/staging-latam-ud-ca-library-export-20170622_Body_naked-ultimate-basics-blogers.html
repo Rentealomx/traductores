@@ -1,0 +1,66 @@
+<script>
+var  fancyboxVideoSettings = {
+            openEffect  : 'none',
+            closeEffect : 'none',
+            wrapCSS                : 'fancybox-media-container',
+            padding: [60, 30, 40, 30],
+            helpers : {
+                media : {},
+                scrolling: 'no',
+                title: {type: 'inside'},
+                overlay: {
+                    css: {'background': 'rgba(0, 0, 0, .7)'}
+                }
+            },
+            beforeShow : function () {
+                this.title = '<h3>' +
+                    $(this.element).data('title') +
+                    '</h3><p class="fancybox-video-description">' +
+                    $(this.element).data('description') +
+                    '</p>';
+            }
+        }
+$(window).load(function() {
+  $('.naked-ultimate-basics-bloggers-pics a.fancybox-media').off("click").fancybox(fancyboxVideoSettings)
+});
+</script>
+
+<div class="naked-ultimate-basics-bloggers-header" $responsiveBackground(naked-ultimate-basics/naked-ultimate-basics-bloggers-header-bg.png, nakedUltimateBasicsVideoCover, forced)$>
+    <h2>SIX BLOGGERS, ALL NAKED</h2>
+    <p>
+        We hooked up six super-talented beauty bloggers with Naked Ultimate Basics and let them have at it. These are the copy-worthy Naked looks they created. 
+    </p>
+</div>
+<div class="naked-ultimate-basics-bloggers-pics">
+    <a href="https://www.youtube.com/watch?v=UDjEuc2BqaE&feature=youtu.be" class="fancybox-media responsive_image" data-description="We brought beauty blogger Sona Gasparian (of Simply Sona) out to our Content Lab at UDHQ and hooked her up with our Naked Ultimate Basics palette. Then, we let her have at it in our UD Confessional. She created a soft daytime, brunch-appropriate look using four shades from Naked Ultimate Basics and a shimmery pale peach shade of Vice Lipstick—and it is GORGEOUS." data-title="Simply Sona | Naked Ultimate Basics | Daytime Look | UD Confessional | Urban Decay">
+        <img alt="Simply Sona | Naked Ultimate Basics | Daytime Look | UD Confessional | Urban Decay" src="naked-ultimate-basics/blogger1_Sona_thumb.jpg?$staticlink$" />
+        <div class="bloggers-image-overlay" style="height:100%"><span>View Now</span></div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=e6HJjBww2hk&feature=youtu.be" class="fancybox-media responsive_image" data-description="We got Leyla Rose (the talented beauty blogger behind Makeup by Leyla) to visit our Content Lab at UDHQ to create a look using the Naked Ultimate Basics palette and Vice Lipstick. As soon as she stepped into our UD Confessional, we knew we were in for something awesome. And, of course, she didn’t disappoint. Using two cool-toned Naked Ultimate Basics shades (both matte, just like all the shades in the palette) and our matte navy blue shade of Vice Lipstick, she created a look that is stunningly unique…and cool, just like Leyla." data-title="Cool Matte Look Tutorial by Leyla Rose | Naked Ultimate Basics | Urban Decay">
+        <img alt="Cool Matte Look Tutorial by Leyla Rose | Naked Ultimate Basics | Urban Decay" src="naked-ultimate-basics/blogger2_Leyla_thumb.jpg?$staticlink$" />
+        <div class="bloggers-image-overlay" style="height:100%"><span>View Now</span></div>
+    </a>
+
+    <a href="https://youtu.be/YIUUQbORGng" class="fancybox-media responsive_image" data-description="Beauty Blogger Kaushal (of Kaushal Beauty) visited our UDHQ Content Lab, so we took her into our UD Confessional and asked her to come up with a look she'd love to rock using the Naked Ultimate Basics palette. The final result was obviously beautiful. For her look, Kaushal went for a matte brown smoky eye with a matching matte brown lip. The monochromatic theme—with the addition of burnt orange on the eye (using Extra Bitter, Kaushal's favorite Naked Ultimate Basics shade)—looks effortless, yet stunning and is perfect for day or night." data-title="MATTE SMOKY LOOK TUTORIAL BY KAUSHAL BEAUTY | NAKED ULTIMATE BASICS | URBAN DECAY">
+        <img alt="MATTE SMOKY LOOK TUTORIAL BY KAUSHAL BEAUTY | NAKED ULTIMATE BASICS | URBAN DECAY" src="blogger3_Kaushal_thumb.jpg?$staticlink$" />
+        <div class="bloggers-image-overlay" style="height:100%"><span>View Now</span></div>
+    </a>
+
+        <a href="https://youtu.be/iipWMxMHWYQ" class="fancybox-media responsive_image" data-description="We asked beauty blogger Jamie Genevieve to pay us a visit at our UDHQ Content Lab so she could impress us with a custom look using Naked Ultimate Basics. Of course she came through! Jamie stepped inside our UD Confessional and created a gorgeous burnt orange matte eye with a bold lip and Urban Lash false lashes. We can't wait to steal this look for ourselves." data-title="BURNT AND LETHAL LOOK TUTORIAL BY JAMIE GENEVIEVE | NAKED ULTIMATE BASICS | URBAN DECAY">
+        <img alt="BURNT AND LETHAL LOOK TUTORIAL BY JAMIE GENEVIEVE | NAKED ULTIMATE BASICS | URBAN DECAY" src="blogger4_Jamie_thumb.jpg?$staticlink$" />
+        <div class="bloggers-image-overlay" style="height:100%"><span>View Now</span></div>
+    </a>
+
+    <div class="coming-soon">
+        <img alt="" src="naked-ultimate-basics/BloggerLook4_ComingSoon.jpg?$staticlink$" title="Blogger Look Coming Soon" />
+    </div>
+
+    <div class="coming-soon">
+        <img alt="" src="naked-ultimate-basics/BloggerLook5_ComingSoon.jpg?$staticlink$" title="Blogger Look Coming Soon" />
+    </div>
+
+    <div class="coming-soon">
+        <img alt="" src="naked-ultimate-basics/BloggerLook6_ComingSoon.jpg?$staticlink$" title="Blogger Look Coming Soon" />
+    </div>
+</div>

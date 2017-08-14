@@ -1,0 +1,295 @@
+<div class="article_title_module">
+		<p class="publishing_date">16/10/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-1088', 'fdid', 'les-parisiennes')$
+		<h1>Clothilde and Arthur de Kerauson’s artistic interior</h1>
+	</div>
+		<div class="connected-carousels" >
+	<div class="stage" data-slide-width-sample=".carousel_slide_width_sample">
+	    <div class="carousel carousel-stage jcarousel-clip height_variation">
+			<ul>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/1-DE_KERSAUSON_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-DE_KERSAUSON_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-DE_KERSAUSON_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-DE_KERSAUSON_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/2-DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/3-DE_KERSAUZON_F1010025_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-DE_KERSAUZON_F1010025_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-DE_KERSAUZON_F1010025_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-DE_KERSAUZON_F1010025_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/4-DE_KERSAUZON_F1010022l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-DE_KERSAUZON_F1010022l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-DE_KERSAUZON_F1010022l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-DE_KERSAUZON_F1010022l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/5-DE_KERSAUZON_F1010014_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-DE_KERSAUZON_F1010014_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-DE_KERSAUZON_F1010014_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-DE_KERSAUZON_F1010014_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/6-DE_KERSAUZON_F1010010_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-DE_KERSAUZON_F1010010_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-DE_KERSAUZON_F1010010_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-DE_KERSAUZON_F1010010_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/7-DE_KERSAUZON_F1010031l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-DE_KERSAUZON_F1010031l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-DE_KERSAUZON_F1010031l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-DE_KERSAUZON_F1010031l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/8-DE_KERSAUZON_F1020009l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-DE_KERSAUZON_F1020009l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-DE_KERSAUZON_F1020009l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-DE_KERSAUZON_F1020009l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/9-DE_KERSAUZON_F1010035l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-DE_KERSAUZON_F1010035l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-DE_KERSAUZON_F1010035l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-DE_KERSAUZON_F1010035l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/10-DE_KERSAUZON_F1020020l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-DE_KERSAUZON_F1020020l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-DE_KERSAUZON_F1020020l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-DE_KERSAUZON_F1020020l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/11-DE_KERSAUZON_F1020034l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-DE_KERSAUZON_F1020034l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-DE_KERSAUZON_F1020034l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-DE_KERSAUZON_F1020034l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/12-DE_KERSAUZON_F1020019_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-DE_KERSAUZON_F1020019_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-DE_KERSAUZON_F1020019_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-DE_KERSAUZON_F1020019_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/13-DE_KERSAUZON_F1020021l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-DE_KERSAUZON_F1020021l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-DE_KERSAUZON_F1020021l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-DE_KERSAUZON_F1020021l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+		<li class="contentcarousel_list_item">
+			<div class="cbdi_image_holder">
+					<img class="cbdi-image" $responsiveSrc(/fs/media/beauty_mag_visuals/14-DE_KERSAUZON_F1050023l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-DE_KERSAUZON_F1050023l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Desktop.jpg, articlehorizontal, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-DE_KERSAUZON_F1050023l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Tablet.jpg, articlehorizontal, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-DE_KERSAUZON_F1050023l_1x13_Article_MediaModule_VideoThumbnailSlideshowLarge_Mobile.jpg, articlehorizontal, forced, mobile)$ alt="" />
+			</div>
+		</li>
+            </ul>
+            <div class="carousel_slide_width_sample"></div>
+        </div>
+        <a href="#" class="prev prev-stage" data-jcarouselcontrol="true"><span></span></a>
+        <a href="#" class="next next-stage" data-jcarouselcontrol="true"><span></span></a>
+    </div>
+    <div class="connected-carousel-navigation">
+        <a href="#" class="prev prev-navigation" data-jcarouselcontrol="true"></a>
+        <a href="#" class="next next-navigation" data-jcarouselcontrol="true"></a>
+        <div class="carousel carousel-navigation">
+            <ul>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/1-DE_KERSAUSON_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-DE_KERSAUSON_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-DE_KERSAUSON_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1-DE_KERSAUSON_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/2-DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/2-DE_KERSAUSON_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/3-DE_KERSAUZON_F1010025_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-DE_KERSAUZON_F1010025_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-DE_KERSAUZON_F1010025_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/3-DE_KERSAUZON_F1010025_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/4-DE_KERSAUZON_F1010022l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-DE_KERSAUZON_F1010022l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-DE_KERSAUZON_F1010022l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-DE_KERSAUZON_F1010022l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/5-DE_KERSAUZON_F1010014_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-DE_KERSAUZON_F1010014_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-DE_KERSAUZON_F1010014_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/5-DE_KERSAUZON_F1010014_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/6-DE_KERSAUZON_F1010010_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-DE_KERSAUZON_F1010010_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-DE_KERSAUZON_F1010010_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/6-DE_KERSAUZON_F1010010_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/7-DE_KERSAUZON_F1010031l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-DE_KERSAUZON_F1010031l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-DE_KERSAUZON_F1010031l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/7-DE_KERSAUZON_F1010031l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/8-DE_KERSAUZON_F1020009l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-DE_KERSAUZON_F1020009l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-DE_KERSAUZON_F1020009l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/8-DE_KERSAUZON_F1020009l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/9-DE_KERSAUZON_F1010035l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-DE_KERSAUZON_F1010035l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-DE_KERSAUZON_F1010035l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/9-DE_KERSAUZON_F1010035l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/10-DE_KERSAUZON_F1020020l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-DE_KERSAUZON_F1020020l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-DE_KERSAUZON_F1020020l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/10-DE_KERSAUZON_F1020020l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/11-DE_KERSAUZON_F1020034l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-DE_KERSAUZON_F1020034l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-DE_KERSAUZON_F1020034l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/11-DE_KERSAUZON_F1020034l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/12-DE_KERSAUZON_F1020019_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-DE_KERSAUZON_F1020019_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-DE_KERSAUZON_F1020019_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/12-DE_KERSAUZON_F1020019_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/13-DE_KERSAUZON_F1020021l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-DE_KERSAUZON_F1020021l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-DE_KERSAUZON_F1020021l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/13-DE_KERSAUZON_F1020021l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+		<li>
+				<img $responsiveSrc(/fs/media/beauty_mag_visuals/14-DE_KERSAUZON_F1050023l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-DE_KERSAUZON_F1050023l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-DE_KERSAUZON_F1050023l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Desktop.jpg, minivideo, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/14-DE_KERSAUZON_F1050023l_1x13_Article_MediaModule_VideoThumbnailSlideshow_Mobile.jpg, minivideo, forced, mobile)$ alt="" />
+		</li>
+			</ul>
+		</div> 
+	</div>
+	<ul class="slide_description">
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	<li>
+	</li>
+	</ul>
+</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>With a growing clientele, Clotilde’s Argentinian sweet and savoury empanadas have been selling like hot cakes. Meanwhile, Arthur divides his time between Paris and California for his film-making. We meet this free-spirited couple and their daughter Iris in their loft nestled between Paris’ Gare du Nord and Gare de L’Est stations.</b></p>
+	<p><b>Profession</b>: Clothilde, a fashion consultant. Arthur, a documentary maker <br><b>Neighbourhood</b>: 10th arrondissement.</p>
+	<p><b> </b><b>Do you have any typically Parisian habits?<br></b><b>Clotilde:</b> Going for a walk. In Paris, you can go from one end of town to the other. <br><b>Arthur:</b> Never going out on Saturday night.</p>
+	<p><b>When you’re travelling abroad, what do you miss about Paris?<br></b><b>C: </b>Quite simply being at home, I love our apartment and I feel great there. A: Lunches in a restaurant at midday…</p>
+	<p><b>Which places in Paris evoke happiness to you?<br></b><b>C: </b>The Jardin Catherine Labouré park it’s a former vegetable garden belonging to the <b>Compagnie des Filles de la Charité</b> order of nuns, I remember taking a lovely long nap there one spring about 10 years ago now. <br><b>A:</b> Charles de Gaulle Airport, synonymous with travel, holidays, escape and film… <br><b>Jardin de Catherine Labouré,</b> 29 Rue de Babylone, 75007 Paris.</p>
+	<p><b>Which places embody Paris for you?<br></b><b>C:</b> Definitely the <b>Palais-Royal</b><b>A: </b>The <b>Invalides</b> and the <b>Bristol Hotel,</b> it’s hard to find anything more Parisian than that. <br><b>Palais-Royal</b>, Rue de Montpensier, 75001 Paris. <br><b>The Invalides</b>, access via Quai d’Orsay, 75007 Paris. <br><b>Le Bristol</b>, 112 Rue du Faubourg Saint-Honoré, 75008 Paris.</p>
+	<p><b>Where do you like to go in Paris to relax and recharge the batteries?<br></b><b>C:</b> L’Ourcq canal. Just a little stroll is good enough to keep me feeling calm. I love how this spot feels far from the Paris-museum vibe we all know so well. <br><b>A: </b>Out on my motorbike. <br><b>Le Canal de l’Ourcq</b>, 19 Quai de la Loire, 75019 Paris.</p>
+	<p><b>Why do you go to de-stress?<br></b><b>C:</b> For a ayurvedic massage at the <b>UMA centre,</b> a spot that’s dedicated to yoga, pilates and gyrokinesis, a gentle way to improve and re-set the posture. The therapists there are really gifted. <br><b>A:</b> Home. <br><b>Centre Uma</b>, 14 Rue Choron, 75009 Paris. Tel: 01 44 53 61 13</p>
+	<p><b>Are there any other cities you could see yourself living in?<br></b><b>C &amp; A:</b> Sydney in Australia or Los Angeles in the US. Not only do these two towns boast great light, they’re both situated by the sea: Two priceless bonuses.</p>
+	<p><b>What typically French gift do you like to give to foreigners?<br></b><b>C: </b>A beautiful box of <b>Jacques Genin</b> fruit jellies, even though you can get them all over France and elsewhere, which is a little bit of a shame. I like the idea of products that you can only find in one certain place. <br><b>A:</b> Without hesitation, cheese. <br><b>Jacques Genin</b>, 133 Rue de Turenne, 75003 Paris.</p>
+	<p><b>Tell us about the interior décor of your apartment.<br></b><b>C: </b>We’ve lived here for a few years now, one of Arthur’s uncles helped us find the apartment. We’re neighbours now and make up a little family tribe. It’s not one of the cleanest neighbourhoods in Paris, but the apartment is fabulous. It makes sense, because it used be an SNCF (French railway) office. We fell in love for its high ceilings , massive windows which let in loads of daylight and a communal patio that looks out onto a really pleasant-looking wall of greenery. <br><b>A: </b>I love the extra-large windows in our apartment and all the light it has. I literally just immediately set up my desk on the mezzanine, it’s so nice to work at home, especially when the space is so nice.</p>
+	<p><b>Which room do you feel most at home in?<br></b><b>C: </b>My bedroom because it’s the brightest and also because it’s very personal with a wall of photos that I’ve pinned up over my desk that are very special to me. And then there’s the <b>Pierre Frey </b>curtains and bedspread that I absolutely love. <br><b>A: </b>For me it’s the living room, because it has a huge high ceiling and loads of space, proof of which is the fact that sometimes Iris and I do some skateboarding in there. I’m holding on to the dream of setting up a ramp one day!</p>
+	<p><b>Do you have any particularly special pieces of furniture?</b><br>C: A traditional old decorative chemist’s globe that once belonged to <b>Arthur’s </b>mother, <b>Caroline</b>. It serves no real purpose, you’ll only see it at our place, but we can’t live without it.</p>
+	<p><b>What about your daughter’s room?</b> It’s a real girly room with plenty of stuff everywhere. She’s only young, but <b>Iris</b> loves it and she’s made it hers with a hammock filled with her cuddly toys and a little fabric Wendy house that she sleeps in a few times a week. It’s her own little world and I understand that she feels good there.</p>
+	<p><b>Name three of your favourite neighbourhood spots<br></b><b>C: Marché Saint-Quentin</b>: I can always find all the ingredients I need to make my empanadas; <b>Nanashi, </b>a healthy eatery that’s really popular with all the girls who live and work in the neighbourhood. And then finally the <b>Passage Brady </b>covered arcade, where you can find some of the best Indian threading in Paris. <br><b>A:</b><b>La Grille</b>, a little French restaurant that’s known for its steak and its turbot fillet in butter sauce. It’s always perfect. <b>Le 52</b> for its bistro-chic from chef <b>Charles Compagnon</b> and for a few drinks or a celebration, <b>Star Night.<br></b><b>Marché Saint-Quentin</b>, 85 bis Boulevard de Magenta, 75010 Paris. <br><b>Nanashi</b>, 31 Rue de Paradis, 75010 Paris. <br><b>Passage Brady</b>, 33 Boulevard de Strasbourg, 75010 Paris. <br><b>La Grille</b>, 80 Rue du Faubourg Poissonnière, 75010 Paris. <br><b>Le 52</b>, 52 Rue du Faubourg Saint-Denis, 75010 Paris. <br><b>Le Star Night</b>, 52 Rue des Petites Écuries, 75010 Paris</p>
+	<p><b>What’s your favourite cinema?</b><br>C: <b>The Pagoda</b>, it’s quite surreal. <br> A: <b>The Pathé IMAX </b>at Porte d’Ivry. <br><b>La Pagode</b>, 57 Bis Rue de Babylone, 75007 Paris <br><b>Pathé Quai d’Ivry</b>, Salle IMAX, 5 Rue François Mitterrand, 94200 Ivry-sur-Seine.</p>
+	<p><b>What’s your philosophy on life?<br></b><b>A : </b>Yes, “never explain, never complain.”</p>
+	<p><b>Happiness is…<br></b><b>A: </b>A perfect wave.</p>
+	<p><b>What’s your favourite mood-boosting movie?</b> The Greasy Hands Preachers, a documentary I filmed with <b>Clément Beauvais</b>, on motorbike fans. We’re still working on it, it’ll be out in theatres soon, but when I’m not sure.</p>
+	<p><b>What music do you turn to for a pick-me-up?<br></b><b>C: </b>Superstar by <b>Singtank</b> and Tighten up by <b>the Black Keys</b>. <br> A: Auditorium by <b>Mos Def</b> and Burn, (the Learning) by <b>Mobb Deep</b>.</p>
+	<p><b>What three words evoke happiness for you?<br></b><b>C: </b>Family, health and mozzarella! <br><b>A: </b>Raw fish, surfing and handiwork or crafts.</p>
+	<p><b>When was the last time you got the giggles?<br></b><b>C: </b>When I heard Arthur start talking about his love of cheese for about the10th time!<br><b>A</b>: In about 1996 I think.</p>
+<div class="article_text module_title"><h2><b>How would you describe female beauty?<br></b><b>C: </b>A woman who stands on her own two feet. <br><b>A:</b> Hair </h2></div>
+	<p><b>Do you have a typically French beauty routine?<br></b><b>C: </b>I love the <b>Jane de Busset Institute</b>, the facials there brighten the skin like no other, in fact my entire routine is based upon what they’ve recommended and their treatments. <br><b>Institut Jane de Busset</b>, 30 Rue Pasquier, 75008 Paris. Tel. : +33 1 42 65 53 55.</p>
+	<p><b>What do you tell yourself when you look in the mirror?</b><br>C: “Aie, aie aie!” <br> A: “I need some sun!”</p>
+	<p><b>How would you describe your everyday style?<br></b><b>C: </b>I’ve gone for some of Arthur’s style, that means, a hat when I go out. That means that when we all go out we look like a trio of hat wearers. <br>A: I don’t really have a style, more a colour choice: navy blue.</p>
+	<p><b>What are your beauty no-nos?<br></b><b>C: </b>Plastic surgery. Of course, I say that now, we’ll have to talk about it again in a few years.</p>
+	<p><b>What thoughts get you out of bed on difficult mornings?<br></b><b>C: </b>If I think about it I don’t get up, so I have to put myself into robot mode, that’s my technique. <br><b>A:</b> The American veterans of Afghanistan who still get up and work out even though they’ve had amputations. That’s amazing.</p>
+	<p><b>How do you let go?<br></b><b>C: </b>Putting my head under water! It’s a tough method but it has been proven. <br><b>A:</b> Quite simply by doing some sport</p>
+	<p><b>Do you have a particular sport you turn to maintain your stress levels year-round?<br></b><b>C: </b>If we lived by the sea I could do paddle boarding, a particularly hard discipline that’s great for the figure. Unfortunately that’s not the case so I make do with a good yoga class. My favourite is Mysore Yoga with a specific teacher, I always leave feeling stronger and more relaxed.<br><b>A: </b>I love Crossfit, the American import that trains the body and works muscles. It’s comprised of a series of movements that all come from a range of different disciplines including, gymnastics, fitness, weightlifting and athletics. Also, boxing.</p>
+	<p><b>What’s your favourite French dish?<br></b><b>C: </b>I love chicken stew. A: I’m more of a potato gratin person.</p>
+	<p><b>What do you like to cook for your family?<br></b><b>C: </b>Filet mignon with carrots. <br> A: Lamb baked in a bread oven.</p>
+	<p><b>What do you eat to boost your energy levels?</b><br>C: To make sure I’m getting as many vitamins as possible, I go for fresh produce bought at the market. Like many Parisians, I flee from anything ready prepared. A: When I’m tired I go for some muesli with fromage blanc.</p>
+	<p><b> </b><b>Do you follow a particular diet?<br></b><b>C: </b>I have a very simple rule: I allow myself anything I want before 3pm as long as it’s healthy and balanced. Then in the evening I eat light. A: My diet’s a bit of a paradox, because I’m a big fan of cheese. I love this food, but I have to avoid it, it drives me mad.</p>
+	<p><b>What’s your favourite treat?</b><br>C: Pizza, it’s crazy how much I love it. <br> A: Cheese, obviously</p>
+	<p><b>What’s your current favourite restaurant? <br></b><b>C: Le Mexicanos</b>, Rue papillon, you can eat well and dance! <br><b>A: </b><b>Lao Tseu,</b> one of the best Chinese restaurants on Boulevard Saint-Germain. <br><b>Le Mexicanos,</b> 10 Rue Papillon, 75009 Paris. Tel.: +33 1 42 47 05 21 <br><b>Lao Tseu</b>, 209 Boulevard Saint-Germain, 75007 Paris. Tel.: +33 1 45 48 30 06</p>
+	<p><b>Where do you go for the best croissant or coffee in Paris?<br></b><b>C: </b>Personally, I love apple puffs. Those by <b>Pierre Conticini</b> at <b>La Pâtisserie des Rêves</b> get my vote. When it comes to espresso, I don’t think French coffee is that good, but that’s quite personal</p>
+	<p><b>Name a French tradition you enjoy that’s dying out.<br></b> C: Honestly I can’t see one, I’d actually say that the opposite is true and that our strength is in the fact that we know how to keep our traditions alive.<br> A: A nice long break at lunchtime.</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-1088', 'fdid', 'les-parisiennes')$
+	</div>
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-731')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/4-Jane_Birkin_2x1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Jane_Birkin_2x1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Jane_Birkin_2x1_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/4-Jane_Birkin_2x1_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">09/10/15</p>
+									<h4 class="article_title"> Four perfectly Parisian foreigners</h4>
+									<p class="article_content">Four women, four icons and four reasons to believe that you don&rsquo;t have to be born in Paris, to be Parisian, just &ldquo;reborn&rdquo; there as Sacha Guitry argues.  </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-731')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-719')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/1_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">09/10/15</p>
+									<h4 class="article_title">Brittany Staddon&rsquo;s humourous take on the great outdoors</h4>
+									<p class="article_content">The most inspiring Instagram accounts on our radar right now, to dip into on your commute or at coffee time.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-719')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-832')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Clement_Saccomani_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Clement_Saccomani_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Clement_Saccomani_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/_HOME_Clement_Saccomani_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">13/10/15</p>
+									<h4 class="article_title">Cl&eacute;ment Saccomani&rsquo;s cosmopolitan Paris</h4>
+									<p class="article_content">Clement Saccomani talks about his Paris lifestyle</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-832')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-1088', 'fdid', 'les-parisiennes')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-1088')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-1088', 'fdid', 'les-parisiennes')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=1088&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

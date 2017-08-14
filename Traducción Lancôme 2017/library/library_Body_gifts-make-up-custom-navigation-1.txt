@@ -1,0 +1,26 @@
+<div class="slot-wrapper">
+    <p class="slot-image-holder">
+<a href="$url('Product-Show', 'pid', 'A00235-LAC')$" title="Teint Idole Ultra Wear">
+        <picture>
+            <source media="(min-width: 1024px)" data-srcset="$disUrl(MEGA_NAV_PUSH_TIU_WEAR.jpg?$staticlink$, {"scaleWidth" : 115})$">
+            <img alt="" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" /> 
+        </picture>
+</a>
+    </p>
+    <div class="slot-text">
+        <span class="slot-text__title">
+<a href="$url('Product-Show', 'pid', 'A00235-LAC')$" title="Teint Idole Ultra Wear">
+            Teint Idole Ultra Wear
+</a>
+        </span>
+        <p class="slot-text__description">
+<a href="$url('Product-Show', 'pid', 'A00235-LAC')$" title="Teint Idole Ultra Wear">
+            Makeup is my power!
+</a>
+        </p>
+        <a href="$url('Product-Show', 'pid', 'A00235-LAC')$" title="Teint Idole Ultra Wear" class="slot-text__link">
+            Shop now
+        </a>
+        <span data-tracking-promotion-impression='{"id": "gifts-make-up-custom-navigation-1","name" : "Make up Gifts custom navigation","creative":"summer_banner", "position":  "slot1"}' style="display:none;"></span>
+    </div>
+</div>

@@ -1,0 +1,135 @@
+<div class="article_title_module">
+		<p class="publishing_date">12/30/15</p>
+		<h1>UN WEEK END EN AMOUREUX A LA CAMPAGNE</h1>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'demo-article-1', 'fdid', 'articles')$
+			<p class="article_author">
+				<span>$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.article.as')$</span>
+				James Bort
+			</p> 
+	</div>
+	<div class="article_media_module_img">
+		<div class="img_holder">
+			<img class="frame_effect" src="/fs/media/demo_assets/article_images/Vanity_a_la_campagne.png?$staticlink$" alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+		<div class="article_text_module_type1">
+			<div class="pull_left">
+					<div >
+	<p class="book_style_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. </p>
+
+<p class="author_specific_text">&copy; Phorography: Dolor in hendrerit in vulpue. </p>
+					</div>		
+			</div>
+				<div class="article_author_biography pull_right">
+					<h3 class="biography_author">
+						Who is<br/>
+						James 
+						<span>Bort</span>?
+					</h3>	
+						<p class="biography_author_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.</p>
+						<div class="biography_author_image">
+							<div class="img_holder">
+								<img class="frame_effect" src="beauty_mag/author_img.jpg?$staticlink$" alt="" />
+							</div>
+						</div>
+						<div >					
+								<div class="biography_author_social_network">
+	Follow him on
+	<a href="http://instagram.com/Instagram">
+		<img src="beauty_mag/instagram_icon.png?$staticlink$" alt="" />
+	</a>
+</div>
+						</div>
+				</div>
+		</div>
+</div>
+$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'demo-article-1', 'fdid', 'articles')$
+	<div class="explore_tag_module">	
+		
+		<p>$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.article.explore')$:</p>
+                <ul class="explore_tag_links">
+			<li><a href="$url('BeautyMag-ShowContent','fdid','teintparfait')$" title="Teint parfait">Teint parfait</a></li>
+			<li><a href="$url('BeautyMag-ShowContent','fdid','teintnude')$" title="Teint Nude">Teint Nude</a></li>
+			<li><a href="$url('BeautyMag-ShowContent','fdid','teintpeauxseches')$" title="Teint peaux sèches">Teint peaux s&egrave;ches</a></li>
+			<li><a href="$url('BeautyMag-ShowContent','fdid','teint')$" title="Teint">Teint</a></li>
+			<li><a href="$url('BeautyMag-ShowContent','fdid','pommettes')$" title="Pommettes">Pommettes</a></li>
+			<li><a href="$url('BeautyMag-ShowContent','fdid','blur')$" title="Blur">Blur</a></li>
+		</ul>
+	</div>
+</div>
+$include('BeautyMag-IncludeProductPushes', 'pid', '090011-LAC ; 162072-LAC ; 25301w-LAC ; 090011-LAC ', 'title', 'Product Selection')$
+
+$include('NewsletterPushes-Mini')$
+
+<div class="content_pushes_module">
+	<div class="content_pushes_title  module_title">
+		<h2>Discover most read articles</h2>
+	</div>
+
+	<div class="carousel contentcarousel horizontal_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+		<div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+			<ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+				<li class="contentcarousel_list_item">
+					<div class="pushes_article_box"><img alt="" src="/fs/media/demo_assets/article_images/Vanity_in_Brittany_W238.png?$staticlink$" />
+						<p class="publishing_date">12/30/15</p>
+
+						<h4 class="article_title">UN WEEK END EN AMOUREUX EN BRETAGNE</h4>
+
+						<p class="article_content">Les ponts de mai vont &ecirc;tre l'occasion d'escapades de 3 ou 4 jours. Des dur&eacute;es pour lesquelles on aime &eacute;viter de blinder sa valise&hellip;</p>
+						<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$link-page:cid=fs-beauty-mag-article-basic-1916$">Read Article</a>
+					</div>
+				</li>
+				<li class="contentcarousel_list_item">
+					<div class="pushes_article_box"><img alt="" src="?$staticlink$" />
+						<p class="publishing_date">1/21/15</p>
+
+						<h4 class="article_title">Le contouring &agrave; la fran&ccedil;aise</h4>
+
+						<p class="article_content">Le contouring, c&rsquo;est la technique de maquillage tendance qui fait fureur chez les beautystas. Bien ma&icirc;tris&eacute;e, elle permet de restructurer &hellip;</p>
+						<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$link-page:cid=fs-beauty-mag-article-basic-2112$">Read Article</a>
+					</div>
+				</li>
+				<li class="contentcarousel_list_item">
+					<div class="pushes_article_box"><img alt="" src="/fs/media/beauty_mag_visuals/pommettes_W238.png?$staticlink$" />
+						<p class="publishing_date">12/30/15</p>
+
+						<h4 class="article_title">Un coup de soleil pour sculpter et illuminer le visage.</h4>
+
+						<p class="article_content">Un coup de soleil pour sculpter et illuminer le visage.</p>
+						<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$link-page:cid=fs-beauty-mag-article-basic-448$">Read Article</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<ul class="carousel_navigation_list">
+		</ul>
+	</div>
+</div>
+
+$include('BeautyMag-IncludeInstantHappiness', 'cid', 'fs-beauty-mag-article-basic-1912', 'section', 'article')$
+
+$include('ProductFinder-IncludeProductFinderSection', 'fdid', 'SKIN-BEAUTY-FINDER')$
+
+$include('BeautyMag-IncludeMoreArticles', 'currentid','fs-beauty-mag-article-basic-1912', 'contentIds','fs-beauty-mag-article-basic-1916;fs-beauty-mag-article-basic-1916;fs-beauty-mag-article-basic-1916;fs-beauty-mag-article-basic-1916;fs-beauty-mag-article-basic-1916;fs-beauty-mag-article-basic-1916')$
+
+$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-1912')$
+
+<script type="text/javascript">
+	var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+    	if (jQuery('#dw-sf-control-menu ul') != null) {
+    		jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_7211/?project=7211&entity=1912&store=contentstore&element=7493" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="https://lorealcms.adacor.net/start/FIRSTspirit.jnlp?app=client&project=LOREAL+%7C+Lanc%C3%B4me+Master+Flagship&name=articles_basic&type=Content2&id=7493&entity=1912&host=lorealcms.adacor.net&port=443&mode=HTTP" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$">Edit in FS SiteArchitect</a></li>');        
+    	}
+    }  
+};
+jQuery(document).ready(function() {
+	fsEdit.init();
+});
+</script>
+$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'demo-article-1', 'fdid', 'articles')$

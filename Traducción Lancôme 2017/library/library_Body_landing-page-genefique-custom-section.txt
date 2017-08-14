@@ -1,0 +1,78 @@
+<script>
+    var newStyle = document.createElement("link");
+    newStyle.rel = "stylesheet";
+    newStyle.href = "genefique-landing/creative.min.css?$staticlink$";
+    document.getElementsByTagName("head")[0].appendChild(newStyle);
+</script>
+
+<div class="fixed outside" id="genifique" style="opacity: 1;">
+<div class="body">
+<div class="wrap">
+<section class="section homepage" style="display: block; opacity: 1;">
+<div class="wrap">
+<div class="inner"><!-- CONTENTS -->
+<div class="contents large" style="top:90px; padding-bottom: 90px;">
+<article class="enter" style="font-size: 1rem;">
+<h2><span class="title1">Never too early, never too late&nbsp;&hellip;</span> <span class="title2">TO BE ALL YOU CAN BE</span></h2>
+
+<p>Some might say: &ldquo;20 is too young to make a difference&rdquo; or &ldquo;40 is too old to be attractive&rdquo;.<br class="rwd-break" />
+At Lanc&ocirc;me, we believe it is never too early and never too late to be all you can be.<br class="rwd-break" />
+Love your age.</p>
+
+<div class="patented"><span class="patented1">PATENTED UNTIL 2029</span></div>
+
+<div class="placeholder">
+<div class="video-player" data-action="removeLayer" data-played="false">
+<div class="prime_video">
+<div class="video_box_wrapper ">
+<div class="video_box">
+<img  class="img-responsive" alt="" $responsiveSrc(landing-genefique/video-1-desk.jpg,1075|1075|780|480,,,,,landing-genefique/video-1-mob.jpg,landing-genefique/video-1-tab.jpg,landing-genefique/video-1-desk.jpg)$/>
+<iframe allowfullscreen="" frameborder="0" height="100%" src="//www.youtube.com/embed/wC9vJed0EV4?enablejsapi=1" width="100%" wmode="Opaque"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+
+<div class="patented-holder">
+<div class="patented">
+<div class="wrap">
+<div class="inner"><span class="patented1">PATENTED UNTIL 2029</span></div>
+</div>
+</div>
+</div>
+</div>
+<!-- ANIM -->
+
+<div class="anim">
+<div class="assets">
+<div class="pipette" data-vertical-release="0%" data-vertical-translation="10%" data-vertical-trigger="20%" style="height: 803.073px; ">
+     <img alt="" $responsiveSrc(genefique-landing/images/pipette1.opt.png?$staticlink$,854|854|854|10, forced)$ />
+</div>
+
+<div class="goutte" style="height: 51px;">
+    <img alt="" $responsiveSrc(genefique-landing/images/goutte.opt.png?$staticlink$,58|58|58|10, forced)$ />
+</div>
+<canvas class="love-your-age" data-img-src="genefique-landing/images/seq/anim.img?$staticlink$" height="842" id="love-age" width="896"></canvas>
+
+<div class="flare1" data-horizontal-translation="-10%" data-vertical-release="10%" data-vertical-translation="-10%" data-vertical-trigger="50%">
+    <img alt="" $responsiveSrc(genefique-landing/images/flare1.opt.png?$staticlink$,603|603|603|10, forced)$ />
+</div>
+
+<div class="flare2" data-horizontal-translation="10%" data-vertical-release="0%" data-vertical-translation="10%" data-vertical-trigger="50%" style="opacity: 0.354802;">
+<img alt="" $responsiveSrc(genefique-landing/images/flare2.opt.png?$staticlink$,1538|1538|1538|10, forced)$ />
+</div>
+
+<div class="flare3" data-horizontal-translation="10%" data-vertical-release="0%" data-vertical-translation="10%" data-vertical-trigger="50%" style="transform: opacity: 0.354802;">
+<img alt="" $responsiveSrc(genefique-landing/images/flare3.opt.png?$staticlink$,1538|1538|1538|10, forced)$ />
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<script src="genefique-landing/main.js?$staticlink$"></script><script>

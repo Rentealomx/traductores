@@ -1,0 +1,34 @@
+<div id=aboutrykiel style="width:100%;margin-top:30px;">
+
+<div style="float:left; width:30%; margin-left:10%;margin-right:10%;margin-top:7%">
+
+<h2><center>Effortless elegance <br>meets offbeat chic</center></h2></br></br>
+
+<p align="center">Fashion brand Sonia Rykiel defines left bank style with offbeat designs that celebrate women through sensuality, intelligence and irreverence.</br></br>
+Today, Sonia Rykiel brings her signature stripes and rebellious spirit to Lancôme’s effortless elegance for a collection that is fun and free, full of joie de vivre.
+</p>
+</div>
+
+<div style="float:right; width:50%">
+<img alt="" src="video_image/about-sonia-rykiel-430x430.jpg?$staticlink$" title="" />
+</div>
+</div>
+
+
+<style>
+.prime_module.full_section {
+    margin-top: 0px !important;
+}
+
+.prime_module_title {
+    margin: 120px 0 0 !important;
+}
+
+div#how-to-wear-rykiel {
+    margin-bottom: -30px;
+}
+
+.pt_product_search_result>.wrapper .l-listing_page-results .search_result_content {
+    margin: 91px 0 -25px 0;
+}
+</style>

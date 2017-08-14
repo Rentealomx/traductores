@@ -1,0 +1,22 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#fff;">
+                    Trésor
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#fff;">
+                    PERFUME, FRAGRANCE, EAU DE PARFUM
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#fff;">
+                    Trésor is the floral scent of everlasting love. The elegance of Rose, Mugent and Lilac and the sparkling fruity smell of Peach and<br>Abricot Blossom define this floral fragrance.An irresistible perfume infused with sweet and floral fragrances.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l3/L3_FRAGRANCE_Womens_Perfume_Tresor_1600x267.png, categoryHeader, category title, categoryimageclass,,,category/landing-l3/L3_FRAGRANCE_Womens_Perfume_Tresor_1035x286.png,category/landing-l3/L3_FRAGRANCE_Womens_Perfume_Tresor_1600x267.png)$
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<style>
+.full-width img {
+width: 100%;
+}
+</style>
+<div class="clear row-section layout">
+<div class="columns small-12 text-center">
+<span class="section__title">THE SECRET OF THE PERFUMER</span>
+</div>
+</div>
+
+<div class="clear row-section flex-container layout text-center">
+<div class="columns medium-6 small-12 align-self-center full-width">
+$renderContentImage(INGREDIENTS_OTHERS/MAISON_LANCOME/00125_Oud_Ambroisie/06_PRODUCT_PAGE_IMG_OUDAMBROISIE.png, push1a,,,,, INGREDIENTS_OTHERS/MAISON_LANCOME/00125_Oud_Ambroisie/06_PRODUCT_PAGE_IMG_OUDAMBROISIE.png,INGREDIENTS_OTHERS/MAISON_LANCOME/00125_Oud_Ambroisie/06_PRODUCT_PAGE_IMG_OUDAMBROISIE.png)$
+	</div>
+
+	<div class="columns medium-4 medium-offset-1 small-12 align-self-center">
+<h3>L'ART DE L'ASSEMBLAGE</h3>
+
+<p>Since 1935, Maison Lancôme has composed fragrances of emotion, inspired by our love for the most beautiful raw materials. <br/><br/>
+
+Today, Maison Lancôme creates<br/> LES PARFUMS GRANDS CRUS <br/><br/>
+
+Carte blanche to the expression of a collective of Perfumers and Artists guided by a unique parti-pris: The Art of Assemblage</p>
+	</div>
+</div>

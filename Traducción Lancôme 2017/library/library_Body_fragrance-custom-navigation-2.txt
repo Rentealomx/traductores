@@ -1,0 +1,27 @@
+<div class="slot-wrapper">
+    <p class="slot-image-holder">
+<a href="$url('Product-Show', 'pid', '022055-LAC')$" title="Miracle">
+        <picture>
+            <source media="(min-width: 1024px)" data-srcset="$disUrl(MEGA_NAV_MIRACLE.jpg?$staticlink$, {"scaleWidth" : 115})$">
+            <img alt="" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" /> 
+        </picture>
+</a>
+    </p>
+    <div class="slot-text">
+        <span class="slot-text__title">
+<a href="$url('Product-Show', 'pid', '022055-LAC')$" title="Miracle">
+            Miracle
+</a>
+        </span>
+        <p class="slot-text__description">
+<a href="$url('Product-Show', 'pid', '022055-LAC')$" title="Miracle">
+            Eau de parfum
+</a>
+        </p>
+        <a href="$url('Product-Show', 'pid', '022055-LAC')$" title="Your Gift Finder" class="slot-text__link">
+            Shop Now
+        </a>
+
+        <span data-tracking-promotion-impression='{"id": "gifts-make-up-custom-navigation-2","name" : "Make up Gifts custom navigation","creative":"summer_banner", "position":  "slot2"}' style="display:none;"></span>
+    </div>
+</div>

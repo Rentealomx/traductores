@@ -1,0 +1,23 @@
+<div class="landing_menu">
+    <p>&nbsp;</p>
+    <div class="is_visible_mobile is_hidden_desktop menu_toggle_button">Menu</div>
+    <ul>
+        <li> <a class="go_to_selected_item" href="$httpUrl('Search-ShowContent', 'fdid', 'landing-page-juicy-homepage')$" data-id="home-page">Home <span class="landing_menu_accent">page</span></a></li>
+        <li> <a class="go_to_selected_item" href="https://juicyshakerexperience.com/shake-tape/fr_FR" data-id="make-your-shake-tape">Make <span class="landing_menu_accent">your shake tape</span></a></li>
+        <li> <a class="go_to_selected_item" href="$httpUrl('Search-ShowContent', 'fdid', 'landing-page-juicy-product-file')$" data-id="discover-juicy-shaker">Discover <span class="landing_menu_accent">juicy shaker</span></a></li>
+        <li> <a class="go_to_selected_item" href="$httpUrl('Search-ShowContent', 'fdid', 'landing-page-juicy-web-series')$" data-id="watch-the-webserie">Watch <span class="landing_menu_accent">the web series</span></a></li>
+        <li> <a class="go_to_selected_item" href="$httpUrl('Search-ShowContent', 'fdid', 'landing-page-juicy-tutorial')$" data-id="see-lisa-eldridges-how-to">See <span class="landing_menu_accent">Lisa Eldridge's how to</span></a></li>
+    </ul>
+</div>
+<script type='text/javascript'>
+$(document).on("gtm.initialized", function () {
+	$('.go_to_selected_item').on('click', function () {
+		var itemData = $(this).data('id');
+		app.googletagmanagement.pushEventData({
+            "event": "gaLandingPage",
+            "eventAction" : "Click menu item",
+            "page" :"en/juicy-shaker/" + itemData
+        });
+   });
+});
+</script>

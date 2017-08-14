@@ -1,0 +1,65 @@
+<script type="text/javascript">
+$(function() {
+  $('#ud-countdown').countdown('2017/06/30 00:00:01', function(event) {
+    $(this).html(event.strftime(template));
+  }).on('finish.countdown', function() {
+     $(this).html('');
+     $('.l-naked-heat-subscription').hide();
+
+      $('.js-get-it-now').parent().hide();
+      $('.js-add-to-bag').parent().show();
+  });
+
+$('.js-add-to-bag').on('click', function(e) {
+    e.preventDefault();
+    app.cart.update({ quantity: 1, pid: 3605971553936 }, {
+        html : function (response) {
+            $(document).trigger('global.showMinicart', response);
+        }
+    });
+});
+
+
+var date = new Date(new Date().getTime() + 60 * 1000 * 30 * 24 * 60);
+document.cookie = "customerSubscribed=1; path=/; expires=" + date.toUTCString();
+
+});
+
+var template = 
+	'<div class=\"intro-countdown-column days\">'+
+		'<span class=\"number\">%-D<\/span>'+
+		'<p class=\"description\">days<\/p>'+
+	'<\/div>'+
+	'<div class=\"intro-countdown-column hours\">'+
+		'<span class=\"number\">%H<\/span>'+
+		'<p class=\"description\">hours<\/p>'+
+	'<\/div>'+
+	'<div class=\"intro-countdown-column minutes\">'+
+		'<span class=\"number\">%M<\/span>'+
+		'<p class=\"description\">minutes<\/p>'+
+	'<\/div>'+
+	'<div class=\"intro-countdown-column seconds\">'+
+		'<span class=\"number\">%S<\/span>'+
+		'<p class=\"description\">seconds<\/p>'+
+	'<\/div>';
+</script>
+
+<div class="intro-section">
+	<div class="intro-background">
+		<video class="intro-background-video" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+			<source src="PS - Nelly.mp4?$staticlink$" type="video/mp4">
+		</video>
+	</div>
+	<div class="intro-container">
+		<div class="intro-title">
+			<h3 class="title">COMING JUNE 30</h3>
+		</div>
+		<div class="intro-logo">
+			<img src="images/landing/naked-heat/Naked-Heat_vertical_gold-treatment.png?$staticlink$">
+		</div>
+		<div id="ud-countdown" class="intro-countdown"></div>
+		<a class="intro-button b-naked_smoky-video-link fancybox-media" data-description="Wende takes you through the key details of our new summer collection." data-title="An In-Depth Look At The Products" href="https://youtu.be/T_jIz7cld1I"></a>
+	</div>
+</div>
+
+<style>.intro-section{position:relative;text-align:center;overflow:hidden}.intro-background{max-width:100%}.intro-background:after{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.6)}.intro-background-video{display:block;min-width:100%;min-height:1000px}.intro-container{position:absolute;top:50%;left:0;right:0;display:inline-block;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}.intro-title .title{margin:0;font-family:ProximaNova-Regular,sans-serif;text-transform:uppercase;letter-spacing:.025em;line-height:normal;font-size:35px;color:#fff}.intro-logo{margin:0 auto}.intro-countdown-column{width:130px;height:160px;padding:30px 0;margin-left:10px;box-sizing:border-box;display:inline-block;background-color:rgba(255,255,255,.15);text-align:center;color:#fff}.intro-countdown-column .description,.intro-countdown-column .number{margin:0;padding:0;font-family:ProximaNova-Regular,sans-serif;letter-spacing:.04em}.intro-countdown-column:first-child{margin-left:0}.intro-countdown-column .number{line-height:1;font-size:74px}.intro-countdown-column .description{text-transform:uppercase;line-height:normal;font-size:13px}.intro-button{width:160px;height:160px;display:inline-block;margin-top:15px;background-image:url(images/landing/naked-heat/play-button.svg?$staticlink$);background-position:center center;background-repeat:no-repeat;background-size:104px;cursor:pointer}.intro-button:hover{background-size:124px;transition:.3s}.fancybox-overlay{background-color:rgba(0,0,0,.6)!important}.fancybox-close,.fancybox-close:hover{background:0 0!important}.fancybox-wrap{box-shadow:0 0 40px 4px rgba(255,255,255,.5)}.fancybox-skin{padding:0!important}.fancybox-close{width:22px!important;height:22px!important;transform:rotate(45deg);outline:0;cursor:pointer}.fancybox-close .cross-hover{display:none!important;background:0 0!important}.fancybox-close:after,.fancybox-close:before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;background-color:#fff}.fancybox-close:before{width:3px;height:22px}.fancybox-close:after{height:3px;width:22px}.fancybox-title,.fancybox-video-description{display:none}@media screen and (max-width:767px){.intro-background-video{min-height:520px}.intro-title .title{font-size:18px}.intro-logo{max-width:235px;margin:0 auto}.intro-countdown-column{width:65px;height:85px;padding:18px 0;margin-left:5px}.intro-countdown-column .number{line-height:1;font-size:38px}.intro-countdown-column .description{line-height:normal;font-size:7px}.intro-button{width:80px;height:80px;background-size:54px}.intro-button:hover{background-size:64px}}@media screen and (min-width:768px) and (max-width:1279px){.intro-background-video{min-height:600px}.intro-title .title{font-size:22px}.intro-logo{max-width:320px;margin:0 auto}.intro-countdown-column{width:80px;height:105px;padding:22px 0;margin-left:6px}.intro-countdown-column .number{line-height:1;font-size:47px}.intro-countdown-column .description{line-height:normal;font-size:9px}.intro-button{width:115px;height:115px;background-size:68px}.intro-button:hover{background-size:78px}}</style>

@@ -1,0 +1,21 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000;">
+                    Énergie de Vie
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000;">
+                    FACE MASK, MOISTURIZER, FACIAL CLEANSER
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000;">
+                    Énergie de Vie takes hydration to new levels with surprising textures and antioxidant-rich plant extracts.<br>No matter what life throws your way, the face mask, moisturizer and facial cleanser in our new skin care routine will <br>protect your skin to keep it looking healthy and hydrated.                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l3/L3_SKINCARE_By_Range_Energie_De_Vie_1600x267.png, categoryHeader, category title, categoryimageclass,,,category/landing-l3/L3_SKINCARE_By_Range_Energie_De_Vie_1035x286.png,category/landing-l3/L3_SKINCARE_By_Range_Energie_De_Vie_1600x267.png)$
+    </div>
+</div>

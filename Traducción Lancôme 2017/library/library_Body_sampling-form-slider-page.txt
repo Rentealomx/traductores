@@ -1,0 +1,36 @@
+<span id="samplingform" class="campaignId-container" data-campaignid="samples"></span>
+
+<div class="is_hidden_mobile_large is_visible_tablet is_visible_desktop">
+<img  class="form_background" alt="" $responsiveSrc(energie-de-vie/sampling-form-energie-desk.jpg,1500|1500|780|10,,,,,energie-de-vie/sampling-form-energie-desk.jpg,energie-de-vie/sampling-form-energie-tab.jpg,energie-de-vie/sampling-form-energie-mobile.jpg)$/>
+
+<div class="js_hide sampling-confirmation-container">
+<h2>Thank you for signing up to receive your complimentary sample.</h2>
+</div>
+</div>
+
+<div class="is_hidden_desktop is_hidden_tablet is_visible_mobile_large">
+<img class="form_background" alt="" $responsiveSrc(energie-de-vie/sampling-form-energie-mobile.jpg?$staticlink$,, forced, mobile)$   title="" />
+<div class="sampling-form-container">
+<h2>Get your energising moisture shot</h2>
+
+<p>Sign up with your contact details to receive your sample very shortly.</p>
+<span class="open_sampling_popup btn_cta_secondary">Get a sample</span></div>
+
+<div class="js_hide sampling-confirmation-container">
+<h2>Thank you for signing up to receive your complimentary sample.</h2>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+if ($(window).width() <= 750) {
+   $('.landing_slider_page').find('.prime_sampling_content').parents('.row_section').css('margin-top', '40px');
+}
+ $('.js_sample_scroll').on('click', function() {
+            var $id = $(this).attr('href');
+
+            $('html, body').animate({
+                scrollTop: $($id).offset().top
+            }, 400);
+        });
+});
+</script>

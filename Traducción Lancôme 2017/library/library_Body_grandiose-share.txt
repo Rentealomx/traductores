@@ -1,0 +1,77 @@
+<style>
+.prime_background_image .center {
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.prime_background_image .center h2 {
+    font-family: 'Notera', serif;
+    font-size: 50px;
+    margin: 50px auto 10px;
+}
+
+.prime_background_image .center .main_button {
+    margin: 25px 0 0;
+    border-color: #020303;
+    padding: 0 10px;
+}
+
+.prime_background_image .center .main_button:before,
+.prime_background_image .center .main_button:after {
+    display: none;
+}
+
+@media only screen and (max-width: 1127px) {
+.background_image_content_wrapper.center {
+    top: 50px !important;
+}
+ .prime_background_image .center h2 {
+       margin: 0;
+   }
+.prime_background_image .center .main_button {
+    margin: 20px 0 0;
+}
+}
+
+@media (max-width:640px) {
+.prime_background_image .center h2 {
+    font-size: 40px;
+    line-height: 30px;
+}
+
+ .prime_background_image .center p {
+  font-size: 14px;
+  margin: 10px 0 0;
+  padding: 0 10px;
+}
+
+.prime_background_image .center .main_button {
+margin: 0;
+}
+
+.prime_background_image .center.background_image_content_wrapper {
+position: absolute;
+    top: 32% !important;
+}
+
+.prime_background_image .center summary {
+   padding: 5% 0;
+}
+
+.prime_background_image .center.background_image_content_wrapper p br {
+   display: none;
+}
+}
+</style>
+
+<div class="background_image_content_text white_button">
+<summary><h2>#BendTheLine</h2>
+<p>The bending revolution is on!<br />
+Discover all the fantastic looks developed with our<br />
+glamorous Influencers and join the movement.</p>
+</summary>
+<a class="main_button" href="https://www.instagram.com/lancomeofficial/" target="_blank">VIEW MORE</a>
+</div>

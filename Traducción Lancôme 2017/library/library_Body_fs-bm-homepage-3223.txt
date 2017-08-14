@@ -1,0 +1,87 @@
+<div class="top_billboard_area">
+	<div class="main_image">
+		<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3093')$">
+		<img $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/czacve_Billboard_Desktop.jpg, billboard, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/czacve_Billboard_Desktop.jpg, billboard, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/czacve_Billboard_Desktop.jpg, billboard, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/czacve_Billboard_Mobile.jpg, billboard, forced, mobile)$ alt="" />
+		</a>
+	</div>
+	<div class="main_article_box">
+		<div class="article_box">
+			<h3>
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3093')$">
+					A Moment with...
+				</a>
+			</h3>
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3093')$">
+				<span class="date">22/07/15</span>
+			</a>
+				<p class="keyword">
+					<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3093')$">
+					Portrait
+					</a>
+				</p>
+			<h2 class="title">
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3093')$">
+				La joie de vivre de Rose Chalalai Singh
+				</a>
+			</h2>
+		</div>
+	</div>
+</div>
+			 $include('BeautyMag-IncludeNewsfeeds','cid','fs-beauty-mag-article-basic-2950;fs-beauty-mag-article-basic-3077;fs-beauty-mag-article-basic-3075;fs-beauty-mag-article-basic-3087')$
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3136')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/feel_good/petits_d_jeuners_parisiens/Claus-patisseries_2x1_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3136')$">5 petits-d&eacute;jeuners savoureux &agrave; Paris</a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-3136')$">
+			        <p >
+			            Si la France est r&eacute;put&eacute;e pour sa gastronomie, son petit-d&eacute;jeuner typique, &agrave; base de caf&eacute; et baguette, ne compte pas pour du beurre. Tour d&rsquo;horizon.
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-3330')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/GRADIENT_LIP_TREND_POSTER_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-3330')$">La tendance "Gradient Lip" </a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-3330')$">
+			        <p >
+			            Lisa Eldridge d&eacute;crypte la tendance des l&egrave;vres ombr&eacute;es qui, en prenant son inspiration en Cor&eacute;e, assure au visage une petite moue ing&eacute;nue.
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+		$include('BeautyMag-IncludeHomeProductPushes', 'pid', '227121-LAC;34810x-LAC;29201v-LAC;319215-LAC;', 'title', 'Les produits parfaits pour l'été', 'desc','')$
+$include('NewsletterPushes-Mini', 'fdid', 'fs-bm-homepage')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_14413/?project=14413&entity=3223&store=contentstore&element=15170" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

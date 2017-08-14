@@ -1,0 +1,36 @@
+<div class="columns medium-6 align-self-center video-block__inner">
+      <div class="video-block__cover">
+           $renderContentImage(pdp/TUTO_LISA_REZIZE_487x247.jpg, videoCoverLarge, pdp cover, videoblockcoverimage,,,pdp/TUTO_LISA_REZIZE_487x247.jpg,pdp/TUTO_LISA_REZIZE_487x247.jpg)$
+           <div class="video-block__youtube">
+               <div class="video-block__iframe js-youtube-video" id="player_ZdfhfMuG9DE" data-video-id="ZdfhfMuG9DE">
+           </div>
+      </div>
+      <div class="video-constructor">
+            <div class="video-constructor__arrow"></div>
+      </div>
+</div>
+</div>
+
+<div class="columns medium-6 align-self-center text-center">
+    <h3><strong>Shake up your makeup with the new Juicy Shaker by Lisa Eldridge with Lancôme</strong></h3>
+
+    <p class="hide-for-medium-only">Let’s make room for Lancôme’s latest makeup revolution: the Juicy Shaker!<br/>
+Lisa Eldridge introduces this modern-day lip innovation that looks like a cross between the 1945 shaker lipstick and 1990s Juicy Tubes.<br/>
+Lisa layers up with Mangoes Wild and Cherry Symphony for lusciously addictive lip color care, courtesy of our new sheer tinted lip oil.</p>
+</div>
+</div>
+<div class="row show-for-medium-only">
+<br/>
+<div class="columns medium-12">
+<p>Let’s make room for Lancôme’s latest makeup revolution: the Juicy Shaker!<br/>
+Lisa Eldridge introduces this modern-day lip innovation that looks like a cross between the 1945 shaker lipstick and 1990s Juicy Tubes.<br/>
+Lisa layers up with Mangoes Wild and Cherry Symphony for lusciously addictive lip color care, courtesy of our new sheer tinted lip oil.</p>
+</div>
+</div>
+<br/><br/>
+<div class="row text-center">
+<div class="columns small-12">
+    <a href="$url('Search-ShowContent', 'fdid', 'landing-page-juicy-homepage')$">
+        $renderContentImage(pdp/Banner-Shake-Tape-1035x283.jpg, videoCoverLarge,, pdp-push-image,,,pdp/Banner-Shake-Tape-1035x283.jpg,pdp/Banner-Shake-Tape-1035x283.jpg)$
+    </a>
+</div>

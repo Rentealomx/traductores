@@ -1,0 +1,28 @@
+<style>
+.gif-module .content-box {
+margin-bottom: 10%;
+}
+</style>
+<div class="gif-module text-center">
+    <div class="columns medium-4 small-12 content-box">
+        <h3 class="title">Hello</h3>
+        <img alt="gif2" $responsiveSrc(landing-page/landing-page-modules/gif2.gif,,forced)$ />
+        <br/><br/>
+        <p>Tiphaine Houdusse!</p>
+        <a href="#" class="c-button c-button--primary cta_button">Shop now</a>
+    </div>
+    <div class="columns medium-4 small-12 content-box">
+        <h3 class="title">Bonjour</h3>
+        <img alt="gif1" $responsiveSrc(landing-page/landing-page-modules/gif1.gif,,forced)$ />
+        <br/><br/>
+        <p>Tiphaine Houdusse</p>
+        <a href="#" class="c-button c-button--primary cta_button">Discover now</a>
+    </div>
+    <div class="columns medium-4 small-12 content-box">
+        <h3 class="title">Salut</h3>
+        <img alt="gif3" $responsiveSrc(landing-page/landing-page-modules/gif3.gif,,forced)$ />
+        <br/><br/>
+        <p>Tiphaine Houdusse, il s'agit d'un long texte pour tester le comportement quand on écrit plein de mots</p>
+        <a href="#" class="c-button c-button--primary cta_button">Find it</a>
+    </div>
+</div>

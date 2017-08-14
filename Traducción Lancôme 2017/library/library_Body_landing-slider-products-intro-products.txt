@@ -1,0 +1,38 @@
+<div class="strate-intro-products">
+    <div class="row clearfix">
+        <div class="col-xs-12 col-md-6">
+            <div class="header-strate">
+                <div class="sur-title-strate">
+                    <span class="sur-title">Our range</span>
+                </div>
+                <div class="title-strate">
+                    <span class="big-title black-font">Made of <strong>Unstoppable</strong> energy</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="headline-strate">
+                <span class="alternate-big-title">Long night at the office?</span>
+                <span class="alternate-sub-title">Show your skin who's boss in the morning!</span>
+                <p>&Eacute;nergie de Vie takes hydration to new levels with surprising fresh textures.</p>
+            </div>
+            <div class="collapsible-component">
+                <div class="collapsible-content">
+                    <p>
+                        No matter what life throws your way, &Eacute;nergie de Vie energizes &amp; strengthens skin to keep it looking fresh &amp; healthy. Its secret? A high concentration of hydrating agents combined with 3 antioxidant-rich &amp; energising plant extracts: French Melissa, Goji Berry & Gentian.
+                        What if you could take all of the energy in 
+                        the universe and bottle it up?<br>
+                        This is the next best thing.
+                    </p>
+                </div>
+                <a href="#" class="collapsible-action btn">
+                <span class="title-collapsed">Read more &nbsp;&nbsp; +</span>
+                <span class="title-active">Close &nbsp;&nbsp; X</span>
+                </a>
+            </div>
+            <div class="visual">
+<img alt="" $responsiveSrc(energie-de-vie/intro-product-visual.jpg?$staticlink$, 10||942|942, forced)$ /> 
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+<table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+                                            <tr height="20">
+                                                <td height="20" style="line-height: 20px;">&nbsp;</td>
+                                            </tr>
+                                            <!-- Logo Section -->
+                                            <tr style="padding: 0;">
+                                                <td style="text-align: center; width: 100%; padding: 0;">
+                                                    <a href="$httpUrl('Home-Show')$" style="border: none;"><img alt="Lancome Logo" src="mails/footer-logo.png?$staticlink$" border="0" style="padding: 0;"/></a>    
+                                                </td>
+                                            </tr>
+                                            <tr height="30">
+                                                <td height="30" style="line-height: 30px;">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="width: 100%; margin: 0 auto;  border-top: 2px solid #e8e8e8; border-bottom: 2px solid #e8e8e8;">
+                                            <tr height="25">
+                                                <td height="25" style="line-height: 25px;">&nbsp;</td>
+                                            </tr>
+                                            <tr class="social_icons" style="padding: 0;">
+                                                <td>
+                                                    <table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="width: 100%; margin: 0 auto;">
+                                                        <td class="desktop-only" width="27%" style="width:27%">&nbsp;</td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px; margin: 0 auto;"><a href="https://twitter.com/lancomeusa" style="border: none;"><img alt="" border="0" src="mails/social-twitter.png?$staticlink$" /></a></td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px;"><a href="https://www.facebook.com/lancomefrance" style="border: none;"><img alt="" border="0" src="mails/social-facebook.png?$staticlink$" /></a></td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px;"><a href="https://fr.pinterest.com/lancomeusa/" style="border: none;"><img alt="" border="0" src="mails/social-pinterest.png?$staticlink$" /></a></td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px;"><a href="https://www.youtube.com/user/Lancomeworldwide" style="border: none;"><img alt="" border="0" src="mails/social-youtube.png?$staticlink$" /></a></td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px;"><a href="#" style="border: none;"><img alt="" border="0" src="mails/social-gplus.png?$staticlink$" /></a></td>
+                                                        <td class="desktop-only" width="27%" style="width:27%">&nbsp;</td>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tr>
+                                            <!-- Links Section -->
+                                            <tr style="padding: 0;">
+                                                <td style="text-align: center; padding: 0;">
+                                                    <a href="$url('Page-Show', 'cid', 'customer-service-terms-sale')$" style="font-size: 11px; color: #000000; line-height: 12px; text-decoration: none;">TERMS &amp; CONDITIONS</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="$url('Page-Show', 'cid', 'customer-service-security-policy')$" style="font-size: 11px; color: #000000; line-height: 12px; text-decoration: none;">PRIVACY POLICY</a>
+                                                </td>
+                                            </tr>
+                                            <tr height="20">
+                                                <td height="20" style="line-height: 20px;">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <!-- Unsubscribe message -->
+                                        <table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="width: 100%; margin: 0 auto;">
+                                            <tr style="padding: 0;">
+                                                <td align="center" style="width: 100%; font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #818181; line-height: 18px; padding: 0; padding-bottom: 10px; padding-top: 10px;">To unsubscribe from our mailing list, <a href="%customerUnsubscribe%" style="color: #818181; text-decoration: underline;"> click here.</a></td>
+                                            </tr>
+                                        </table>

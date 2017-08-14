@@ -1,0 +1,273 @@
+<link rel="stylesheet" href="landing-page/bridal-beauty/stylesheet/slick.css?$staticlink$" />
+<link rel="stylesheet" href="landing-page/bridal-beauty/stylesheet/app.css?$staticlink$" />
+
+        <div id="mb-body">
+            <div class="l-container">
+                <div class="mb-hd u-background-image" style="background-image:none !important;background-color:#f7efec !important;">
+                    <div class="u-align-vertical">
+                        <div class="u-align-vertical__item">
+                            <div class="l-row">
+                                <div class="l-column">
+                                    <div class="mb-logo">
+                                        <img src="landing-page/bridal-beauty/images/flower.png?$staticlink$" alt="">
+                                    </div>
+                                    <div class="mb-content--centered">
+                                        <h1 class="mb-content__h1 is-larger">
+                                            <span class="mb-content__uppercase">Bridal Beauty</span>
+                                        </h1>
+                                    </div>
+                                    <div class="mb-content mb-content--centered">
+                                        <p class="mb-content__uppercase mb-content__pink">
+                                            Everything you need to know when <br>
+                                            preparing for your wedding
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-section">
+                    <div class="l-row">
+                        <div class="l-column">
+                            <span class="mb-btn mb-btn--pink is-block is-left is-large">
+                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-home')$">
+                                    <span class="u-arrow-left">
+                                        <img src="landing-page/bridal-beauty/images/arrow-left.png?$staticlink$" alt="">
+                                    </span>
+                                    Back to wedding tips home
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-section mb-content--centered">
+                    <h3 class="mb-content__h1 mb-content__uppercase">
+                        <span class="mb-section__title">
+                            <span class="mb-section__title-inside">
+                                Wedding Make-up <span class="mb-content__pink">Tips</span>
+                            </span>
+                        </span>
+                    </h3>
+                </div>
+                <div class="mb-section has-content">
+                    <div class="l-row">
+                        <div class="l-column l-column--medium-8-5">
+                            <div class="mb-article--main mb-content mb-content--alt">
+                                <div class="mb-article__hd">
+                                    <h1>
+                                        Wedding Makeup: Product advice for the big day
+                                    </h1>
+                                    <img src="landing-page/bridal-beauty/images/articles/3-1.jpg?$staticlink$" alt="">
+                                </div>
+                                <p>Compliments, compliments, compliments. The more the merrier! Particularly on your wedding day. Our favourite – by far – is simply, “you look beautiful.” Because, in the end, your bridal beauty is all about you, not your makeup or the three excruciating hours it took to pin your hair. Don’t get us wrong, we love cosmetics, but on your big day it’s the bride who should be in focus rather her blusher. That’s why we think that bridal makeup should be about taking your regular dressed-up makeup look to the next level, rather than overhauling your look entirely. If your fiancé doesn’t recognise you when it’s time to say your vows you’ve probably gone too far! Here’s our go-to guide for the products to have in your bridal makeup bag and choosing the perfect foundation for your big day.</p>
+                                <ul>
+                                    <li>If you’re working with a makeup artist, consider arriving at the trial session with your favourite makeup look already applied so that he or she can see what you like and discuss where to go from there. If you’ve had your makeup professionally applied before bring a picture as it can sometimes be tricky to put a look into words, visual guidance is really helpful.</li>
+                                    <li>Think about all of those camera-happy guests and opt for a photo-friendly foundation. Go for a natural rather than totally flat matte finish – we love <a href="$url('Product-Show','pid','A00235-LAC')$">Ultra Wear foundation</a>, which also comes in a <a href="$url('Product-Show','pid','A00115-LAC')$">cushion format</a> for touch ups during the big day. Don’t leave it to the last minute to start trialling a new foundation, however. Start wearing it a few months in advance so you can get used to how it feels on your skin and be confident that it is the perfect foundation for your skin type and doesn’t slip during the day or go shiny. For oily skin, we suggest applying a primer beforehand such as <a href="$url('Product-Show','pid','218013-LAC')$">La Base Pro</a> or <a href="$url('Product-Show','pid','218103-LAC')$">La Base Pro Pore Eraser</a>, while <a href="$url('Product-Show','pid','21810z-LAC')$">La Base Pro Hydraglow</a> primer is the ideal choice for dry skin types.</li>
+                                    <li>Back away from the contouring brush. It may be trendy right now – who doesn’t love a sculpted cheekbone? -but don’t go too extreme. Otherwise you risk contours overwhelming the look. It could also look dated in a few years’ time when the next makeup trend has taken hold.</li>
+                                    <li>For your colour products (blusher, eye shadows etc.) stick to a palette that suits your skin tone. Unless you absolutely have to, don’t try out dramatically different shades on the day.</li>
+                                    <li>Remember the great thing about makeup is that it washes off. If you don’t like the look you or a makeup artist has created, cleanse, moisturise and start again. Don’t be rushed. It’s important that you feel comfortable and confident.</li>
+                                </ul>
+                                <img src="landing-page/bridal-beauty/images/articles/3-2.jpg?$staticlink$" alt="" class="u-align-center">
+                                <div class="mb-section">
+                                    <div class="mb-article__pagination mb-content mb-no-underline">
+                                        <div class="l-row">
+                                            <div class="l-column l-column--small-2-5">
+                                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-your-emergency-wedding-kit-be-prepared-on-the-day')$" class="u-transition--opacity mb-article__pagination-itm mb-content__paragraph mb-content__uppercase">
+                                                    <small>Prev Post</small>
+                                                </a>
+                                            </div>
+                                            <div class="l-column l-column--small-7">
+                                                <span class="mb-content__paragraph mb-content__grey mb-content__uppercase">
+                                                    <small class="mb-article__pagination-itm-2">Share this post</small>
+                                                    <span class="mb-social">
+                                                        <a href="https://twitter.com/intent/tweet?url={url}&amp;text=Wedding Makeup: Product advice for the big day&amp;via={via}&amp;hashtags={hashtags}" class="u-transition--opacity">
+                                                            <img src="landing-page/bridal-beauty/images/twitter.jpg?$staticlink$" alt="">
+                                                        </a>
+                                                        <a href="https://www.facebook.com/dialog/share?app_id={app_id}&amp;display=page&amp;href={url}&amp;redirect_uri={redirect_url}" class="u-transition--opacity">
+                                                            <img src="landing-page/bridal-beauty/images/facebook.jpg?$staticlink$" alt="">
+                                                        </a>
+                                                        <a href="https://pinterest.com/pin/create/bookmarklet/?media={img}&amp;url={url}&amp;is_video={is_video}&amp;description=Wedding Makeup: Product advice for the big day" class="u-transition--opacity">
+                                                            <img src="landing-page/bridal-beauty/images/pintrest.jpg?$staticlink$" alt="">
+                                                        </a>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="l-column l-column--small-2-5 mb-content--right">
+                                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-update-your-bridal-makeup-from-ceremony-to-party')$" class="u-transition--opacity mb-article__pagination-itm mb-content__paragraph mb-content__uppercase">
+                                                    <small>Next post</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-column l-column--medium-3-5">
+                            <div class="mb-article--sidebar">
+                                <div class="mb-content">
+                                    <h3 class="mb-content__uppercase is-smaller mb-content__title">
+                                        Latest Posts
+                                    </h3>
+                                </div>
+                                <div class="mb-article__items">
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-last-minute-skin-checklist-for-your-wedding-day')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>Last minute skin checklist for your wedding day</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/1-1.jpg?$staticlink$"></span>
+                                    </a>
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-your-emergency-wedding-kit-be-prepared-on-the-day')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>Your emergency wedding kit: Be prepared on the day</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/2-1.jpg?$staticlink$"></span>
+                                    </a>
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-wedding-makeup-product-advice-for-the-big-day')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>Wedding Makeup: Product advice for the big day</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/3-1.jpg?$staticlink$"></span>
+                                    </a>
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-update-your-bridal-makeup-from-ceremony-to-party')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>Update your bridal makeup from ceremony to party</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/4-1.jpg?$staticlink$"></span>
+                                    </a>
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-how-to-take-perfect-photographs-on-your-wedding-day')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>How to take perfect photographs on your wedding day</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/6-1.jpg?$staticlink$"></span>
+                                    </a>
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-lancomes-top-tips-for-your-wedding-day')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>Lancôme's Top tips for your wedding day</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/7-1.jpg?$staticlink$"></span>
+                                    </a>
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-should-you-use-a-makeup-artist-for-your-wedding-day-or-go-diy')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>Should you use a makeup artist for your wedding day or go DIY</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/8-1.jpg?$staticlink$"></span>
+                                    </a>
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-skincare-heroes-get-the-glow-for-your-wedding-day')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>Skincare heroes: Get the glow for your Wedding Day</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/9-1.jpg?$staticlink$"></span>
+                                    </a>
+                                    <a href="$url('Search-ShowContent','fdid','bridal-beauty-lancome-bridal-look-by-lisa-eldridge-follow-along-with-the-video')$" class="mb-article mb-is-tinny u-transition--opacity">
+                                        <span class="mb-content__h3 is-smaller mb-content__uppercase">
+                                            <small>Lanc&ocirc;me bridal look by Lisa Eldridge – follow along with the video!</small>
+                                        </span>
+                                        <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/articles/10-1.jpg?$staticlink$"></span>
+                                    </a>
+                                </div>
+                                <div class="mb-section">
+                                    <h3 class="mb-content__h3 mb-content__uppercase is-smaller mb-content__title">
+                                        Get the Look
+                                    </h3>
+                                    <div class="mb-carousel">
+                                        <div rel="js-carousel-1">
+                                            <div rel="js-carousel__item">
+                                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-natural-bridal')$" class="mb-article mb-is-large mb-has-border u-transition--opacity">
+                                                    <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/looks/nbm1.jpg?$staticlink$"></span>
+                                                    <span class="mb-btn u-position-top mb-btn--pink is-block">
+                                                        <span class="mb-btn__inside">
+                                                            Natural<br>Bridal Look
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div rel="js-carousel__item">
+                                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-mother-of-the-bride')$" class="mb-article mb-is-large mb-has-border u-transition--opacity">
+                                                    <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/looks/mb1.jpg?$staticlink$"></span>
+                                                    <span class="mb-btn u-position-top mb-btn--pink is-block">
+                                                        <span class="mb-btn__inside">
+                                                            Mother of<br>the Bride Look
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div rel="js-carousel__item">
+                                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-summer-bride-look')$" class="mb-article mb-is-large mb-has-border u-transition--opacity">
+                                                    <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/looks/cue1.jpg?$staticlink$"></span>
+                                                    <span class="mb-btn u-position-top mb-btn--pink is-block">
+                                                        <span class="mb-btn__inside">
+                                                            Summer <br>Bride Look
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div rel="js-carousel__item">
+                                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-bridesmaid-look')$" class="mb-article mb-is-large mb-has-border u-transition--opacity">
+                                                    <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/looks/wg1.jpg?$staticlink$"></span>
+                                                    <span class="mb-btn u-position-top mb-btn--pink is-block">
+                                                        <span class="mb-btn__inside">
+                                                            Bridesmaid <br>Look
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div rel="js-carousel__item">
+                                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-spring-bride-look')$" class="mb-article mb-is-large mb-has-border u-transition--opacity">
+                                                    <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/looks/lr1.jpg?$staticlink$"></span>
+                                                    <span class="mb-btn u-position-top mb-btn--pink is-block">
+                                                        <span class="mb-btn__inside">
+                                                            Spring Bride <br>Look
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div rel="js-carousel__item">
+                                                <a href="$url('Search-ShowContent','fdid','bridal-beauty-glamorous-bride-look')$" class="mb-article mb-is-large mb-has-border u-transition--opacity">
+                                                    <span class="mb-article__image u-background-image" style="background-image: url(landing-page/bridal-beauty/images/looks/crl1.jpg?$staticlink$"></span>
+                                                    <span class="mb-btn u-position-top mb-btn--pink is-block">
+                                                        <span class="mb-btn__inside">
+                                                            Glamorous <br>Bride Look
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <span class="carousel__pagination" rel="js-carousel-pagination">
+                                            <a href="" class="mb-next" rel="js-carousel-prev">
+                                                <i class="mb-content__icon">
+                                                    <img src="landing-page/bridal-beauty/images/left.png?$staticlink$" alt="">
+                                                </i>
+                                            </a>
+                                            <a href="" class="mb-prev" rel="js-carousel-next">
+                                                <i class="mb-content__icon">
+                                                    <img src="landing-page/bridal-beauty/images/right.png?$staticlink$" alt="">
+                                                </i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-section">
+                    <div class="l-row">
+                        <div class="l-column">
+                            <div class="mb-content mb-content--centered">
+                                <span class="mb-content__paragraph">
+                                    <small>
+                                        Article written for Lanc&ocirc;me by Brid Costello
+                                    </small>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+<script src="landing-page/bridal-beauty/javascript/jquery.js?$staticlink$"></script>
+<script src="landing-page/bridal-beauty/javascript/slick.js?$staticlink$"></script>
+<script type="text/javascript" src="landing-page/bridal-beauty/javascript/app.js?$staticlink$"></script>

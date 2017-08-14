@@ -1,0 +1,106 @@
+<style>
+
+.extrait_ritual_content:after {
+display: block;
+content: '';
+clear: both;
+}
+
+.extrait_ritual_content .how_item {
+float: left;
+width: 32%;
+margin: 0 0 0 2%;
+text-align: center;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item p {
+   text-align: center;
+}
+
+.extrait_ritual_content .how_item p {
+   font-size: 14px;
+   font-family: 'Gotham Book';
+   text-align: left;
+    margin: 15px auto 25px;
+    line-height: 18px;
+    max-width: 80%;
+    height: auto;
+}
+
+.extrait_ritual_content .how_item b {
+   font-family: 'Gotham Bold';
+}
+
+.extrait_ritual_content .how_item img {
+   display: inline-block;
+   max-width: 100%;
+}
+
+@media (max-width:979px) {
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0 0 0 2%;
+}
+
+.extrait_ritual_content .how_item:nth-child(2n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item {
+width: 49%;
+}
+}
+
+@media (max-width:640px) {
+.extrait_ritual_content .how_item {
+    width: 100%;
+    float: none;
+margin: 0;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item h2 {
+   font-size: 30px;
+   line-height: 30px;
+   margin: 25px 0 40px;
+}
+
+.extrait_ritual_content .how_item p {
+   margin: 10px auto 20px;
+}
+
+#extrait-ritual-text {
+    max-width: 300px;
+    margin: auto;
+padding: 0;
+}
+
+#extrait-ritual-text p {
+    margin: 0 auto 25px;
+}
+
+}
+</style>
+
+<div class="extrait_ritual_content">
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/visionnaire/visionnaire_rituel_1.jpg,345|345|345|345)$  />
+       <p>Apply 3 pumps of <b><i>Visionnaire Advanced Skin Corrector</i></b> to your fingertips and spread across your forehead, cheeks and chin, working from the center of the face outward. Finish by stroking down your nose, across your upper and lower lip, and down your neck.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/visionnaire/visionnaire_rituel_2.jpg,345|345|345|345)$  />
+       <p>Starting at your chin, pinch and roll the skin as shown (between index fingers and thumbs) and move along the jawline toward the ear. Repeat 3 times. Repeat the same gesture starting at the corner of your mouth, side of your nose, along your cheekbone and on crow’s feet as shown.  Repeat each line 3 times.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/visionnaire/visionnaire_rituel_3.jpg,345|345|345|345)$  />
+       <p>Repeat the same gesture on your forehead starting at the end/ middle/base of your eyebrow and working upward to the hairline. Repeat each line 3 times.</p>
+   </div>
+</div>

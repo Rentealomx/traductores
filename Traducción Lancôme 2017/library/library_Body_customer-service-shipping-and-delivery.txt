@@ -1,0 +1,16 @@
+<h2>SHIPPING & DELIVERY</h2>
+
+<h3>DOMESTIC SHIPPING</h3>
+
+<h3>FREE ON ALL ORDERS OVER $50</h3>
+
+<p>All domestic orders going to residential and business addresses are shipped via UPS. Free shipping on all U.S. orders over $50 (applies to addresses in the continental U.S. as well as APO, FPO and all U.S. Military addresses) $5.95 flat-rate shipping for all other domestic orders, including APO, FPO and all U.S. Military addresses</p>
+<h2>INTERNATIONAL SHIPPING&nbsp;&nbsp;</h2>
+<h3> FLAT RATE SHIPPING ON INTERNATIONAL ORDERS</h3>
+<p>Our international shipments are sent via USPS or FedEx. Please note: Any import duties, taxes or fees incurred must be paid by the customer. </p>
+<ul>
+<li>Canada and Mexico: $24</li>
+<li>Europe: $45 </li>
+<li>Australia, New Zealand, Russia and Asia: $75</li>
+<h3> ALTERNATE INTERNATIONAL SHIPPING OPTION </h3>
+International orders may also be shipped with MyUS.com. We have partnered with MyUS.com to offer convenient and fast international shipping to more than 225 countries. MyUS.com members receive deeply discounted shipping rates, exceptional customer service, 24/7 online access to their account and access to other services. <a href="URL%2520goes%2520here" style="line-height: 1.6;">Sign up with MyUS.com</a><span style="line-height: 1.6;"> and receive your own U.S. street address to receive merchandise. Then, use the MyUS-provided address when placing your order.</span></p>

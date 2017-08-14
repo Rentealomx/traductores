@@ -1,0 +1,117 @@
+<div class="article_title_module">
+		<p class="publishing_date">21/06/2016</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-2692', 'fdid', 'out-now')$
+		<h1>Don’t let fatigue get to your skin</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/EDV_3products_OUTNOW-OK_1_Article_MediaModule_Horizontal_Desktop.png, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>Lancôme’s latest skincare line promises to help city dwellers get through busy days, without flagging. And just like you, Energie de Vie makes no compromises.</b></p>
+	<p></p>
+	<p><b>Young professionals have never been so tired. The pressures of excelling in both private and work lives </b>has led to a new skin problem:<b> urban fatigue, </b>characterized by symptoms including tight skin, dark circles, dry patches and red blotches. And if they are not treated quickly, they can lead to premature aging.</p>
+	<p></p>
+	<p>In response to this scourge of modern city life, <b>Lancôme</b> created <b>Energie de Vie</b>, a capsule skincare collection containing three targeted and effective products:</p>
+	<p>1: <b>Soin Liquide</b>, a part-lotion, part-serum, part-cream designed to recharge the epidermis with the help of active ingredients extracted from superfoods and a healthy dose of minerals.</p>
+	<p>2: <b>Lotion Perlée</b>, with translucent micro-beads burst on contact to re-energize the skin.</p>
+	<p>3: <b>Masque Nuit</b>, that cools skin cells overheated by the stresses of the day and relaxes the features</p>
+	<p></p>
+	<p><i>Energie de Vie Soin Liquide, Lotion Perlée and Masque Nuit, <b>Lancôme</b>. </i></p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-2692', 'fdid', 'out-now')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', 'A00069-LAC ; A00068-LAC ; A00070-LAC ', 'title', 'Shop the article ')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1542')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/articles/Serum_OK_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/articles/Serum_OK_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/articles/Serum_OK_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/articles/Serum_OK_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">04/04/16</p>
+									<h4 class="article_title">Do's and dont's: serums</h4>
+									<p class="article_content">Discover Lancome&rsquo;s how-to tips on maximizing your anti-aging serum for pro results,  </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-1542')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2240')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/innovation_mai-belledeteint_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/innovation_mai-belledeteint_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/innovation_mai-belledeteint_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/innovation_mai-belledeteint_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">19/05/16</p>
+									<h4 class="article_title">Illuminate your way to perfect skin</h4>
+									<p class="article_content">Discover how you can illuminate your way to perfect skin with Lanc&ocirc;me Belle de Teint Light-Reflecting makeup powder &amp; achieve a natural-looking glow.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2240')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2496')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/mascara_GIF_5.gif, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/mascara_GIF_5.gif, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/mascara_GIF_5.gif, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/mascara_GIF_5.gif, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">01/06/16</p>
+									<h4 class="article_title">Your season focus: a carefree upper lash look </h4>
+									<p class="article_content">Learn one of Lanc&ocirc;me&rsquo;s best spring makeup trends &amp; learn how to create a carefree upper lash look straight from the runaway with Grandi&ocirc;se volumizing mascara.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2496')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2688')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Innovation_juicy_shaker_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Innovation_juicy_shaker_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Innovation_juicy_shaker_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Innovation_juicy_shaker_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">02/06/16</p>
+									<h4 class="article_title"> Juicy Shaker: a lip oil cushion that packs a pigment punch</h4>
+									<p class="article_content">Meet Juicy Shaker,  the latest lip-plumping make up innovation from Lanc&ocirc;me. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-2688')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-2692', 'fdid', 'out-now')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-2692')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-2692', 'fdid', 'out-now')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=2692&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

@@ -1,0 +1,438 @@
+<script>
+var newStyle = document.createElement("link");
+newStyle.rel = "stylesheet";
+newStyle.href = "juicyshaker/styles/main.css?$staticlink$";
+document.getElementsByTagName("head")[0].appendChild(newStyle);
+</script>
+
+<style>
+.product_tile {
+    text-align: center;
+}
+#juicy-shaker .pdp {
+    margin-top: 0;
+}
+.juicy-page  .carousel li { width: 200px !important;}
+.juicy-page  .carousel .product_badge{   
+    color: #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-family: "Garamond SemiBold", Arial, serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 0.9em;
+    padding-top: 2px;
+    right: 0;
+    left: auto;
+    top: 4px;
+    line-height: 1.1em;
+}
+
+.juicy-page .product_tile .product_name {
+    text-align: center;
+}
+.juicy-page .product_swatch_list .product_swatch_list_item {
+    margin: 0 6px;
+    width: 21px !important;
+    display: block !important;
+    opacity: 1 !important;
+    position: static !important;
+}
+.juicy-page  .product_tile {
+    position: relative;
+}
+.juicy-page  .product_tile .carousel {
+    height: 24px;
+    width: 170px;
+    margin: 10px auto 0;
+}
+.juicy-page .product_swatch_list .swatch_image, .juicy-page .product_swatch_list .swatch {
+    width: 17px;
+    height: 17px;
+    max-height: 100%;
+    background-color: transparent;
+}
+.juicy-page .product_swatch_list.shades_carousel {
+    height: 26px;
+}
+.juicy-page .jcarousel-clip .product_tile .product_prices_list li, .juicy-page .price{
+    float: none;
+    margin: 0 auto;
+}
+
+.juicy-page .product_tile .carousel .jcarousel-clip {
+    height: 26px;
+    width: 165px;
+}
+
+.juicy-page .product_tile .carousel .jcarousel-prev {
+    white-space: nowrap;
+    overflow: hidden;
+    left: -9px;
+    margin-top: 9px;
+    top: -9px;
+}
+.juicy-page .product_tile .carousel .jcarousel-prev:after {
+    content: "<";
+    display: inline-block;
+    width: 10px;
+     height: 10px;
+color: black;
+}
+.juicy-page .product_tile .carousel .jcarousel-next {
+    white-space: nowrap;
+    color: transparent;
+    overflow: hidden;
+    right: -20px;
+    top: -9px;
+    position: relative;
+}
+.juicy-page .product_tile .carousel .jcarousel-next:after {
+    content: ">";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    color: black;
+    margin-top: 0;
+    float: left;
+    position: absolute;
+    top: -18px;
+    right: -50px;
+}
+
+@media only screen and (max-width: 980px) {
+.juicy-page .prime_product_module > .carousel .jcarousel-clip > ul.contentcarousel_list {
+   width: 100%;
+}
+.juicy-page .prime_product_module > .carousel .jcarousel-clip > ul.contentcarousel_list > li {
+    width: 260px !important;
+    float: none;
+    margin: 20px auto 0;
+}
+.juicy-page  .prime_product_module  .carousel_navigation_list {display: none;}
+}
+</style>
+<div id="juicy-shaker">
+        <div class="juicy-page" id="discover">
+            <section>
+                <article class="row brd">
+
+                                <div class="col-left-75">
+
+                                    <div class="catalog">
+                                        <ul>
+                                            <li class="bg-c1" data-product-id="3614271241238">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/102---Apricot---APRI-CUTE.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">102</div>
+                                                        <h4>Apri<br> <span>Cute</span></h4>
+                                                        <div class="desc">Apricot<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c2" data-product-id="3614271241252">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/112---Honey---SHOW-ME-THE-HONEY.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">112</div>
+                                                        <h4>Show Me the Honey</h4>
+                                                        <div class="desc">Honey<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c1" data-product-id="3614271241269">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/142---Peach---FREEDOM-OF-PEACH.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">142</div>
+                                                        <h4>Freedom of Peach</h4>
+                                                        <div class="desc">Peach<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c3" data-product-id="3614271241283">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/151---Cherry---CHERRY-SYMPHONY.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">151</div>
+                                                        <h4>Cherry Symphony</h4>
+                                                        <div class="desc">Cherry<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c2" data-product-id="3614271241306">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/154---Grapefruit---GREAT-FRUIT.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">154</div>
+                                                        <h4>Great<br> <span>-Fruit</span></h4>
+                                                        <div class="desc">Grapefruit<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c3" data-product-id="3614271241313">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/166---Yuzu---WALK-THE-LIME.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">166</div>
+                                                        <h4>Walk the Lime</h4>
+                                                        <div class="desc">Yuzu<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c4" data-product-id="3614271241337">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/172---Strawberry---ITS-MY-JAM.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">172</div>
+                                                        <h4>It’s<br> <span>My Jam</span></h4>
+                                                        <div class="desc">Strawberry<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c2" data-product-id="3614271241344">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/201---Madeleine---PIECE-OF-CAKE.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">201</div>
+                                                        <h4>Piece of Cake</h4>
+                                                        <div class="desc">Madeleine<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c4" data-product-id="3614271241375">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/240---Gingerbread---SPICE-IT-UP.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">240</div>
+                                                        <h4>Spice It<br> <span>Up</span></h4>
+                                                        <div class="desc">Gingerbread<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c1" data-product-id="3614271241252">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/252---Vanilla---VANILLA-POP.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">252</div>
+                                                        <h4>Vanilla<br> <span>Pop</span></h4>
+                                                        <div class="desc">Vanilla<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c4" data-product-id="3614271241399">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/271---Caramel---GOOD-KARA-MEL.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">271</div>
+                                                        <h4>Good<br> <span>Kara-Mel</span></h4>
+                                                        <div class="desc">Caramel<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c2" data-product-id="3614271240873">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/283---Blackberry---BERRY-IN-LOVE.png, 120|120|120|120)$ alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">283</div>
+                                                        <h4>Berry In Love</h4>
+                                                        <div class="desc">Blackberry<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c1" data-product-id="3614271240880">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/300---Energy-Drink---LEMON-EXPLOSION.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">300</div>
+                                                        <h4>Lemon Explosion</h4>
+                                                        <div class="desc">Energy-drink<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c2" data-product-id="3614271240897">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/301---Melon---MELI-MELON.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">301</div>
+                                                        <h4>Meli Melon</h4>
+                                                        <div class="desc">Melon<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c4" data-product-id="3614271240903">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/313---Lemon-Meringue---BOOM-MERINGUE.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">313</div>
+                                                        <h4>Boom-Meringue</h4>
+                                                        <div class="desc">Lemon-Meringue<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c1" data-product-id="3614271240910">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/341---Raspberry---BOHEMIAN-RASPBERRY.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">341</div>
+                                                        <h4>Bohemian Raspberry</h4>
+                                                        <div class="desc">Raspberry<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c3" data-product-id="3614271240927">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/352---Watermelon---WONDER-MELON.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">352</div>
+                                                        <h4>Wonder Melon</h4>
+                                                        <div class="desc">Watermelon<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c4" data-product-id="3614271240934">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/372---Blackcurrant---BERRY-TALE.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">372</div>
+                                                        <h4>Berry<br> <span>Tale</span></h4>
+                                                        <div class="desc">Blackcurrant<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c3" data-product-id="3614271240941">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/381---Mango---MANGOES-WILD.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">381</div>
+                                                        <h4>Mangoes Wild</h4>
+                                                        <div class="desc">Mango<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="bg-c2" data-product-id="3614271240958">
+                                                <div>
+                                                    <div class="front">
+                                                        <img $responsiveSrc(juicyshaker/images/products/400---Mint---MINT-TO-BE.png, 120|120|120|120)$alt="" class="img-responsive">
+                                                    </div>
+                                                    <div class="back">
+                                                        <div class="ref">400</div>
+                                                        <h4>Mint<br> <span>to be</span></h4>
+                                                        <div class="desc">Mint<br> <span>taste</span></div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-right-25">
+
+                                    <div class="pdp">
+                                        $include('Lancome-ProductModule', 'pid', '3614271240873')$
+                                    </div>
+
+                                </div>
+
+                            </article>
+            </section>
+
+        </div>
+    </div>
+
+<script>
+$(document).ready(function(){
+$(document).on("gtm.initialized", function () {
+         $(document).one('click', '.js_quickshoppopin', function () {
+                              var $this = $(this);
+                              var productName = $this.closest('.contentcarousel_list_item').find('.product_tile .product_image_wrapper').attr('title');
+                              app.googletagmanagement.pushEventData({
+                                    "event": "gaEvent",
+                                   "eventCategory": "Landing Page",
+                                   "eventAction": "quick shop",
+                                   "eventLabel": productName,
+                                   "page" : "fr/juicy-shaker/decouvrez-juicy-shaker"
+                             });
+                       });
+});
+	$('#juicy-shaker .catalog li').on('click', function() {
+		var productId = $(this).data('productId');
+		app.progress.show($('#juicy-shaker .pdp'));
+		$.post('$url('Lancome-ProductModule')$', {'pid': productId}, function(data){
+			$('#juicy-shaker .pdp').html(data);
+                        app.componentsMgr.loadComponent("product.tile", {});
+                        app.progress.hide($('#juicy-shaker .pdp'));
+                        $(document).trigger('imageReplace.globalResponsive');
+                         $(document).one('click', '.js_quickshoppopin', function () {
+                              var $this = $(this);
+                              var productName = $this.closest('.contentcarousel_list_item').find('.product_tile .product_image_wrapper').attr('title');
+                              app.googletagmanagement.pushEventData({
+                                    "event": "gaEvent",
+                                   "eventCategory": "Landing Page",
+                                   "eventAction": "quick shop",
+                                   "eventLabel": productName,
+                                   "page" : "fr/juicy-shaker/decouvrez-juicy-shaker"
+                             });
+                       });
+		});
+	});
+});
+</script>

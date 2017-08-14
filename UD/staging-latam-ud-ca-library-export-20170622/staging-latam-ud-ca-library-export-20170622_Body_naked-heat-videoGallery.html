@@ -1,0 +1,66 @@
+<div class="videoGallery-section videoGallery">
+	<div class="videoGallery-container">
+		<div class="videoGallery-title">
+			<h3 class="title">Get all the hot insider details</h3>
+		</div>
+		<div class="videoGallery-carousel-wrapper jcarousel-wrapper uvedge-carousel-containe carousel horizontal_carousel" data-pagination-enabled="true" data-carousel-wrap="circular">
+			<div class="videoGallery-carousel jcarousell jcarousel-clip" data-jcarousel="true" data-wrap="circular">
+				<ul class="videoGallery-carousel-list">
+					<li class="videoGallery-carousel-item start-video">
+						<div id='overlay-1'  class="overlay-video"></div>
+						<div class="videoGallery-carousel-item-img">
+							<iframe id="player-overlay-1" src="https://www.youtube.com/embed/8hbXNWsmgI0?controls=0&showinfo=0" frameborder="0"></iframe>
+                                                        <img id="play-video" src="VideoStill-wende.jpg?$staticlink$" alt="image1">
+						</div>
+						<h4 class="videoGallery-carousel-item-title">Wende reveals naked heat</h4>
+						<button class="videoGallery-carousel-item-button"></button>	
+					</li>
+					<li class="videoGallery-carousel-item start-video">
+						<div id='overlay-2' class="overlay-video"></div>
+						<div class="videoGallery-carousel-item-img">
+							<iframe id="player-overlay-2" src="https://www.youtube.com/embed/T_jIz7cld1I?controls=0&showinfo=0" frameborder="0"></iframe>
+							<img id="play-video" src="master.jpg?$staticlink$" alt="image1">
+						</div>
+						<h4 class="videoGallery-carousel-item-title">Our Most Sweltering Naked Palette Yet</h4>
+						<button class="videoGallery-carousel-item-button"></button>
+					</li>
+					<li class="videoGallery-carousel-item start-video">
+						<div id='overlay-3'  class="overlay-video"></div>
+						<div class="videoGallery-carousel-item-img">
+							<iframe id="player-overlay-3" src="https://www.youtube.com/embed/JLaRrFnLync?controls=0&showinfo=0" frameborder="0"></iframe>
+							<img id="play-video" src="VideoStill-shades.jpg?$staticlink$" alt="image1">
+						</div>
+						<h4 class="videoGallery-carousel-item-title">A Close-up Look at All 12 Amber-Hued Neutrals</h4>
+						<button class="videoGallery-carousel-item-button"></button>
+					</li>
+				</ul>
+				<div class="carousel_navigation_list"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+$(document).ready(function() {
+    $('.start-video').on('click', function() {
+        $(this).find('img').hide();
+        $(this).find('button').hide();
+        $(this).removeClass('start-video');
+    }).on('mouseenter', function() {
+        $(this).find('button').addClass('hover');
+    }).on('mouseleave', function() {
+        $(this).find('button').removeClass('hover');
+    });
+
+    $('.overlay-video').on('click', function() {
+        var player = YT.get('player-' + $(this).attr('id'));
+        if (player.getPlayerState() == YT.PlayerState.PLAYING) {
+            player.pauseVideo();
+        } else {
+            player.playVideo();
+        }
+    });
+});
+</script>
+
+<style>.b-vicelp{overflow:visible}.videoGallery-section{clear:both;min-height:740px;position:relative;background-position:center;background-image:url(images/landing/naked-heat/parallax-background-new-mini.jpg?$staticlink$);box-shadow:0 0 75px 0 rgba(0,0,0,.5);z-index:3}.videoGallery-container{padding:20px;text-align:center}.videoGallery-title{max-width:750px;margin:50px auto 20px}.videoGallery-title .title{margin:0;font-family:"ProximaNova-Semibold",sans-serif;text-transform:uppercase;letter-spacing:.04em;line-height:normal;font-size:30px;color:#fff}.videoGallery-carousel{width:800px!important;padding:45px 0;overflow:hidden}.videoGallery-carousel-wrapper{position:relative;display:inline-block;margin:25px auto;padding:0 45px}.videoGallery-carousel-wrapper .jcarousel-control{position:absolute;top:0;bottom:0;margin:auto;width:15px;height:15px;border-style:solid;border-color:#fff;transform:rotate(45deg);cursor:pointer}.videoGallery-carousel-wrapper .jcarousel-control.jcarousel-prev{left:20px;border-width:0 0 1px 1px}.videoGallery-carousel-wrapper .jcarousel-control.jcarousel-next{right:20px;border-width:1px 1px 0 0}.videoGallery-carousel:after{content:"";position:absolute;top:45px;left:45px;right:45px;bottom:45px;background-color:#231f20;box-shadow:0 0 25px 2px rgba(0,0,0,.3);z-index:1}.videoGallery-carousel-list{list-style-type:none;z-index:2}.videoGallery-carousel-item{position:relative;overflow:visible!important}.videoGallery-carousel-item-img{width:100%;height:100%;overflow:hidden;position:relative}.videoGallery-carousel-item-img iframe{display:block;width:800px;height:450px}.videoGallery-carousel-item-img img{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1}.videoGallery-carousel-item-title{position:absolute;top:-45px;left:0;right:0;margin:0;opacity:0;font-family:"ProximaNova-Light",sans-serif;text-transform:uppercase;letter-spacing:.075em;line-height:normal;font-size:20px;color:#fff}.videoGallery-carousel-item.active .videoGallery-carousel-item-title{opacity:1;-moz-transition:opacity 200ms 1s;-o-transition:opacity 200ms 1s;-webkit-transition:opacity 200ms 1s;transition:opacity 200ms 1s}.videoGallery-carousel-item-button{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;width:160px;height:160px;display:inline-block;border:0 none;outline:0 none;background-color:transparent;background-image:url(images/landing/naked-heat/play-button.svg?$staticlink$);background-position:center center;background-repeat:no-repeat;background-size:104px;-moz-transition-property:all;-o-transition-property:all;-webkit-transition-property:all;transition-property:all;-moz-transition-duration:300ms;-o-transition-duration:300ms;-webkit-transition-duration:300ms;transition-duration:300ms;cursor:pointer;z-index:2}.videoGallery-carousel-item-button.hover{background-size:124px}.videoGallery-carousel-item .overlay-video{width:100%;height:100%;position:absolute;overflow:hidden;z-index:4;cursor:pointer}.videoGallery-carousel .carousel_navigation_list{position:absolute;left:0;right:0;bottom:0}.videoGallery-carousel .carousel_navigation_list_item{width:8px;height:8px;margin:6px!important;display:inline-block;border:0 none;border-radius:100%;background-color:#fff;cursor:pointer;opacity:.3;font-size:0}.videoGallery-carousel .carousel_navigation_list_item.selected{opacity:1}.videoGallery-carousel .carousel_navigation_list_item>*{display:none}@media screen and (max-width:767px){.videoGallery-section{min-height:420px}.videoGallery-container{padding:32px 0 20px}.videoGallery-title{margin-top:15px;margin-bottom:0;max-width:365px}.videoGallery-title .title{font-size:18px}.videoGallery-carousel{width:365px!important;padding:37px 0}.videoGallery-carousel-wrapper{margin:25px auto 0;padding:0}.videoGallery-carousel-wrapper .jcarousel-control{display:none}.videoGallery-carousel:after{content:"";position:absolute;top:37px;left:0;right:0;bottom:37px}.videoGallery-carousel-item iframe{width:365px;height:200px}.videoGallery-carousel-item-title{top:-37px;padding-top:7px;font-size:13px}.videoGallery-carousel-item-button{width:80px;height:80px;background-size:54px}.videoGallery-carousel-item-button.hover{background-size:64px}}@media screen and (min-width:768px) and (max-width:1279px){.videoGallery-section{min-height:475px}.videoGallery-title{margin-top:30px;margin-bottom:15px;max-width:515px}.videoGallery-title .title{font-size:20px}.videoGallery-carousel{width:515px!important;padding:35px 0}.videoGallery-carousel-wrapper{margin:0 auto;padding:0 35px}.videoGallery-carousel:after{content:"";position:absolute;top:35px;left:35px;right:35px;bottom:35px}.videoGallery-carousel-item iframe{width:515px;height:290px}.videoGallery-carousel-item-title{top:-35px;padding-top:7px;font-size:13px}.videoGallery-carousel-item-button{width:115px;height:115px;background-size:68px}.videoGallery-carousel-item-button.hover{background-size:78px}}</style>

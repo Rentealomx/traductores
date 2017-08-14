@@ -1,0 +1,27 @@
+<tr>
+    <td class="desktop-only" align="center" style="display:block; padding-bottom: 5px;">
+        <img alt="La vie est belle en Lanc&ocirc;me" src="mails/maison_lancome_title.jpg?$staticlink$" style="width: 100%;" border="0"/>
+    </td>
+    <td class="mobile-only" align="center" style="text-decoration: none; font-size: 0; height: 0; width:0; overflow: hidden; display: block; display:none; mso-hide:all;">
+        <img class="mobile-maison-title" alt="La vie est belle en Lanc&ocirc;me" src="mails/maison_lancome_title_mob.jpg?$staticlink$" border="0"/>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table class="discover_lancome" align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+            <tr>
+                <td class="first_img" width="32%" style="width:32%;">
+                    <img alt="Since 1935" src="mails/maison_lancome_banner_1.jpg?$staticlink$" style="width:100%" border="0"/>
+                </td>
+                <td width="2%" style="width: 2%;">&nbsp;</td>
+                <td class="second_img" width="32%" style="width:32%;">
+                    <img alt="French" src="mails/maison_lancome_banner_2.jpg?$staticlink$" style="width:100%" border="0"/>
+                </td>
+                <td class="hideOnMobile" width="2%" style="width: 2%;">&nbsp;</td>
+                <td class="third_img hideOnMobile" width="32%" style="width:32%;">
+                    <img alt="Pink State of mind" src="mails/maison_lancome_banner_3.jpg?$staticlink$" style="width:100%" border="0"/>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>

@@ -1,0 +1,16 @@
+<a href="$url('Search-Show','cgid','L3_MakeUp_Eyes_Mascara')$">
+<div class="clp-merchandising__inner end">
+    <div class="clp-merchandising__details clp-merchandising__details--large">
+
+        <div class="clp-merchandising__description">
+            <div class="clp-merchandising__title">
+                <h2 class="clp-merchandising__heading regular-merchandising-color merchandising-small-copy " style="color: #000000;">DISCOVER</h2>
+            </div>
+            <span class="pipe white show-for-large-only" style="display: block;text-align: center;width: 1px;height: 30px;background: white;margin: 0 auto 10px;"></span>
+            <div class="merchandising-title-is-uppercase clp-merchandising__subtitle regular-merchandising-color tile-name__basic" style="color: #000000;">THE GRANDIOSE LINE</div>
+            <span class="c-button c-button--ghost-inverted show-for-medium show-for-large no-border" style="color: #000000;" href="$url('Search-Show','cgid','L3_MakeUp_Eyes_Mascara')$">DISCOVER</span>
+            <div class="css-chevron show-for-small-only"></div>
+        </div>
+    </div>
+</div>
+</a>

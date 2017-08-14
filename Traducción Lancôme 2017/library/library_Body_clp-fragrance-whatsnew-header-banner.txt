@@ -1,0 +1,22 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#fff;">
+                    What's new
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#fff;">
+                    DISCOVER OUR NEW PRODUCTS
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#fff;">
+                    A multiplicity of textures, shades and colours. Supple, smart and easy to wear, adapting to the diversity of women’s moments in a day. From matte to luminous finishes, achieve the perfect finish for every skin tone, and every complexion concern.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l2/L1_DESKTOP_Skincare_1035x342.jpg, categoryHeader, category title, categoryimageclass,,,category/landing-l2/L1_DESKTOP_Skincare_1035x342.jpg,category/landing-l2/L1_DESKTOP_Skincare_1035x342.jpg, null, true)$
+    </div>
+</div>

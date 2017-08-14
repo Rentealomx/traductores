@@ -1,0 +1,16 @@
+<!-- Mobile -->
+<div class="footer__content footer-sticky-nav__mobile">
+		
+	<div class="row">
+		<div class="small-6 columns footer-sticky-nav__mobile-column"><span class="footer-sticky-nav__mobile-link footer-sticky-nav--primary" data-toggle="footerNavMobileExpanded">Free delivery</span></div>	
+		<div class="small-6 columns footer-sticky-nav__mobile-column"><a href="$url('Page-Show', 'cid', 'customer-service-security-policy')$" class="footer-sticky-nav__mobile-link footer-sticky-nav--secondary">Elite rewards</a></div>
+    </div>	
+	
+	<!--Expandable section -->
+	<div id="footerNavMobileExpanded" class="hidden footer-sticky-nav--secondary" data-toggler=".footer-sticky-nav--expanded">
+	    <button class="close-button footer-close-button">&times;</button>
+		<a href="$url('Page-Show', 'cid', 'customer-service-terms-sale')$">
+$renderContentImage(footer/footer-mobile-expandable-image.jpg, 350|768|1280|jpg, category title, hp__image,,,footer/footer-mobile-expandable-image.jpg,footer/footer-mobile-expandable-image.jpg)$ 
+		</a>
+	</div>		
+</div>

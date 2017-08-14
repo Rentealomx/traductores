@@ -1,0 +1,111 @@
+<style>
+.clarisonic_how_content:after {
+display: block;
+content: '';
+clear: both;
+}
+
+.clarisonic_how_content .how_item {
+float: left;
+width: 33.33%;
+}
+
+.clarisonic_how_content .how_item p,
+.clarisonic_how_content .how_item h2 {
+   text-align: center;
+}
+
+.clarisonic_how_content .how_time img {
+margin: 10px 0 15px;
+}
+
+.clarisonic_how_content .how_item p {
+   font-size: 14px;
+   font-family: 'Gotham Book';
+   margin: 15px 0 45px;
+}
+
+.clarisonic_how_content .how_item img {
+   display: inline-block;
+   max-width: 100%;
+}
+
+.clarisonic_how_content {
+   text-align: right;
+}
+
+.clarisonic_how_content sup {
+   font-size: 10px;
+}
+
+.clarisonic_how_content .align_center {
+text-align: center;
+}
+
+.clarisonic_how_content .align_left {
+text-align: left;
+}
+
+@media (max-width:960px) {
+.clarisonic_how_content .how_item {
+width: 50%;
+}
+
+.clarisonic_how_content,
+.clarisonic_how_content .align_left {
+   text-align: center;
+}
+}
+
+@media (max-width:640px) {
+.clarisonic_how_content .how_time img {
+margin: 0;
+}
+.clarisonic_how_content .how_item {
+    width: 100%;
+    float: none;
+}
+
+.clarisonic_how_content .how_item h2 {
+   font-size: 30px;
+   line-height: 30px;
+   margin: 25px 0 40px;
+}
+
+.clarisonic_how_content .how_item p {
+   margin: 10px 0 20px;
+}
+}
+</style>
+
+<div class="clarisonic_how_content">
+   <div class="how_item align_center how_time">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(landing-page/clarisonic/how-to-time.jpg,160|160|160|160)$  />
+       <h2>Transform and<br />perfectly clean your<br />skin in 60 seconds.</h2>
+   </div>
+
+   <div class="how_item align_center">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(landing-page/clarisonic/how-to-1.jpg,345|345|345|345)$  />
+       <p>Moisten skin and brush head,<br />then tap off excess.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(landing-page/clarisonic/how-to-2.jpg,345|345|345|345)$  />
+       <p>Apply pearl-size cleanser directly<br />onto brush head or skin.</p>
+   </div>
+
+   <div class="how_item align_left">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(landing-page/clarisonic/how-to-3.jpg,345|345|345|345)$  />
+       <p>Turn on the device<br />and select desired speed.</p>
+   </div>
+
+   <div class="how_item align_center">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(landing-page/clarisonic/how-to-4.jpg,345|345|345|345)$  />
+       <p>Follow T-TIMER<sup>(R)</sup> prompts and<br />cleanse using circular motions.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(landing-page/clarisonic/how-to-5.jpg,345|345|345|345)$  />
+       <p>Rinse skin and brush head<br />with warm water after use.</p>
+   </div>
+</div>

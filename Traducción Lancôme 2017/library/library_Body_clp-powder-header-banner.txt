@@ -1,0 +1,22 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#fff;">
+                    Setting & Finishing Powder
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#fff;">
+                    TRANSLUSCENT POWDER, FACE POWDER, LOOSE POWDER
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#fff;">
+                    The expert finishing touch with setting powder, translucent powder, and face powder. A natural gesture that refines the skin's texture<br>and helps your makeup stay in place all day. Choose from loose powder to compact or pressed powder.<br>Give your skin a satin feel, and leave your skin velvety smooth. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l3/L3_MAKE_UP_Face_Powder_1600x267.png, categoryHeader, category title, categoryimageclass,,,category/landing-l3/L3_DESKTOP_Powder_Makeup_1035x286.jpg,category/landing-l3/L3_MAKE_UP_Face_Powder_1600x267.png, null, true)$
+    </div>
+</div>

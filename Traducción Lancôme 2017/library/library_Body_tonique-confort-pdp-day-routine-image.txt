@@ -1,0 +1,31 @@
+<div class="text-center">
+<div class="columns medium-4 small-12">
+$renderContentImage(RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_03.jpg,, pdp cover,,,,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_03.jpg,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_03.jpg)$
+        <h2>
+            Step 1: Remove
+        </h2>
+        <p>
+            Gently dab your eyes with a soaked cotton pad with Bi-Facil Eyes to remove heavy makeup.
+        </p>
+</div>
+
+<div class="columns medium-4 small-12">
+$renderContentImage(RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_05.jpg,, pdp cover,,,,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_05.jpg,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_05.jpg)$
+        <h2>
+            Step 2 : Cleanse
+        </h2>
+        <p>
+            Get clean and fresh skin with Bi-Facil face.
+        </p>
+</div>
+
+<div class="columns medium-4 small-12">
+$renderContentImage(RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_07.jpg,, pdp cover,,,,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_07.jpg,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_07.jpg)$
+        <h2>
+            Step 3: tone
+        </h2>
+        <p>
+            Tonique Confort’s smooth texture will soothe you at the end of a busy day. A massage in a bottle.
+        </p>
+</div>
+</div>

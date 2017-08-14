@@ -1,0 +1,27 @@
+<!-- Tag for Activity Group: lanc-LP, Activity Name: Lancome_landingpage_Module-La-vie-est-belle, Activity ID: 2671015 -->
+<!-- Expected URL: http://www.lancome.fr/lavieestbelle/lavieestbelle.html -->
+
+<!--
+Activity ID: 2671015
+Activity Name: Lancome_landingpage_Module-La-vie-est-belle
+Activity Group Name: lanc-LP
+-->
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Lancome_landingpage_Module-La-vie-est-belle
+URL of the webpage where the tag is expected to be placed: http://www.lancome.fr/lavieestbelle/lavieestbelle.html
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 08/21/2015
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://4160741.fls.doubleclick.net/activityi;src=4160741;type=lanc-lp;cat=mvieb-15;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="https://4160741.fls.doubleclick.net/activityi;src=4160741;type=lanc-lp;cat=mvieb-15;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+<div id="lveb"></div>

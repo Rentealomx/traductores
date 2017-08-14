@@ -1,0 +1,21 @@
+<span class="campaignId-container" data-campaignid="samples"></span>
+
+<div class="is_hidden_mobile_large is_visible_tablet is_visible_desktop">
+<img  class="form_background" alt="" $responsiveSrc(landing-page/form_bg.jpg,1500|1500|780|10,,,,,landing-page/form_bg.jpg,landing-page/form_bg_tablet.jpg, landing-page/form_bg_mobile.jpg)$/>
+<div class="js_hide sampling-confirmation-container">
+<h2>Thank you for signing up to receive your complimentary sample.</h2>
+</div>
+</div>
+
+<div class="is_hidden_desktop is_hidden_tablet is_visible_mobile_large">
+<img class="form_background" alt="" $responsiveSrc(llanding-page/form_bg_mobile.jpg?$staticlink$,, forced, mobile)$   title="" />
+<div class="sampling-form-container">
+<h2>Ask for a sample</h2>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<span class="open_sampling_popup btn_cta_secondary">Get a sample</span></div>
+
+<div class="js_hide sampling-confirmation-container">
+<h2>Thank you for signing up to receive your complimentary sample.</h2>
+</div>
+</div>

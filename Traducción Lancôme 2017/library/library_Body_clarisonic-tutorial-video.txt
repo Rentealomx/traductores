@@ -1,0 +1,73 @@
+<style>
+.pt_product_details .how_to_apply_pdp .section_title {
+    border-top: 4px solid #000;
+}
+
+.pt_product_details .how_to_apply_pdp .text h2 {
+width: 70%;
+}
+
+.pt_product_details .how_to_apply_pdp .text p {
+    width: 90%;
+}
+
+@media (max-width:960px) {
+
+.pt_product_details .how_to_apply_pdp .text h2 {
+width: 100%;
+font-size: 45px;
+    margin: 0 auto 20px;
+padding: 10px 0 0;
+}
+
+     .pt_product_details .how_to_apply_pdp .image,
+     .pt_product_details .how_to_apply_pdp .text {
+          width: 100%;
+          float: none;
+          max-width: 620px;
+     }
+     .pt_product_details .how_to_apply_pdp .image {
+          box-sizing: border-box;
+          padding: 20px;
+          border: 1px solid #b4b4b5;
+          margin: 0 auto 25px;
+     }
+     .pt_product_details .how_to_apply_pdp .text {
+          margin: 0 auto !important;
+     }
+
+     .pt_product_details .how_to_apply_pdp {
+           float: none;
+     }
+}
+
+@media only screen and (max-width: 640px) {
+.how_to_apply_pdp.clarisonic-tutorial .how_to_apply {
+display: block;
+padding-bottom: 0;
+}
+
+.pt_product_details .how_to_apply_pdp .image {
+   margin: 15px auto 20px !important;
+}
+
+.pt_product_details .how_to_apply_pdp .text h2 {
+ max-width: 250px;
+}
+}
+</style>
+
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(landing-page/clarisonic/clarisonic-tutorial.jpg,videoCoverLarge, video cover, videoblockcoverimage,,,landing-page/clarisonic/clarisonic-tutorial.jpg,landing-page/clarisonic/clarisonic-tutorial.jpg)$
+<div class="video-block__youtube">
+    <div class="video-block__iframe js-youtube-video" data-video-id="kolZi5jsQvI"></div>
+</div>
+</div>
+  <div class="video-constructor">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>

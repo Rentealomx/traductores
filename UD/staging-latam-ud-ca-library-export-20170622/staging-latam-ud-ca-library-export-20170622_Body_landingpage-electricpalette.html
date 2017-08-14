@@ -1,0 +1,477 @@
+<script type="text/javascript" src="js/jquery.sticky.js?$staticlink$"></script>
+<script type="text/javascript" src="js/jcarousellite_1.0.1.js?$staticlink$"></script>
+<script type="text/javascript" src="js/jquery.easing.1.1.js?$staticlink$"></script>
+<style>
+#stickynav {background-image:url('images/landing/electric/upperbanner.png?$staticlink$');width:1000px;height:130px;z-index:100000;}
+#stickynav .title {text-align:center;padding-top:17px;}
+
+#navlist{position:relative;margin:10px 0 0 110px;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#navlist li, #navlist a{height:34px;display:block;}
+
+#chaos{left:0px; width:220px;}
+#chaos{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') 0 0;}
+#chaos a:hover{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') 0px -34px;}
+
+#pro{left:220px; width:110px;}
+#pro{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') -220px 0;}
+#pro a:hover{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') -220px -34px;}
+
+#bloggers{left:330px; width:156px;}
+#bloggers{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') -330px 0;}
+#bloggers a:hover{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') -330px -34px;}
+
+#getelectric{left:486px; width:162px;}
+#getelectric{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') -486px 0;}
+#getelectric a:hover{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') -486px -34px;}
+
+#getitnow{left:648px; width:135px;}
+#getitnow{background:url('images/landing/electric/uppernav-electric.jpg?$staticlink$') -648px 0;}
+
+#electric_container{margin:0 auto;padding:0 30px;margin-top:-12px;}
+a.electric_billboard{background-image:url('images/landing/electric/electric_billboard.jpg?$staticlink$');display:block;width:940px;height:460px;position:relative;}
+
+#chaos_section {float:left;width:940px;position:relative;}
+
+.tooltip2 {width:275px;height:auto;background-color:#fff;color:#000;border:1px solid #000;box-shadow: 2px 2px 2px #000;padding:8px 5px 8px 10px;display:none;padding-left:10px;position:absolute;}
+.tooltip2 h3 {font-family:Arial;color:#000;font-size:14px;font-weight:bold;text-transform:uppercase;}
+.tooltip2 p {font-family:Arial;color:#000;font-size:14px;padding-right:5px;}
+.palette_display1 {float:left;width:458px;height:198px;} 
+.palette_display2 {float:left;width:458px;height:132px;} 
+.palette .box.product-1 {float:left;width:458px;height:198px;}
+.palette .tooltip2.product-1 {position:absolute;left:155px;top:8px;}
+.palette .box.product-2 {float:left;width:229px;height:132px;}
+.palette .tooltip2.product-2 {position:absolute;left:20px;bottom:90px;}
+.palette .box.product-3 {float:left;width:229px;height:132px;}
+.palette .tooltip2.product-3 {position:absolute;left:150px;bottom:80px;}
+
+#chaos_section .copy {float:right;width:478px;padding-top:50px;font-family:arial;font-size:14px;color:#000;}
+#chaos_section .copy .cta {text-align:center;margin-top:20px;}
+
+#theshades {clear:both;float:left;width:940px;height:364px;position:relative;} 
+#theshades .palette .box.shade-1 {float:left;width:71px;height:364px;}
+#theshades .palette .tooltip2.shade-1 {position:absolute;left:20px;bottom:20px;}
+#theshades .palette .box.shade-2 {float:left;width:68px;height:364px;}
+#theshades .palette .tooltip2.shade-2 {position:absolute;left:40px;top:20px;}
+#theshades .palette .box.shade-3 {float:left;width:97px;height:364px;}
+#theshades .palette .tooltip2.shade-3 {position:absolute;left:60px;bottom:50px;}
+#theshades .palette .box.shade-4 {float:left;width:102px;height:364px;}
+#theshades .palette .tooltip2.shade-4 {position:absolute;left:130px;bottom:70px;}
+#theshades .palette .box.shade-5 {float:left;width:114px;height:364px;}
+#theshades .palette .tooltip2.shade-5 {position:absolute;left:220px;bottom:70px;}
+#theshades .palette .box.shade-6 {float:left;width:134px;height:364px;}
+#theshades .palette .tooltip2.shade-6 {position:absolute;right:250px;bottom:70px;}
+#theshades .palette .box.shade-7 {float:left;width:95px;height:364px;}
+#theshades .palette .tooltip2.shade-7 {position:absolute;right:80px;bottom:20px;}
+#theshades .palette .box.shade-8 {float:left;width:77px;height:364px;}
+#theshades .palette .tooltip2.shade-8 {position:absolute;right:60px;top:20px;}
+#theshades .palette .box.shade-9 {float:left;width:86px;height:364px;}
+#theshades .palette .tooltip2.shade-9 {position:absolute;right:40px;bottom:50px;}
+#theshades .palette .box.shade-10 {float:left;width:96px;height:364px;}
+#theshades .palette .tooltip2.shade-10 {position:absolute;right:20px;top:20px;}
+
+#electric_headphones{clear:both;width:940px;height:auto;padding-top:30px;}
+#electric_headphones .product {float:right;width:540px;}
+#electric_headphones .title {float:left;width:348px;padding:20px 0 0 52px;}
+#electric_headphones .copy {text-align:center;font-family:arial;font-size:14px;color:#000;padding-top:10px;}
+#electric_headphones .cta {text-align:center;margin-top:20px;}
+
+#prolooks_section {clear:both;width:940px;height:auto;position:relative;}
+#prolooks_section .title {text-align:center;padding:35px 0 12px;}
+#prolooks_section .copy {text-align:center;font-family:arial;font-size:14px;color:#000;padding-bottom:20px;}
+
+#carousel_slider {float:left;width:940px;margin:20px 0 45px;}
+.rotateProlooks li {float:left;width:884px;height:500px;}
+.rotateProlooks li .look {float:left;width:504px;}
+.rotateProlooks li .looktitle {float:left;width:380px;height:100px;}
+.rotateProlooks li .shades {float:left;width:380px;height:159px;} 
+.rotateProlooks li .copysection {float:left;width:370px;height:55px;font-family:arial;font-size:14px;text-align:center;padding:15px 5px 10px;}
+.rotateProlooks li .love {float:left;width:380px;height:38px;}
+.rotateProlooks li .product1 {float:left;width:182px;height:123px;}
+.rotateProlooks li .product2 {float:left;width:198px;height:123px;}
+.prev {cursor:pointer;float:left;padding-top:225px;}
+.next {cursor:pointer;float:right;padding-top:225px;}
+
+#blogger_grid {clear:both;float:left;width:940px;height:564px;}
+#blogger_grid .title {float:left;width:376px;height:376px;}
+#blogger_grid .title .copy {font-family:Arial;color:#fff;font-size:14px;float:left;position:relative;left:37px;bottom:90px;}
+a.blogger_look {float:left;height:188px;width:188px;position:relative;}
+a.blogger_look img {display:block;}
+a.blogger_look div {position:absolute;top:0;left:0;height:188px;width:188px;text-align:center;overflow:hidden;}
+a:hover.blogger_look div.blackbg {background-color:#000;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter: alpha(opacity=50);opacity: 0.5;}
+a.blogger_look div.label {color:#fff;font-size:14px;height:16px;line-height:16px;position:absolute;top:168px;text-transform:uppercase;text-decoration:none;display:none;}
+
+#udgetelectric {clear:both;float:left;width:940px;height:auto;padding-bottom:75px;}
+#udgetelectric .title {text-align:center;padding:60px 0 20px;}
+#udgetelectric .copy {text-align:center;font-family:arial;font-size:14px;color:#000;padding-bottom:20px;}
+
+#getelectric_palette {clear:both;float:left;width:940px;height:auto;padding-bottom:20px;}
+#disclaimer {text-align:center;font-family:arial;font-size:12px;color:#000;padding-top:30px;}
+a.shift_anchor {clear:both;float:left;position:relative;top:-125px;margin:0;padding:0;}
+</style>
+
+<a id="top"></a>
+<div id="stickynav">
+	<div class="title">
+		<a href="#top"><img src="images/landing/electric/electric_palette_title.jpg?$staticlink$" width="487" height="49" alt="Electric Palette" title="Electric Palette" /></a>
+	</div>
+	<ul id="navlist">
+		<li id="chaos">
+			<a href="#top" title="Chaos-Inducing Color"></a>
+		</li>
+		<li id="pro">
+			<a href="#prolooks_top" title="Pro Looks"></a>
+		</li>
+		<li id="bloggers">
+			<a href="#blogger_grid_top" title="Blogger Looks"></a>
+		</li>
+		<li id="getelectric">
+			<a href="#udgetelectric_top" title="#UDgetelectric"></a>
+		</li>
+		<li id="getitnow">
+			<a href="$url('Product-Show','pid','421')$" title="Get It Now"></a>
+		</li>
+	</ul>
+</div>
+<div id="electric_container">
+	<a class="electric_billboard cursor"></a>
+	<div class="electric_billboard" id="youtube-video" style="display:none;overflow:auto;">
+		$include('Page-Include', 'cid', 'video-electricpalette')$
+	</div>
+	<div id="chaos_section">
+		<div class="palette_display1">
+			<div class="palette">
+				<div class="box product-1">
+					<img src="images/landing/electric/electric_palette1.jpg?$staticlink$" width="458" height="198" alt="Electric Palette mirror" />
+				</div>
+				<div class="tooltip2 product-1">
+                	<h3>
+                    	The Case
+                    </h3>
+					<p>
+						This slim, sleek palette features a vivid, dimensional, multilayered smoke-screen print reminiscent of the shades inside. And the mirror is huge!
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="copy">
+			It's a color addict's ultimate fix: a mind-blowing palette filled with <strong>10 of the brightest, most amazing shades</strong> you’ve ever laid eyes on—including <strong>eight never-before-seen shades</strong> you won't find anywhere else.<br />
+			<br />
+			Why do a Pressed Pigment Palette? Using pressed pigments was the only way to create heavily saturated brights with the intense pigment load we craved. Traditional formulas just wouldn’t cut it. To achieve shades like these, we had to develop an entirely new formula!<br />
+			<br />
+			From ultra-smooth mattes to highly dimensional shimmers, <strong>each VELVETY shade delivers insane color payout.</strong>
+<div class="cta">
+		  <a href="$url('Product-Show','pid','421')$"><img src="images/landing/electric/get_electric_btn.gif?$staticlink$" width="143" height="24" alt="Get Electric &gt;" title="Get Electric &gt;" /></a>
+		</div>
+		</div>
+		<div class="palette_display2">
+			<div class="palette">
+				<div class="box product-2">
+					<img src="images/landing/electric/electric_palette2.jpg?$staticlink$" width="229" height="132" alt="Electric Palette brush" />
+				</div>
+				<div class="tooltip2 product-2">
+                	<h3>
+                    	The Brush
+                    </h3>
+					<p>
+						Includes our NEW cruelty-free, double-ended pressed pigment brush. On one end: a compact precision brush. On the other: a small pigment brush.
+					</p>
+				</div>
+			</div>
+			<div class="palette">
+				<div class="box product-3">
+					<img src="images/landing/electric/electric_palette3.jpg?$staticlink$" width="229" height="132" alt="Electric palette shade" />
+				</div>
+				<div class="tooltip2 product-3">
+                	<h3>
+                    	The Formula
+                    </h3>
+					<p>
+						We carefully crafted the formula on every shade to make sure each one would apply with a soft and creamy texture and deliver serious color payout.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="theshades">
+	  <div class="palette">
+		  <div class="box shade-1">
+				<img src="images/landing/electric/shade1.jpg?$staticlink$" width="71" height="364" alt="Chaos" />
+		</div>
+			<div class="tooltip2 shade-1">
+				<p><strong>CHAOS</strong> - bright blue matte with floating tonal pearl </p>
+				<p>
+					Try brushing Chaos onto the temples at the hairline. (It even shows up on brunettes!) Prep with Eyeshadow Primer Potion first. 
+				</p>
+			</div>
+	  </div>
+		<div class="palette">
+			<div class="box shade-2">
+				<img src="images/landing/electric/shade2.jpg?$staticlink$" width="68" height="364" alt="Freak" />
+			</div>
+			<div class="tooltip2 shade-2">
+				<p><strong>FREAK</strong> - bright green with gold shift </p>
+				<p>
+					For a cool, punk-femme look, brush Freak onto the temples at the hairline. (It even shows up on brunettes!) Prep with Eyeshadow Primer Potion first. 
+				</p>
+			</div>
+		</div>
+		<div class="palette">
+			<div class="box shade-3">
+				<img src="images/landing/electric/shade3.jpg?$staticlink$" width="97" height="364" alt="Jilted" />
+			</div>
+			<div class="tooltip2 shade-3">
+				<p><strong>JILTED</strong> - bright metallic fuchsia with blue shift </p>
+				<p>
+					Use your finger to dab Jilted on top of your lipgloss. 
+				</p>
+			</div>
+		</div>
+		<div class="palette">
+			<div class="box shade-4">
+				<img src="images/landing/electric/shade4.jpg?$staticlink$" width="102" height="364" alt="Slowburn" />
+			</div>
+			<div class="tooltip2 shade-4">
+				<p><strong>SLOWBURN</strong> - bright red-orange matte with floating pearl </p>
+				<p>
+					Try mixing Slowburn with some powder and using it on your cheeks.
+				</p>
+			</div>
+		</div>
+		<div class="palette">
+			<div class="box shade-5">
+				<img src="images/landing/electric/shade5.jpg?$staticlink$" width="114" height="364" alt="Urban" />
+			</div>
+			<div class="tooltip2 shade-5">
+				<p><strong>URBAN</strong> - bright metallic purple </p>
+				<p>
+					Urban looks great as a dramatic blush color or applied in blonde hair. 
+				</p>
+			</div>
+		</div>
+		<div class="palette">
+			<div class="box shade-6">
+				<img src="images/landing/electric/shade6.jpg?$staticlink$" width="134" height="364" alt="Thrash" />
+			</div>
+			<div class="tooltip2 shade-6">
+				<p><strong>THRASH</strong> - bright lime green matte with floating gold pearl</p>
+				<p>
+					For a bright cat eye, dip an angled brush in water and use Thrash as a liner. 
+				</p>
+			</div>
+		</div>
+		<div class="palette">
+			<div class="box shade-7">
+				<img src="images/landing/electric/shade7.jpg?$staticlink$" width="95" height="364" alt="Savage" />
+			</div>
+			<div class="tooltip2 shade-7">
+				<p><strong>SAVAGE</strong> - bright hot pink matte </p>
+				<p>
+					Savage looks amazing as a hot blush for summer cheekbones! You can also dab it on your lips for a stain-like effect.
+				</p>
+			</div>
+		</div>
+		<div class="palette">
+			<div class="box shade-8">
+				<img src="images/landing/electric/shade8.jpg?$staticlink$" width="77" height="364" alt="Gonzo" />
+			</div>
+			<div class="tooltip2 shade-8">
+				<p><strong>GONZO</strong> - bright turquoise matte with floating tonal pearl </p>
+				<p>
+					Try Gonzo in your hair for a fun, easy way to change up your look. For a brighter effect, prep your hair with a bit of Eyeshadow Primer Potion first.
+				</p>
+			</div>
+		</div>
+		<div class="palette">
+			<div class="box shade-9">
+				<img src="images/landing/electric/shade9.jpg?$staticlink$" width="86" height="364" alt="Revolt" />
+			</div>
+			<div class="tooltip2 shade-9">
+				<p><strong>REVOLT</strong> - bright metallic silver shimmer with silver glitter </p>
+				<p>
+					Use Revolt as a highlighter in your brows or around the outer eye or cheekbone. Also looks amazing as an icy shimmer on top of a deep wine or berry lipgloss!
+				</p>
+			</div>
+		</div>
+		<div class="palette">
+			<div class="box shade-10">
+				<img src="images/landing/electric/shade10.jpg?$staticlink$" width="96" height="364" alt="Fringe" />
+			</div>
+			<div class="tooltip2 shade-10">
+				<p><strong>FRINGE</strong> - bright metallic teal </p>
+				<p>
+					For a bit of subtle edge, use an eyebrow brush to apply Fringe to the outer ends of your eyebrows as a highlighter.
+				</p>
+			</div>
+		</div>
+  </div>
+  <div id="electric_headphones">
+  	<div class="product"> 
+    	<a href="$url('Product-Show','pid','438')$"><img src="images/landing/electric/electric_headphones.jpg?$staticlink$" width="539" height="350" alt="Electric Skullcandy Headphones" title="Electric Skullcandy Headphones" /></a> 
+    </div>
+    <div class="title">
+    	<img src="images/landing/electric/want_more_electric_title.gif?$staticlink$" width="338" height="145" alt="Want more Electric? Limited-edition Electric Skullcandy Headphones" title="Want more Electric? Limited-edition Electric Skullcandy Headphones" />
+      <div class="copy">
+        	Designed specifically for women by Skullcandy, these over-ear headphones have what it takes to satisfy the most serious audio enthusiasts, plus they look hot.      
+    	</div> 
+        <div class="cta"> 
+        	<a href="$url('Product-Show','pid','438')$"><img src="images/landing/electric/get_them_now.gif?$staticlink$" width="155" height="24" alt="Get them now >" title="Get them now >" /></a> 
+        </div>
+    </div>
+  </div>
+    <a id="prolooks_top" class="shift_anchor"></a>
+	<div id="prolooks_section">
+    	<div class="title">
+      		<img src="images/landing/electric/pro_looks_title.gif?$staticlink$" width="685" height="89" alt="Artistry Inspired: How The Pros Do Electric" title="Artistry Inspired: How The Pros Do Electric" /> 
+		</div>
+    	<div class="copy">
+        	We gave the Electric Palette to some of our favorite makeup artists and UD's resident experts (Wende and <br />our crazy-talented Product Development team). Steal their amazing looks!
+   	  </div>
+      <div id="carousel_slider">
+      	<div class="next"><img src="images/landing/electric/next.gif?$staticlink$" width="27" height="50" alt="Next" title="Next" /></div>
+      	<div class="prev"><img src="images/landing/electric/prev.gif?$staticlink$" width="28" height="50" alt="Previous" title="Previous" /></div>
+       	<div class="rotateProlooks">
+    			<ul>
+                    <li>
+               	    	<img src="images/landing/electric/12_AmyZ.jpg?$staticlink$" width="884" height="500" alt="Amy shows off the Freak look" title="Amy shows off the Freak look" /> </li>
+                    <li>
+               	    	<img src="images/landing/electric/13_Lauren.jpg?$staticlink$" width="884" height="500" alt="Lauren shows off the Gonzo look" title="Lauren shows off the Gonzo look"  /> </li>
+        			<li>
+                    	<div class="look"><img src="images/landing/electric/02_UrbanJungle_look.jpg?$staticlink$"  width="504" height="500" alt="Urban Jungle" title="Urban Jungle" /></div>
+                        <div class="looktitle"><img src="images/landing/electric/02_UrbanJungle_title.jpg?$staticlink$" width="380" height="100"  alt="Urban Jungle, created by Wende Zomnir" title="Urban Jungle, created by Wende Zomnir" /></div>
+                        <div class="shades"><img src="images/landing/electric/02_UrbanJungle_shades.jpg?$staticlink$" width="380" height="159" alt="The Shades: Freak, Thrash, Chaos and Gonzo" title="The Shades: Freak, Thrash, Chaos and Gonzo" /></div>
+                      <div class="copysection">Not ready to go full voltage yet? For an easy daytime <br />look, pair a simple bright eye with a neutral lip.</div>
+                        <div class="love"><img src="images/landing/electric/we_know_youll_love.jpg?$staticlink$" width="380" height="38" alt="We Know You'll Love" title="We Know You'll Love" /></div>
+                        <div class="product1"><a href="$url('Product-Show','pid','604214921375')$"><img src="images/landing/electric/02_UrbanJungle_prod1.jpg?$staticlink$" width="182" height="123" alt="Naked Ultra Nourishing Lipgloss: Beso" title="Naked Ultra Nourishing Lipgloss: Beso" /></a></div>
+                        <div class="product2"><a href="$url('Product-Show','pid','358')$"><img src="images/landing/electric/02_UrbanJungle_prod2.jpg?$staticlink$" width="198" height="123" alt="Naked Skin Beauty Balm Broad Spectrum SPF 20" title="Naked Skin Beauty Balm Broad Spectrum SPF 20" /></a></div>
+                    </li>   	
+    			</ul>
+			</div>
+		</div>
+  </div>
+  <a id="blogger_grid_top" class="shift_anchor"></a>
+  <div id="blogger_grid">
+   <div class="title"><img name="blogger_grid_title" src="images/landing/electric/blogger_grid_title.jpg?$staticlink$" width="376" height="376" alt="High Impact: How The Bloggers Do Electric" title="High Impact: How The Bloggers Do Electric" />
+   	<span class="copy">Need more inspiration? Check out the Electric<br />looks some of our favorite bloggers created.</span>
+   </div>
+    	<a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall02_Temptalia.jpg?$staticlink$" width="188" height="188" id="blogger_2" alt="" /><div class="blackbg"></div>
+        <div class="label">TEMPTALIA</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-2-look')$
+		</div>
+		<a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall04_Pursebuzz.jpg?$staticlink$" width="188" height="188" id="blogger_4" alt="" /><div class="blackbg"></div>
+        <div class="label">PURSEBUZZ</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-4-look')$
+		</div>
+		<a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall05_Sona.jpg?$staticlink$" width="188" height="188" id="blogger_5" alt="" /><div class="blackbg"></div>
+        <div class="label">MAKEUP BY SONA</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-5-look')$
+		</div>
+        <a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall08_Keiko.jpg?$staticlink$" width="188" height="188" id="blogger_8" alt="" /><div class="blackbg"></div>
+        <div class="label">KEIKO LYNN</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-8-look')$
+		</div>
+        <a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall10_Aimee.jpg?$staticlink$" width="188" height="188" id="blogger_10" alt="" /><div class="blackbg"></div>
+        <div class="label">THE FORMULA</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-10-look')$
+		</div>
+        <a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall11_Kandee.jpg?$staticlink$" width="188" height="188" id="blogger_11" alt="" /><div class="blackbg"></div>
+        <div class="label">KANDEEJ</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-11-look')$
+		</div> 
+        <a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall14_Patrice.jpg?$staticlink$" width="188" height="188" id="blogger_14" alt="" /><div class="blackbg"></div>
+        <div class="label">AFROBELLA</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-14-look')$
+		</div>
+        <a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall17_Aimee.jpg?$staticlink$" width="188" height="188" id="blogger_17" alt="" /><div class="blackbg"></div>
+        <div class="label">THE FORMULA</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-17-look')$
+		</div>
+        <a class="blogger_look" href="#"><img src="images/landing/electric/bloggerlooks/BlogSmall19_Lauryn.jpg?$staticlink$" width="188" height="188" id="blogger_19" alt="" /><div class="blackbg"></div>
+        <div class="label">SKINNY CONFIDENTIAL</div></a>
+        <div class="blogger_look blogger-overlay" style="display:none;overflow:auto;">
+			$include('Page-Include', 'cid', 'blogger-19-look')$
+		</div>     
+</div>
+  <a id="udgetelectric_top" class="shift_anchor"></a>
+  <div id="udgetelectric">
+	<div class="title">
+        	<img src="images/landing/electric/udgetelectric_title.gif?$staticlink$" width="465" height="37" alt="UDgetelectric" title="UDgetelectric" />
+		</div>
+    <div class="copy">
+        	We know you love chaos-inducing color as much as we do, so show us the electric brights that rock your world.<br />Be sure to use #UDgetelectric and tag @urbandecaycosmetics. We’ll share the boldest and brightest posts.
+	</div>
+    <a href="http://instagram.piqora.com/electric" target="_blank"><img src="images/landing/electric/udgetelectric_billboard.jpg?$staticlink$" width="940" height="375" alt="UDgetelectric" title="UDgetelectric" /></a> </div>
+    <div id="getelectric_palette">
+    	<a href="$url('Product-Show','pid','421')$"><img src="images/landing/electric/get_electric.jpg?$staticlink$" width="940" height="454" alt="Get Electric &gt;" title="Get Electric &gt;" /></a> 
+        <div id="disclaimer">(WARNING:  Slowburn, Savage, Jilted and Urban contain a colorant that is not approved for the eye area in the US, Canada and Brazil.)</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {	
+
+		$(window).load(function(){
+			$("#stickynav").sticky({ topSpacing: 0 });
+         });
+		 	
+		 $('#youtube-video').dialog({
+	 			position: ['middle','middle'],
+				bgiframe: true,
+				autoOpen: false,
+				modal: true,
+		    	height: 575,
+				width: 800,
+				title: 'Electric Palette',
+				resizable: false 
+		});
+		
+		$('.electric_billboard').click( function() {
+			jQuery('#youtube-video').show();
+			jQuery('#youtube-video').dialog('open');
+		});
+		
+		$(".palette").hover(
+  			function() { $(this).children(".tooltip2").show(); },
+  			function() { $(this).children(".tooltip2").hide(); }
+		);
+		
+		$(".rotateProlooks").jCarouselLite({
+        	btnNext: ".next",
+        	btnPrev: ".prev",
+			visible: 1,
+			speed: 600,
+			easing: "easeinout"
+    	});
+		
+		
+		$(".blogger_look").hover(
+  			function() { $(this).children("div.label").show(); },
+  			function() { $(this).children("div.label").hide(); }
+		);	
+		
+		$('.blogger_look').each(function() {
+    		var popup = $(this).next('.blogger-overlay').dialog({
+				autoOpen: false,
+				modal: true,
+		    	height: 600,
+				width: 800,
+				resizable: false
+    	});
+
+    	$(this).click(function(event) {
+        	event.preventDefault();
+                popup.dialog('open');
+    		});
+		}); 
+		
+
+});
+</script>

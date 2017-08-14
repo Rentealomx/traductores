@@ -1,0 +1,88 @@
+<div class="strate-carousel-products">
+    <div class="carousel-single-item">
+        <div class="carousel-item">
+            <div class="visual">
+
+<img data-is-responsive="true" alt="" 
+data-desktop-src="energie-de-vie/carousel-product-1-desktop.jpg?$staticlink$" 
+data-mobile-src="energie-de-vie/carousel-product-1.jpg?$staticlink$" 
+data-tablet-src="energie-de-vie/carousel-product-1.jpg?$staticlink$"  />
+            </div>
+            <div class="textual">
+                <div class="title">
+                    <span>The smoothing &amp; glow boosting Liquid Care</span>
+                </div>
+                <div class="description">
+                    <span>
+                        This blend of moisturising, antioxidant and energising active ingredients leaves the skin fresh, radiant, smooth and plump.
+                        <div class="visible-desktop-only"><br>A powerhouse of hydration in every drop! Like a lotion, a serum &amp; a cream, the Liquid Care&#153; is fresh, concentrated and hydrating.
+                            <br>It's a comprehensive, all-in-one solution packed with energising active ingredients for a fresh look and fresh, smooth, radiant and plump skin.
+                    </span>
+                    </div>
+                </div>
+                <div class="buy-action">
+                  <a class="shop_now js_quickshoppopin btn btn-large" href="$url('Product-Show', 'pid', '4992944839845')$" title="Energie de Vie">
+                      <span>QUICK SHOP</span>
+                  </a>
+             </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="visual">
+                <img data-is-responsive="true" alt="" 
+data-desktop-src="energie-de-vie/carousel-product-2-desktop.jpg?$staticlink$" 
+data-mobile-src="energie-de-vie/carousel-product-2.jpg?$staticlink$" 
+data-tablet-src="energie-de-vie/carousel-product-2.jpg?$staticlink$"  />
+            </div>
+            <div class="textual align-left">
+                <div class="title">
+                    <span>The overnight recovery Sleeping Mask</span>
+                </div>
+                <div class="description">
+                    <span>
+                        Pump up the skin and moisturise in just 10 minutes for visibly fresh, rested skin with a smoother, softer touch.
+                        <div class="visible-desktop-only">
+                            <br>Say bonsoir to your skin in style with this nighttime mask that blends hydrating and plumping sensation with freshness and lightness feeling.
+                            <br>The Sleeping Mask instantly breaks into water droplets &mdash; lowering its temperature by 1.8 C&deg; &mdash; to pump up skin moisture in minutes, leaving skin more fresh, replumped &amp; visibly smoother.
+                        </div>
+                    </span>
+                </div>
+               <div class="buy-action">
+                  <a class="shop_now js_quickshoppopin btn btn-large" href="$url('Product-Show', 'pid', '4992944839845')$" title="Energie de Vie">
+                      <span>QUICK SHOP</span>
+                  </a>
+             </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="visual">
+                <img data-is-responsive="true" alt="" 
+data-desktop-src="energie-de-vie/carousel-product-3-desktop.jpg?$staticlink$" 
+data-mobile-src="energie-de-vie/carousel-product-3.jpg?$staticlink$" 
+data-tablet-src="energie-de-vie/carousel-product-3.jpg?$staticlink$"  />
+            </div>
+            <div class="textual">
+                <div class="title">
+                    <span>This water-infused lotion filled with clear pearls wakes up, refreshes and moisturises the skin.</span>
+                </div>
+                <div class="description">
+                    <span>
+                        Give your skin a glamorous wake-up call with this water-fresh lotion inspired by traditional Korean beauty rituals.
+                        <div class="visible-desktop-only">
+                            <br>It acts as a moisture magnet to lock in hydration when applied under a moisturiser.
+                            <br>It has a surprising nourishing feel combined with instant freshness for a splash of energy in every drop.
+                        </div>
+                    </span>
+                </div>
+                <div class="buy-action">
+                    <a class="shop_now js_quickshoppopin btn btn-large" href="$url('Product-Show', 'pid', '4992944839845')$" title="Energie de Vie">
+                        <span>QUICK SHOP</span>
+                    </a>
+                </div>
+               <div class="sample-action">
+                    <a href="#" class="btn btn-light sample-link"><span>get a sample</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

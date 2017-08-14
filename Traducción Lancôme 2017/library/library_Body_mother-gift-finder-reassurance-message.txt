@@ -1,0 +1,44 @@
+<style>
+  @media only screen and (max-width: 640px) {
+        .pt_gift_results .gift_reassurance_section {
+             display: none;
+      }
+   }
+
+    @media only screen and (max-width: 480px) {
+        .gift_reassurance_section {
+             padding: 120px 0 0;
+      }
+   }
+</style>
+<div class="gift_reassurance_section">
+<h2 class="reassurance_message_title">&quot; For this special<br />occasion &quot;</h2>
+
+<p class="image_separator"><img alt="rose" src="GiftFinder/motherday/small-black-rose.png?$staticlink$" title="rose" /></p>
+
+<div class="gift_list_wrapper">
+<ul class="gift_reassurance_list">
+	<li class="dash_separator">-</li>
+	<li>
+	<h2><span>SATISFACTION GUARANTEED<sup>*</sup></span></h2>
+
+	<p class="gift_reassurance_mention"></p>
+	</li>
+	<li class="dash_separator">-</li>
+	<li>
+	<h2><span>Gift Wrapping<sup>**</sup></span></h2>
+
+	<p class="gift_reassurance_mention"></p>
+	</li>
+	<li class="dash_separator">-</li>
+	<li>
+	<h2><span>Free standard Delivery<sup>***</sup></span></h2>
+
+	<p class="gift_reassurance_mention"></p>
+	</li>
+	<li class="dash_separator">-</li>
+</ul>
+</div>
+
+<p class="gift_reassurance_footer"><sup>*</sup>Return any order within 14 days of delivery,  <sup>**</sup>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <sup>***</sup>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+</div>

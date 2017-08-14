@@ -1,0 +1,18 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#fff;">What's New</h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#fff;">EXPLORE OUR BEST SELLING PRODUCTS</h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#fff;">Let’s make room for Lancôme’s latest products. <br>Explore a range of new makeup, skincare and fragrance products to elevate your beauty routine,<br>making it more effective and more indulgent than ever before.</p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image">
+
+        $renderContentImage(TEST_WHATS_NEW_CLP.jpg, categoryHeader, category title, categoryimageclass,,,TEST_WHATS_NEW_CLP.jpg,TEST_WHATS_NEW_CLP.jpg)$
+
+    </div>
+</div>

@@ -1,0 +1,45 @@
+<div class="title">
+<h3>Farniente on terrace</h3>
+</div>
+
+<div class="left-box">
+<div class="short-description">
+<p>Get that perfect golden glow even when spending summer days in the city. Just remember to preserve your skin from sun and pollution!</p>
+</div>
+
+<div class="left-img"><img alt="" src="landing-page/gift4him4her/on_terrace.jpg?$staticlink$" style="width: 361px; height: 414px;" /></div>
+</div>
+
+<div class="right-box">
+<div class="product">
+<div class="product-img"><img alt="" src="landing-page/gift4him4her/prod1.png?$staticlink$" style="width: 156px; height: 171px;" /></div>
+
+<h4 class="product-title">Rose Mediterran&eacute;e</h4>
+
+<p class="product-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+
+<div class="product-rating">
+<ul>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+</ul>
+</div>
+
+<div class="product-price">$68,55</div>
+</div>
+
+<div class="review">
+<div class="review-title">
+<p class="name">Margreth D.</p>
+<span class="age">Age 30 - 35</span></div>
+
+<div class="review-content">
+<p><span>Just perfect!</span> This product is so easy to use and, even after a long day at work, my makeup remains perfect. What I like the most: its sparkling powder lighten up my eyes &amp; the colour that fits on all occasions. Can&rsquo;t recommend it enough!</p>
+</div>
+</div>
+
+<div class="see-all-range"><a href="#">See all Lorem Impsum range &gt;</a></div>
+</div>

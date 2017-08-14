@@ -1,0 +1,108 @@
+<style>
+.gift_finder_content .gift_finder_banner_content .gift_finder_text {
+    right: 10px!important;
+    width: 45%;
+    background: none;
+    padding: 0;
+    top: 80px !important;
+    left: auto;
+}
+.gift_finder_content .gift_finder_banner_content .gift_finder_text h3 {
+    color: #000;
+    text-transform: none;
+    font-size: 30px;
+    line-height: 27px;
+}
+
+.gift_finder_content .gift_finder_banner_content .gift_finder_text h3 p {
+    margin: 5px 0 0;
+}
+.gift_finder_content .gift_finder_banner_content .gift_finder_text .underline {
+    position: absolute;
+    bottom: -80px;
+    right: 10px;
+    font-size: 10px;
+}
+.gift_finder_content .gift_heading_separator {
+     color: #000;
+     border-top-color: #000;
+}
+.gift_finder_content .gift_finder_banner_content .gift_finder_text .btn_cta_primary {
+    padding: 0 20px;
+    height: 33px;
+    line-height: 33px;
+    font-family: "Gotham Medium",Arial,serif;
+    text-transform: uppercase;
+    color: #000;
+    background: #fff;
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    max-width: 100px;
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto 35px;
+}
+.gift_finder_content .gift_finder_banner_content .gift_finder_text .btn_cta_primary:hover {
+    background: #e8e8e8;
+    text-decoration: none !important;
+}
+@media (max-width: 960px) {
+    .gift_finder_content .gift_finder_banner_content .gift_finder_text {
+        top: 60px !important;
+    }
+
+    .gift_finder_content .gift_finder_banner_content .gift_finder_text .underline {
+        bottom: 0;
+        right: 38px;
+    }
+}
+
+@media (max-width: 640px) {
+    .heading-text {
+        position: absolute;
+        top: 0;
+        padding: 25px;
+        display: block;
+        left: 0;
+    }
+    .gift_finder_content .gift_finder_banner_content {
+        padding: 20px;
+        border-color: #ddd;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        background: none;
+    }
+
+    .gift_finder_content .gift_finder_banner_content .gift_finder_text {
+        width: 100%;
+        padding: 9% 0 0;
+    }
+    .gift_finder_content .gift_finder_banner_content .gift_finder_banner_image img {
+        margin-top:55px;
+    }
+    .gift_finder_content .gift_finder_banner_content .gift_finder_text h3 {
+        padding: 0 0 30px;
+    }
+    .gift_finder_content .gift_finder_banner_content .gift_finder_text h3 p span {
+        display: block;
+    }
+    .gift_finder_content .gift_finder_banner_content .gift_finder_text .underline {
+        bottom: 65px;
+        right: 0;
+        left: 0;
+    }
+    .gift_finder_content .gift_finder_banner_content .gift_finder_text .btn_cta_primary {
+        margin: 0 auto;
+    }
+}
+</style>
+<h3><span class="heading-text">Receive a Free 5 Piece Lancôme Gift</span><p>with any purchase <span>when you spend 50$ or more</span></p></h3>
+<a class="btn_cta_primary  fuchsia_animate" href="">Shop now</a>
+<span class="underline">*Limited time only, whilst stocks last</span>
+<span data-tracking-promotion-impression='{"id": "mother-gift-finder-banner","name" : "a special offer for you","creative":"gift finder", "position":  "slot1"}' style="display:none;"></span>

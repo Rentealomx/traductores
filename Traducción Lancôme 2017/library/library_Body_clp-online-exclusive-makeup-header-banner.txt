@@ -1,0 +1,20 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+<!--
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000000;">LANCÔME ONLINE EXCLUSIVES</h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000000;">SPECIAL OFFERS, ONLINE GIFTS, GIFTS IDEAS FOR WOMEN, ONLINE GIFT CARDS</h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000000;">Make shopping fun and gifting beautiful with the very special services and online exclusives that Lancôme offers you. Discover gift ideas for women and men, personal beauty product engraving, online gift cards and special offers. Browse a selection of unique beauty products and offers that you cannot find elsewhere.</p>
+-->
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image">
+
+        $renderContentImage(L1_ONLINE_EXCLUSIVES_1600x267.png, categoryHeader, category title, categoryimageclass,,,L1_ONLINE_EXCLUSIVES_1600x267.png,L1_ONLINE_EXCLUSIVES_1600x267.png)$
+
+    </div>
+</div>

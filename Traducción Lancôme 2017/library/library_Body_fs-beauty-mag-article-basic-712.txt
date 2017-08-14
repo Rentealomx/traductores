@@ -1,0 +1,36 @@
+<div class="article_title_module">
+		<p class="publishing_date">08/10/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-712', 'fdid', 'feel-good')$
+		<h1>Budapest’s Széchényl Thermal Baths</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Budapest1_Article_MediaModule_Vertical_Desktop.jpg, articlevertical, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>Boasting plenty of restorative beauty benefits, it’s no wonder that Budapest’s Széchényl baths, nestled in the city’s Városliget forest packs a therapeutic punch for the body and mind.</b></p>
+	<p>It’s not by pure chance that for over a century Széchényl’s baths have come to be considered the quintessential Europe hot baths. From its huge yellow-coloured neo-baroque courtyard that works like an energy jolt on the senses, to its many hot baths, outdoor pools, steam rooms, relaxing water jets and fountains, it is truly heaven-sent. Alongside the many facilities it’s also worth a visit for it’s perfectly conceived spa program which takes you from a blazing forty-degree detoxifying sauna to an ice water fountain where you rub melted snow over the body. The hardy can follow up with a cold water plunge, to emerge energized and awakened. It’s worth also mentioning the benefits of the bath’s water itself which is naturally rich in calcium, magnesium, hydro carbonates, sulfur, chloride and sodium which is an antioxidant that also works to relax muscle tension and hydrate the skin.</p>
+	<p><b>Széchenyi Gyogyfürdo és Uszoda</b>, H-1146 Budapest, XIV, kerületAllatkerti körut 9-11.</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-712', 'fdid', 'feel-good')$
+	</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-712', 'fdid', 'bm-tag-inspiration')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-712')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-712', 'fdid', 'feel-good')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=712&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

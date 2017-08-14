@@ -1,0 +1,47 @@
+<style>
+
+#tresor-film .prime_info_box:after {
+display:none;
+}
+#tresor-film .prime_info_box:before {
+display:none;
+}
+#tresor-film .prime_info_box {
+margin-top:-45px;
+}
+#tresor-film, .tresor-film-title  {
+    max-width: 1075px;
+    margin: 0 auto;
+    width: 100%;
+}
+#tresor .prime_module.full_section {
+background:transparent;
+margin-top:0!important;
+}
+#tresor .prime_module_title.inverted h2 {
+color:#fff;
+}
+
+#tresor .prime_module_title.inverted h2 span {
+background:#000;
+}
+
+@media only screen and (max-width: 700px) {
+
+}
+</style>
+
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(landing-page/images/optimized/poster_1.jpg, videoCoverLarge, video cover, videoblockcoverimage,,,landing-page/images/optimized/poster_1.jpg,landing-page/images/optimized/poster_1.jpg)$
+<div class="video-block__youtube">
+    <div class="video-block__iframe js-youtube-video" id="player_k9we_ld-XBY" data-video-id="k9we_ld-XBY"></div>
+</div>
+</div>
+  <div class="video-constructor">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>

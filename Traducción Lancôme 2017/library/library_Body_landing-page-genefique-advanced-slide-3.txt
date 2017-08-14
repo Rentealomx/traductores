@@ -1,0 +1,154 @@
+<style>
+.left-penelope{
+    text-align: left;
+    transform: translate(10vw, 0);
+}
+.penelope-citation {
+    color: white;
+    font-size: 40px;
+    font-family: Garamond;
+    line-height: 40px;
+    font-style: italic;
+}
+.penelope-info {
+    font-family: "Garamond Premier Pro", "Garamond Medium", Arial serif !important;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 71px 0 0;
+    color: white;
+    letter-spacing: 0.5px;
+}
+#landing-page-genefique-advanced-slider .slider_text:nth-child(2) {
+    top: 210px !important;
+}
+@media screen and (max-width: 1280px) {
+    .penelope-citation {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .penelope-info {
+        font-size: 25px;
+        line-height: 27px;
+        margin: 30px 0 0;
+    }
+}
+@media (max-device-width: 800px) {
+    #landing-page-genefique-advanced-slider .slider_text:nth-child(2) {
+        top: 30px !important;
+    }
+    .penelope-info {
+        font-size: 27px;
+        line-height: 35px;
+    }
+}
+@media (max-device-width: 768px) {
+    .penelope-info {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 85px 0 0;
+    }
+    .penelope-citation {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 25px 0 -30px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .left-penelope{
+        transform: translate(1vw, 0);
+    }
+    .penelope-citation {
+        font-size: 4vw;
+        line-height: 4.5vw;
+    }
+    .penelope-info {
+        font-size: 4vw;
+        line-height: 5vw;
+        margin: 13vw 0 0;
+    }
+}
+@media screen and (max-width: 375px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .left-penelope{
+        transform: translate(1vw, 0);
+    }
+    .penelope-citation {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .penelope-info {
+        font-size: 15px;
+        line-height: 16px;
+        margin: 60px 0 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .left-penelope{
+        transform: translate(1vw, 0);
+    }
+    .penelope-citation {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .penelope-info {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 45px 0 0;
+    }
+}
+</style>
+<div class='left-penelope'>
+<p class='penelope-citation'>“I enjoy every role as if it </br> was the first one”</p>
+<p class='penelope-info'>At 42, Pénélope Cruz achieves more </br> than 25 years in the film industry </br> and was named the most beautiful </br> woman in the world at 40.</p>
+</div>

@@ -1,0 +1,109 @@
+<div class="article_title_module">
+		<p class="publishing_date">30/09/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-333', 'fdid', 'beauty-tips')$
+		<h1>Precision Mascara</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/mascara_Article_MediaModule_Horizontal_Desktop.jpg, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>As the little black dress of the make-up world, mascara elevates your look. No wonder you can count on finding this beauty essential in any Parisian&#39;s make-up bag.</b></p>
+	<p><b>Application perfection</b></p>
+	<p>&#34;It&#39;s my ultimate go-to and the one and only product I wear every day. It&#39;s simple; I can&#39;t live without it,&#34; says Caroline de Maigret about mascara. Yet mascara isn&#39;t just a make-up fundamental, it&#39;s also the signature to any stylishly effortless look. Applied properly alongside barely-there foundation, mascara can transform the face giving it plenty of shape and definition. The best way to master the art of mascara for this most Parisian of make-up looks? Think precision. Wear too much and features can look tough, wear just enough and you can create a beautiful frame that widens and rejuvenates eyes.</p>
+	<p><b> </b><b>Wide-eyed beauty</b></p>
+	<p>No mascara can totally camouflage straight, short or fine lashes, so great-looking lashes always start with good maintenance and a little understanding of lash structure. To strengthen and widen, apply a colorless boosting serum. After all, thicker, longer lashes will only ever need a small amount of mascara to freshen and brighten eyes. To maintain eyelash health, always take mascara off at the end of the day, remembering to gently remove every last trace of color.</p>
+	<p><b> </b><b>Mascara as seen by two make-up artists</b></p>
+	<p>&#34;For daytime, brighten eyes the Parisian way, by applying no more that two coats of mascara to the tips and edges of lashes. For evening, go for bold with three thick coats applied all over – from root to tip.&#34; <b>Megumi Itano, make-up artist</b>. <br>&#34;Black mascara will always be an eye make-up staple, but a more electric colored mascara in blue or purple can transform eyes, giving them plenty more depth which is perfect for evenings.&#34; <b>Petros Petrohilos, make-up artist</b>.</p>
+	<p><b>Plump lashes</b></p>
+	<p>From which nutritious primer to adopt, to finding the best make-up remover, maximize your lashes with these must-have products for achieving perfectly plump lashes.</p>
+	<p>1. <b>The</b><b>Curler</b>. Opt for a Japanese-styled curler and press just once to curl.</p>
+	<p>2.<b> Cils Booster XL</b>. Lancôme’s started a lash revolution with this completely transparent base that’s packed with cellulose XL microfibres that thicken and lengthen all the while offering great protection… All for a more intense look.</p>
+	<p>3. <b>Grandiôse</b>. With its curved, swan-like wand shape, this next generation mascara is designed to make clean, perfectly symmetrical application simple so you can reach each and every corner lash.</p>
+	<p>4. <b>Bi-Facil</b>. This two-phase make-up remover is formulated to be blended at the last moment so you can remove all traces of mascara without rubbing the fragile eye contours and damaging fragile lashes.</p>
+	<p><b> </b><b>About Megumi Itano</b></p>
+	<p>A Vogue regular, <b>Megumi Itano</b> cut her teeth working alongside <b>Tom Pecheux</b>. Since then she has gone on to work with the likes of renowned photographers <b>Joan Braun, David Bellemere</b> and <b>Andreas Sjodin</b>, proving herself to be a veritable talent to watch.</p>
+	<p><b> </b><b>About Petro Petrohilos</b></p>
+	<p>As a London College of Fashion graduate, <b>Petros</b> started his career working alongside <b>Val Garland</b>. Today an influential industry figure in his own right, <b>Petros</b> defines make-up as &#34;an extension of a stylist&#39;s vision&#34; and can be found working on large editorial shoots, fashion advertising campaigns and at Fashion Week.</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-333', 'fdid', 'beauty-tips')$
+	</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', '144029-LAC ; 064033-LAC ; 16210z-LAC ', 'title', 'Our selection')$		
+		<!-- Section template: Content Push: Vanity teaser -->
+<div class="content_pushes_module">
+		<div class="content_pushes_title  module_title">
+			<h2>Le choix de la r&eacute;daction</h2>
+		</div>
+	    <div class="carousel contentcarousel horizontal_carousel discover_mostread_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+	        <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+	            <ul class="content_pushes_related_assets contentcarousel_list" style="width: 744px; left: 0px; top: 0px;">
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-322')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/marie_de_andreis/PI_MARIEDEANDREIS_HD_1_007_ok_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/marie_de_andreis/PI_MARIEDEANDREIS_HD_1_007_ok_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/marie_de_andreis/PI_MARIEDEANDREIS_HD_1_007_ok_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/marie_de_andreis/PI_MARIEDEANDREIS_HD_1_007_ok_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">29/09/15</p>
+									<h4 class="article_title">A moment with Marie De Andreis</h4>
+									<p class="article_content">The French-Italian designer talks Paris</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-322')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-332')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/sourcils_tint_cms_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/sourcils_tint_cms_Homepage_Slot4_MustSee_Desktop.jpg, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/sourcils_tint_cms_Homepage_Slot4_MustSee_Tablet.jpg, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/sourcils_tint_cms_Homepage_Slot4_MustSee_Mobile.jpg, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">30/09/15</p>
+									<h4 class="article_title">The Brow Beat </h4>
+									<p class="article_content">With their ability to update and refresh any look, there&rsquo;s no wonder that Parisians pay plenty of attention to their brows.</p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-332')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+					<li class="contentcarousel_list_item" >
+						<div class="pushes_article_box">
+							<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-336')$">
+								<div class="img_holder">
+									<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Capture_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture_Homepage_Slot4_MustSee_Desktop.png, hpmustsee, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture_Homepage_Slot4_MustSee_Tablet.png, hpmustsee, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/Capture_Homepage_Slot4_MustSee_Mobile.png, hpmustsee, forced, mobile)$ alt="" />
+								</div>
+									<p class="publishing_date">30/09/15</p>
+									<h4 class="article_title">Lisa&rsquo;s fade-out lip colour how-to</h4>
+									<p class="article_content">Faded lip colour: it&rsquo;s the latest way to wear bold and bright lip shades. </p>
+							</a>
+							<a class="read_article is_visible_desktop is_hidden_tablet is_hidden_mobile" href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-336')$">
+								$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.listing.readarticle')$
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<ul class="carousel_navigation_list"></ul>
+		</div>
+</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-333', 'fdid', 'beauty-tips')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-333')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-333', 'fdid', 'beauty-tips')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=333&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

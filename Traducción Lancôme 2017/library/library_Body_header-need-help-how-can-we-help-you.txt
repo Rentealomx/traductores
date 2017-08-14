@@ -1,0 +1,49 @@
+<div class="slot-content-wrapper__inner">
+    <div class="row slot-content-row">
+        <div class="column slot-column large-6">
+            <div class="slot-column__inner">
+                <div class="slot__title">
+                    <span class="slot__text">A QUESTION?</span>
+                </div>
+                <ul class="slot__list">
+                    <li class="slotlist__item">
+                        <a href="$url('Page-Show', 'cid','customer-service-faqs')$" title="" class="slot__link">FAQ</a>
+                    </li>
+                    <li class="slotlist__item">
+                        <a href="$url('Page-Show', 'cid','customer-service-ordering')$" title="" class="slot__link">Tracking control</a>
+                    </li>
+                    <li class="slotlist__item">
+                        <a href="$url('Page-Show', 'cid','customer-service-shipping-and-returning')$" title="" class="slot__link">Shipping & Returns</a>
+                    </li>
+                    <li class="slotlist__item">
+                        <a href="$url('Page-Show', 'cid','customer-service-why-shop-with-lancome')$" title="" class="slot__link">Why buy online?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="column slot-column large-6">
+            <div class="slot-column__inner">
+                <div class="slot__title">
+                    <span class="slot__text">CONTACT US</span>
+                </div>
+                <div class="slot__descriptions">
+                    <p class="slot__paragraph">
+                        From Monday to Friday
+                    </p>
+                    <p class="slot__paragraph">
+                       9am - 7pm
+                    </p>
+                </div>
+                <div class="slot__text-row slot__icon-wrapper">
+                    <i class="icon-phone-mobile slot__icon"></i>
+                    <span class="slot__phone">09 69 36 44 33</span>
+                    <span class="slot__text--italic"> Telephone #</span>
+                </div>
+                <div class="slot__text-row slot__icon-wrapper">
+                    <i class="icon-email-full slot__icon"></i>
+                    <a href="$url(CustomerService-ContactUsForm)$" title="" class="slot__email slot__email--link">Send an email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

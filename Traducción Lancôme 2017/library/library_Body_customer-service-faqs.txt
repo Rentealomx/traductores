@@ -1,0 +1,261 @@
+<div class="js_faq_accordion">
+<h3 class="question">How do I place an order?</h3>
+
+<div class="answer">
+<p>Choose the desired quantity and the shade/size if applicable, then click on "Add to Shopping Bag". You will be invited to create an account or check out as a guest. Simply follows the screens through until you receive confirmation that the transaction has been accepted.<br /><br />
+
+Product unavailable: <br />
+Among the Lancôme products you can purchase online, a product may temporarily be unavailable. In this event, you can click on 'Notify me' and leave your email address to be notified as soon as the product is back in stock.
+</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">What is the maximum quantity and amount that I can order?</h3>
+
+<div class="answer" id="answer3">
+<p>The number of identical articles is limited to 4 for the same order and over a one-month period.<br />
+Lancôme is obliged to apply these limits for delivery and payment security reasons.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">What methods of payment do you accept?</h3>
+
+<div class="answer" id="answer4">
+<p>We currently accept all major credit cards which include:  Visa, MasterCard, American Express, Discover, or debit cards with the Visa/MasterCard logo.<br />
+Unfortunately, we do not accept personal checks and money orders.<br /> <br />
+
+We do accept credit cards from Brazil, Canada, Germany, and  the United Kingdom as long as the order is shipping to a destination with in the United States.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">Can I use a foreign credit card?</h3>
+
+<div class="answer" id="answer5">
+<p>Consumers using foreign credit cards issued in China, Brazil, Canada, Germany, UK or US can place orders on this website provided that the Ship-To Address is in the United States. We do not accept credit cards issued from other countries.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">Can I send a gift to a different address?</h3>
+
+<div class="answer">
+<p>You can find ideas for Lancôme gifts suitable for different occasions and recipients in the "Gift ideas" section of the site. <br />
+You can select a different delivery address during checkout and complete with gift wrapping and a personal message.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">I haven't received an order confirmation</h3>
+
+<div class="answer">
+<p>This could be for 2 reasons:<br />
+- either your spam filters are too high, which means that our emails have been blocked a spam<br />
+- Lancôme (shop@support.lancome.com) has not added to your Address Book<br />
+- or, your order may not have been successfully submitted. <br /><br />
+
+For further information, email us here, under "Question" choose Online Orders. Or, call us toll-free at xxxxx. A Lancôme Representative will be happy to assist you.</p>
+
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">How can I cancel or change my order?</h3>
+
+<div class="answer">
+<p>If you realize that you have made a mistake just after confirming your order on the website, contact Lancôme customer services as soon as possible by calling xxxx so that they can change your order before it is processed. <br /><br />
+
+Please note that you cannot cancel your order if Lancôme customer services inform you that it has already been processed.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">Where can I view my order history?</h3>
+
+<div class="answer">
+<p>If you are a registered Lancôme member, you may consult your Order History by clicking <a href="#">here</a>.
+</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">My payment has been rejected</h3>
+
+<div class="answer">
+<p>To protect your security and privacy, your bank can't provide Lancôme with information about why your payment was declined. Because of this, you need to contact your bank directly to solve these payment issues.<br /><br />
+If you want to try again with a different card or confirm your details are correct by retrying your current card, please visit the Orders section in
+<a href="#"> Your Account.</a><br /></p>
+<br />
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">How to track my order</h3>
+
+<div class="answer">
+<p>When your order and payment are validated, Lancôme sends an initial e-mail to confirm your order.<br /><br />
+
+Then, once your order has been prepared and dispatched, you will also receive an order dispatch confirmation by e-mail. In this second e-mail, you will find a parcel number.<br />
+By clicking on the link to the XXX website in this e-mail, and entering the parcel number, you will be able to track your parcel.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">How do I use a promotional code?</h3>
+
+<div class="answer">
+<p>If you have a Lancôme promotional code, you can let us know at check-out before confirming your order in the input field "Promotional Code".<br />
+Once the code is entered, the offer will be directly applied to the amount of your shopping bag.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+
+<h3 class="question">How do I know if my order has been taken into account?</h3>
+
+<div class="answer">
+<p>Once your order has been confirmed, you will be sent an order summary by e-mail. This contains the following information:<br />
+- Order number<br />
+- Order date<br />
+- Delivery and invoicing details<br />
+- List of items ordered<br />
+- Total amount of the order<br /><br />
+
+If you do not receive this confirmation e-mail, (and you've checked your spam), it may be that your order has not been acknowledged.<br />
+To check your order status, please contact us : by e-mail or phone XXXX.<br /></p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+
+<h3 class="question">How do I find my username / password?</h3>
+
+<div class="answer">
+<p>If you forget your password, go to the "Sign in" and click on "Forgotten password?“<br />
+A link to change your password will be sent to your e-mail.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+
+<h3 class="question">Why should I create an account?</h3>
+
+<div class="answer">
+<p>To enable us to process your order, we need some information about you: shipping addresses, billing address, e-mail address, etc.<br /><br />
+The creation of this account will also allow you to benefit fully from services offered by Lancôme: parcel tracking, creating a list of your own personal favourite products, viewing past orders, etc.
+To receive any news from Lancôme, you must tick the box when registering saying that you wish to be contacted by email with future Lancôme product news and offers.<br /><br />
+All your account information at Lancôme will only be used as part of your relationship with Lancôme. This information can be changed by you at any time by managing your account online.
+It can also be completely removed from our database upon request.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+
+
+<h3 class="question">How to update my personal information?</h3>
+
+<div class="answer">
+<p>The personal information gathered when you created a secure account with Lancôme can be changed by you at any time by managing your account online. Simply log into your account and change the necessary details.</p>
+</div>
+
+
+<h3 class="question">Where can I find Lancome products?</h3>
+
+<div class="answer">
+<p>Lancôme products can be bought online or found in luxury retail locations across the country. Visit the <a href="#">Store Locator</a> to consult a full list of retailers in your area.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+
+<h3 class="question">How can I obtain advice about Lancôme products?</h3>
+
+<div class="answer">
+<p>You can visit the "Products" section, or contact Lancôme customer services with your questions by e-mail or by calling XXXX</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+
+<h3 class="question">How can I be informed about Lancôme news?</h3>
+
+<div class="answer">
+<p>To receive the Lancôme newsletter, simply click on the ‘Newsletter’ icon at the top of every page. Then fill in your email address, tick the box to accept to receive Lancôme emails and click “Register”.<br />
+You can also do so whilst creating your own account and check "yes" to the question "Would you like to sign up for our newsletter and be notified of our exclusive offers?". Click "OK" so that your choice is registered.<br /><br />
+
+By becoming a fan of our <a href="#" target=_blank">Facebook page</a>, you can also keep up with the latest news and enjoy special offers.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">Can I purchase a product that is no longer available in shops?</h3>
+
+<div class="answer">
+<p>We know that your Lancôme products are special to you and have been favourites for a long time. As Lancôme is constantly looking to offer you innovative products, changes must sometimes be made to these cherished products so that they can be replaced with better, more effective formulas.<br />
+This means that on occasion, products you love may no longer be available from perfumeries. As a general rule, these products will also no longer available for purchase online.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">Can you send samples of your products?</h3>
+
+<div class="answer">
+<p>We are sorry, we do not offer samples without placing an order.  You may wish to set up an account with us. The benefits of creating an account are:<br />
+• Choice of a sample with every order<br />
+• When signed up for emails you receive news on new products as well as deluxe sample offers<br />
+• Order History information<br />
+• Save products to your Wishlist<br /><br />
+
+To become a member, click <a href="#">here</a>, then select Create an Account or log in using the one of the listed social networks.<br />
+
+Additionally, if you are interested in trying our Lancôme cosmetics and skincare products, please visit one of our counters.  A Lancôme Beauty Advisor will be happy to help you choose products for your skin type, and introduce you to cosmetics to help you achieve the look you like.  Each counter has testers so that you have the opportunity to try each product before you make a purchase.<br />
+
+To locate the nearest Lancôme counter, please visit our Store Locator section by clicking <a href="#">here</a>.</p>
+</div>
+
+<h3 class="question">What types of delivery are offered?</h3>
+
+<div class="answer">
+<p></p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+
+<h3 class="question">What are the costs and delay of delivery?</h3>
+
+<div class="answer">
+<p>xxxxxxx (local delivery costs & options).<br /><br />
+ 
+Your order will be processed by the logistics centre located in XX, then dispatched by UPS. Your order will reach you within X to X working days, aside from severe weather conditions and exceptional circumstances. </p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">How to deliver to another location?</h3>
+
+<div class="answer">
+<p>On the Identification/Shipping page, tick Delivery "to a different address" from the billing address and enter the required shipping address in the appropriate fields. </p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">What are the destinations covered for delivery?</h3>
+
+<div class="answer">
+<p>DEPENDING ON COUNTRIES TBD</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">I have not received my order</h3>
+
+<div class="answer">
+<p>Most parcels arrive on time. Occasionally though, the tracking may show as "delivered" when you don't have your parcel.<br />
+If the tracking for your parcel shows it as delivered but you haven't received it, you should:<br />
+- Check if someone else at your address has accepted it.<br />
+- Check if an attempted delivery notice has been left in your letter box or on your door. Follow the instructions on that notice to request redelivery or to arrange collection of the parcel.<br />
+- Use the delivery confirmation and tracking number sent by email to contact the carrier. <br />
+You can also contact our Customer Services to obtain confirmation of shipping.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">What is the procedure for returns?</h3>
+
+<div class="answer">
+<p>Parcels must be returned by post, with the returns note, to the following address:<br />
+XXXX<br />
+You can return the products ordered on www.lancome.xx within 7 working days beginning with the day after the day of receipt of your order.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+<h3 class="question">Missing/ damage products in my order</h3>
+
+<div class="answer">
+<p>If the product(s) received do not comply with your order or if the content of the parcel has been damaged, please return the product(s) in their original form and packaging, complete and accompanied by the returns note. With the exception of non-compliant Products, the cost of returning Product(s) shall be paid by the Purchaser.<br />
+It is impossible to exchange or obtain reimbursement via this website for products purchased at a store.</p>
+<a class="contact-us-link" href="#contact-us-form">You didn't find your answer ? Please contact us &gt;</a>
+</div>
+
+</div>
+<div class="js_contact_us_form">$include('Lancome-IncludeContactUsForm', 'format', 'ajax')$</div>

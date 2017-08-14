@@ -1,0 +1,17 @@
+<div class="footer-box secure-payment">
+<h3>Secure Payment</h3>
+
+<p>Pay for your order using<br />
+secure methods</p>
+
+<div class="payment-icons">
+<ul>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment1_mob.jpg?$staticlink$" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment2_mob.jpg?$staticlink$" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment3_mob.jpg?$staticlink$" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment4_mob.jpg?$staticlink$" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment5_mob.jpg?$staticlink$" /></li>
+	<li><img alt="payment method" src="footer/footer_icons/payment_methods/icon_payment6_mob.jpg?$staticlink$" /></li>
+</ul>
+<img alt="Norton Secured" class="norton_secured_img" src="footer/footer_icons/payment_methods/icon_payment7.jpg?$staticlink$"  style="width: 74px; height: 43px;"/></div>
+</div>

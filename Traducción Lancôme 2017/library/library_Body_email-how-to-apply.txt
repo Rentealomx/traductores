@@ -1,0 +1,47 @@
+<!-- Section Title -->
+<table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr style="padding: 0;">
+        <td style="padding: 0; padding-left: 10px; line-height: 0; font-size: 0; vertical-align: middle;">
+            <table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0; font-size: 0; line-height: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="3" bgcolor="#000000">
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td align="center" style="font-family: 'Times New Roman', Times, serif; font-size: 20px; color: #000000; line-height: 22px; padding: 0; padding-bottom: 10px; padding-top: 10px; width: 113px">
+            <img src="mails/title_reviews.png?$staticlink$" alt="checkmark" style="padding: 0;"/>
+        </td>
+        <td style="padding: 0; padding-right: 10px; line-height: 0; font-size: 0; vertical-align: middle;">
+            <table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0; font-size: 0; line-height: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="3" bgcolor="#000000">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- Reviews content -->
+<table style="font-family: Verdana, Geneva, sans-serif; width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;" border="0" cellspacing="0" cellpadding="0" align="left">
+    <tr style="padding: 0;">
+        <td align="center" style="padding: 0; padding-top: 12px; padding-left: 30px; padding-right: 30px; font-size: 13px; color: #000000; line-height: 17px">
+            As a Lancome customer, your complete satisfaction is our top priority. To help us better meet your needs, we encourage you to share your experiences and recommendations regarding the products you have purchased.
+        </td>
+    </tr>
+</table>
+<!-- Review Button -->
+<table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr style="padding: 0;">
+        <td align="center" style="padding-left: 30px; padding-right: 30px; padding-bottom: 10px; padding-top: 20px;">
+            <table style="border-spacing: 0; border-collapse: collapse; min-height: 32px;" align="center">
+                <tr>
+                    <td align="center" style="width: 250px; height: 32px; text-align: center; font-size: 13px; background-color: #000000; color: #FFFFFF">
+                        <a href="%pdplink%" style="color: #FFFFFF; text-decoration: none; font-family: Verdana, Geneva, sans-serif;">WRITE A REVIEW</a>
+                    </td>
+                </tr>
+            </table>              
+        </td>
+    </tr>
+</table>

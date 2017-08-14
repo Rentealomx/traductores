@@ -1,0 +1,40 @@
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 560px; max-width: 100%; margin: 0 auto;" width="560">
+    <tbody>
+        <tr>
+            <td style="vertical-align: middle; padding: 0; width: 46.42%;">
+                <img alt="Engraving" src="mails/remindMeEmail/img-engraving.jpg?$staticlink$" title=""  style="display: block;"/>
+            </td>
+            <td style="vertical-align: middle; padding: 0; width: 53.58%;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                    <tr>
+                        <td style="padding: 0 0 20px;">
+                            <p style="font-family: georgia; font-size: 30px; margin: 0; padding: 0; text-align: center;">Personalized</p>
+                            <p style="font-family: georgia; font-size: 30px; margin: 0; padding: 0; text-align: center;">Engraving</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                    <tr>
+                        <td style="padding: 0 0 35px;">
+                            <p style="font-family: verdana; font-size: 12px; margin: 0; padding: 0; text-align: center; color: #666;">Add initals or names for</p>
+                            <p style="font-family: verdana; font-size: 12px; margin: 0; padding: 0; text-align: center; color: #666">a unique touch.</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                    <tbody>
+                        <tr>
+                            <td style="padding: 5px 30px; border: 1px solid #222;">
+                                <a href="$url('Search-ShowContent', 'fdid','personalized-engraving')$" style="text-transform: uppercase; color: #000; font-family: verdana; font-size: 11px; text-decoration: none; display: block;">
+                                    personalize it
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

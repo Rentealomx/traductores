@@ -1,0 +1,177 @@
+<style type="text/css">
+            #tresor .flex-container {
+                display: block;
+            }
+        @media only screen and (max-width: 959px) {
+            .breadcrumb-holder .breadcrumb-1 {
+                display: none;
+            }
+
+            .breadcrumb-holder .wrap .inner {
+                padding-top: 30px;
+            }
+
+            #tresor .breadcrumb-holder .wrap .inner .part1 h2 {
+                width: 100px;
+                height: 90px;
+            }
+
+            #tresor .wrap .inner .lancome {
+                width: 130px;
+                height: 30px;
+                margin-top: 50px;
+            }
+
+            #tresor .wrap .inner .arr {
+                margin-top: 15px;
+            }
+.prime_background_image img {
+width:100%;
+}
+        }
+
+        .breadcrumb-holder {
+            position: absolute;
+            width: 100%;
+            z-index: 3;
+            top: 0;
+        }
+        .breadcrumb-holder .breadcrumb-1 {
+            padding: 0;
+            margin: 0;
+            padding-top: 1rem;
+            padding-left: 1rem;
+            max-width: 80rem;
+            margin: auto;
+            text-align: left;
+        }
+        .breadcrumb-holder li {
+            display: inline;
+        }
+        .breadcrumb-holder li a {
+            text-decoration: none;
+            color: #fff;
+            font-family: Gotham Book;
+            font-size: .625rem;
+        }
+        img.intro-bg {
+            z-index: 1;
+        }
+#tresor .wrap .inner {
+            position: relative;
+            width:100%;
+            height: 100%;
+            padding-top: 7.5em;
+            padding-left: 1rem;
+margin:0 auto;
+        }
+#tresor .wrap .inner.heading {
+            position: relative;
+            width:60%;
+            height: 100%;
+            padding-top: 7.5em;
+            padding-left: 1rem;
+            margin:0;
+        }
+        .wrap .inner .part1.in {
+            opacity: 1;
+            -ms-transform: translateY(0);
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        .wrap .inner .part1 h2 {
+            padding: 0;
+            margin: 0;
+            width: 10.425em;
+            height: 6.825em;
+            margin: auto;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-image: url('landing-page/tresor/logo.png?$staticlink$');
+        }
+        .wrap .inner .part1 h2 .logo {
+             background: none;
+        }
+        .wrap .inner .lancome {
+            width: 19.625em;
+            height: 4.75em;
+            margin: auto;
+            margin-top: 4.75em;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-image: url('landing-page/tresor/lancome_white.png?$staticlink$');
+        }
+        .wrap .inner .arr {
+            width: 1.375em;
+            height: .6875em;
+            margin: auto;
+            margin-top: 3.125em;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-image: url('landing-page/tresor/directional-arrow1.png?$staticlink$');
+        }
+        .inner .part1 {
+            opacity: 0;
+            -ms-transform: translateY(25%);
+            -webkit-transform: translateY(25%);
+            transform: translateY(25%);
+            -moz-transition: -moz-transform .5s ease-out 0s,opacity .5s ease-out 0s;
+            -o-transition: -o-transform .5s ease-out 0s,opacity .5s ease-out 0s;
+            -webkit-transition: -webkit-transform .5s ease-out,opacity .5s ease-out;
+            -webkit-transition-delay: 0s,0s;
+            -webkit-transition: opacity .5s ease-out 0s,-webkit-transform .5s ease-out 0s;
+            transition: opacity .5s ease-out 0s,-webkit-transform .5s ease-out 0s;
+            transition: transform .5s ease-out 0s,opacity .5s ease-out 0s;
+            transition: transform .5s ease-out 0s,opacity .5s ease-out 0s,-webkit-transform .5s ease-out 0s;
+        }
+#tresor .breadcrumb-1 {
+    padding-top: 1rem;
+padding-bottom: 0;
+    padding-left: 1rem;
+    max-width: 80rem;
+    margin: auto;
+}
+@media only screen and (max-width: 767px) {
+#tresor .wrap .inner.heading {
+padding-top:2.5rem;
+}
+#tresor .wrap .inner .lancome {
+margin-top:0;
+}
+}
+.intro_bg {
+width:100%;
+} 
+.buttons_block .btn_cta_primary {
+    background: white;
+    color: black;
+text-transform:uppercase;
+}
+    </style>
+    <div class="prime_background_image maison_intro">
+        <img class="intro_bg"  $responsiveSrc(landing-page/tresor/tresor-intro.jpg,2000|2000|768|500,,,,,landing-page/tresor/head_bg_phone.jpg,landing-page/tresor/tresor-intro.jpg,landing-page/tresor/tresor-intro.jpg)$ alt="Cover Image" />
+        <div class="breadcrumb-holder">
+        <ul class="breadcrumb-1">
+            <li><a class="level" data-link="breadcrumb.home.url" href="">Accueil</a></li>
+            <li><a class="level" data-link="breadcrumb.fragrance.url" href="">Fragrance</a></li>
+            <li><a data-link="breadcrumb.tresor.url" href="">Nuit Trésor</a></li>
+        </ul>
+        <div class="wrap">
+            <div class="inner heading">
+                <div class="part1" data-revealtrigger="100%" data-revealrelease="0%" data-revealclassin="in" data-revealeltop="296" data-revealelheight="164">
+                    <h2>
+                        <div class="logo"></div>
+                    </h2>
+                </div>
+                <div class="part2">
+                    <div class="lancome"></div>
+                    <div class="arr"></div>
+                </div>
+                <div class="part3 quick_shop buttons_block">
+                    <a class="btn_cta_primary" target="_blank" rel="noopener noreferrer" href="$url('Search-Show','cgid','L3_Fragrance_Women_La_Nuit_Tresor')$">Quick shop</a>
+                </div>
+            </div>
+        </div>
+    </div>

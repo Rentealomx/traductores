@@ -1,0 +1,40 @@
+<div class="email_signup">
+    <h3>Email Sign Up</h3>
+    <p>Be the First to Know</p>
+    <span class="second-button"> Enter your email </span>
+</div>
+<div class="sidebar-popin">
+<span class="close-btn">x</span>
+    <h2> Email Sign up </h2>
+    <div class="sign_up_content">
+        <div class="left_content">
+            <img alt="" src="homepage/sidebar-contact-img.png?$staticlink$" />
+        </div>
+        <div class="right_content">
+            <h3> Sign up for our Email alerts and stay updated with: </h3>
+            <ul class="check-list">
+                <li><p>New products previews</p></li>
+                <li><p>Latest trends</p></li>
+                <li><p>Beauty tips, advice & more</p></li>
+                <li><p>Special offers & Luxury Samples</p></li>
+                <li><p>Exclusive offers</p></li>
+                <li><p>Invitations to special events in your area</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="newsletter_subscribe_box js_newsletter_subscribe_content js_newsletter_subscribe">
+        <form action="$url('Newsletter-SubscribeStart')$" method="post" id="dwfrm_newsletter" name="dwfrm_newsletter" class="js_newsletter_subscribe_form" novalidate="novalidate">
+            <fieldset>
+
+                <div class="f_field f_field_email  formfield formfield_email formfield_subscribe_email required" data-required-text="Please enter your email address">
+                    <input type="email" id="dwfrm_newsletter_email" name="dwfrm_newsletter_email" tabindex="-1" class="textinput f_email   required" placeholder="Email Address" maxlength="75" value="">
+                    <span class="error_message f_error_message" for="dwfrm_newsletter_email" generated="true"></span>
+                </div>
+
+                <input type="hidden" name="dwfrm_newsletter_signup">
+                <button class="button fuchsia_animate" type="submit" value="Submit" name="dwfrm_newsletter_signup">SIgn up</button>
+                <span class="newsletter_subscribe_error_message js_newsletter_subscribe_error"></span>
+            </fieldset>
+        </form>
+    </div>
+</div>

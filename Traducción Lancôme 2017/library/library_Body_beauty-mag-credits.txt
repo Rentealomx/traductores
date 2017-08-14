@@ -1,0 +1,107 @@
+<style type="text/css">
+        div.page_details {
+		display: none;
+	}
+</style>
+<div style="width:50%; float:left;">
+<br />
+<u>Photographes :</u><br />
+Sarah Ford<br />
+Nicolas Valois<br />
+Amit Israëli<br />
+Cyrille George Jerusalmi<br />
+Hannah & Joël<br />
+Saskia Lawaks<br />
+Gianluca Santoro<br />
+Charlotte Abramow<br />
+Dylan Forsberg<br />
+James Bort<br />
+Nik Hartley<br />
+
+<br />
+
+<u>Illustrateurs :</u><br />
+Janice Wu<br />
+Francesco Bongiorni<br />
+Prune Cirelli<br />
+Alice Meteigner<br />
+Paulo Mariotti<br />
+
+<br />
+
+<u>Mannequins :</u><br />
+Ira Sumbayeva<br />
+Agathe Fournier<br />
+Johanna Feldmeier<br />
+Joy Hellinga<br />
+Ludmila Grosheva<br />
+Julia Hartley<br />
+
+<br />
+
+<u>Maquillage :</u><br />
+Go Miyuki<br />
+Tiina<br />
+Lili Choi<br />
+Hélène Vasnier<br />
+Annabelle Petit<br />
+
+<br />
+
+<u>Coiffure :</u><br />
+Roberto<br />
+Rudy Marmet<br />
+Yusuke Taniguchi<br />
+Bénédicte Cazau Beyret<br />
+Nori Takabayashi<br />
+Tomoko Ohama<br />
+
+<br />
+</div>
+
+<div style="width:50%; float:left;">
+<br />
+<u>Manucure :</u><br />
+Hanaë Goumri<br />
+Séverine Loreal<br />
+Akari Sugino<br />
+Beatrice Eni<br />
+
+<br />
+
+<u>Stylisme :</u><br />
+Caroline Nedelec<br />
+Vivienne Moon<br />
+Candice Fauchon<br />
+Marion Renoux<br />
+Linda Addouane<br />
+
+<br />
+
+<u>Vêtements :</u><br />
+Pétrusse<br />
+Dans mon dressing<br />
+Stone Paris<br />
+Stella & Dot<br />
+Ginette NY<br />
+Agnès B<br />
+Sessun<br />
+Only Noa<br />
+Marie Sixtine<br />
+Alexandra Margnat<br />
+Lovingstone<br />
+Pascale Monvoisin<br />
+Ray Ban<br />
+
+<br />
+
+<u>Décoration :</u><br />
+Drugeot Labo<br />
+Les créations d’Ophélie<br />
+Paris au mois d’août<br />
+Tsé-Tsé<br />
+Zara Home<br />
+Mushkane<br />
+Ikea<br />
+<br />
+</div>

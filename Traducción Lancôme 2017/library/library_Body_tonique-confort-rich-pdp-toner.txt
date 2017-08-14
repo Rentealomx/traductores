@@ -1,0 +1,27 @@
+<style>
+.full-width img {
+width: 100%;
+}
+</style>
+<div class="clear row-section layout">
+<div class="columns small-12 text-center">
+<span class="section__title">PINKY MOISTURIZING FINISHER</span>
+</div>
+</div>
+
+<div class="clear row-section flex-container layout text-center">
+<div class="columns medium-4 medium-offset-1 small-12 align-self-center">
+	        <h2>Swipe it off in a wink!</h2>
+		<p>Enriched with honey and sweet almond extract, Tonique Confort makes it easy to remove your makeup residues instantly, leaving a comfortable finish.</p></br></br>
+	 
+		<h2>The soft touch</h2>
+		<p>Enriched with hyaluronic acid, a pink moisture dose that will make your skin suppler after cleansing.</p></br></br>
+
+		<h2>Rose Addiction</h2>
+		<p>A delicate rosy formula that will soothe you instantly at the end of a busy day.</p>
+	</div>
+
+	<div class="columns medium-6 medium-offset-1 small-12 align-self-center full-width">
+$renderContentImage(RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_07.jpg,,,,,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_07.jpg,RichPDP/Bi-Facil/CLN-2017S1-BiFacilEyes-PDP-PSD_07.jpg)$
+	</div>
+</div>

@@ -1,0 +1,72 @@
+<!-- Tag for Activity Group: lanc-LP, Activity Name: Lancome_landingpage_Module-Visionnaire-Nuit, Activity ID: 2672437 -->
+<!-- Expected URL: http://www.lancome.fr/visionnairenuit/visionnairenuit.html -->
+
+<!--
+Activity ID: 2672437
+Activity Name: Lancome_landingpage_Module-Visionnaire-Nuit
+Activity Group Name: lanc-LP
+-->
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Lancome_landingpage_Module-Visionnaire-Nuit
+URL of the webpage where the tag is expected to be placed: http://www.lancome.fr/visionnairenuit/visionnairenuit.html
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 08/21/2015
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://4160741.fls.doubleclick.net/activityi;src=4160741;type=lanc-lp;cat=vnuit-15;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="https://4160741.fls.doubleclick.net/activityi;src=4160741;type=lanc-lp;cat=vnuit-15;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+<!-- LANCOME VISIONNAIRE NUIT : app code START here -->
+
+<div id="lancomeWrapper">
+
+    <!--[if lt IE 9]>
+
+    <script>window.onload=function(){e("https://cdn2-lvn-820775.c.cdn77.org/img/global/ie-fallback/")}</script>
+    <script src="https://cdn2-lvn-820775.c.cdn77.org/js/vendor/ie.js"></script>
+
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn2-lvn-820775.c.cdn77.org/css/min/app.css" media="all">
+    <link rel="stylesheet" type="text/css" href="https://cdn2-lvn-820775.c.cdn77.org/css/L10n/FR_fr.css" media="all">
+
+    <script type="text/javascript">
+        var lancomeNuit = {};
+            lancomeNuit.env = "prod";
+            lancomeNuit.locale = "FR_fr";
+
+            lancomeNuit.basePath = "http://www.lancome-visionnairenuit.com/";
+            lancomeNuit.localePath = "fr/";
+            lancomeNuit.shareUrl = lancomeNuit.basePath + lancomeNuit.localePath;
+            lancomeNuit.currentPath = "/";
+            lancomeNuit.internalRouting = true;
+
+            lancomeNuit.cdnPath = 'https://cdn2-lvn-820775.c.cdn77.org/';
+            lancomeNuit.mediasPath = lancomeNuit.cdnPath + "medias/";
+            lancomeNuit.imgPath = lancomeNuit.cdnPath + "img/min/";
+            lancomeNuit.minify = true;
+
+        var require = { config: { app: lancomeNuit } };
+    </script>
+
+    <script src="https://cdn2-lvn-820775.c.cdn77.org/js/vendor/greensock/TweenMax.min.js"></script>
+    <script src="https://cdn2-lvn-820775.c.cdn77.org/js/vendor/greensock/utils/Draggable.min.js"></script>
+    <script src="https://cdn2-lvn-820775.c.cdn77.org/js/vendor/greensock/plugins/ThrowPropsPlugin.min.js"></script>
+
+    <div id="preloader"></div>
+    <div id="main"></div>
+
+    <![endif]-->
+
+</div>
+
+<!-- LANCOME VISIONNAIRE NUIT : app code END here -->

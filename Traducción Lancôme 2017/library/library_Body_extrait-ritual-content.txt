@@ -1,0 +1,124 @@
+<style>
+.extrait_ritual_content:after {
+display: block;
+content: '';
+clear: both;
+}
+
+.extrait_ritual_content .how_item {
+float: left;
+width: 32%;
+margin: 0 0 0 2%;
+text-align: center;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item p {
+   text-align: center;
+}
+
+.extrait_ritual_content .how_item p {
+   font-size: 14px;
+   font-family: 'Gotham Book';
+    margin: 15px auto 25px;
+    line-height: 18px;
+    max-width: 65%;
+    height: 55px;
+}
+
+.extrait_ritual_content .how_item b {
+   font-family: 'Gotham Bold';
+}
+
+.extrait_ritual_content .how_item img {
+   display: inline-block;
+   max-width: 100%;
+}
+
+@media (max-width:979px) {
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0 0 0 2%;
+}
+
+.extrait_ritual_content .how_item:nth-child(2n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item {
+width: 49%;
+}
+}
+
+@media (max-width:640px) {
+.extrait_ritual_content .how_item {
+    width: 100%;
+    float: none;
+margin: 0;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item h2 {
+   font-size: 30px;
+   line-height: 30px;
+   margin: 25px 0 40px;
+}
+
+.extrait_ritual_content .how_item p {
+   margin: 10px auto 20px;
+}
+
+#extrait-ritual-text {
+    max-width: 300px;
+    margin: auto;
+padding: 0;
+}
+
+#extrait-ritual-text p {
+    margin: 0 auto 25px;
+}
+
+}
+</style>
+
+<div class="extrait_ritual_content">
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/extrait/ritual-1.jpg,345|345|345|345)$  />
+       <p><b>1.</b> Measure an exact spoonful 
+of <i>Ultimate Mask Rose Pearls</i> 
+from the jar.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/extrait/ritual-2.jpg,345|345|345|345)$  />
+       <p><b>2.</b> Fill the cavity in the centre of 
+the dish with one layer of pearls.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/extrait/ritual-3.jpg,345|345|345|345)$  />
+       <p><b>3.</b> Pour one tube of <i>Ultimate Mask Serum Base</i> over the pearls.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/extrait/ritual-4.jpg,345|345|345|345)$  />
+       <p><b>4.</b> Blend carefully with the spoon and let it sit for 3minutes. Stir again.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/extrait/ritual-5.jpg,345|345|345|345)$  />
+       <p><b>5.</b> Apply an even layer of the mask 
+on your face and neck. Leave 
+for 5 minutes.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/extrait/ritual-6.jpg,345|345|345|345)$  />
+       <p><b>6.</b> Remove the residue using a moist  flannel and finish with your <i>Absolue L'Extrait</i> routine.</p>
+   </div>
+</div>

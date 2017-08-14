@@ -1,0 +1,243 @@
+<script>
+$(document).on('click', '.maison_range .main_button', function() {
+var thisIndex = $(this).data('index');
+$('.maison_slider .carousel_navigation_list li').eq(thisIndex).trigger('click');
+});
+
+</script>
+
+<style>
+.maison_range {
+   background: #f6f4f4;
+   position: relative;
+   padding: 50px 0;
+   text-align: center;
+}
+
+.maison_range .carousel_navigation_list {
+display: none;
+}
+
+.maison_range .range_bg {
+    width: 100%;
+    position: relative;
+    top: -35px;
+}
+
+.maison_range .product_range_bg {
+display: none;
+}
+
+.maison_range .carousel_slide_width_sample {
+   width: 49.8%;
+   margin: 0;
+}
+
+.maison_range .contentcarousel.horizontal_carousel {
+   width: 75%;
+   margin: 0 auto 0;
+}
+
+.maison_range .contentcarousel_list_item {
+    padding: 0 0 20px;
+}
+
+.maison_range .contentcarousel_list_item .product_video {
+    margin: 50px auto 20px;
+}
+
+.maison_range .range_title,
+.maison_masters .masters_title {
+      font-family: 'Garamond Regular', Arial, serif;
+      font-size: 35px;
+position: relative;
+z-index: 2;
+}
+
+.maison_range .range_subtitle,
+.maison_masters .masters_subtitle {
+      font-family: 'Gotham Book', Arial, serif;
+      font-size: 15px;
+    margin: 15px 0 0; 
+     color: #4f4f4f;
+position: relative;
+z-index: 2;
+     line-height: 22px;
+}
+
+.maison_range .white_button .main_button:after {
+  border-top: 7px solid #f6f4f4;
+}
+
+.maison_range .buttons_block {
+    width: 33.33%;
+    float: left;
+}
+
+@media (max-width:1127px) {
+.maison_range .range_subtitle,
+.maison_masters .masters_subtitle {
+padding: 0 14%;
+}
+
+.maison_range .white_button .main_button {
+min-width: initial;
+}
+
+.maison_range .buttons_block {
+max-width: 100%;
+}
+
+.maison_range .contentcarousel_list_item:last-child .buttons_block {
+    text-align: center;
+}
+
+}
+
+@media (max-width:979px) {
+.maison_range .carousel_navigation_list {
+margin: 20px 0 0;
+display: block;
+}
+
+.maison_range .range_bg {
+    display: none;
+}
+
+.maison_range .buttons_block {
+    text-align: center;
+    width: 33.33%;
+    padding: 10px 0px 0 0;
+}
+.maison_range .contentcarousel_list_item:last-child .buttons_block {
+    width: 29%;
+    float: none;
+    display: inline-block;
+}
+
+.maison_range .contentcarousel_list_item:first-child .buttons_block.first_child {
+    text-align: right;
+    padding: 10px 8px 0 0;
+}
+.maison_range .contentcarousel_list_item:first-child .buttons_block.second_child {
+    text-align: right;
+    padding: 10px 28px 0 0;
+}
+
+.maison_range .product_range_bg {
+display: block;
+width: 100%;
+}
+
+.maison_range .contentcarousel.horizontal_carousel {
+    width: 100%;
+margin: 30px 0 0;
+}
+
+    .maison_range .carousel_slide_width_sample {
+   width: 100%;
+}
+
+.maison_range .horizontal_carousel .jcarousel-next,
+.maison_range .horizontal_carousel .jcarousel-prev {
+top: 35%;
+}
+
+.maison_range .horizontal_carousel .jcarousel-prev {
+    left: 0;
+}
+
+.maison_range .horizontal_carousel .jcarousel-next {
+    right: 0;
+}
+
+.maison_range .range_bg {
+top: 0;
+margin: 50px 0 0;
+}
+
+.maison_range .white_button .main_button {
+    min-width: 135px;
+}
+
+}
+
+@media (max-width:640px) {
+.maison_range .range_bg,
+.maison_range .carousel {
+display: none;
+}
+
+.maison_range {
+    background: #f1f1f1;
+    padding: 0;
+}
+
+.maison_range .range_subtitle {
+margin: 0;
+}
+
+.maison_range .range_title,
+.maison_masters .masters_title {
+font-size: 25px;
+}
+}
+
+</style>
+
+<div class="maison_range">
+<p class="range_title">THE RANGE</p>
+<p class="range_subtitle">A new collection of 6 exclusive fragrances, composed with a unique parti-pris : the Art of Assemblage</p>
+
+<img class="range_bg"  $responsiveSrc(landing-page/maison/maison-range.jpg,10|2000|10|10,,,,,landing-page/maison/maison-range-tab-1.jpg,landing-page/maison/maison-range-tab-1.jpg,landing-page/maison/maison-range.jpg)$ alt="Cover Image" />
+
+
+
+<div class="carousel contentcarousel horizontal_carousel"
+               data-pagination-enabled="true"
+                data-pagination-event="click"
+                data-controls-enabled="true"
+                data-show-pagination-content="true"
+                data-recalculate-height="false"
+                data-is-scroll-back-to-first-enabled="false"
+                data-slide-width-sample=".carousel_slide_width_sample"
+            >
+                <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true">
+                    <ul class="contentcarousel_list white_button prime_background_image">
+                        
+                            <li class="contentcarousel_list_item">
+                                <img class="product_range_bg"  $responsiveSrc(landing-page/maison/maison-range.jpg,2000|10|800|10,,,,,landing-page/maison/maison-range-tab-1.jpg,landing-page/maison/maison-range-tab-1.jpg,landing-page/maison/maison-range.jpg)$ alt="Cover Image" />
+                                 <div class="buttons_block first_child">
+                                     <a class="main_button scroll_to_selected" href="#art-of-assemblage-section" data-name="tubereuses castane" data-index="0">DISCOVER</a>
+                                </div>
+
+                                 <div class="buttons_block second_child ">
+                                     <a class="main_button scroll_to_selected" href="#art-of-assemblage-section" data-name="lavandes trianon" data-index="1">DISCOVER</a>
+                                </div>
+
+                                 <div class="buttons_block ">
+                                     <a class="main_button scroll_to_selected" href="#art-of-assemblage-section" data-name="jasmins marzipane" data-index="2">DISCOVER</a>
+                                </div>
+                            </li>
+
+                            <li class="contentcarousel_list_item">
+                                <img class="product_range_bg"  $responsiveSrc(landing-page/maison/maison-range.jpg,2000|10|800|10,,,,,landing-page/maison/maison-range-tab-2.jpg,landing-page/maison/maison-range-tab-2.jpg,landing-page/maison/maison-range.jpg)$ alt="Cover Image" />
+                                 <div class="buttons_block ">
+                                     <a class="main_button scroll_to_selected" href="#art-of-assemblage-section" data-name="l'autre oud" data-index="3">DISCOVER</a>
+                                </div>
+
+                                 <div class="buttons_block ">
+                                     <a class="main_button scroll_to_selected" href="#art-of-assemblage-section" data-name="oud bouquet" data-index="4">DISCOVER</a>
+                                </div>
+
+                                 <div class="buttons_block ">
+                                     <a class="main_button scroll_to_selected" href="#art-of-assemblage-section" data-name="oud ambroisie" data-index="5">DISCOVER</a>
+                                </div>
+                            </li>
+                      
+                    </ul>
+                    <div class="carousel_slide_width_sample"></div>
+                </div>
+            </div>
+<div id="art-of-assemblage-section"></div>
+</div>

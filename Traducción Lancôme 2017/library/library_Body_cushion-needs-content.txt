@@ -1,0 +1,366 @@
+<style>
+.cushion_needs {
+    background: url('landing-page/cushion/cushion-needs-bg.jpg?$staticlink$') repeat-x center;
+}
+
+.cushion_needs .constrained {
+    position: relative;
+    margin: 50px auto;
+}
+
+.cushion_needs .middle {
+   position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+top: 0;
+bottom: 0;
+height: 200px;
+}
+
+.cushion_needs .middle p {
+    font-family: 'Gotham Book';
+    font-size: 13px;
+    line-height: 51px;
+}
+
+.cushion_needs .constrained:after {
+content: '';
+clear: both;
+display: block;
+}
+
+.cushion_needs .miracle {
+    background: url('landing-page/cushion/cushion-miracle.png?$staticlink$') no-repeat left top;
+    height: 490px;
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding: 0 85px 0 0;
+    box-sizing: border-box;
+}
+
+.cushion_needs .ultra {
+    background: url('landing-page/cushion/cushion-ultra.png?$staticlink$') no-repeat right bottom;
+    height: 475px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    right: -20px;
+}
+
+.cushion_needs .title {
+   display: inline-block;
+   text-align: center;
+    margin: 60px 0 0;
+    height: 100px;
+}
+
+.cushion_needs .title h2 {
+font-family: 'Gotham Bold';
+font-size: 18px;
+text-transform: uppercase;
+line-height: 20px;
+margin: 0 0 10px;
+}
+
+.cushion_needs p {
+font-family: 'Gotham Book';
+font-size: 15px;
+}
+
+.cushion_needs .title p {
+line-height: 20px;
+}
+
+.cushion_needs .content_shades p {
+   color: #b69476;
+   line-height: 73px;
+}
+
+
+.cushion_needs .content_shades .result {
+    line-height: 20px;
+    margin: 25px 0 0;
+}
+
+.cushion_needs img {
+   display: inline-block;
+}
+
+.cushion_needs .inner_content {
+    display: inline-block;
+    text-align: center;
+}
+
+.cushion_needs .miracle .inner_content {
+    width: 165px;
+}
+
+.cushion_needs .ultra .inner_content {
+    width: 235px;
+    margin: 0 0 0 30px;
+}
+
+.cushion_needs .miracle .middle,
+.cushion_needs .ultra .middle {
+   display: none;
+}
+
+@media (max-width:1127px) {
+.cushion_needs .miracle {
+padding: 0 65px 0 0;
+}
+
+.cushion_needs .ultra {
+right: 0;
+background-position: 110% bottom;
+}
+}
+
+@media (max-width:979px) {
+.cushion_needs .middle {
+   display: none;
+}
+
+.cushion_needs .miracle,
+.cushion_needs .ultra {
+width: 100%;
+float: none;
+height: 415px;
+}
+
+.cushion_needs {
+    background: #fff;
+}
+
+.cushion_needs .miracle {
+background-image: url('landing-page/cushion/cushion-miracle.png?$staticlink$'), url('landing-page/cushion/cushion-needs-bg.jpg?$staticlink$');
+background-repeat: no-repeat, repeat-x;
+background-position: 98% top, center;
+background-size: 197px, 1px;
+padding: 0;
+text-align: left;
+}
+
+.cushion_needs .ultra {
+background-image: url('landing-page/cushion/cushion-ultra.png?$staticlink$'), url('landing-page/cushion/cushion-needs-bg.jpg?$staticlink$');
+background-repeat: no-repeat, repeat-x;
+background-position: 2% 65px, center;
+background-size: 220px, 1px;
+padding: 0;
+text-align: right;
+}
+
+.cushion_needs .title {
+    display: block;
+    height: auto;
+    position: relative;
+}
+
+.cushion_needs .miracle .title {
+    margin: 0 0 58px;
+    top: 25px;
+}
+
+.cushion_needs .ultra .title {
+    margin: 0 0 38px;
+}
+
+.cushion_needs .ultra .inner_content {
+    float: right;
+    width: 45%;
+    margin: 15px 0 0;
+    box-sizing: border-box;
+    padding: 0 25px 0 0;
+    text-align: right;
+}
+
+.cushion_needs .content_shades .middle p {
+   color: #000;
+}
+
+.cushion_needs .ultra .middle {
+   float: right;
+}
+
+.cushion_needs .constrained {
+margin: 0 auto;
+}
+
+.cushion_needs .miracle .inner_content {
+    width: 45%;
+    text-align: left;
+    white-space: nowrap;
+    padding: 15px 0 0 25px;
+    box-sizing: border-box;
+   margin: 0;
+    float: left;
+}
+
+.cushion_needs .content_shades .result {
+margin: 0;
+}
+
+.cushion_needs .miracle .middle,
+.cushion_needs .ultra .middle {
+   display: block;
+    position: static;
+}
+
+.cushion_needs .miracle .middle {
+    float: left;
+}
+
+.cushion_needs .content_shades .middle p {
+   line-height: 51px;
+}
+}
+
+@media (max-width:640px) {
+.cushion_needs .miracle {
+background-image: url('landing-page/cushion/cushion-miracle.png?$staticlink$'), url('landing-page/cushion/cushion-needs-bg-mob.jpg?$staticlink$');
+background-position: 99% 15px, center;
+    background-size: 150px, 1px;
+}
+
+.cushion_needs .ultra {
+background-image: url('landing-page/cushion/cushion-ultra.png?$staticlink$'), url('landing-page/cushion/cushion-needs-bg-mob.jpg?$staticlink$');
+    background-position: 1% 75px, center;
+    background-size: 160px, 1px;
+}
+
+.cushion_needs .miracle, .cushion_needs .ultra {
+   height: 350px;
+}
+
+.cushion_needs .title h2 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.cushion_needs .title p {
+    font-size: 14px;
+}
+
+.cushion_needs .ultra .title {
+    margin: 0 0 42px;
+    top: 10px;
+}
+
+.cushion_needs .content_shades p {
+    line-height: 50px;
+    font-size: 11px;
+}
+
+.cushion_needs .content_shades .middle p {
+    line-height: 38px;
+    font-size: 11px;
+}
+
+.cushion_needs .ultra .inner_content {
+margin: 10px 0 0;
+}
+
+.cushion_needs .content_shades .result {
+    text-align: center;
+    width: 133px;
+    display: inline-block;
+}
+
+.cushion_needs .ultra .inner_content {
+width: 40%;
+}
+
+.cushion_needs .miracle .title {
+    margin: 0 0 62px;
+    top: 35px;
+}
+
+.cushion_needs .miracle .inner_content {
+    width: 40%;
+    padding: 10px 0 0 25px;
+}
+
+}
+
+@media (max-width:321px) {
+.cushion_needs .miracle {
+background-position: 100% 25px, center;
+    background-size: 135px, 1px;
+}
+
+.cushion_needs .miracle .inner_content {
+    width: 38%;
+    padding: 10px 0 0 10px;
+}
+
+.cushion_needs .ultra .inner_content {
+    position: relative;
+    left: -10px;
+    padding: 0;
+}
+
+.cushion_needs .ultra {
+background-position: 1% 85px, center;
+    background-size: 150px, 1px;
+}
+}
+</style>
+
+<div class="cushion_needs">
+<div class="constrained">
+   <div class="miracle ">
+       <div class="title">
+       <h2>MIRACLE CUSHION</h2>
+       <p>SPF23/PA++</p>
+       </div>
+
+       <div class="content_shades">
+<div class="inner_content">
+              <img  $responsiveSrc(landing-page/cushion/miracle-shades.png,122|122|122|92)$ alt="Shades" />
+              <p>Dewy Natural</p>
+              <p class="result">A glowy & natural makeup result</p>
+</div>
+   <div class="middle">
+      <p>COVERAGE</p>
+      <p>FRESHNESS</p>
+      <p>WEAR</p>
+      <p>FINISH</p>
+   </div>
+      </div>
+   </div>
+
+   <div class="middle">
+      <p>COVERAGE</p>
+      <p>FRESHNESS</p>
+      <p>WEAR</p>
+      <p>FINISH</p>
+   </div>
+
+   <div class="ultra">
+       <div class="title">
+       <h2>New teint idole ultra cushion</h2>
+       <p>SPF50/PA+++(Caucasian shades)</p>
+       <p>SPF 18/PA++(Ethnic shades) </p>
+       </div>
+
+       <div class="content_shades">
+<div class="inner_content">
+              <img  $responsiveSrc(landing-page/cushion/ultra-shades.png,122|122|122|92)$ alt="Shades" />
+              <p>Vevlety Perfection</p>
+              <p class="result">A velvety & high coverage makeup result</p>
+</div>
+   <div class="middle">
+      <p>COVERAGE</p>
+      <p>FRESHNESS</p>
+      <p>WEAR</p>
+      <p>FINISH</p>
+   </div>
+      </div>
+   </div>
+<div id="cushion_tips_section"></div>
+</div>
+</div>

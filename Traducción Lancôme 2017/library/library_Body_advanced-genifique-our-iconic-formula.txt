@@ -1,0 +1,64 @@
+<div id=aboutrykiel style="width:100%;margin-top:30px;">
+<div class="content-iconic-formula-image">
+$renderContentImage(Advanced_Genifique_Our_Iconic_Formula.jpg, 420|490|527|,,,,, Advanced_Genifique_Our_Iconic_Formula.jpg, Advanced_Genifique_Our_Iconic_Formula.jpg)$
+</div>
+
+<div class="content-iconic-formula-text">
+
+<h2><center>Our n°1<br>serum</center></h2></br>
+
+<p align="center">Thanks to its light texture, the serum glides onto the skin, creating a surprinsingly rouded sensation. It envelopes the skin in its unique softness and gently soaks in, releasing its active ingredients in the process.</br></br>
+The skin instantly looks healthier: it seems reinvigorated, the face is visibly smoother and the skin is soft and radiant. It rediscovers the incomparable aura of youth.
+</p>
+</div>
+
+</div>
+
+
+<style>
+.content-iconic-formula-text {
+float:left;
+width:30%;
+margin-left:10%;
+margin-right:10%;
+margin-top:6%;
+}
+.content-iconic-formula-image {
+float:right;
+width:50%;
+text-align: center;
+}
+.prime_module.full_section {
+    margin-top: 0px !important;
+}
+
+.prime_module_title {
+    margin: 120px 0 0 !important;
+}
+
+div#how-to-wear-rykiel {
+    margin-bottom: -30px;
+}
+
+.pt_product_search_result>.wrapper .l-listing_page-results .search_result_content {
+    margin: 91px 0 -25px 0;
+}
+
+@media only screen and (max-width: 680px) {
+.content-iconic-formula-text {
+float:none;
+width:100%;
+padding:0 2%;
+margin:0;
+}
+
+.content-iconic-formula-text h2 {
+    margin: 30px 0 0;
+}
+
+.content-iconic-formula-image {
+float:none;
+width:100%;
+}
+}
+</style>

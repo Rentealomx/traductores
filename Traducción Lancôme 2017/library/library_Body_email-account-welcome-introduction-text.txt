@@ -1,0 +1,23 @@
+<tr style="padding: 0;">
+    <td align="left">
+        <span style="font-size: 12px; color: #000000; line-height: 17px" >Thank you for creating an account at <a href="$httpUrl('Home-Show')$" style="color: #000000; text-decoration: underline;">Lanc&ocirc;me.com</a></span>
+    </td>
+</tr>
+<tr height="20"><td height="20" style="line-height: 20px;">&nbsp;</td></tr>
+<tr style="padding: 0;">
+    <td align="left">
+        <span class="exclusive_acces_title" style="font-family: ‘Times New Roman’, Times, serif; font-size: 27px; color: #000000; line-height: 27px;">Your Exclusive Access</span>
+    </td>
+</tr>
+<tr class="desktop-only" height="20"><td height="20" style="line-height: 20px;">&nbsp;</td></tr>
+<tr style="padding: 0;">
+    <td align="left">
+        <span style="font-size: 12px; color: #000000; line-height: 17px">Now you will be first to know about new products, beauty advice, online exclusive products, special offers and invitations to online-only events.</span>
+    </td>
+</tr>
+<tr height="15"><td height="15" style="line-height: 15px;">&nbsp;</td></tr>
+<tr style="padding: 0;">
+    <td align="left">
+        <span style="font-size: 12px; color: #000000; line-height: 17px">You will also be able to easily keep track of your online orders, create and share your ultimate wishlists and tell us about your favourite products.</span>
+    </td>
+</tr>

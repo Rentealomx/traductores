@@ -1,0 +1,29 @@
+<div >
+			<div class="list_title_module">
+				<h2>Glossary Title</h2>
+			</div>
+		<div class="page_header">
+			<div class="content_asset asset_1 listing" data-slot="asset_1">
+					<div class="left_img_banner">
+						<img src="/fs/media/demo_assets/header/glossary_header.jpg?$staticlink$" alt="" />
+					</div>
+					<div class="right_content_banner">
+							<h2>Glossary Header Headline</h2>
+	<p>Some description...</p>
+					</div>
+			</div>	
+		</div>
+	</div>
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_11160/?project=11160&store=pagestore&element=11654&language=EN" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="https://lorealcms.adacor.net/start/FIRSTspirit.jnlp?app=client&project=Lanc%C3%B4me+Master+Flagship&name=beauty_mag_list_glossary&type=Page&id=11654&host=lorealcms.adacor.net&port=443&mode=HTTP" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

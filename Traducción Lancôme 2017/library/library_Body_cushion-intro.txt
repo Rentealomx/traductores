@@ -1,0 +1,97 @@
+<style>
+.prime_module_title {
+   margin: 25px 0 10px;
+}
+
+#landing-page-cushion-page .main {
+background: url(landing-page/cushion/coushion-bg.jpg?$staticlink$);
+}
+
+.cushion_intro:after {
+display: block;
+content: '';
+clear: both;
+}
+
+.cushion_intro img {
+   float: left;
+   margin: 0 0 0 115px;
+}
+
+.prime_background_image summary h2, 
+.prime_background_image summary p, 
+.prime_background_image summary span {
+    color: #000;
+}
+
+.cushion_intro.prime_background_image .background_image_content_wrapper.right {
+   top: 300px !important;
+   padding: 0;
+}
+
+.cushion_intro summary h2 {
+margin: 0 auto 30px;
+line-height: 40px;
+}
+
+.cushion_intro h2 span {
+   display: block;
+   font-size: 20px;
+   line-height: 20px;
+}
+
+.cushion_intro summary p {
+font-size: 14px;
+line-height: 1em;
+}
+ 
+.white_button .main_button {
+     height: 35px;
+     line-height: 35px;
+     background: #fff;
+     border: 1px solid #000;  
+     color: #000;
+     position: relative;
+}
+
+.white_button .main_button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.cushion_intro {
+height: 800px;
+}
+
+@media only screen and (max-width: 978px) {
+.cushion_intro img {
+   margin: 0 0 0 10px;
+}
+}
+
+@media (max-width:640px) {
+.cushion_intro {
+  height: auto;
+}
+ 
+.cushion_intro img {
+   margin: 0 auto;
+   float: none;
+}
+
+.cushion_intro.prime_background_image .background_image_content_wrapper.right {
+   margin: 25px 0;
+}
+
+}
+</style>
+<div class="prime_background_image cushion_intro">
+<img  $responsiveSrc(landing-page/cushion/cushion-intro.png,800|800|800|350,,,,,landing-page/cushion/cushion-intro-mob.png,landing-page/cushion/cushion-intro.png,landing-page/cushion/cushion-intro.png)$ alt="Cover Image" />
+<div class="background_image_content_wrapper right">
+<div class="background_image_content_text white_button">
+<summary><h2><span>NEW</span>TEINT IDOLE ULTRA CUSHION</h2>
+<p>LONG-WEAR – HIGH COVERAGE </p>
+</summary>
+</div>
+</div>
+</div>

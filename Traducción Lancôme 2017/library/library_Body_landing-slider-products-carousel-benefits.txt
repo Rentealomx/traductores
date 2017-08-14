@@ -1,0 +1,60 @@
+<div class="strate-carousel-benefits">
+    <div class="header-strate">
+        <div class="sur-title-strate"><span class="sur-title">Our recipe</span></div>
+
+        <div class="title-strate"><span class="big-title black-font">made of an <strong>energising &amp; antioxidant</strong> recipe</span></div>
+    </div>
+
+    <div class="carousel-single-item">
+        <div class="carousel-item item-1">
+            <div class="embed-video">
+                <div class="embed-container">
+                    <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/pLF-2OM8b_Y"></iframe>
+                </div>
+            </div>
+
+            <div class="textual">
+                <div class="title"><span>SHORT NIGHTS, LONG DAYS?<br />
+GET A SHOT OF ENERGISING MOISTURE </span></div>
+
+                <div class="description"><span>An intense lifestyle inevitably goes hand in hand with fatigue. But when you don't want to say no to anything and want to continue to live life to the full, can you keep your skin fresh and healthy? &Eacute;nergie De Vie is our solution.</span></div>
+            </div>
+            <img class="benefits-bg" alt="" $responsiveSrc( "energie-de-vie/recipe-bg-1.png?$staticlink$,10|942|942|942, forced")$ title="" />
+        </div>
+
+        <div class="carousel-item item-2">
+            <div class="embed-video">
+                <div class="embed-container">
+                    <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/pLF-2OM8b_Y"></iframe>
+                </div>
+            </div>
+
+            <div class="textual">
+                <div class="title"><span>NO TIME TO MAKE COMPROMISE?<br />
+LOTION. SERUM AND CREAM. ALL-IN-ONE </span></div>
+
+                <div class="description"><span>Inspired by the Korean beauty trends, the &Eacute;nergie de Vie Liquid Care is an hybrid blend of contradictions:<br />
+it's just inspired by the best of lotion, serum &amp; cream: it's ultra fresh, highly concentrated, super hydrating. It leaves skin fresh and radiant and delivers smoothing and plumping effects.</span></div>
+            </div>
+            <img class="benefits-bg" alt="" $responsiveSrc( "energie-de-vie/recipe-bg-2.png?$staticlink$,10|942|942|942, forced")$ title="" />
+        </div>
+
+        <div class="carousel-item item-3">
+            <div class="embed-video">
+                <div class="embed-container">
+                    <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/pLF-2OM8b_Y"></iframe>
+                </div>
+            </div>
+
+            <div class="textual">
+                <div class="title"><span>AN ENERGISING COCKTAIL?<br />
+A GOOD RECIPE NEEDS THE RIGHT INGREDIENTS </span></div>
+
+                <div class="description"><span>In nutrition, superfoods are those fruits, vegetables or seeds so concentrated in nutrients and antioxidants that they are blasts of energy and good health.<br />
+What if the skin was also entitled to these boosters to face daily life without being marked by it? Discover &Eacute;nergie de Vie, the &quot;superfood&quot; of your skin.</span></div>
+            </div>
+            <img class="benefits-bg" alt="" $responsiveSrc( "energie-de-vie/recipe-bg-3.png?$staticlink$,10|942|942|942, forced")$ title="" />
+        </div>
+    </div>
+    <img class="benefits-bg" alt="" $responsiveSrc( "energie-de-vie/bg-benefits.png?$staticlink$,,forced, desktop")$ title="" />
+</div>

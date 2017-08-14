@@ -1,0 +1,53 @@
+<style>
+#grandiose-bend-the-rules-section {
+   position: relative;
+   top: -100px;
+}
+.prime_quote  h3 {
+margin: 0;
+}
+.prime_quote .grandiose_bend_rules_text {
+    padding: 100px 0 25px;
+font-size: 65px;
+line-height: 60px;
+}
+
+@media (max-width:979px) {
+.prime_quote {
+background: #fefefe;
+}
+.prime_quote .grandiose_bend_rules_text {
+    padding: 70px 0 40px;
+font-size: 45px;
+line-height: 45px;
+}
+
+#grandiose-bend-rules-video {
+margin: 115px 0 0;
+}
+
+.prime_module.three_quarter_section {
+   width: 60%;
+}
+.prime_module.one_quarter_section {
+  width: 40%;
+}
+}
+
+@media (max-width:640px) {
+.prime_quote .grandiose_bend_rules_text {
+    padding: 45px 0 40px;
+    line-height: 33px;
+}
+
+.prime_module.three_quarter_section,  
+.prime_module.one_quarter_section {
+  width: 100%;
+  float: none;
+}
+#grandiose-bend-rules-video {
+margin: 0;
+}
+</style>
+<div id="grandiose-bend-the-rules-section"></div>
+<h3 class="grandiose_bend_rules_text">Bend the rules of eye makeup</h3>

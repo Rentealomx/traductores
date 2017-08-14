@@ -1,0 +1,19 @@
+<div class="product-navigation-sticky-container">
+	<div class="product-navigation-sticky product-navigation-sticky--small full-invisible">
+		<div class="layout">
+			<div class="product-navigation-sticky__elements"></div>
+		</div>
+	</div>
+		
+	<div class="product-sticky-links hide-for-small-only full-invisible">
+		<div class="layout">
+			<ul class="product-sticky-links__list no-list" data-magellan data-bar-offset="120">
+				<li class="product-sticky-links__item"><a href="#pdpMain" class="product-sticky-links__anchor product-sticky-links__name"></a></li>
+				<li class="product-sticky-links__item"><a href="#content-sections-pdp" class="product-sticky-links__anchor">MORE ABOUT</a></li>
+				<li class="product-sticky-links__item"><a href="#curalate-fan-reel-wrapper" class="product-sticky-links__anchor always-visible">#lancôme</a></li>
+				<li class="product-sticky-links__item"><a href="#tabs" class="product-sticky-links__anchor">you may also like</a></li>
+				<li class="product-sticky-links__item"><a href="#reviews-section" class="product-sticky-links__anchor">reviews</a></li>
+			</ul>
+		</div>
+	</div>
+</div>

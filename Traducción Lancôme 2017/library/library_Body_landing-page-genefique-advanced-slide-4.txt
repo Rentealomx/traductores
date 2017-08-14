@@ -1,0 +1,157 @@
+<style>
+.right-kate{
+    text-align: right;
+    transform: translate(-12vw, 0);
+}
+.kate-citation {
+    color: white;
+    font-size: 40px;
+    font-family: Garamond;
+    line-height: 40px;
+    font-style: italic;
+}
+.kate-info {
+    font-family: "Garamond Premier Pro", "Garamond Medium", Arial serif !important;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 71px 0 0;
+    color: white;
+    letter-spacing: 0.5px;
+}
+#landing-page-genefique-advanced-slider .slider_text:nth-child(2) {
+    top: 210px !important;
+}
+@media screen and (max-width: 1280px) {
+    .kate-citation {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .kate-info {
+        font-size: 25px;
+        line-height: 27px;
+        margin: 30px 0 0;
+    }
+    #landing-page-genefique-advanced-slider .slider_text:nth-child(2) {
+        top: 150px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #landing-page-genefique-advanced-slider .slider_text:nth-child(2) {
+        top: 30px !important;
+    }
+    .kate-info {
+        font-size: 27px;
+        line-height: 35px;
+    }
+}
+@media (max-device-width: 768px) {
+    .kate-info {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 85px -3vw 0;
+    }
+    .kate-citation {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 25px -3vw -30px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-kate{
+        transform:  translate(-1vw, 0);
+    }
+    .kate-citation {
+        font-size: 4vw;
+        line-height: 4.5vw;
+    }
+    .kate-info {
+        font-size: 4vw;
+        line-height: 5vw;
+        margin: 13vw 0 0;
+    }
+}
+@media screen and (max-width: 375px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-kate{
+        transform:  translate(-1vw, 0);
+    }
+    .kate-citation {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .kate-info {
+        font-size: 15px;
+        line-height: 16px;
+        margin: 60px 0 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-kate{
+        transform:  translate(-4vw, 0);
+    }
+    .kate-citation {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .kate-info {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 45px 0 0;
+    }
+}
+</style>
+<div class='right-kate'>
+<p class='kate-citation'>“I fight more than ever </br> for my charity.”</p>
+<p class='kate-info'>At 41 , Kate Winslet engages in The </br> Golden Hat  Foundation that she </br> founded, as a way to change the way </br> people perceive autism.</p>
+</div>

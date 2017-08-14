@@ -1,0 +1,27 @@
+<h3 class="title_text">GLAMOUR<br />LINER STYLE</h3>
+
+<div class="description_list">
+<div class="description_list_item">
+<img src="landing-page/grandiose/slider-2-1.jpg?$staticlink$" alt="Cover Image" />
+
+<p>Draw a line from the inner corner to the outer corner of the eye, ending in an upward direction. Draw a line below the eye along the roots of the lower eyelashes, joining the upper line at the outer corner.</p>
+</div>
+
+<div class="description_list_item">
+<img src="landing-page/grandiose/slider-2-2.jpg?$staticlink$" alt="Cover Image" />
+
+<p>Draw a line from the inner corner to the outer corner of the eye at the base of the upper eyelashes. From this point, draw a second line following the crease of the eyelid, almost reaching the inner corner of the eye. Fill in between the two lines with the liner, beginning at the center of the eyelid.</p>
+</div>
+
+<div class="description_list_item">
+<img src="landing-page/grandiose/slider-2-3.jpg?$staticlink$" alt="Cover Image" />
+
+<p>Draw a line from the inner corner of the eye in an upward direction along the crease of the eyelid, then descend towards the outer corner of the lash fringe. Then, with the liner, fill in the space between the line and the base of the upper eyelashes.</p>
+</div>
+
+<div class="description_list_item">
+<img src="landing-page/grandiose/slider-2-4.jpg?$staticlink$" alt="Cover Image" />
+
+<p>Draw a first thick line from the inner corner to the outer cor-ner of the eye, ending in an upward direction to enhance the eyes. Draw a line along of the lower eyelashes in a downward direction towards the inner corner of the eye but leaving a space between the two lines at each end.</p>
+</div>
+</div>

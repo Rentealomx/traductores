@@ -1,0 +1,94 @@
+<div class="title">
+<h3>Choose from our recommendation</h3>
+</div>
+
+<div class="product">
+<div class="left-box product-img"><img alt="" src="landing-page/giftEvents/gift_events_prod1.png?$staticlink$" style="width: 200px; height: 271px;" /></div>
+
+<div class="right-box product_content">
+<p class="small-title">Make Her life even more beautiful with</p>
+
+<h4 class="product-title">La Vie Est Belle</h4>
+
+<p class="product-subtitle">Share happiness with this majestic reinterpretation of a signature fragrance that now captures the luminosity of Magnolia Essence.</p>
+
+<div class="product-rating">
+<ul>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+</ul>
+</div>
+
+<p class="product-price">$75.00</p>
+<a class="quick-shop-btn" href="#" target="_blank" title="Quick Shop">Quick Shop</a>
+
+<div class="see-all-range"><a href="#">See all la vie est belle range &gt;</a></div>
+</div>
+</div>
+
+<div class="product">
+<div class="left-box product_content">
+<p class="small-title">Show her she's a treasure with</p>
+
+<h4 class="product-title">Tr&eacute;sor</h4>
+
+<p class="product-subtitle">Love is precious. Cherish your mother with an iconic fragrance that radiates love from a heart of Damascus Rose.</p>
+
+<div class="product-rating">
+<ul>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+</ul>
+</div>
+
+<p class="product-price">$75.00</p>
+<a class="quick-shop-btn" href="#" target="_blank" title="Quick Shop">Quick Shop</a>
+
+<div class="see-all-range"><a href="#">see all tr&eacute;sor range &gt;</a></div>
+</div>
+
+<div class="right-box product-img"><img alt="" src="landing-page/giftEvents/gift_events_prod2.png?$staticlink$" style="width: 233px; height: 206px;" /></div>
+</div>
+
+<div class="product">
+<div class="left-box product-img"><img alt="" src="landing-page/giftEvents/gift_events_prod3.png?$staticlink$" style="width: 149px; height: 269px;" /></div>
+
+<div class="right-box product_content">
+<p class="small-title">remind her how extraordinary she is with</p>
+
+<h4 class="product-title">Miracle</h4>
+
+<p class="product-subtitle">A combination of Lychee and Freesia notes as vibrant and sparkling as the dawning of a new day, for exceptional moments to share together.</p>
+
+<div class="product-rating">
+<ul>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+	<li><a href="#"><img alt="" src="landing-page/rating_star.png?$staticlink$" style="width: 13px; height: 11px;" /></a></li>
+</ul>
+</div>
+
+<p class="product-price">$75.00</p>
+<a class="quick-shop-btn" href="#" target="_blank" title="Quick Shop">Quick Shop</a>
+
+<div class="review">
+<div class="review-title">
+<p class="name">Jane D.</p>
+<span class="age">Age 30 - 35</span></div>
+
+<div class="review-content">
+<p><span>Just perfect!</span> This product is so easy to use and, even after a long day at work, my makeup remains perfect. What I like the most: its sparkling powder lighten up my eyes &amp; the colour that fits on all occasions. Can&rsquo;t recommend it enough!</p>
+</div>
+</div>
+
+<div class="see-all-range"><a href="#">See all la vie est belle range &gt;</a></div>
+</div>
+</div>

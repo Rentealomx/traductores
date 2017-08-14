@@ -1,0 +1,32 @@
+<div class="gift_reassurance_section">
+<h2 class="reassurance_message_title">&quot; For you,<br />
+this Christmas &quot;</h2>
+
+<p class="image_separator"><img alt="rose" src="GiftFinder/small-golden-rose.png?$staticlink$" title="rose" /></p>
+
+<div class="gift_list_wrapper">
+<ul class="gift_reassurance_list">
+	<li class="dash_separator">-</li>
+	<li>
+	<h2><span>Guaranteed delivery before christmas<sup>*</sup></span></h2>
+
+	<!--<p class="gift_reassurance_mention">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quae hic, laborum necessitatibus, delectus consequuntur odit eaque veritatis voluptas alias corporis in eveniet aperiam distinctio quos velit sit quia atque.</p>-->
+	</li>
+	<li class="dash_separator">-</li>
+	<li>
+	<h2><span>gift wrapping<sup>**</sup></span></h2>
+
+	<!--<p class="gift_reassurance_mention">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quae hic, laborum necessitatibus, delectus consequuntur odit eaque veritatis voluptas alias corporis in eveniet aperiam distinctio quos velit sit quia atque.</p>-->
+	</li>
+	<li class="dash_separator">-</li>
+	<li>
+	<h2><span>free standard delivery<sup>***</sup></span></h2>
+
+	<!--<p class="gift_reassurance_mention">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quae hic, laborum necessitatibus, delectus consequuntur odit eaque veritatis voluptas alias corporis in eveniet aperiam distinctio quos velit sit quia atque.</p>-->
+	</li>
+	<li class="dash_separator">-</li>
+</ul>
+</div>
+
+<p class="gift_reassurance_footer"><sup>*</sup>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, <sup>**</sup>eius quisquam sit fugit laborum assumenda ullam, in voluptatum, accusantium excepturi dolorum, deleniti placeat adipisci veritatis voluptates quaerat. <sup>***</sup>Iusto, repudiandae, quia.</p>
+</div>

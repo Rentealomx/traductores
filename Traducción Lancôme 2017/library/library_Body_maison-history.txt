@@ -1,0 +1,144 @@
+<style>
+.maison_history {
+background: #f6f4f4;
+}
+
+.maison_history summary p {
+   font-size: 16px;
+   font-family: 'Gotham Book', Arial, serif;
+   line-height: 25px;
+   color: #4f4f4f;
+}
+
+.maison_history summary .history_title {
+   font-size: 36px;
+   font-family: 'Garamond Regular', Arial, serif;
+   line-height: 40px;
+   color: #0e0e0e;
+    margin: 40px 0 30px;
+}
+
+.maison_history summary .history_subtitle {
+  line-height: 25px;
+}
+
+.maison_history summary .history_art {
+  line-height: 30px;
+   font-family: 'Gotham Bold', Arial, serif;
+}
+
+.maison_history .history_bg {
+width: 100%;
+}
+
+.maison_history.prime_background_image .background_image_content_wrapper {
+    left: 0;
+    box-sizing: border-box;
+    padding: 0 11%;
+    right: 0;
+    margin: auto;
+    top: 20% !important;
+}
+
+@media (max-width:1440px) {
+.maison_history.prime_background_image .background_image_content_wrapper {
+    padding: 0 5%;
+}
+
+.maison_history summary p {
+    font-size: 14px;
+line-height: 20px;
+}
+
+.maison_history summary .history_art,
+.maison_history summary .history_subtitle {
+    line-height: 22px;
+}
+
+.maison_history summary .history_title {
+margin: 20px 0 10px;
+}
+}
+
+@media (max-width:1127px) {
+.maison_history.prime_background_image .background_image_content_wrapper {
+    padding: 0;
+top: 17% !important;
+}
+
+.maison_history .history_bg {
+    width: 120%;
+    max-width: 120%;
+    position: relative;
+    left: -9.5%;
+}
+}
+
+@media (max-width:979px) {
+.maison_history.prime_background_image .background_image_content_wrapper {
+top: 20% !important;
+}
+.maison_history .history_bg {
+width: 100%;
+position: static;
+}
+}
+
+@media (max-width:640px) {
+#history_section {
+    position: relative;
+    top: -100px;
+}
+
+.maison_history .history_bg {
+display: none;
+}
+
+.maison_history {
+background: url('landing-page/maison/history-bg.jpg?$staticlink$') no-repeat top center;
+min-height: 570px;
+background-size: cover;
+}
+
+.maison_history.prime_background_image .background_image_content_wrapper {
+    padding: 0;
+    width: 65%;
+    height: 570px;
+    display: table;
+}
+
+.maison_history .background_image_content_text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.maison_history.prime_background_image summary p {
+padding: 0;
+}
+
+.maison_history summary .history_title {
+    line-height: 33px;
+    margin: 10px 0 15px;
+}
+
+.maison_history summary .history_art {
+margin: 0 0 50px;
+}
+}
+
+</style>
+<div class="prime_background_image maison_history">
+
+<img class="history_bg"  $responsiveSrc(landing-page/maison/maison-history.jpg,2000|2000|500|10,,,,,landing-page/maison/history-bg.jpg,landing-page/maison/maison-history-tab.jpg,landing-page/maison/maison-history.jpg)$ alt="Cover Image" />
+
+<div class="background_image_content_wrapper">
+<div class="background_image_content_text">
+<summary>
+<p class="history_content">Since 1935,<br />Maison Lancôme has composed fragrances of emotion, inspired by our love for the most beautiful raw materials. Today, Maison Lanc&ocirc;me introduces a new collection of 6 exclusive fragrances :</p>
+<p class="history_title">Les Parfums Grands Crus</p>
+<p class="history_subtitle">Carte blanche to the expression of a collective of Perfumers and Artists guided by a unique parti-pris:</p>
+<p class="history_art">The Art of Assemblage</p>
+</summary>
+</div>
+</div>
+</div>

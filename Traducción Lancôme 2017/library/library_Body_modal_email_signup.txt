@@ -1,0 +1,41 @@
+<div class="pull_left modal_image">
+<img alt=""  src="homepage/desktop/elem-flower.png?$staticlink$"  />
+</div>
+
+<div class="pull_right modal_content">
+<h2>Sign Up for LANC&Ocirc;ME News</h2>
+
+<h3>A DELUXE gift with your first newsletter</h3>
+
+<p>Sign up for our Email alerts and<br />
+stay updated with:</p>
+
+<ul class="newsletter_benefits">
+	<li>
+	<p>New products previews</p>
+	</li>
+	<li>
+	<p>Latest trends</p>
+	</li>
+	<li>
+	<p>Beauty tips, advice &amp; more</p>
+	</li>
+	<li>
+	<p>Special offers &amp; Luxury Samples</p>
+	</li>
+	<li>
+	<p>Exclusive offers</p>
+	</li>
+	<li>
+	<p>Invitations to special events in your area</p>
+	</li>
+</ul>
+
+<div class="newsletter_subscribe_box js_newsletter_subscribe_content">
+<form action="$url('Newsletter-SubscribeStart')$" class="js_newsletter_subscribe_form" id="dwfrm_newsletter" method="post" name="dwfrm_newsletter" novalidate="novalidate">
+<fieldset>
+<div class="f_field f_field_email  formfield formfield_email formfield_subscribe_email required" data-required-text="Please enter your email address"><input class="textinput f_email   required" id="dwfrm_newsletter_email" maxlength="75" name="dwfrm_newsletter_email" placeholder="Your Email Address" tabindex="-1" type="email" value="" /></div>
+<input name="dwfrm_newsletter_signup" type="hidden" /><button class="button" name="dwfrm_newsletter_signup" type="submit" value="Submit">Sign up</button></fieldset>
+</form>
+</div>
+<a class="no_thanks close_modal" href="" role="button" title="No, thanks">No, thanks</a></div>

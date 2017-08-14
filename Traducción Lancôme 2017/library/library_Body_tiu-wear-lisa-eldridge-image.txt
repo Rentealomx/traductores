@@ -1,0 +1,83 @@
+<div class="clear row-section flex-container layout text-center">
+
+    <div class="columns large-3 medium-6 small-12">
+
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(TIU-Wear/thumbnails/TIU-Thumbnail_Video1.png,videoCoverSmall, video cover, videoblockcoverimage,,,TIU-Wear/thumbnails/TIU-Thumbnail_Video1.png,TIU-Wear/thumbnails/TIU-Thumbnail_Video1.png)$
+<div class="video-block__youtube">
+    <div class="video-block__iframe js-youtube-video" id="player_aRn9HoTMN3Q" data-video-id="aRn9HoTMN3Q"></div>
+</div>
+</div>
+  <div class="video-constructor">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>
+
+        <h2>How to prep your skin</h2><br/>
+    </div>
+
+        <div class="columns large-3 medium-6 small-12">
+
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(TIU-Wear/thumbnails/TIU-Thumbnail_Video2.png,videoCoverSmall, video cover, videoblockcoverimage,,,TIU-Wear/thumbnails/TIU-Thumbnail_Video2.png,TIU-Wear/thumbnails/TIU-Thumbnail_Video2.png)$
+<div class="video-block__youtube">
+    <div class="video-block__iframe js-youtube-video" id="player_dcjt-scQ0NU" data-video-id="dcjt-scQ0NU"></div>
+</div>
+</div>
+  <div class="video-constructor">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>
+
+        <h2>How to find the right shade</h2><br/>
+    </div>
+
+    <div class="columns large-3 medium-6 small-12">
+
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(TIU-Wear/thumbnails/TIU-Thumbnail_Video3.png,videoCoverSmall, video cover, videoblockcoverimage,,,TIU-Wear/thumbnails/TIU-Thumbnail_Video3.png,TIU-Wear/thumbnails/TIU-Thumbnail_Video3.png)$
+<div class="video-block__youtube">
+    <div class="video-block__iframe js-youtube-video" id="player_nXON-xQjx60" data-video-id="nXON-xQjx60"></div>
+</div>
+</div>
+  <div class="video-constructor">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>
+
+        <h2>How to apply foundation</h2><br/>
+    </div>
+
+    <div class="columns large-3 medium-6 small-12">
+
+<div class="flex-container video-block layout">
+    <div class="small-12 align-self-center video-block__inner">
+<div class="video-block__cover">
+$renderContentImage(TIU-Wear/thumbnails/TIU-Thumbnail_Video4.png,videoCoverSmall, video cover, videoblockcoverimage,,,TIU-Wear/thumbnails/TIU-Thumbnail_Video4.png,TIU-Wear/thumbnails/TIU-Thumbnail_Video4.png)$
+<div class="video-block__youtube">
+    <div class="video-block__iframe js-youtube-video" id="player_VGOtQWqdIwo" data-video-id="VGOtQWqdIwo"></div>
+</div>
+</div>
+  <div class="video-constructor">
+       <div class="video-constructor__arrow">
+   </div>
+  </div>
+ </div>
+</div>
+
+        <h2>How to conceal with foundation</h2><br/>
+    </div>
+
+</div>

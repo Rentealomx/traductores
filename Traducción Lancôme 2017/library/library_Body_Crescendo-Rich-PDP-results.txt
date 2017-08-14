@@ -1,0 +1,203 @@
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><![endif]-->
+<link href="TIU-Wear/shade-finder/css/custom-sf.css?$staticlink$" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"> 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- Owl Carousel Assets -->
+<link href="TIU-Wear/shade-finder/owl-carousel/owl.carousel.css?$staticlink$" rel="stylesheet">
+<link href="TIU-Wear/shade-finder/owl-carousel/owl.theme.css?$staticlink$" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+
+<script src="TIU-Wear/shade-finder/owl-carousel/owl.carousel.js?$staticlink$"></script>
+
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+
+<script type="text/javascript" src="TIU-Wear/before-after/js/jquery.beforeafter-1.4.js?$staticlink$"></script>
+<script type="text/javascript" src="TIU-Wear/before-after/owl-carousel/owl.carousel.js?$staticlink$"></script>
+
+<style>
+    .container .beforeandaftercontainer img {
+            max-width: none;
+    }
+    #videocbeforeandafter iframe {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .fourblocks { box-sizing: initial; }
+</style>
+
+<div class="container">
+    <div id="mainheadingselect" data-base-url="TIU-Wear/before-after/?$staticlink$"></div>
+    <div class="row">
+        <div class="leftCol">
+         <div id="youtubeVideo">
+             <div id="videocbeforeandafter">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/W3EQ9PDx6tU" frameborder="0" allowfullscreen></iframe>   
+             </div>
+             <div id="videocbeforeandafter2">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/W3EQ9PDx6tU" frameborder="0" allowfullscreen></iframe>    
+             </div>
+             <div id="videocbeforeandafter3">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/W3EQ9PDx6tU" frameborder="0" allowfullscreen></iframe>     
+             </div>
+             <div id="videocbeforeandafter4">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/W3EQ9PDx6tU" frameborder="0" allowfullscreen></iframe> 
+             </div>
+         </div>
+         <div id="beforeandafter" class="beforeandaftercontainer">
+           <div><img alt="before" src="RichPDP/Visionnaire_Crescendo/V0002_D2_F_T00_DULLNESS_BEFORE.jpg?$staticlink$" width="486" height="730" /></div>
+           <div><img alt="after" src="RichPDP/Visionnaire_Crescendo/V0002_D2_F_T01_DULLNESS_AFTER.jpg?$staticlink$" width="486" height="730" /></div>
+         </div>
+         <div id="beforeandafter2" class="beforeandaftercontainer">
+           <div><img alt="before" src="RichPDP/Visionnaire_Crescendo/V0001_D1_G40_T00_WRINKLES_BEFORE.jpg?$staticlink$" width="486" height="730" /></div>
+           <div><img alt="after" src="RichPDP/Visionnaire_Crescendo/V0001_D1_G40_T01_WRINKLES_AFTER.jpg?$staticlink$" width="486" height="730"  /></div>
+         </div>
+         <div id="beforeandafter3" class="beforeandaftercontainer">
+           <div><img alt="before" src="RichPDP/Visionnaire_Crescendo/V0002_D1_D40_T00_PORES_BEFORE.jpg?$staticlink$" width="486" height="730" /></div>
+           <div><img alt="after" src="RichPDP/Visionnaire_Crescendo/V0002_D1_D40_T01_PORES_AFTER.jpg?$staticlink$" width="486" height="730"  /></div>
+         </div>
+         <div id="beforeandafter4" class="beforeandaftercontainer">
+            <div><img alt="before" src="RichPDP/Visionnaire_Crescendo/V0001_D1_D40_T00_ROUGHNESS_BEFORE.jpg?$staticlink$" width="486" height="730" /></div>
+           <div><img alt="after" src="RichPDP/Visionnaire_Crescendo/V0001_D1_D40_T01_ROUGHNESS_AFTER.jpg?$staticlink$" width="486" height="730"  /></div>
+         </div>
+        <div id="selectyourshape">
+        <h3>SEE MORE RESULTS</h3>
+        <div class="row selectshape">
+          <div class="fourblocks text-center">
+            <img class="img-responsive center-block" src="RichPDP/Visionnaire_Crescendo/V0002_D2_F_T00_DULLNESS_BEFORE.jpg?$staticlink$" data-beforeandafter="beforeandafter" />
+          </div>
+          <div class="fourblocks text-center">
+            <img class="img-responsive center-block" src="RichPDP/Visionnaire_Crescendo/V0001_D1_G40_T00_WRINKLES_BEFORE.jpg?$staticlink$" data-beforeandafter="beforeandafter2" />
+          </div>
+          <div class="fourblocks text-center">
+            <img class="img-responsive center-block" src="RichPDP/Visionnaire_Crescendo/V0002_D1_D40_T00_PORES_BEFORE.jpg?$staticlink$" data-beforeandafter="beforeandafter3" />
+          </div>
+          <div class="fourblocks text-center">
+            <img class="img-responsive center-block" src="RichPDP/Visionnaire_Crescendo/V0001_D1_D40_T00_ROUGHNESS_BEFORE.jpg?$staticlink$" data-beforeandafter="beforeandafter4" />
+          </div>                                                      
+        </div>
+        </div>
+        </div>
+        <div class="rigthCol text-center">
+        <h3 class="topheading">Watch now</h3>
+        <div class="videoright">
+            <div class="videobeforeandafter" id="videobeforeandafter">
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize-youtube.jpg?$staticlink$" data-beforeandafter="beforeandafter" />
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize-youtube.jpg?$staticlink$" data-beforeandafter="beforeandafter" />
+              <h3>28 night challenge video</h3>
+            <img class="playbutton active" src="TIU-Wear/before-after/img/play.png?$staticlink$" data-beforeandafter="beforeandafter" />
+            </div>
+            <div class="videobeforeandafter" id="videobeforeandafter2">
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize-youtube.jpg?$staticlink$" data-beforeandafter="beforeandafter2" />
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize-youtube.jpg?$staticlink$" data-beforeandafter="beforeandafter2" />
+              <h3>28 night challenge video</h3>
+               <img class="playbutton active" src="TIU-Wear/before-after/img/play.png?$staticlink$" data-beforeandafter="beforeandafter2" />
+            </div>
+            <div class="videobeforeandafter" id="videobeforeandafter3">
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize-youtube.jpg?$staticlink$" data-beforeandafter="beforeandafter3" />
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize-youtube.jpg?$staticlink$" data-beforeandafter="beforeandafter3" />
+              <h3>28 night challenge video</h3>
+              <img class="playbutton active" src="TIU-Wear/before-after/img/play.png?$staticlink$" data-beforeandafter="beforeandafter3"/>
+            </div>
+            <div class="videobeforeandafter" id="videobeforeandafter4">
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize-youtube.jpg?$staticlink$" data-beforeandafter="beforeandafter4" />
+              <img class="img-responsive center-block" src="TIU-Wear/before-after/img/FACE-B02-oct2016_resize-youtube.jpg?$staticlink$" data-beforeandafter="beforeandafter4" />
+              <h3>28 night challenge video</h3>
+                <img class="playbutton active" src="TIU-Wear/before-after/img/play.png?$staticlink$" data-beforeandafter="beforeandafter4" />
+            </div> 
+          </div>
+        </div>
+        <br class="clearBoth" />
+      </div>
+</div><!-- /.container -->
+<script type="text/javascript">
+$( document ).ready(function() {
+
+  //select your face
+  $(".beforeandaftercontainer:first").addClass('active');
+  $(".videobeforeandafter:first").addClass('active');  
+  $(".videoright div:first img:first").addClass('active');  
+  $(".videoright div:first img:eq(1)").addClass('hidden');  
+
+  //container_width = $(".beforeandaftercontainer").width();
+  //$(".beforeandaftercontainer img").width(container_width);
+
+  windowsize = $(window).width();
+  if(windowsize<1024) {
+    $(".beforeandaftercontainer img").width(windowsize-50);
+    $(".beforeandaftercontainer img").height('auto');
+    newheight = $(".beforeandaftercontainer img").height();
+    $(".beforeandaftercontainer img").height(newheight);
+    $("#youtubeVideo video").width(windowsize-50);
+    $("#youtubeVideo video").height(newheight);
+
+    $("#mainheadingselect").html($("#selectyourshape").html());
+    $("#mainheading").hide();
+    $("#selectyourshape").html('');
+    
+  }
+
+  
+  $( ".selectshape img" ).on( "click", function() {
+    selectedContainer = $(this).data('beforeandafter');    
+    $(".beforeandaftercontainer").removeClass('active');
+    $("#"+selectedContainer).addClass('active');
+    $(".videobeforeandafter").removeClass('active');
+    $("#video"+selectedContainer).addClass('active');    
+    $("#video"+selectedContainer+" img:first").removeClass('hidden').addClass('active');    
+    $("#video"+selectedContainer+" img:eq(1)").removeClass('active');        
+    $("#youtubeVideo").removeClass('active');
+    $("#youtubeVideo div").removeClass('active');
+    $(".rigthCol .topheading").html('Watch now');
+    $("#video"+selectedContainer+" img.playbutton").removeClass('hidden').addClass('active');
+  });
+  $( ".videobeforeandafter img" ).on( "click", function() {
+        selectedContainer = $(this).data('beforeandafter');
+        $(".beforeandaftercontainer").removeClass('active');
+        $("#youtubeVideo div").removeClass('active');
+        $("#videoc"+selectedContainer).addClass('active');  
+        if($("#youtubeVideo").hasClass('active')) {
+        $("#video"+selectedContainer+" img:first").removeClass('hidden').addClass('active');  
+        $("#video"+selectedContainer+" img:eq(1)").removeClass('active').addClass('hidden');      
+        $("#youtubeVideo").removeClass('active');
+        $("#youtubeVideo div").removeClass('active');    
+        $("#"+selectedContainer).addClass('active');
+        $(".rigthCol .topheading").html('Watch now');
+        $("#video"+selectedContainer+" img.playbutton").removeClass('hidden').addClass('active');
+    }
+    else {
+        $("#video"+selectedContainer+" img:first").removeClass('active').addClass('hidden');  
+        $("#video"+selectedContainer+" img:eq(1)").removeClass('hidden').addClass('active');      
+        $("#youtubeVideo").addClass('active');
+        $(".rigthCol .topheading").html('View before/after');
+        $("#video"+selectedContainer+" img.playbutton").removeClass('active').addClass('hidden');
+    }
+    
+  });
+  
+  $('#beforeandafter').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter2').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter3').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter4').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+    });
+
+  //select your face 
+});
+
+</script>

@@ -1,0 +1,26 @@
+<div class="slot-wrapper">
+    <p class="slot-image-holder">
+<a href="$url('Product-Show', 'pid', 'A00256-LAC')$" title="Matte Shaker">
+        <picture>
+           <source media="(min-width: 1024px)" data-srcset="$disUrl(BANNER_PUSH/MEGA_NAV_PUSH_MATTE_SHAKER.jpg?$staticlink$, {"scaleWidth" : 115})$">
+            <img alt="" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" /> 
+        </picture>
+</a>
+    </p>
+    <div class="slot-text">
+        <span class="slot-text__title">
+<a href="$url('Product-Show', 'pid', 'A00256-LAC')$" title="Matte Shaker">
+            Matte Shaker
+</a>
+        </span>
+        <p class="slot-text__description">
+<a href="$url('Product-Show', 'pid', 'A00256-LAC')$" title="Matte Shaker">
+            Be Mad. Be Matte!
+</a>
+        </p>
+        <a href="$url('Product-Show', 'pid', 'A00256-LAC')$" title="Matte Shaker" class="slot-text__link">
+            Shop now
+        </a>
+        <span data-tracking-promotion-impression='{"id": "matte-shaker-custom-navigation-1","name" : "Matte Shaker custom navigation","creative":"summer_banner", "position":  "slot1"}' style="display:none;"></span>
+    </div>
+</div>

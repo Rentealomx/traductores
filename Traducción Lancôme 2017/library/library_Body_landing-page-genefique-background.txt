@@ -1,0 +1,94 @@
+<style>
+@media only screen and (max-width: 979px) {
+    .landing_menu ul {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.prime_module_title h2 {border-color: white;}
+.prime_module_title h2>span { color: white; background: #8897b2;}
+.one_quarter_section .prime_image .image_box img {
+   width: auto;
+   float: right;
+   margin-right: 33%;
+}
+
+.prime_module_border.prime_image {border-color: #dad9db;}
+#landing-page-genefique-sample-text { padding: 0;}
+.prime_module.half_section .prime_image img,
+.prime_module.three_quarter_section  .prime_image img{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+}
+.wrapper > .main {  background: #8897b2;}
+.footer {
+     background: #fff;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+.landing_menu {  background: #fff; }
+.placeholder .prime_video .video_box {overflow: hidden;}
+
+@media only screen and (max-width: 640px) {
+    .landing_menu .menu_toggle_button {margin-bottom: 0;}
+}
+</style>
+
+<div id="genifique" class="fixed outside" style="opacity: 1;">
+
+    <div class="body">
+        <div class="wrap">
+            <section class="section homepage" style="display: block; opacity: 1;">
+                <div class="wrap">
+
+
+                    <section class="section genifique" style="display: block; opacity: 1;">
+                        <div class="wrap">
+                            <div class="inner">
+                                <!-- BANNER -->
+                                <div class="banner">
+                                    <!-- ANIM -->
+                                    <div class="anim">
+                                        <div class="assets">
+                                            <div class="rose"></div>
+                                            <div class="glow loop"></div>
+                                        </div>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div class="contents">
+                                                    <article style="font-size: 1rem;">
+                                                        <div class="flacon">
+                                                              <img alt="" $responsiveSrc(genefique-landing/images/flacon.opt.png?$staticlink$,190|190|190|10, forced)$ />
+                                                        </div>
+                                                        <h4>
+                                                <span class="title1">GET A SAMPLE</span>
+                                                <span class="title2">It's never too late to try Advanced Génifique</span>
+                                            </h4>
+                                                        <p>
+                                                            Advanced Génifique revives youthful radiance in 7 days
+                                                            <br>– no matter your age.
+                                                        </p>
+                                                    </article>
+                                                    <div class="sample-holder">
+                                                        <div class="wrap">
+                                                            <a href="$url('Search-Show', 'cgid', 'L1_Axe_Skincare')$" class="get-sample black" >GET A SAMPLE</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+        </div>
+    </div>
+</div>

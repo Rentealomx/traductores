@@ -1,0 +1,75 @@
+<table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr style="padding: 0;">
+        <td style="padding: 0; padding-left: 10px; line-height: 0; font-size: 0; vertical-align: middle;">
+            <table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0; font-size: 0; line-height: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="3" bgcolor="#000000" valign="middle">
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td align="center" valign="middle" style="font-family: 'Times New Roman', Times, serif; font-size: 20px; color: #000000; line-height: 22px; padding: 0; padding-bottom: 10px; padding-top: 10px; width: 245px">
+            <img alt="Banner" src="mails/beautyconsultation.png?$staticlink$" border="0"/>
+        </td>
+        <td style="padding: 0; padding-right: 10px; line-height: 0; font-size: 0; vertical-align: middle;">
+            <table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0; font-size: 0; line-height: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="3" bgcolor="#000000" valign="middle">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- Banner -->
+<table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr style="padding: 0;">
+        <td style="padding: 0; width: 4.516129%; font-size: 0">
+            &nbsp;
+        </td>
+        <td style=" padding-bottom: 10px; padding-top: 10px; width: 90.322581%">
+            <table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;" align="center" border="0" cellspacing="0" bgcolor="#FFFFFF">
+                <tr style="padding: 0;">
+                    <td style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px; padding-top: 10px; border-top: 1px solid #dddddd; border-bottom: 1px solid #dddddd; border-left: 1px solid #dddddd; border-right: 1px solid #dddddd">
+                        <table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;" align="center" border="0" cellspacing="0" bgcolor="#FAFAFC">
+                            <tr style="padding: 0;">
+                                <td style="padding: 0;">
+                                    <table style="width: 100%; font-family: Verdana, Geneva, sans-serif; border-spacing: 0; border-collapse: collapse; padding: 0;" align="center" border="0" cellspacing="0" bgcolor="#FAFAFC">
+                                        <tr style="padding: 0;">
+                                            <td style="text-align: center; padding-bottom: 5px; font-family: 'Times New Roman', Times, serif; font-size: 36px; color: #000000; line-height: 38px; padding: 0;">
+                                                Skincare
+                                            </td>
+                                        </tr>
+                                        <tr style="padding: 0;">
+                                            <td style="padding: 0; text-align: center; padding-bottom: 10px; padding-top: 8px; font-size: 13px; color: #000000; line-height: 15px;">
+                                                Discover the bespoke Lancome Consultation tools and find personalized products and advices for you.
+                                            </td>
+                                        </tr>
+                                        <tr style="padding: 0;">
+                                            <td style="padding: 0; padding-top: 0px;" align="center">
+                                                <table style="border-spacing: 0; border-collapse: collapse;">
+                                                    <tr>
+                                                        <td style="width: 214px; height: 26px; font-size: 11px; background-color: #000000; color: #FFFFFF; text-align: center;">
+                                                            <a href="$url('ProductFinder-Quiz', 'fid', 'SKIN-BEAUTY-FINDER')$" style="color: #FFFFFF; text-decoration: none; font-family: Verdana, Geneva, sans-serif;">START YOUR CONSULTATION</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>                    
+                                    </table>     
+                                </td>
+                                <td style="padding: 0; width: 31.666667%;">
+                                    <img alt="Banner" style="width: 100%" src="mails/welcome-banner.png?$staticlink$" border="0"/>
+                                </td>  
+                            </tr>
+                        </table>    
+                    </td>                              
+                </tr>
+            </table>                
+        </td>
+        <td style="padding: 0; width: 4.516129%; font-size: 0">
+            &nbsp;
+        </td>
+    </tr>
+</table>

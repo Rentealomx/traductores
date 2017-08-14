@@ -1,0 +1,29 @@
+<style type="text/css">
+	.mobile_nav-footer_li.loyalty-link {
+		display:none;
+	}
+    .level_2_list_item.loyalty-link {
+        display:none;
+    }
+    .pt_product_details .header-mobile-menu-footer-nav {
+        display: none;
+    }
+</style>
+<div class="b-header-mobile_nav-footer">
+    <ul class="mobile_nav-footer_ul">
+        <li class="mobile_nav-footer_li loyalty-link not-loyalty-user"><a class="footer_link" href="$httpURL('Search-ShowContent', 'fdid', 'loyalty-landing')$" title="UD BEAUTY JUNKIES">UD BEAUTY JUNKIES</a></li>
+        <li class="mobile_nav-footer_li loyalty-link loyalty-user"><a class="footer_link" href="$url('Loyalty-Start')$" title="UD BEAUTY JUNKIES">UD BEAUTY JUNKIES</a></li>
+        <li class="mobile_nav-footer_li"><a class="b-header-mob_link_item footer_link" href="$httpURL('Search-Show', 'cgid',15)$">EXCLUSIVES</a></li>
+    </ul>
+</div>
+<script>
+$(window).load(function() {
+        if (app.isLoyaltyUser) {
+            document.querySelector('.mobile_nav-footer_li.loyalty-link.loyalty-user').style.display = 'block'
+            document.querySelector('.level_2_list_item.loyalty-link.loyalty-user').style.display = 'block'
+        } else {
+            document.querySelector('.mobile_nav-footer_li.loyalty-link.not-loyalty-user').style.display = 'block'
+            document.querySelector('.level_2_list_item.loyalty-link.not-loyalty-user').style.display = 'block'
+        }
+    });
+</script>

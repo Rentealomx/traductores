@@ -1,0 +1,40 @@
+<style>
+     .pt_product_details .how_to_apply_pdp>.how_to_apply {
+          display: block;
+     }
+
+@media (max-width:960px) {
+     .pt_product_details .how_to_apply_pdp .image,
+     .pt_product_details .how_to_apply_pdp .text {
+          width: 100%;
+          float: none;
+          max-width: 620px;
+     }
+     .pt_product_details .how_to_apply_pdp .image {
+          box-sizing: border-box;
+          padding: 20px;
+          border: 1px solid #b4b4b5;
+          margin: 0 auto 25px;
+     }
+     .pt_product_details .how_to_apply_pdp .text {
+          margin: 0 auto !important;
+     }
+
+     .pt_product_details .how_to_apply_pdp {
+           float: none;
+     }
+}
+</style>
+<div class="image">
+<div class="media_content video">
+<img alt="" $responsiveSrc(landing-page/eclat-miracle/eclat-tutorial.jpg,580|580|580|580,forced,retinadesktoptabletmobile)$ />
+<iframe src="https://www.youtube.com/v/r5gCEPE5v2E?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="text">
+
+<h2 style="line-height: normal;">Achieve<br />the strobing look</h2>
+
+<p style="text-align:center;">Shine a spotlight on your best features with a luminous strobing makeup effect that leaves traditional contouring in the dark. Watch as Lisa Eldridge shows you how to capture the light and use it as a highlighter while illuminating your whole complexion.</p>
+</div>

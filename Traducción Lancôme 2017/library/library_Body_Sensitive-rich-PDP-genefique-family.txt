@@ -1,0 +1,46 @@
+<div id=aboutrykiel style="width:100%;">
+
+<div style="width:100%;">
+<img style="width:100%" alt="" src="RichPDP/Advanced_Genifique_Sensitive/Sensitive_rich_PDP_GenifiqueFamily.jpg?$staticlink$" title="" />
+</div>
+
+</div>
+
+
+<style>
+.prime_module.full_section {
+    margin-top: 0px !important;
+}
+
+.prime_module_title {
+    margin: 120px 0 0 !important;
+}
+
+div#how-to-wear-rykiel {
+    margin-bottom: -30px;
+}
+
+.pt_product_search_result>.wrapper .l-listing_page-results .search_result_content {
+    margin: 91px 0 -25px 0;
+}
+.pt_product_details .how_to_apply_pdp {
+width: 100%;
+}
+
+@media only screen and (max-width: 680px) {
+    .advanced-genifique-our-iconic-formula .how_to_apply {
+        display: block;
+    }
+
+    .how_to_apply #aboutrykiel div {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+    }
+
+    .how_to_apply #aboutrykiel div img {
+        float: none !important;
+    }
+}
+</style>

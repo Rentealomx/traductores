@@ -1,0 +1,35 @@
+<div class="right_box consumer_service">
+<div class="consumer_service_content">
+<h2>Consumer Service</h2>
+<p>Please contact us for any questions you may have</p>
+<ul class="contact_us_list">
+<li class="call_us"><a href="tel:1-800-526-0000">CALL US 1-800-526-0000</a></li>
+<li class="contact_us"><a href="#contact-us-form">Contact Us</a></li>
+<li class="chat_with_us"><span id="lpButDivID-1419930047542"></span>
+<script type="text/javascript" charset="UTF-8" src="https://dev.liveperson.net/hc/P90173819/?cmd=mTagRepstate&site=P90173819&buttonID=12&divID=lpButDivID-1419930047542&bt=3&c=1"></script></li>
+
+</ul>
+<div class="policy">
+   <a class="left" href="$url('Page-Show', 'cid', 'customer-service-return-policy')$">Return Policy</a>
+   <a class="right" href="$url('Page-Show', 'cid', 'customer-service-terms-sale')$">Privacy Policy</a>
+</div>
+</div>
+</div>
+<div class="ask_question">
+		<form method="post" id="AskQuestionTransversal" name="AskQuestionTransversal" class="realdialog_form">
+			<span class="message"><span>You haven't found your answer?</span> PLEASE ASK A QUESTION:</span>
+			<input type="text" maxlength="200" id="customerQuestionTransversal" name="customerQuestionTransversal" class="textinput">
+			<button name="submitQuestionTransversal" type="submit" value="submit" type="submit" class="button button_submit" id="submitQuestionTransversal">
+			<span>Submit</span>
+			</button>
+		</form>
+<div id="questionAreaTransversal" class="rd_answers">
+		<div id="rdKlsBotTitleTransversal" class="rd_title_answer">Lancôme Customer Representative says:</div>
+		<div id="rdAnswerTransversal" class="rd_answer" ></div>
+		<div id="userTitleHeader" class="rd_user_title">Your search history</div>
+		<div id="rdPassedQuestionsHeader" class="rd_history"></div>
+		<div class="real_dialog_error">
+			Due to a technical issue, we are currently unable to connect you with our virtual Lancome Customer Representative. Please try again in a few minutes. Thank you!
+		</div>
+</div>
+</div>

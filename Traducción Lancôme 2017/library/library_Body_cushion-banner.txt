@@ -1,0 +1,63 @@
+<style>
+#cushion-banner p {
+   font-size: 33px;
+    font-family: 'Garamond Regular';
+    line-height: 30px;
+    margin: 0 0 20px;
+}
+
+#cushion-banner h2 {
+   font-size: 40px;
+   line-height: 36px;
+   margin: 0;
+}
+
+#cushion-banner h2 span {
+   display: block;
+   font-size: 30px;
+}
+
+#cushion-banner .background_image_content_wrapper.right {
+   right: 7%;
+   top: 80px !important;
+   padding: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+#cushion-banner .background_image_content_wrapper.right {
+    top: 40px !important;
+}
+}
+
+@media only screen and (max-width: 1127px) {
+   #cushion-banner .background_image_content_wrapper.right {
+    position: static;
+    background: #fff;
+    width: 100%;
+    padding: 40px 0 0;
+}
+}
+
+@media (max-width:640px) {
+#cushion-banner p {
+padding: 0;
+    font-size: 30px;
+}
+
+#cushion-banner h2 span {
+font-size: 20px;
+}
+
+#cushion-banner h2 {
+    font-size: 35px;
+}
+}
+</style>
+
+<div class="background_image_content_text">
+<summary>
+<p>Make a lasting impression<br />with high coverage</p>
+
+<h2><span>NEW</span>TEINT IDOLE ULTRA<br />CUSHION</h2>
+</summary>
+</div>

@@ -1,0 +1,25 @@
+<div class="strate-interview strate-video bg-alternate">
+    <div class="row clearfix">
+        <div class="col-xs-12 col-md-6">
+            <div class="header-strate">
+                <div class="sur-title-strate">
+                    <span class="sur-title">Lily's interview</span>
+                </div>
+                <div class="title-strate">
+                    <span class="big-title black-font">what's lily collins <strong>made of?</strong></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="headline-strate">
+                <p>Slow Down or Faster?<br>Beard or Bald? <br>Beret or Baguette ?<br>Mojito or Green &amp; Smoothie?<br>Watch Lily Collins' Made of interview. </p>
+            </div>
+        </div>
+        <div class="bg">
+            <img alt=""  $responsiveSrc(energie-de-vie/strate-interview-bg.png?$staticlink$,,forced, desktop)$ />
+        </div>
+    </div>
+    <div class="embed-video">
+        <div class="embed-container"><iframe src="https://www.youtube.com/embed/tDMV8w_qmsY" frameborder="0" allowfullscreen=""></iframe></div>
+    </div>
+</div>

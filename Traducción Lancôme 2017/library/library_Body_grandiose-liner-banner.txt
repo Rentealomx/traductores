@@ -1,0 +1,61 @@
+<style>
+#grandiose-liner-banner .background_image_content_wrapper {
+    top: 85px !important;
+    left: 11%;
+    padding: 0;
+}
+
+#grandiose-liner-banner summary h2 {
+    margin: 0 auto;
+    line-height: 55px;
+}
+
+@media (max-width:1127px) {
+#grandiose-liner-banner summary h2 {
+   font-size: 35px;
+   line-height: 40px;
+}
+
+#grandiose-liner-banner .background_image_content_wrapper {
+    top: 40px !important;
+    left: 0;
+}
+}
+
+@media (max-width:979px) {
+#grandiose-liner-banner .buttons_block {
+    margin: 330px auto 0;
+}
+}
+
+@media (max-width:640px) {
+#grandiose-liner-banner {
+display: none;
+}
+
+.prime_products .carousel .carousel_slide_width_sample {
+    width: 99%;
+    margin: 0;
+}
+
+.prime_products .carousel_navigation_list {
+   display: block;
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+}
+</style>
+
+<div class="background_image_content_text">
+<summary>
+<h2>Start bending the line</h2>
+<h2>GRANDI&Ocirc;SE LINER</h2>
+
+</summary>
+<div class="buttons_block">
+<div class="quick_shop">
+<a class="js_quickshoppopin btn_cta_primary fuchsia_animate" href="$url('Product-Show', 'pid', '3605533303252')$" title="Grandiose">SHOP NOW</a>
+</div>
+</div>
+</div>

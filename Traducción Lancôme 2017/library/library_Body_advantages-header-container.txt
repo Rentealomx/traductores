@@ -1,0 +1,56 @@
+<div class="slot-content-wrapper__inner">
+    <div class="row slot-content-row">
+        <div class="column slot-column large-3">
+            <div class="slot-column__inner">
+                <a href="">
+                    <div class="slot__title slot__icon-wrapper">
+                        <i class="icon-delivery-noir slot__icon"></i>
+                        <span class="slot__text">FREE STANDARD DELIVERY</span>
+                    </div>
+                    <div class="slot__description">
+                       Enjoy complimentary shipping with any purchase of $XX or more on Lancome.com
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="column slot-column large-3">
+            <div class="slot-column__inner">
+                <a href="">
+                    <div class="slot__title slot__icon-wrapper">
+                        <i class="icon-samples slot__icon"></i>
+                        <span class="slot__text">FREE DELUXE SAMPLES</span>
+                    </div>
+                    <div class="slot__description">
+                        3 complementary free deluxe samples during checkout.
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="column slot-column large-3">
+            <div class="slot-column__inner">
+                <a href="">
+                    <div class="slot__title slot__icon-wrapper">
+                        <i class="icon-gift slot__icon"></i>
+                        <span class="slot__text">GIFT WRAPPING</span>
+                    </div>
+                    <div class="slot__description">
+                        At checkout, ask for your luxury Lancôme gift boxes and get your order wrapped for only $XX.
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="column slot-column large-3">
+            <div class="slot-column__inner">
+                <a href="">
+                    <div class="slot__title slot__icon-wrapper">
+                        <i class="icon-payment slot__icon"></i>
+                        <span class="slot__text">SECURE PAYMENT</span>
+                    </div>
+                    <div class="slot__description">
+                        Orders are processed within 24 hours. Shopping is always safe & secure.
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

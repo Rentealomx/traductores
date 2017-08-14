@@ -1,0 +1,18 @@
+<div class="page_header" >
+	<div class="content_asset asset_1 listing" data-slot="asset_1">
+			<p style="text-align: center; max-width: 500px; margin: 0 auto;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.</p>
+	</div>	
+</div>
+<script type="text/javascript">
+var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+    	if (jQuery('#dw-sf-control-menu ul') != null) {
+    		jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_7211/?project=7211&store=pagestore&element=7728&language=EN" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="https://lorealcms.adacor.net/start/FIRSTspirit.jnlp?app=client&project=LOREAL+%7C+Lanc%C3%B4me+Master+Flagship&name=beauty_mag_list_beauty_codes&type=Page&id=7728&host=lorealcms.adacor.net&port=443&mode=HTTP" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$">Edit in FS SiteArchitect</a></li>');        
+    	}
+    }  
+};
+jQuery(document).ready(function() {
+	fsEdit.init();
+});
+</script>

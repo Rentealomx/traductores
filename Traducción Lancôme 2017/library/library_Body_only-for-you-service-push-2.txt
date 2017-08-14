@@ -1,0 +1,57 @@
+<script type="text/javascript">
+var truncationEl = document.getElementById('truncation-test');
+  function calculateTruncation(el) {
+    var text;
+    while(el.clientHeight < el.scrollHeight) {
+      text = el.innerHTML.trim();
+      if(text.split(' ').length <= 1) {
+        break;
+      }
+      el.innerHTML = text.replace(/\W*\s(\S)*$/, '...');
+    }
+  }
+
+  calculateTruncation(truncationEl);
+console.log(123);
+alert();
+</script>
+
+<div class="only_for_you_inner">
+    <div class="service_push">
+        <div class="service_img">
+            <a href="$url('ProductFinder-BeautyConsultation')$">
+            <img
+                    alt="Beauty Diagnostic"
+                    src="images/loading-small.gif?$staticlink$"
+                    class="responsive_image"
+                    $responsiveSrc(landing-page/only-for-you/service_push_beautydiagnostic.jpg, 529|529|529|161,,,,,landing-page/only-for-you/service_push_beautydiagnostic_mob.jpg,landing-page/only-for-you/service_push_beautydiagnostic.jpg,landing-page/only-for-you/service_push_beautydiagnostic.jpg)$
+            />
+            </a>
+        </div>
+        <div class="service_push_txt">
+            <h2><span>Beauty Diagnostic</span></h2>
+            <p>Recommandations personnalisées et conseils d’expert.</p>
+            <a href="$url('ProductFinder-BeautyConsultation')$" class="btn_cta_primary">Learn more</a>
+        </div>
+    </div>
+
+    <div class="service_push service_push_right">
+        <div class="service_img">
+            <a href="$url('Search-ShowContent', 'fdid','lisa-eldridge-tutorials')$">
+            <img
+                    alt="Lisa Eldridge’s Tutorial"
+                    src="images/loading-small.gif?$staticlink$"
+                    class="responsive_image"
+                    $responsiveSrc(landing-page/only-for-you/service_push_lisaeldridge.jpg, 529|529|529|161,,,,,landing-page/only-for-you/service_push_lisaeldridge_mob.jpg,landing-page/only-for-you/service_push_lisaeldridge.jpg,landing-page/only-for-you/service_push_lisaeldridge.jpg)$
+            />
+            </a>
+        </div>
+        <div class="service_push_txt">
+            <h2><span>Lisa Eldridge’s Tutorial</span></h2>
+            <p id="truncation-test">
+                She shares her approach to beauty that revolutionize the daily lives of women.
+            </p>
+            <a href="$url('Search-ShowContent', 'fdid','lisa-eldridge-tutorials')$" class="btn_cta_primary">Watch the movie</a>
+        </div>
+    </div>
+</div>

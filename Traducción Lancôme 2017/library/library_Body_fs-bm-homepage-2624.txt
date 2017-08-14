@@ -1,0 +1,39 @@
+<div class="instant_happiness_module" >
+    <div class="pushes_instant_box clearfix">
+        <div class="instant_box_content">
+	            <div class="article_description_wrapper">
+	                <div class="article_description" >
+	<p></p>
+	<p>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle, et donc, sur l&#39;eau. Pour autant, la blonde solaire n’en oublie pas de partager, chaque jour, ses instantanés de bonheur, à travers ces clichés spectaculaires, postés sur son compte Instagram qui, aujourd’hui, affiche déjà 1 million d’adeptes. @yoga_girl<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br></p>
+	<p>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle, et donc, sur l&#39;eau. Pour autant, la blonde solaire n’en oublie pas de partager, chaque jour, ses instantanés de bonheur, à travers ces clichés spectaculaires, postés sur son compte Instagram qui, aujourd’hui, affiche déjà 1 million d’adeptes. @yoga_girl<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,<br>Esprit libre et silhouette sculptée,<b> Rathen Brathel</b> parcourt le monde entier pour enseigner le SUP Yoga, ce dérivé du Yoga pratiqué sur une planche de paddle,</p>
+	                </div>
+	            </div>
+        </div>
+    </div>
+</div>
+	<div class="explore_tag_module " >
+		<p>$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.article.explore')$
+:</p>
+		<ul class="explore_tag_links">
+				<li><a href="$url('Search-ShowContent','fdid','selfconfidence')$" title="Self Confidence">Self Confidence</a></li>
+				<li><a href="$url('Search-ShowContent','fdid','effortlessfrenchchic')$" title="Effortless French Chic">Effortless French Chic</a></li>
+				<li><a href="$url('Search-ShowContent','fdid','pinkstateofmind')$" title="Pink State Of Mind">Pink State Of Mind</a></li>
+				<li><a href="$url('Search-ShowContent','fdid','loveyourage')$" title="Love Your Age">Love Your Age</a></li>
+		</ul>	
+	</div>
+$include('NewsletterPushes-Mini', 'fdid', 'fs-bm-homepage')$
+	    <p>$include('BeautyMag-IncludeInstantHappiness', 'cid', 'fs-beauty-mag-article-basic-2324', 'section', 'article')$</p>
+	$include('ProductFinder-IncludeProductFinderSection', 'fdid', 'SKIN-BEAUTY-FINDER')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_27810/?project=27810&entity=2624&store=templatestore&element=27874" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

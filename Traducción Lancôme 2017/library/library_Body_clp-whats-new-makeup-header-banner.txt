@@ -1,0 +1,18 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000000;">NEW MAKEUP PRODUCTS</h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000000;">NEW MAKEUP, NEW MAKEUP PRODUCTS</h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000000;">Let’s make room for Lancôme’s new makeup products. Highlight your assets and acheive your signature makeup look. From eye makeup to foundation to eyeshadow to lipstick, unveil your inner makeup artist with new makeup must-haves. Stay ahead of makeup trends with Lancome's best makeup products. </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image">
+
+        $renderContentImage(L1_NEW_IN_1600x267.png, categoryHeader, category title, categoryimageclass,,,L1_NEW_IN_1600x267.png,L1_NEW_IN_1600x267.png)$
+
+    </div>
+</div>

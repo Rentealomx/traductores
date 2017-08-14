@@ -1,0 +1,145 @@
+<style>
+.offers_why_shop_line:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.offers_why_shop_item > img {
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.offers_why_shop_item {
+    position: relative;
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 0 0 70px;
+    margin: 20px 5%;
+}
+
+.offers_why_shop_item h3 {
+    margin: 0 0 0.4em 0;
+}
+
+.offers_why_shop_item p {
+    font-family: "Gotham Book", Arial, serif;
+    font-size: 15px;
+}
+
+.offers_why_shop_item p a {
+    text-decoration: underline;
+}
+
+.offers_why_shop_item .offers_why_shop_cta {
+    text-transform: uppercase;
+    margin: 0.7em 0 0 0;
+    display: inline-block;
+    font-family: "Gotham Book", Arial, serif;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 640px) { 
+    .offers_why_shop_item p {
+        line-height: 1.4em;
+    }
+
+    .offers_why_shop_item {
+        margin: 20px 0;
+        width: 100%;
+        float: none;
+        border: 1px solid #dbdbdb;
+        padding: 20px 40px 20px 90px;
+        position: relative;
+    }
+
+    .offers_why_shop_item:first-child {
+        margin-top: 0;
+    }
+
+    .offers_why_shop_item .offers_why_shop_cta {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 0;
+    }
+
+    .offers_why_shop_item > img {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .offers_why_shop_item:after {
+        content: "\203A";
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        font-size: 35px;
+    }
+}
+
+</style>
+        <div class="offers_why_shop_line">
+            <div class="offers_why_shop_item">
+                <img alt="Free Delivery over $50" src="landing-page/oh-special-offers/why_shop_delivery.png?$staticlink$" title="" />
+                <h3>Free Delivery over $50</h3>
+                <p>Enjoy complimentary shipping with any purchase of $50.00
+                or more on Lancome.com</p>
+                <a class="offers_why_shop_cta" href="#">learn more ></a>
+            </div>
+            <div class="offers_why_shop_item">
+                <img alt="Free Deluxe Samples" src="landing-page/oh-special-offers/why_shop_samples.png?$staticlink$" title="" />
+                <h3>Free Deluxe Samples</h3>
+                <p>Every orders ships with a selection of 2 samples. Select
+                your samples at checkout.</p>
+                <a class="offers_why_shop_cta" href="#">start shopping ></a>
+            </div>
+        </div>
+        
+        <div class="offers_why_shop_line">
+            <div class="offers_why_shop_item">
+                <img alt="Satisfied or Money back" src="landing-page/oh-special-offers/why_shop_moneyback.png?$staticlink$" title="" />
+                <h3>Satisfied or Money back</h3>
+                <p>7 days if the product does not suit you. Your purchases are backed by our 100% satisfaction guarantee policy.</p>
+                <a class="offers_why_shop_cta" href="#">learn more ></a>
+            </div>
+            <div class="offers_why_shop_item">
+                <img alt="Gift Wrapping" src="landing-page/oh-special-offers/why_shop_giftwrapping.png?$staticlink$" title="" />
+                <h3>Gift Wrapping</h3>
+                <p>At checkout, ask for your luxury Lancôme gift boxes and get your order wrapped for only $5.00.</p>
+                <a class="offers_why_shop_cta" href="#">start shopping ></a>
+            </div>
+        </div>
+        
+        <div class="offers_why_shop_line">
+            <div class="offers_why_shop_item">
+                <img alt="Customer Service" src="landing-page/oh-special-offers/why_shop_customerservice.png?$staticlink$" title="" />
+                <h3>Customer Service</h3>
+                <p>Need help with your order? Send us <a href="$url('CustomerService-ContactUsForm')$" title="an email">an email</a> 24/7 or chat with an advisor 1-800-526-0200 9:30am - 6:30pm Monday to Friday </p>
+                <a class="offers_why_shop_cta" href="#">learn more ></a>
+            </div>
+            <div class="offers_why_shop_item">
+                <img alt="Secure Payment" src="landing-page/oh-special-offers/why_shop_payment.png?$staticlink$" title="" />
+                <h3>Secure Payment</h3>
+                <p>Orders are processed within 24hours. Shopping is always safe & secure. </p>
+                <a class="offers_why_shop_cta" href="#">learn more ></a>
+            </div>
+        </div>
+        
+        <div class="offers_why_shop_line">
+            <div class="offers_why_shop_item">
+                <img alt="Special Offers" src="landing-page/oh-special-offers/why_shop_offers.png?$staticlink$" title="" />
+                <h3>Special Offers</h3>
+                <p>Enjoy exclusives offers & gift.</p>
+                <a class="offers_why_shop_cta" href="#">discover ></a>
+            </div>
+        </div>

@@ -1,0 +1,238 @@
+<script>
+var newStyle = document.createElement("link");
+newStyle.rel = "stylesheet";
+newStyle.href = "sliderlveb/assets/styles/creative.min.css?$staticlink$";
+document.getElementsByTagName("head")[0].appendChild(newStyle);
+</script>
+<div id="sliderlveb">
+    <div id="preloader">
+        <div class="wrap" style="text-transform:uppercase;">
+            <div class="spin"></div>
+            <span data-trad="loading"></span>&nbsp;<span class="percent"></span>%
+        </div>
+    </div>
+    <section class="section range">
+        <div class="wrap">
+            <div class="inner">
+                <!-- CONTENTS -->
+                <div class="contents">
+                    <article>
+
+                    </article>
+                </div>
+                <div id="perfumeSlider" class="slider">
+                    <div class="wrap">
+                        <h4>
+                            <span data-trad="range.title1"></span>
+                        </h4>
+                        <div class="rail"><!--
+                                --><div class="slide global">
+                            <div class="inner">
+                                <h4>
+                                    <span data-trad="range.title1"></span>
+                                </h4>
+                                <div class="perfume perfume_1"></div>
+                                <div class="perfume perfume_2"></div>
+                                <div class="perfume perfume_3"></div>
+                                <div class="perfume perfume_4"></div>
+                                <div class="perfume perfume_5"></div>
+                                <div class="perfume perfume_6"></div>
+
+                                <div class="map map_1">
+                                    <div data-action="slideToFromParent" class="map-cap"></div>
+                                    <div data-action="slideToFromParent" class="map-bottle"></div>
+                                    <div class="map-quickshop-holder">
+                                        <button class="map-quickshop link-bt" data-uri="range.perfume1-quickshop-url" data-ganame="The range - carrousel - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="map map_2">
+                                    <div data-action="slideToFromParent" class="map-cap"></div>
+                                    <div data-action="slideToFromParent" class="map-bottle"></div>
+                                    <div class="map-quickshop-holder">
+                                        <button class="map-quickshop link-bt" data-uri="range.perfume2-quickshop-url" data-ganame="The range - carrousel - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="map map_3">
+                                    <div data-action="slideToFromParent" class="map-cap"></div>
+                                    <div data-action="slideToFromParent" class="map-bottle"></div>
+                                    <div class="map-quickshop-holder">
+                                        <button class="map-quickshop link-bt" data-uri="range.perfume3-quickshop-url" data-ganame="The range - carrousel - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="map map_4">
+                                    <div data-action="slideToFromParent" class="map-cap"></div>
+                                    <div data-action="slideToFromParent" class="map-bottle"></div>
+                                    <div class="map-quickshop-holder">
+                                        <button class="map-quickshop link-bt" data-uri="range.perfume4-quickshop-url" data-ganame="The range - carrousel - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="map map_5">
+                                    <div data-action="slideToFromParent" class="map-cap"></div>
+                                    <div data-action="slideToFromParent" class="map-bottle"></div>
+                                    <div class="map-quickshop-holder">
+                                        <button class="map-quickshop link-bt" data-uri="range.perfume5-quickshop-url" data-ganame="The range - carrousel - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="map map_6">
+                                    <div data-action="slideToFromParent" class="map-cap"></div>
+                                    <div data-action="slideToFromParent" class="map-bottle"></div>
+                                    <div class="map-quickshop-holder">
+                                        <button class="map-quickshop link-bt" data-uri="range.perfume6-quickshop-url" data-ganame="The range - carrousel - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div><!--
+                                --><div class="slide perfume_1">
+                            <div class="inner">
+                                <div class="contents">
+                                    <h5>
+                                        <span data-trad="range.perfume1"></span>
+                                    </h5>
+                                    <p>
+                                        <span data-trad="range.perfume1-text1"></span>
+                                    </p>
+                                    <div class="perfume-quickshop-holder">
+                                        <button class="c-button c-button--primary perfume-quickshop link-bt" data-uri="range.perfume1-quickshop-url" data-ganame="Product - Eau de parfum - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="perfume"></div>
+                                <div class="close" data-action="slideToPerfumeRange"></div>
+                            </div>
+                        </div><!--
+                                --><div class="slide perfume_2">
+                            <div class="inner">
+                                <div class="contents">
+                                    <h5>
+                                        <span data-trad="range.perfume2"></span>
+                                    </h5>
+                                    <p>
+                                        <span data-trad="range.perfume2-text1"></span>
+                                    </p>
+                                    <div class="perfume-quickshop-holder">
+                                        <button class="c-button c-button--primary perfume-quickshop link-bt" data-uri="range.perfume2-quickshop-url" data-ganame="Product - L’eau de toilette florale - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="perfume"></div>
+                                <div class="close" data-action="slideToPerfumeRange"></div>
+                            </div>
+                        </div><!--
+                                --><div class="slide perfume_3">
+                            <div class="inner">
+                                <div class="contents">
+                                    <h5>
+                                        <span data-trad="range.perfume3"></span>
+                                    </h5>
+                                    <p>
+                                        <span data-trad="range.perfume3-text1"></span><br /><br class='desktop-break'>
+                                        <span data-trad="range.perfume3-text2"></span>
+                                    </p>
+                                    <div class="perfume-quickshop-holder">
+                                        <button class="c-button c-button--primary perfume-quickshop link-bt" data-uri="range.perfume3-quickshop-url" data-ganame="Product - L’eau de parfum intense - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="perfume"></div>
+                                <div class="close" data-action="slideToPerfumeRange"></div>
+                            </div>
+                        </div><!--
+                                --><div class="slide perfume_4">
+                            <div class="inner">
+                                <div class="contents">
+                                    <h5>
+                                        <span data-trad="range.perfume4"></span>
+                                    </h5>
+                                    <p>
+                                        <span data-trad="range.perfume4-text1"></span>
+                                    </p>
+                                    <div class="perfume-quickshop-holder">
+                                        <button class="c-button c-button--primary perfume-quickshop link-bt" data-uri="range.perfume4-quickshop-url" data-ganame="Product - Eau de toilette— Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="perfume"></div>
+                                <div class="close" data-action="slideToPerfumeRange"></div>
+                            </div>
+                        </div><!--
+                                --><div class="slide perfume_5">
+                            <div class="inner">
+                                <div class="contents">
+                                    <h5>
+                                        <span data-trad="range.perfume5"></span>
+                                    </h5>
+                                    <p>
+                                        <span data-trad="range.perfume5-text1"></span>
+                                    </p>
+                                    <div class="perfume-quickshop-holder">
+                                        <button class="c-button c-button--primary perfume-quickshop link-bt" data-uri="range.perfume5-quickshop-url" data-ganame="Product - Eau de parfum légère - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="perfume"></div>
+                                <div class="close" data-action="slideToPerfumeRange"></div>
+                            </div>
+                        </div><!--
+                                --><div class="slide perfume_6">
+                            <div class="inner">
+                                <div class="contents">
+                                    <h5>
+                                        <span data-trad="range.perfume6"></span>
+                                    </h5>
+                                    <p>
+                                        <span data-trad="range.perfume6-text1"></span><br /><br class='desktop-break'>
+                                        <span data-trad="range.perfume6-text2"></span>
+                                    </p>
+                                    <div class="perfume-quickshop-holder">
+                                        <button class="c-button c-button--primary perfume-quickshop link-bt" data-uri="range.perfume6-quickshop-url" data-ganame="Product - l’Absolu de parfum - Quick shop" data-gatype="btn"><span data-trad="range.product-quickshop"></span></button>
+                                    </div>
+                                </div>
+                                <div class="perfume"></div>
+                                <div class="close" data-action="slideToPerfumeRange"></div>
+                            </div>
+                        </div><!--
+                            --></div>
+                        <div class="menu">
+                            <ul>
+                                <li>&nbsp;</li>
+                                <li class="map map_1" data-action="slideTo"><a class="map-link" href="#"><span data-trad="range.perfume1"></span></a></li>
+                                <li class="map map_2" data-action="slideTo"><a class="map-link" href="#"><span data-trad="range.perfume2"></span></a></li>
+                                <li class="map map_3" data-action="slideTo"><a class="map-link" href="#"><span data-trad="range.perfume3"></span></a></li>
+                                <li class="map map_4" data-action="slideTo"><a class="map-link" href="#"><span data-trad="range.perfume4"></span></a></li>
+                                <li class="map map_5" data-action="slideTo"><a class="map-link" href="#"><span data-trad="range.perfume5"></span></a></li>
+                                <li class="map map_6" data-action="slideTo"><a class="map-link" href="#"><span data-trad="range.perfume6"></span></a></li>
+                            </ul>
+                            <div class="black">
+                                <div class="wrap">
+                                    <div class="cell"></div>
+                                    <div class="indic"></div>
+                                    <div class="cell"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left control" data-action="slideLeft"></div>
+                        <div class="right control" data-action="slideRight"></div>
+                        <div class="bg"></div>
+                    </div>
+                    <div class="puces">
+                        <div class="puce"></div>
+                        <div class="puce" data-action="slideTo"></div>
+                        <div class="puce" data-action="slideTo"></div>
+                        <div class="puce" data-action="slideTo"></div>
+                        <div class="puce" data-action="slideTo"></div>
+                        <div class="puce" data-action="slideTo"></div>
+                        <div class="puce" data-action="slideTo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script src="sliderlveb/vendors.js?$staticlink$"></script>
+<script src="sliderlveb/main.js?$staticlink$"></script>
+
+<script>
+    $("#sliderlveb").sliderlveb({
+        cdn:'sliderlveb/?$staticlink$',
+        debugMode:false,
+        imagesBaseDir:'optimized/',
+        locale:'en'
+    });
+</script>

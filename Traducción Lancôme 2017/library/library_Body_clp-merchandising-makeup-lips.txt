@@ -1,0 +1,17 @@
+<a href="$url('Search-Show','cgid','L3_MakeUp_Lips')$">
+<div class="clp-merchandising__inner end">
+    <div class="clp-merchandising__details clp-merchandising__details--large">
+
+        <div class="clp-merchandising__description">
+            <div class="clp-merchandising__title">
+                <h2 class="clp-merchandising__heading merchandising-small-copy regular-merchandising-color" style="color: black !important;" >NEW</h2>
+            </div>
+            <span class="pipe white show-for-large-only" style="display: block;text-align: center;width: 1px;height: 30px;background: white;margin: 0 auto 10px;"></span>
+            <div class="merchandising-title-is-uppercase clp-merchandising__subtitle tile-name__basic regular-merchandising-color" style="color: black !important;">L'Absolu Roses</div>
+            <span class="c-button c-button--ghost-inverted show-for-medium show-for-large no-border" href="$url('Search-Show','cgid','L3_MakeUp_Lips')$
+" style="color: black !important;">SHOP NOW</span>
+            <div class="css-chevron show-for-small-only"></div>
+        </div>
+    </div>
+</div>
+</a>

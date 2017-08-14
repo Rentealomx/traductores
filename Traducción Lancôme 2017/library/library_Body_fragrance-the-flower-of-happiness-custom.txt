@@ -1,0 +1,81 @@
+<div id="perfumer" width="100%">
+
+<div id="img-perfumer">
+<img alt="" $responsiveSrc(INGREDIENTS_OTHERS/LA_VIE_EST_BELLE/313013_La_Vie_Est_Belle_Eau_De_Parfum/3605532612690_La_Vie_Est_Belle_Eau_De_Parfum_1.png,pdphowtoapply,forced)$ />
+</div>
+
+<div id="text-perfumer">
+<h3>The Flower of happiness</h3>
+<p>The Iris Pallida of Florence is one of the costliest ingredients in the perfumer's palette. Serving as the foundation of La Vie est Belle, the aroma has been reinvented and blossoms from the first to the last note like never before.</p>
+</div>
+</div>
+
+<style>
+
+#img-perfumer{
+	float:left;
+        width: 55%;
+        padding: 20px;
+        border: 1px solid #b4b4b5;
+        overflow: hidden;
+        margin-right: 2%;
+        margin-top: 15px;
+}
+
+#text-perfumer{
+	width:32%;
+	float:right;
+        margin-top: 206px;
+        text-align: center;
+}
+
+#text-perfumer h2{
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 0 auto 40px;
+    font-size: 50px;
+    font-family: "Garamond Medium",Arial,serif;
+    color: #000;
+}
+#text-perfumer p{
+    font-family: "Gotham Book",Arial,serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+/* Espacement */
+
+@media screen and (min-width: 960px) {
+    .prime_module {
+        margin-top: -250px;
+    }
+
+    #perfumer{
+        margin-top: -265px !important;
+    }
+
+    div#la-vie-est-belle-movie-video {
+        margin-top: -190px;
+    }
+
+    #sliderlveb .range {
+        margin-top: -190px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #text-perfumer {
+        width: 90%;
+        margin: 30px auto 0;
+        float: none;
+    }
+    #img-perfumer {
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+</style>

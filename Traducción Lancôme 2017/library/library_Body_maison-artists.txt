@@ -1,0 +1,84 @@
+<style>
+#maison-artists p {
+color: #4f4f4f;
+font-family: 'Gotham Book', Arial, serif;
+line-height: 22px;
+margin: 20px 0 0;
+padding: 0 13%;
+}
+
+#maison-artists h2 {
+line-height: 40px;
+margin: 35px auto;
+}
+
+#maison-artists h2 span {
+display: block;
+color: #fff;
+}
+
+@media (max-width:1127px) {
+#maison-artists p {
+    padding: 0 9%;
+}
+
+#artists-section {
+position: relative;
+top: -100px;
+}
+
+#maison-artists.prime_background_image .background_image_content_wrapper {
+top: 10% !important;
+}
+}
+
+@media (max-width:640px) {
+.storelocator-module-container {
+    padding: 10px 0;
+}
+#storelocator-section {
+    position: absolute;
+    top: 225%;
+}
+
+#maison-artists.prime_background_image .background_image_content_wrapper {
+position: absolute;
+top: 0 !important;
+}
+
+#maison-artists p {
+    padding: 0;
+    line-height: 18px;
+}
+
+#maison-artists.prime_background_image .background_image_content_wrapper {
+left: 0;
+}
+
+#maison-artists h2 {
+    line-height: 32px;
+    margin: 25px auto 0;
+}
+}
+
+@media (max-width:400px) {
+#storelocator-section {
+        top: 185%;
+}
+}
+
+@media (max-width:320px) {
+#storelocator-section {
+        top: 150%;
+}
+}
+</style>
+<div class="background_image_content_text">
+<summary><h2><span>A&M</span>The Artists</h2>
+<p>Raising interior decoration to pictorial art, A&M take pleasure in customizing and innovating, making every fresco unique.</p>
+
+<p>These "wall tattoo artists" bring a part of a dream to every place they decorate: their art is an invitation to a journey, a truly sensorial experience. For Maison Lanc&ocirc;me, Alex & Marine draw the imprint of the fragrance assemblage on the bottle. One step further, they create the universe of the collection in-store, by drawing an immersive mural fresco, narrating the creation of Les Parfums Grans Crus.</p>
+</summary>
+
+</div>
+<div id="storelocator-section"></div>

@@ -1,0 +1,86 @@
+<div class="top_billboard_area">
+	<div class="main_image">
+		<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6144')$">
+		<img $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/leslie_david/_HOME_LESLIE_DAVID_carr_Billboard_Desktop.jpg, billboard, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/leslie_david/_HOME_LESLIE_DAVID_carr_Billboard_Desktop.jpg, billboard, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/leslie_david/_HOME_LESLIE_DAVID_carr_Billboard_Desktop.jpg, billboard, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/a_moment_with_1/leslie_david/_HOME_LESLIE_DAVID_carr_Billboard_Mobile.jpg, billboard, forced, mobile)$ alt="" />
+		</a>
+	</div>
+	<div class="main_article_box">
+		<div class="article_box">
+			<h3>
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6144')$">
+					A Moment with...
+				</a>
+			</h3>
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6144')$">
+				<span class="date">28/09/15</span>
+			</a>
+				<p class="keyword">
+					<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6144')$">
+					Portrait
+					</a>
+				</p>
+			<h2 class="title">
+				<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6144')$">
+				L’atmosphère ludique de Leslie David
+				</a>
+			</h2>
+		</div>
+	</div>
+</div>
+			 $include('BeautyMag-IncludeNewsfeeds','cid','fs-beauty-mag-article-basic-6465;fs-beauty-mag-article-basic-6464;fs-beauty-mag-article-basic-6145;fs-beauty-mag-article-basic-6528')$
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6400')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/french_touch_1/Teint_frais_detox_2x1~2_W1130.jpg, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6400')$">Les vertus anti-&acirc;ges de la d&eacute;tox cutan&eacute;e</a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-basic-6400')$">
+			        <p >
+			            Et si, en plus d&rsquo;avoir des vertus anti-&acirc;ge, la d&eacute;tox cutan&eacute;e &eacute;tait le secret de la mine fra&icirc;che et sans artifice des Fran&ccedil;aises ?
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+<div class="push-banner-wrap" >
+		<div class="push-banner-image">
+			<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-3200')$">
+	        	<img $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/QUICK_WAKEUP_MAKEUP_POSTER__W1130.png, hpbanner, forced, mobileretinadesktoptablet)$ alt="" />
+	        </a>
+	    </div>
+		<div class="push-content" >
+				<div class="push-content-inner">
+		        <h3 >
+		        	<a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-3200')$">Une Bonne Mine Instantan&eacute;e</a>
+		        </h3>
+			        <div class="push-content-text">
+			        <a href="$url('Page-Show', 'cid', 'fs-beauty-mag-article-tutorial-3200')$">
+			        <p >
+			            Lisa Eldridge livre ses secrets d&rsquo;un maquillage rapide et parfait. 
+			        </p>
+			        </a>
+			        </div>
+		        </div>
+		</div>
+</div>
+		$include('BeautyMag-IncludeHomeProductPushes', 'pid', '328102-LAC;29201v-LAC;223026-LAC;128032-LAC;', 'title', 'Sélection', 'desc','')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_14413/?project=14413&entity=6530&store=contentstore&element=15170" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

@@ -1,0 +1,142 @@
+<div class="strate-carousel-values">
+    <div class="row clearfix">
+        <div class="col-xs-12 col-md-6">
+            <div class="header-strate">
+                <div class="sur-title-strate">
+                    <span class="sur-title">Our values</span>
+                </div>
+                <div class="title-strate">
+                    <span class="big-title black-font">made of <strong>french quality</strong> standarDs</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="headline-strate">
+                <p>We are united by a passion for science,  a commitment to creating the hardest-working cosmetics, and to taking care of each other. Because together we're stronger.</p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-single-item">
+        <div class="carousel-item">
+            <div class="visual">
+                <img src="energie-de-vie/values-1.gif?$staticlink$" alt="">
+            </div>
+            <div class="textual">
+                <div class="number">
+                    <span>&mdash; 01 &mdash;</span>
+                </div>
+                <div class="title">
+                    <span>FROM THE HIGHLANDS OF VERCORS: <br>THE FRENCH MELISSA</span>
+                </div>
+                <div class="description">
+                    <span>At the origins of &Eacute;nergie de Vie, a 100% natural ingredients coming from the Vercors: Melissa, used since Antiquity for its rejuvenating properties.</span>
+                </div>
+                <div class="collapsible-component">
+                    <div class="collapsible-content">
+                        <p>
+                            Melissa, which literally means Bees leaf, has been used since Antiquity for its medicinal benefits. In the Middle Ages, it was said to have rejuvenating properties. And under Louis XIV, the fine ladies at Court were mad about it and used it for its revitalizing effects.
+                            <br> Today, it is renowned for its protective action against the inflammation and oxidative stress. 
+                        </p>
+                    </div>
+                    <a href="#" class="collapsible-action btn">
+                    <span class="title-collapsed">Read more &nbsp;&nbsp; +</span>
+                    <span class="title-active">Close &nbsp;&nbsp; X</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="visual">
+                <img src="energie-de-vie/values-2.gif?$staticlink$" alt="">
+            </div>
+            <div class="textual">
+                <div class="number">
+                    <span>&mdash; 02 &mdash; </span>
+                </div>
+                <div class="title">
+                    <span>A FRENCH SAVOIR-FAIRE: <br>THE MELISSA DISTILLATION </span>
+                </div>
+                <div class="description">
+                    <span>To preserve our precious ingredient &mdash; the French Melissa &mdash; we have selected a gentle production process to guarantee its efficacy: the steam distillation.</span>
+                </div>
+                <div class="collapsible-component">
+                    <div class="collapsible-content">
+                        <p>
+                            <strong>From leaves to steam:</strong> under the action of heat, water becomes steam and involves the aromatic molecules contained in the plants. 
+                            <br><strong>From steam to oil:</strong> when arrived in a cold water circuit, the Melissa transforms into a liquid state. 
+                            <br><strong>From oil to the Liquid Care&#153;:</strong> the as it is 100% active matter.
+                            <br>
+                            <br><strong>To be noticed:</strong>
+                            <br>5000 to 8000 kg of leaves are required to produce 1kg of the Essential Oil.
+                        </p>
+                    </div>
+                    <a href="#" class="collapsible-action btn">
+                    <span class="title-collapsed">Read more &nbsp;&nbsp; +</span>
+                    <span class="title-active">Close &nbsp;&nbsp; X</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="visual">
+                <img src="energie-de-vie/values-3.gif?$staticlink$" alt="">
+            </div>
+            <div class="textual">
+                <div class="number">
+                    <span>&mdash; 03 &mdash; </span>
+                </div>
+                <div class="title">
+                    <span>IN OUR FRENCH LABS: <br>THE LIQUID CARE&#153; FORMULATION</span>
+                </div>
+                <div class="description">
+                    <span>Up to 32 formulation trials were necessary to create the moisturising cocktail with 3 super-active ingredients extracted from the French pharmacopoeia: Melissa, Goji Berry, Gentian.</span>
+                </div>
+                <div class="collapsible-component">
+                    <div class="collapsible-content">
+                        <p>
+                            <strong>30 leaves of French Melissa:</strong> it has been judiciously chosen for their exceptional protective properties against the inflammation and oxidative stress. 
+                            <br><strong>100 mg of Goji Berry:</strong> rich in sugars, polyphenols, minerals and lipids, it acts as a  real antioxidant superfood.
+                            <br><strong>250 mg of Gentian:</strong> used since Antiquity for its stimulating benefits, it delivers the fuel effect that the cells need.
+                            <br>
+                            <br><strong>The results?</strong>
+                            <br>As fresh as a lotion, as concentrated as our serums, as hydrating as a cream.
+                        </p>
+                    </div>
+                    <a href="#" class="collapsible-action btn">
+                    <span class="title-collapsed">Read more &nbsp;&nbsp; +</span>
+                    <span class="title-active">Close &nbsp;&nbsp; X</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="visual">
+                <img src="energie-de-vie/values-4.gif?$staticlink$" alt="">
+            </div>
+            <div class="textual">
+                <div class="number">
+                    <span>&mdash; 04 &mdash; </span>
+                </div>
+                <div class="title">
+                    <span>Our French quality standards: THE LIQUID CARE&#153; PRODUCTION</span>
+                </div>
+                <div class="description">
+                    <span>Designed, formulated, produced and controlled in France.</span>
+                </div>
+                <div class="collapsible-component">
+                    <div class="collapsible-content">
+                        <p>
+                            As quality has always been at the center of our attention, we are systematically dedicating 1 person & 5 days to checking the quality of the 30.000 units produced every day. This process includes meticulous testing of micro-biological stability, the visual aspect of each item, packaging quality & preservatives testing. Because every product count.
+                            <br>And because for us, French quality must go along with responsible behavior, we are demanding of ourselves the ISO5001 norm, the most restrictive in terms of environmental responsibility. Limit greenhouse gases, dilute fossil sources, encourage green energy…
+                            <br>This is what French quality standards are (also) made of.
+                        </p>
+                    </div>
+                    <a href="#" class="collapsible-action btn">
+                    <span class="title-collapsed">Read more &nbsp;&nbsp; +</span>
+                    <span class="title-active">Close &nbsp;&nbsp; X</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

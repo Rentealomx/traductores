@@ -1,0 +1,620 @@
+<link href="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<style>
+.main>.content {
+    width: 100% !important;
+    margin: auto;
+    padding-top: 0 !important;
+}
+.b-customer_service-assets {display:none;}
+.secondary {display:none;}
+.primary {
+border:none !important;
+float: none !important;
+width: 100% !important;
+padding: 0 !important;
+margin: 0 !important;}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+section#landing_container {
+  background: #120b17;
+  color: #ffffff;
+  font: 12px/18px 'Montserrat', sans-serif;
+  text-align: center;
+}
+section#landing_container img {
+  height: auto;
+  width: 100%;
+}
+section#landing_container h1,
+section#landing_container h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+section#landing_container h3 {
+  margin-bottom: 20px;
+}
+section#landing_container a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: .2s all;
+}
+section#landing_container a.cta {
+  background: #46166b url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_arrow.gif') right center no-repeat;
+  display: inline-block;
+  font-size: 7px;
+  padding: 3px 20px 3px 10px;
+  text-transform: uppercase;
+}
+section#landing_container a.play {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/btn_play.png') left top no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 36px;
+  width: 52px;
+}
+section#landing_container a:hover {
+  opacity: .7;
+}
+section#landing_container p {
+  margin-bottom: 20px;
+}
+section#landing_container section#intro h1 {
+  font-size: 30px;
+  line-height: 36px;
+}
+section#landing_container section#intro div.data {
+  margin-bottom: 60px;
+  padding: 0 10px;
+}
+section#landing_container section#videos article {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 185px;
+  margin-bottom: 30px;
+}
+section#landing_container section#videos article div.data {
+  float: right;
+  margin-right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 160px;
+}
+section#landing_container section#videos article div.data h2 {
+  font-size: 18px;
+  line-height: 22px;
+}
+section#landing_container section#videos article div.data p {
+  display: none;
+}
+section#landing_container section#videos article.video_1 {
+  background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video1_mobile.png');
+}
+section#landing_container section#videos article.video_2 {
+  background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video2_mobile.png');
+}
+section#landing_container section#videos article.video_3 {
+  background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video3_mobile.png');
+}
+section#landing_container section#looks {
+  margin-bottom: 40px;
+}
+section#landing_container section#looks div.title {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_title.png') center top no-repeat;
+  height: 115px;
+  padding: 25px 10px 0;
+  margin-bottom: 22px;
+}
+section#landing_container section#looks div.title h1 {
+  font-size: 18px;
+  line-height: 22px;
+}
+section#landing_container section#looks article {
+  display: block;
+  margin: 0 auto 20px;
+}
+section#landing_container section#looks article img {
+  cursor: pointer;
+  max-width: 80%;
+}
+section#landing_container section#products {
+  background: #ffffff;
+  color: #46166b;
+  padding: 60px 0 20px;
+}
+section#landing_container section#products div.landing_inner {
+  max-width: 960px;
+}
+section#landing_container section#products div.title {
+  color: #000000;
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+section#landing_container section#products div.title h1 {
+  font-size: 18px;
+  line-height: 22px;
+}
+section#landing_container section#products div.listing {
+  border-bottom: 1px solid #dacbe2;
+  overflow: hidden;
+}
+section#landing_container section#products div.listing article {
+  border-top: 1px solid #dacbe2;
+  box-sizing: border-box;
+  float: left;
+  padding: 24px 8px 16px;
+  position: relative;
+  width: 50%;
+}
+section#landing_container section#products div.listing article.product_2,
+section#landing_container section#products div.listing article.product_4,
+section#landing_container section#products div.listing article.product_6 {
+  border-left: 1px solid #dacbe2;
+  padding-left: 7px;
+}
+section#landing_container section#products div.listing article img {
+  width: 100%;
+}
+section#landing_container section#products div.listing article h2,
+section#landing_container section#products div.listing article h3 {
+  font-size: 8px;
+  line-height: 10px;
+  margin-bottom: 3px;
+}
+section#landing_container section#products div.listing article span.price {
+  color: #000000;
+  display: block;
+  font-size: 8px;
+  line-height: 10px;
+  margin-bottom: 4px;
+}
+section#landing_container section#additional_content {
+  display: none;
+}
+section#landing_container div.landing_inner {
+  margin: 0 auto;
+  max-width: 1520px;
+  position: relative;
+}
+section#landing_container div.data {
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+}
+@media only screen and (min-width: 480px) {
+  section#landing_container {
+    font: 14px/20px 'Montserrat', sans-serif;
+  }
+  section#landing_container a.cta {
+    font-size: 14px;
+  }
+  section#landing_container section#intro {
+    background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_intro_tablet.png') center top no-repeat;
+    background-size: cover;
+    height: 486px;
+  }
+  section#landing_container section#intro h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  section#landing_container section#intro img.media {
+    display: none;
+  }
+  section#landing_container section#intro div.data {
+    float: right;
+    margin: 0 50px 0 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 322px;
+  }
+  section#landing_container section#intro div.landing_inner {
+    height: 100%;
+  }
+  section#landing_container section#videos article {
+    background-size: initial;
+    height: 417px;
+  }
+  section#landing_container section#videos article div.data {
+    margin-right: 30px;
+    width: 350px;
+  }
+  section#landing_container section#videos article div.data h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  section#landing_container section#videos article div.data p {
+    display: block;
+  }
+  section#landing_container section#videos article.video_1 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video1_tablet.png');
+  }
+  section#landing_container section#videos article.video_2 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video2_tablet.png');
+  }
+  section#landing_container section#videos article.video_3 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video3_tablet.png');
+  }
+  section#landing_container section#looks {
+    margin-bottom: 0;
+  }
+  section#landing_container section#looks div.title h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  section#landing_container section#looks article {
+    display: inline-block;
+    margin: 0 10px 20px;
+    width: 40%;
+  }
+  section#landing_container section#looks article img {
+    max-width: none;
+  }
+  section#landing_container section#products div.title h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  section#landing_container section#products div.listing {
+    margin: 0 auto;
+    max-width: 640px;
+  }
+  section#landing_container section#products div.listing article {
+    min-height: 362px;
+  }
+  section#landing_container section#products div.listing article h2 {
+    font: 16px/14px ProximaNova-Semibold,sans-serif;
+    line-height: 18px;
+  }
+  section#landing_container section#products div.listing article h3 {
+   font: 14px/16px ProximaNova-Regular,sans-serif;
+    line-height: 14px;
+  }
+  section#landing_container section#products div.listing article span.price {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  section#landing_container a.play {
+    height: 72px;
+    width: 103px;
+  }
+  section#landing_container section#intro {
+    background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_intro_desktop.png') center top no-repeat;
+    background-size: cover;
+  }
+  section#landing_container section#intro h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  section#landing_container section#intro div.data {
+    width: 342px;
+  }
+  section#landing_container section#videos article {
+    height: 417px;
+  }
+  section#landing_container section#videos article div.data {
+    margin-right: 20%;
+    width: 350px;
+  }
+  section#landing_container section#videos article div.data p {
+    display: block;
+  }
+  section#landing_container section#videos article.video_1 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video1_desktop.png');
+  }
+  section#landing_container section#videos article.video_2 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video2_desktop.png');
+  }
+  section#landing_container section#videos article.video_3 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video3_desktop.png');
+  }
+  section#landing_container section#looks article {
+    margin: 0 20px 40px;
+  }
+  section#landing_container section#looks article img {
+    max-width: 480px;
+  }
+  section#landing_container section#products div.listing {
+    max-width: none;
+  }
+  section#landing_container section#products div.listing article {
+    border-left: none !important;
+    width: 33.3%;
+  }
+  section#landing_container section#products div.listing article.product_2,
+  section#landing_container section#products div.listing article.product_3,
+  section#landing_container section#products div.listing article.product_5,
+  section#landing_container section#products div.listing article.product_6 {
+    border-left: 1px solid #dacbe2 !important;
+    padding-left: 7px;
+  }
+  section#landing_container div.data {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1151px) {
+  section#landing_container section#intro {
+    background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_intro_wide.png') center top no-repeat;
+    background-size: 100%;
+  }
+  section#landing_container section#intro div.data {
+    width: 360px;
+  }
+  section#landing_container section#videos article.video_1 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video1_wide.png');
+  }
+  section#landing_container section#videos article.video_2 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video2_wide.png');
+  }
+  section#landing_container section#videos article.video_3 {
+    background-image: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_video3_wide.png');
+  }
+}
+@media only screen and (min-width: 1920px) {
+  section#landing_container section#intro {
+    background-size: cover;
+    height: 756px;
+  }
+}
+div.featherlight {
+  color: #000000;
+  font: 12px/14px 'Montserrat', sans-serif;
+}
+div.featherlight div.featherlight-content {
+  padding: 20px;
+}
+div.featherlight h2 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: 30px;
+}
+div.featherlight img.media {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+div.featherlight div.video_wrapper {
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+div.featherlight div.video_wrapper iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+div.featherlight div.social {
+  margin-top: 20px;
+  text-align: center;
+}
+div.featherlight div.social a {
+  display: inline-block;
+  height: 32px;
+  transition: .2s all;
+  width: 32px;
+}
+div.featherlight div.social a.pinterest {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/social_pinterest.png') left top no-repeat;
+}
+div.featherlight div.social a.pinterest:hover {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/social_pinterest_on.png') left top no-repeat;
+}
+div.featherlight div.social a.facebook {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/social_facebook.png') left top no-repeat;
+}
+div.featherlight div.social a.facebook:hover {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/social_facebook_on.png') left top no-repeat;
+}
+div.featherlight div.social a.twitter {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/social_twitter.png') left top no-repeat;
+}
+div.featherlight div.social a.twitter:hover {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/social_twitter_on.png') left top no-repeat;
+}
+div.featherlight div.social a.tumblr {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/social_tumblr.png') left top no-repeat;
+}
+div.featherlight div.social a.tumblr:hover {
+  background: url('https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/social_tumblr_on.png') left top no-repeat;
+}
+@media only screen and (min-width: 480px) {
+  div.featherlight {
+    font: 14px/20px 'Montserrat', sans-serif;
+  }
+  div.featherlight img.media {
+    max-width: 648px;
+  }
+  div.featherlight p {
+    width: 480px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  div.featherlight img.media {
+    max-width: 735px;
+  }
+  div.featherlight p {
+    width: 769px;
+  }
+}
+
+</style>
+
+<section id="landing_container">
+		<section id="intro">
+			<div class="landing_inner">
+				<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/bg_intro_mobile.png" alt="" class="media" />
+				<div class="data">
+					<h1>The Fall Collection</h1>
+					<p>Summer may be over, but we’re not about to slow down. Still riding the high from last season’s Vice Lipstick launch, we’re in full-blown party mode. Fall brings must-have products for amazing makeup that lasts all night—from the ultimate full-coverage foundation to bold, colorful liquid liner and sparkly, sophisticated eyeshadow.</p>
+					<a href="http://www.urbandecay.ca/en_CA/featured/fall-2016" class="cta">Shop now</a>
+				</div><!-- div.data -->
+			</div><!-- div.landing_inner -->
+		</section><!-- section#intro -->
+			
+		<section id="videos">
+			<div class="landing_inner">
+				<article class="video_1">
+					<div class="data">
+						<h2>GO BEHIND THE SCENES</h2>
+						<p>See what went down during the photo shoot for our fall collection.</p>
+						<a href="#" class="play" title="Play video" data-featherlight="#load_video_1"></a>
+					</div><!-- div.data -->
+				</article><!-- article.video_1 -->
+				<article class="video_2">
+					<div class="data">
+						<h2>STEAL THE LOOK: MULTICOLORED CAT EYE</h2>
+						<p>Using some of the brightest shades of Razor Sharp Water-Resistant Longwear Liquid Eyeliner, Amanda Rodriguez (our artist in residence) takes your go-to cat eye to the next level with this colorful look.</p>
+						<a href="#" class="play" title="Play video" data-featherlight="#load_video_2"></a>
+					</div><!-- div.data -->
+				</article><!-- article.video_2 -->
+				<article class="video_3">
+					<div class="data">
+						<h2>STEAL THE LOOK: LATE-NIGHT LIGHTYEAR</h2>
+						<p>Recreate this intensely sparkly, vibrant cat eye using the first-EVER Moondust Eyeshadow Palette—for a look that’s otherworldly. Amanda takes you through all the steps.</p>
+						<a href="#" class="play" title="Play video" data-featherlight="#load_video_3"></a>
+					</div><!-- div.data -->
+				</article><!-- article.video_3 -->
+			</div><!-- div.landing_inner -->
+		</section><!-- section#videos -->
+		
+		<section id="looks">
+			<div class="landing_inner">
+				<div class="title">
+					<h1>AS SEEN ON</h1>
+					<p>Check out the amazing looks three of our favorite bloggers created using our fall lineup.</p>
+				</div><!-- div.title -->
+				<article class="look_1">
+					<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/look1.jpg" alt="" data-featherlight="#load_look_1" />
+				</article><!-- article.look_1 -->
+				<article class="look_2">
+					<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/look2.jpg" alt="" data-featherlight="#load_look_2" />
+				</article><!-- article.look_2 -->
+				<article class="look_3">
+					<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/look3.jpg" alt="" data-featherlight="#load_look_3" />
+				</article><!-- article.look_3 -->
+			</div><!-- div.landing_inner -->
+		</section><!-- section#looks -->
+		
+		<section id="products">
+			<div class="landing_inner">
+				<div class="title">
+					<h1>MAKEUP THAT STAYS UP</h1>
+					<p>Our fall collection brings must-have products for amazing makeup that seriously lasts—from a foundation that delivers insane coverage with a modern matte finish to crazy-precise liquid liner and our sparkliest palette yet.</p>
+				</div><!-- div.title -->
+				<div class="listing">
+					<article class="product_1">
+						<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/product1.jpg" alt="" />
+						<h2>ALL NIGHTER</h2>
+						<h3>Liquid Foundation</h3>
+						<span class="price">$49</span>
+						<a href="http://www.urbandecay.ca/en_CA/all-nighter-liquid-foundation-by-urban-decay/UD785.html" class="cta">Shop now</a>
+					</article><!-- article.product_1 -->
+					<article class="product_2">
+						<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/product2.jpg" alt="" />
+						<h2>MOONDUST</h2>
+						<h3>Eyeshadow Palette</h3>
+						<span class="price">$70</span>
+						<a href="http://www.urbandecay.ca/en_CA/moondust-eyeshadow-palette-by-urban-decay/UD782.html" class="cta">Shop now</a>
+					</article><!-- article.product_2 -->
+					<article class="product_3">
+						<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/product3.jpg" alt="" />
+						<h2>RAZOR SHARP</h2>
+						<h3>Water-Resistant Longwear Liquid Eyeliner</h3>
+						<span class="price">$27</span>
+						<a href="http://www.urbandecay.ca/en_CA/razor-sharp-water-resistant-longwear-liquid-eyeliner-by-urban-decay/UD783.html" class="cta">Shop now</a>
+					</article><!-- article.product_3 -->
+					<article class="product_4">
+						<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/product4.jpg" alt="" />
+						<h2>MOONDUST</h2>
+						<h3>Eyeshadow</h3>
+						<span class="price">$25</span>
+						<a href="http://www.urbandecay.ca/en_CA/moondust-eyeshadow-by-urban-decay/3605971162336.html" class="cta">Shop now</a>
+					</article><!-- article.product_4 -->
+					<article class="product_5">
+						<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/product5.jpg" alt="" />
+						<h2>PERVERSION</h2>
+						<h3>Waterproof Fine-Point Eye Pen</h3>
+						<span class="price">$28</span>
+						<a href="http://www.urbandecay.ca/en_CA/perversion-waterproof-fine-point-eye-pencil-by-urban-decay/UD784.html" class="cta">Shop now</a>
+					</article><!-- article.product_5 -->
+					<article class="product_6">
+						<img src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/product6.jpg" alt="" />
+						<h2>NAKED SKIN</h2>
+						<h3>Color Correcting Fluid</h3>
+						<span class="price">$35</span>
+						<a href="http://www.urbandecay.ca/en_CA/naked-skin-color-correcting-fluid-by-urban-decay/UD786.html" class="cta">Shop now</a>
+					</article><!-- article.product_6 -->
+				</div><!-- div.listing -->
+			</div><!-- div.landing_inner -->
+		</section><!-- section#products -->
+	
+		<section id="additional_content">
+			<div id="load_video_1">
+				<div class="video_wrapper">
+					<iframe src="https://www.youtube.com/embed/B2NTpjqiVII" frameborder="0" allowfullscreen></iframe>
+				</div><!-- div.video_wrapper -->
+				<h2>GO BEHIND THE SCENES</h2>
+				<p>See what went down during the photo shoot for our fall collection.</p>
+			</div><!-- div#load_video_1 -->
+			<div id="load_video_2">
+				<div class="video_wrapper">
+					<iframe src="https://www.youtube.com/embed/APOm_IXDVUs" frameborder="0" allowfullscreen></iframe>
+				</div><!-- div.video_wrapper -->
+				<h2>STEAL THE LOOK: MULTICOLORED CAT EYE</h2>
+				<p>Using some of the brightest shades of Razor Sharp Water-Resistant Longwear Liquid Eyeliner, Amanda Rodriguez (our artist in residence) takes your go-to cat eye to the next level with this colorful look.</p>
+			</div><!-- div#load_video_2 -->
+			<div id="load_video_3">
+				<div class="video_wrapper">
+					<iframe src="https://www.youtube.com/embed/s0K_d3gegnQ" frameborder="0" allowfullscreen></iframe>
+				</div><!-- div.video_wrapper -->
+				<h2>STEAL THE LOOK: LATE-NIGHT LIGHTYEAR</h2>
+				<p>Recreate this intensely sparkly, vibrant cat eye using the first-EVER Moondust Eyeshadow Palette—for a look that’s otherworldly. Amanda takes you through all the steps.</p>
+			</div><!-- div#load_video_3 -->
+			<div id="load_look_1">
+				<img class="media" src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/look1.jpg" alt="" />
+				<h2>LOLA LINER</h2>
+				<ul>
+					<li>1. All Nighter Liquid Foundation</li>
+					<li>2. Bronzed Beached Bronzer</li>
+					<li>3. Sin Afterglow 8-Hour Powder Highlighter</li>
+					<li>4. Satisfy Afterglow 8-Hour Powder Blush</li>
+					<li>5. Original Eyeshadow Primer Potion</li>
+					<li>6. Beware Eyeshadow</li>
+					<li>7. Moondust Eyeshadow Palette (Granite, Specter and Element)</li>
+					<li>8. Razor Sharp Water-Resistant Longwear Liquid Eyeliner (Cuff and Perversion)</li>
+					<li>9. Perversion Mascara</li>
+					<li>10. Walk of Shame Naked Ultra Nourishing Lipgloss</li>
+				</ul>
+			</div><!-- div#load_look_1 -->
+			<div id="load_look_2">
+				<img class="media" src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/look2.jpg" alt="" />
+				<h2>SONJDRA DELUXE</h2>
+				<ul>
+					<li>1. All Nighter Liquid Foundation</li>
+					<li>2. Sin Afterglow 8-Hour Powder Highlighter</li>
+					<li>3. Moondust Eyeshadow Palette (Granite, Specter and Element)</li>
+					<li>4. Razor Sharp Water-Resistant Longwear Liquid Eyeliner (Cuff and Perversion)</li>
+					<li>5. Legend 24/7 Waterline Eye Pencil</li>
+					<li>6. Criminal Vice Lipstick</li>
+				</ul>
+			</div><!-- div#load_look_2 -->
+			<div id="load_look_3">
+				<img class="media" src="https://staging-latam-loreal.demandware.net/on/demandware.static/-/Sites-urbandecay-ca-Library/default/dw537e145f/fall2016/look3.jpg" alt="" />
+				<h2>LEIGH DICKSON</h2>
+				<ul>
+					<li>1. All Nighter Liquid Foundation</li>
+					<li>2. Moondust Eyeshadow Palette (Granite, Specter and Element)</li>
+					<li>3. Goldrush Razor Sharp Water-Resistant Longwear Liquid Eyeliner</li>
+					<li>4. Street 24/7 Waterline Eye Pencil</li>
+					<li>5. Perversion Mascara</li>
+					<li>6. Disturbed Vice Lipstick</li>
+				</ul>
+			</div><!-- div#load_look_3 -->
+		</section><!-- section#additional_content -->
+	</section><!-- section#landing_container -->

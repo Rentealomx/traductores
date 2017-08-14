@@ -1,0 +1,539 @@
+<script type="text/javascript" src="js/jquery.sticky.js?$staticlink$"></script>
+
+<style>
+#stickynav {background-image:url('images/landing/247_eyepencils/upper_banner.png?$staticlink$');width:1000px;height:132px;z-index:100000;}
+#stickynav .title {text-align:center;padding-top:12px;}
+
+#navlist{position:relative;margin:10px 0 0 210px;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#navlist li, #navlist a{height:27px; display:block;}
+
+#hype{left:0px; width:144px;}
+#hype{background:url('images/landing/volusion_lipstick/topNavsprites.jpg?$staticlink$') 0 0;}
+#hype a:hover{background:url('images/landing/volusion_lipstick/topNavsprites.jpg?$staticlink$') 0px -33px;}
+
+#checkout{left:144px; width:124px;}
+#checkout{background:url('images/landing/volusion_lipstick/topNavsprites.jpg?$staticlink$') -144px 0;}
+#checkout a:hover{background:url('images/landing/volusion_lipstick/topNavsprites.jpg?$staticlink$') -144px -33px;}
+
+#paired{left:268px; width:169px;}
+#paired{background:url('images/landing/volusion_lipstick/topNavsprites.jpg?$staticlink$') -268px 0;}
+#paired a:hover{background:url('images/landing/volusion_lipstick/topNavsprites.jpg?$staticlink$') -268px -33px;}
+
+#getitnow{left:437px; width:134px;}
+#getitnow{background:url('images/landing/volusion_lipstick/topNavsprites.jpg?$staticlink$') -437px 0;}
+
+#lipsticks_container{margin:0 auto;padding:0 30px;margin-top:-12px;}
+#lipsticks_billboard{background-image:url('images/landing/volusion_lipstick/creamybanner_updated.jpg?$staticlink$'); width:940px; height:389px; position:relative;}
+#lipsticks_billboard .copy{font-family:arial;color:#fff;font-size:14px;width:375px;height:auto;padding:240px 0 0 285px;line-height:1.30em;text-align:center;}
+#lipsticks_billboard .cta{height:auto; padding-top:10px;width:375px;}
+#lipsticks_billboard .cta a{width:148px;height:30px;}
+.banner1{margin-top:15px;}
+.banner2{float:left; margin-top:40px;}
+
+#hype_section{width:940px;height:auto;}
+#hype_section .billboard{margin-top:30px; background-image:url('images/landing/volusion_lipstick/whyitsbadass_updated.jpg?$staticlink$'); width:940px; height:458px;}
+#hype_section .billboard .copy2{font-family:arial; color:#000000; font-size:14px; font-weight:normal; float:left; padding:88px 0 35px 123px; width:605px;}
+#hype_section .billboard table {clear:left;}
+#hype_section .billboard td.copy {font-family:arial; color:#000000; font-size:13px; font-weight:normal; text-align:left; width:435px;vertical-align:top;}
+
+#checkout_section{width:940px; height:auto; margin-top:38px; display:inline-block;}
+#checkout_section .new1{clear:left; width:820px; height:auto; margin:0 0px 0 89px; padding:30px 0 0 35px;}
+#checkout_section .new2 {clear:left; width:940px; height:auto; margin:0 30px; padding:30px 0 0 20px;}
+#exclusive {float:right;position:relative;background:url('images/landing/volusion_lipstick/exclusive.jpg?$staticlink$');width:312px;height:156px;top:-30px;left:-60px;}
+.adjust {margin-top:20px;}
+.adjust2 {margin-top:50px;}
+#checkout_section .new1 .shade, 
+#checkout_section .new2 .shade,
+#checkout_section .new3 .shade {float:left; margin-left:20px; margin-right:20px; width:100px; text-align:center; background:#ffffff;}
+#checkout_section .new1 .shade .copy,
+#checkout_section .new2 .shade .copy,
+#checkout_section .new3 .shade .copy{color:#000000; font-size:10px; font-family:arial; font-weight:bold; text-transform:uppercase; padding-top:5px;}
+#checkout_section .title {padding-bottom:5px;}
+#checkout_section .title2 {clear:left;padding-top:20px;}
+#checkout_section .ctas {float:left;width:940px;text-align:center;position:relative;margin-top:-20px;}
+a.viewall {margin-left:30px; z-index:99999;}
+#checkout_section .new1 div.arrows
+{background:url('images/landing/volusion_lipstick/redarrows.png?$staticlink$') scroll 0 0 no-repeat; width:172px; height:77px; float:right; position:relative; top:-41px; left:-100px;}
+#checkout_section .new1 div.arrows p{color:#aa0029; font-size:12px; font-weight:normal; font-family:Helvetica; padding:43px 0 0 110px; width:77px; text-align:center;}
+sup{font-size:xx-small; vertical-align:super;}
+
+#paired_section{width:940px;height:auto;}
+#paired_section .title{float:left;width:940px;padding-top:40px;text-align:center;}
+#paired_section .subtitle{font-size:18px; font-family:Arial; color:#000000; line-height:1.2em; padding-bottom:15px;}
+#paired_section .productshot{padding-top:15px;}
+#paired_section .copy{font-family:arial; color:#000000; font-size:16px; font-weight:normal;padding:25px 0 30px;}
+#paired_section .thesteps {float:left;width:940px;}
+#paired_section .step{float:left;width:235px;}
+#paired_section .step .step_divider{float:right;}
+#paired_section .step .number{text-align:center;}
+#paired_section .step .faceimage{text-align:center;margin-top:20px;}
+#paired_section .step .copy{font-family:helvetica;font-size:14px;color:#000;text-align:center;margin:0 15px;}
+
+#locked_section{width:940px;height:auto;}
+#locked_section .title{float:left;width:940px;padding:40px 0 20px;text-align:center;}
+#locked_section .pairs{float:left;width:235px;}
+#locked_section .pairs .locked_divider{float:right;}
+#locked_section .shade {float:left;padding-left:20px;padding-top:27px;}
+#locked_section .shade_top {float:left;padding-left:20px;}
+#locked_section .shade img,
+#locked_section .shade_top img {margin-bottom:6px;}
+#locked_section .shade .anyshade {width:76px;margin-left:14px;}
+#locked_section .shade .copy,
+#locked_section .shade_top .copy,
+#locked_section .lipliner .copy,
+#locked_section .lipliner_top .copy {color:#000000; font-size:10px; font-weight:bold; text-transform:uppercase; font-family:arial; line-height:1.2em; text-align:center;}
+#locked_section .lipliner {float:left;padding-left:23px;padding-top:27px;}
+#locked_section .lipliner_top {float:left;padding-left:23px;}
+#locked_section .lipliner img {height:60px;margin-bottom:2px;}
+#locked_section .lipliner_top img {height:60px;margin-bottom:4px;}
+#locked_section div.arrow{float:right; position:relative; top:-10px; left:-32px;}
+#locked_section img.arrow {float:right;}
+#locked_section .copy.red{color:#aa0029; font-size:12px; font-weight:normal; font-family:Helvetica; text-transform:none; width:169px; float:right; text-align:center; position:relative; left:25px; top:33px;}
+#locked_section .ctas{float:left; width:940px; text-align:center; margin:35px 0 55px 0;}
+#locked_section .ctas a{margin:0 20px;}
+a.shift_anchor {clear:both;float:left;position:relative;top:-125px;margin:0;padding:0;}
+</style>
+
+<a id="top"></a>
+<div id="stickynav">
+    <div class="title"><a href="#top"><img src="images/landing/volusion_lipstick/lipstick_title.jpg?$staticlink$" alt="Revolution Lipstick" width="789" height="46" title="Revolution Lipstick" /></a></div>
+    <ul id="navlist">
+  		<li id="hype"><a href="#hype_section1"></a></li>
+  		<li id="checkout"><a href="#checkout_section1"></a></li>
+        <li id="paired"><a href="#paired_section1"></a></li>
+        <li id="getitnow"><a href="$url('Product-Show','pid','378')$"></a></li>
+    </ul>
+</div>
+
+<div id="lipsticks_container">
+	<div id="lipsticks_billboard">
+    	<div class="copy"> 
+        	Revolution Lipstick delivers the pigment-rich, long-lasting Urban Decay color you crave. With 22 insanely gorgeous shades that look amazing on every skin tone (and a secret weapon that primes and defines), you can't go wrong.        	         
+            <div class="cta">
+        	<a href="#checkout_section1"><img src="images/landing/volusion_lipstick/seeall.jpg?$staticlink$" alt="See Them All" title="See Them All" /></a>           
+            </div> 
+		</div>
+    </div>
+    <div class="banner1"><a href="$url('Page-Show','cid','returns')$"><img src="images/landing/247_eyepencils/freereturns1.jpg?$staticlink$" width="940" height="29" alt="Free Returns - Try It Risk Free With Our Love-It-Or-Leave-It Guarantee" title="Free Returns - Try It Risk Free With Our Love-It-Or-Leave-It Guarantee" /></a></div>
+    <div id="hype_section"><a id="hype_section1" class="shift_anchor"></a>    	          
+   	  <div class="billboard">
+   		<div class="copy2">Revolution Lipstick delivers the pigment-rich Urban Decay color you crave&ndash;in insanely gorgeous shades that look amazing on ANY skin tone.</div>
+   		<table width="728" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/landing/volusion_lipstick/creamy.jpg?$staticlink$" width="291" height="60" alt="creamy" title="creamy" /></td>
+    <td valign="top" class="copy">Delivers insane color payoff plus creamy shine.</td>
+  </tr>
+  <tr>
+    <td><img src="images/landing/volusion_lipstick/long_lasting.jpg?$staticlink$" width="291" height="62" alt="long-lasting" title="long-lasting" /></td>
+    <td valign="top" class="copy">Our Pigment Infusion System<sup>TM</sup> gives the formula its super creamy texture, insane pigmentation, superior color dispersion and extended wear.</td>
+  </tr>
+  <tr>
+    <td><img src="images/landing/volusion_lipstick/hydrating.jpg?$staticlink$" width="291" height="63" alt="hydrating" title="hydrating" /></td>
+    <td valign="top" class="copy">Maxi-Lip<sup>TM</sup> defines and hydrates lips while making them look plumper and fuller.</td>
+  </tr>
+  <tr>
+    <td><img src="images/landing/volusion_lipstick/nourishing.jpg?$staticlink$" width="291" height="62" alt="nourishing" title="nourishing" /></td>
+    <td valign="top" class="copy">A nourishing blend of jojoba oil, avocado oil, cocoa butter and shea butter keeps lips super moisturized and cushiony soft.</td>
+  </tr>
+  <tr>
+    <td><img src="images/landing/volusion_lipstick/23_shades.jpg?$staticlink$" width="291" height="58" alt="23 shades" title="23 shades" /></td>
+    <td valign="top" class="copy">Our shade range includes everything from gorgeous nudes to bold brights.</td>
+  </tr>
+</table>
+   	  </div>
+     </div>
+     <div id="checkout_section"><a id="checkout_section1" class="shift_anchor"></a>
+    	<div class="title"><img src="images/landing/volusion_lipstick/23pigmented.jpg?$staticlink$" alt="23 Intensely Pigmented Shades" title="23 Intensely Pigmented Shades" /></div>
+        <div class="new1">
+   	    	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214273504')$"><img src="images/landing/volusion_lipstick/shame.jpg?$staticlink$" alt="deep berry" title="deep berry" /></a>
+              <span class="copy">SHAME</span>
+		  	</div> 
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214273603')$"><img src="images/landing/volusion_lipstick/venom.jpg?$staticlink$" alt="bright plum" title="bright plum" /></a>
+                <span class="copy">VENOM</span>
+          	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214272903')$"><img src="images/landing/volusion_lipstick/jilted.jpg?$staticlink$" alt="deep fuchsia shimmer with blue shift" title="deep fuchsia shimmer with blue shift" /></a>
+                <span class="copy">JILTED</span>
+          	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214273009')$"><img src="images/landing/volusion_lipstick/anarchy.jpg?$staticlink$" alt="bright fuchsia" title="bright fuchsia" /></a>
+            	<span class="copy">ANARCHY</span>
+         	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214272101')$"><img src="images/landing/volusion_lipstick/turnon.jpg?$staticlink$" alt="rosy pink" title="rosy pink" /></a>
+                <span class="copy">TURN ON</span>
+          	</div>        	
+        </div>
+        <div class="new2">
+			<div class="shade">
+            	<a href="$url('Product-Show','pid','604214271906')$"><img src="images/landing/volusion_lipstick/fbomb.jpg?$staticlink$" alt="classic red" title="classic red" /></a>
+            	<span class="copy">F-BOMB</span>
+          	</div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214272804')$"><img src="images/landing/volusion_lipstick/69.jpg?$staticlink$" alt="bright red with pink undertone" title="bright red with pink undertone"  /></a>
+                <span class="copy">69</span>
+		  </div>
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214272705')$"><img src="images/landing/volusion_lipstick/catfight.jpg?$staticlink$" alt="pink-fuchsia with slight red undertone" title="pink-fuchsia with slight red undertone" /></a>
+              <span class="copy">CATFIGHT</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273702')$"><img src="images/landing/volusion_lipstick/bang.jpg?$staticlink$" alt="bright orange-red" title="bright orange-red" /></a>
+              <span class="copy">BANG</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273801')$"><img src="images/landing/volusion_lipstick/streak.jpg?$staticlink$" alt="coral pink" title="coral pink" /></a>
+              <span class="copy">STREAK</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273108')$"><img src="images/landing/volusion_lipstick/manic.jpg?$staticlink$" alt="soft wine" title="soft wine" /></a>
+              <span class="copy">MANIC</span>
+		  	</div>               
+        </div>
+        <div class="new2">
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214272200')$"><img src="images/landing/volusion_lipstick/rapture.jpg?$staticlink$" alt="dusty rose" title="dusty rose" /></a>
+              <span class="copy">RAPTURE</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273306')$"><img src="images/landing/volusion_lipstick/rush.jpg?$staticlink$" alt="pink-mauve" title="pink-mauve" /></a>
+              <span class="copy">RUSH</span>
+		  	</div> 
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273405')$"><img src="images/landing/volusion_lipstick/fiend.jpg?$staticlink$" alt="muted rose" title="muted rose" /></a>
+              <span class="copy">FIEND</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214272507')$"><img src="images/landing/volusion_lipstick/native.jpg?$staticlink$" alt="pale pink" title="pale pink" /></a>
+              <span class="copy">NATIVE</span>
+		  	</div>  
+   	 
+        	<div class="shade">
+            	<a href="$url('Product-Show','pid','604214272002')$"><img src="images/landing/volusion_lipstick/obsessed.jpg?$staticlink$" alt="bright baby pink" title="bright baby pink" /></a>
+              <span class="copy">OBSESSED</span>
+		  	</div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273207')$"><img src="images/landing/volusion_lipstick/liar.jpg?$staticlink$" alt="pinky-brown nude" title="pinky-brown nude" /></a>
+              <span class="copy">LIAR</span>
+		  	</div>         
+        </div>   
+		<div class="new2">
+        	<div class="shade adjust">
+            	<a href="$url('Product-Show','pid','604214272309')$"><img src="images/landing/volusion_lipstick/naked.jpg?$staticlink$" alt="nude-pink" title="nude-pink" /></a>
+              <span class="copy">NAKED</span>
+		  	</div> 
+            <div class="shade adjust">
+            	<a href="$url('Product-Show','pid','604214272408')$"><img src="images/landing/volusion_lipstick/naked2.jpg?$staticlink$" alt="medium beige-nude" title="medium beige-nude" /></a>
+              <span class="copy">NAKED2</span>
+		  	</div> 
+            <div class="shade adjust">
+            	<a href="$url('Product-Show','pid','604214272606')$"><img src="images/landing/volusion_lipstick/lovelight.jpg?$staticlink$" alt="pale peachy-pink shimmer" title= "pale peachy-pink shimmer" /></a>
+              <span class="copy">LOVELIGHT</span>
+		  	</div>   
+            <div class="shade adjust">
+            		<a href="$url('Product-Show','pid','454')$"><img src="images/landing/volusion_lipstick/miawallace.jpg?$staticlink$" alt="deep blood red" title="deep blood red" /></a>
+              	<span class="copy">MIA WALLACE</span>
+		  	</div>  
+            <div id="exclusive">
+            	<div class="shade adjust2" style="margin-left:40px;">
+            		<a href="$url('Product-Show','pid','604214273900')$"><img src="images/landing/volusion_lipstick/protest.jpg?$staticlink$" alt="sheer peachy nude" title="sheer peachy nude" /></a>
+              	<span class="copy">PROTEST</span>
+		  		</div>  
+				<div class="shade adjust2">
+            		<a href="$url('Product-Show','pid','604214274006')$"><img src="images/landing/volusion_lipstick/strip.jpg?$staticlink$" alt="sheer medium mauve-nude" title="sheer medium mauve-nude" /></a>
+             	<span class="copy">STRIP</span>
+		  		</div> 
+            </div>  
+      	</div>
+        <div class="ctas">
+       	  <a href="$url('Product-Show','pid','378')$"><img src="images/landing/volusion_lipstick/ShopAll.jpg?$staticlink$" width="190" height="29" alt="Shop All Shades" title="Shop All Shades" /></a>
+        </div>
+    </div>
+    <div class="banner2"><a href="$url('Page-Show','cid','returns')$"><img src="images/landing/247_eyepencils/freereturns2.jpg?$staticlink$" width="940" height="29" alt="Free returns. Now offering free returns&mdash;making our Love-It-Or-Leave-It Guarantee even sweeter for you." title="Free returns. Now offering free returns&mdash;making our Love-It-Or-Leave-It Guarantee even sweeter for you." /></a></div>
+
+    <div id="paired_section"><a id="paired_section1" class="shift_anchor"></a>
+    	<div class="title"><img src="images/landing/volusion_lipstick/theultimatepairforultralongwear.jpg?$staticlink$" alt="The Ultimate Pair For Ultra Long Wear" title="The Ultimate Pair For Ultra Long Wear" width="872" height="41" />
+        <div class="subtitle">PRIME AND DEFINE WITH 24/7 GLIDE-ON LIP PENCILS,<br/>THEN APPLY REVOLUTION LIPSTICK IN THE MATCHING SHADE</div>
+        <img src="images/landing/volusion_lipstick/theultimatepair_horizrule.jpg?$staticlink$" alt="divider" width="623" height="3" /> 
+        <div class="productshot"><img src="images/landing/volusion_lipstick/liner_lipstick.jpg?$staticlink$" alt="pair a liner and a lipstick" width="470" height="113" /></div>
+        <div class="copy">
+        	Our creamy, long-lasting, waterproof liner glides on smoothly, keeps lips nourished<br /> and grabs on to your lip color to help it last. And our shade pairing guide makes it<br /> easy to find the right shade to go with your favorite Revolution Lipstick.
+        </div>
+        </div>
+        <div class="thesteps">
+        	<div class="step">
+   	    	  <div class="step_divider"><img src="images/landing/volusion_lipstick/3steps_vertrule.jpg?$staticlink$" width="3" height="303" alt="divider" /></div> 
+                <div class="number"><img src="images/landing/volusion_lipstick/titleone.jpg?$staticlink$" width="124" height="52" alt="One" title="One" /> </div>
+                <div class="faceimage"><img src="images/landing/volusion_lipstick/face1.jpg?$staticlink$" width="167" height="82" alt="line lips with Ozone" title="line lips with Ozone" /></div>
+                <div class="copy"><strong>Line the outside of lips with 24/7 Glide-On Lip Pencil in Ozone</strong> (our clear shade) to fill in any fine lines and prevent feathering.</div>
+            </div>
+            <div class="step">
+            	<div class="step_divider"><img src="images/landing/volusion_lipstick/3steps_vertrule.jpg?$staticlink$" width="3" height="303" alt="divider" /></div>
+              <div class="number"><img src="images/landing/volusion_lipstick/titletwo.jpg?$staticlink$" width="138" height="52" alt="Two" title="Two" /> </div>
+                <div class="faceimage"><img src="images/landing/volusion_lipstick/face2.jpg?$staticlink$" width="167" height="82" alt="fill in lips with 24/7 Glide-On Lip Pencil" title="fill in lips with 24/7 Glide-On Lip Pencil" /></div>
+                <div class="copy"><strong>Fill in lips completely with 24/7 Glide-On Lip Pencil</strong> in a shade that matches the Revolution Lipstick shade you’ll be using. This will define lips, intensify color and provide even longer wear.</div>
+           	</div>
+            <div class="step">
+            	<div class="step_divider"><img src="images/landing/volusion_lipstick/3steps_vertrule.jpg?$staticlink$" width="3" height="303" alt="divider" /></div>
+              <div class="number"><img src="images/landing/volusion_lipstick/titlethree.jpg?$staticlink$" width="174" height="52" alt="Three" title="Three" /> </div>
+                <div class="faceimage"><img src="images/landing/volusion_lipstick/face3.jpg?$staticlink$" width="167" height="82" alt="apply Revolution Lipstick" title="apply Revolution Lipstick" /></div>
+                <div class="copy"><strong>Apply Revolution Lipstick.</strong> The Pigment Infusion System&trade; gives our formula its creamy texture, intensely pigmented color and extended wear.</div>
+            </div>
+            <div class="step">
+           	  <div class="number"><img src="images/landing/volusion_lipstick/titledone.jpg?$staticlink$" width="170" height="52" alt="Done" title="Done" /> </div>
+                <div class="faceimage"><img src="images/landing/volusion_lipstick/face4.jpg?$staticlink$" width="167" height="219" alt="the result is creamy, badass luxury" title="the result is creamy, badass luxury" /></div>
+                <div class="copy">The result? A long-lasting lip look with insane color payoff and lots of shine—or, in other words, <strong>creamy, badass luxury.</strong></div>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div id="locked_section">
+    	<div class="title"><img src="images/landing/volusion_lipstick/lockinyourcolor.jpg?$staticlink$" width="723" height="60" alt="Lock In Your Color" title="Lock In Your Color" /></div>
+        <div class="pairs">
+        	<div class="locked_divider"><img src="images/landing/volusion_lipstick/lipsticklinerpair_vertrule.jpg?$staticlink$" width="3" height="576" alt="divider" /></div>
+            
+            <div class="shade_top">
+            	<a href="$url('Product-Show','pid','604214273504')$"><img src="images/landing/volusion_lipstick/shame.jpg?$staticlink$" alt="deep berry" title="deep berry"  /></a>
+                <div class="copy">SHAME</div>
+            </div>
+            <div class="lipliner_top">
+            	<a href="$url('Product-Show','pid','604214468009')$"><img src="images/landing/volusion_lipstick/venomg.jpg?$staticlink$" alt="Venom" title="Venom" /></a>
+                <div class="copy">VENOM</div>
+            </div>
+            
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273603')$"><img src="images/landing/volusion_lipstick/venom.jpg?$staticlink$" alt="bright plum" title="bright plum"  /></a>
+                <div class="copy">VENOM</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214468009')$"><img src="images/landing/volusion_lipstick/venomg.jpg?$staticlink$" alt="Venom" title="Venom" /></a>
+                <div class="copy">VENOM</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214272903')$"><img src="images/landing/volusion_lipstick/jilted.jpg?$staticlink$" alt="deep fuchsia shimmer with blue shift" title="deep fuchsia shimmer with blue shift"  /></a>
+                <div class="copy">JILTED</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467705')$"><img src="images/landing/volusion_lipstick/jiltedg.jpg?$staticlink$" alt="Jilted" title="Jilted" /></a>
+                <div class="copy">JILTED</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273009')$"><img src="images/landing/volusion_lipstick/anarchy.jpg?$staticlink$" alt="bright fuchsia" title="bright fuchsia"  /></a>
+                <div class="copy">ANARCHY</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467804')$"><img src="images/landing/volusion_lipstick/anarchyg.jpg?$staticlink$" alt="Anarchy" title="Anarchy" /></a>
+                <div class="copy">ANARCHY</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214272101')$"><img src="images/landing/volusion_lipstick/turnon.jpg?$staticlink$" alt="rosy pink" title="rosy pink"  /></a>
+                <div class="copy">TURN ON</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467408')$"><img src="images/landing/volusion_lipstick/turnong.jpg?$staticlink$" alt="Turn On" title="Turn On" /></a>
+                <div class="copy">TURN ON</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214271906')$"><img src="images/landing/volusion_lipstick/fbomb.jpg?$staticlink$" alt="classic red" title="classic red" /></a>
+                <div class="copy">F-BOMB</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467507')$"><img src="images/landing/volusion_lipstick/69g.jpg?$staticlink$" alt="69" title="69" /></a>
+                <div class="copy">69</div>
+            </div>
+        </div>
+        <div class="pairs">
+        	<div class="locked_divider"><img src="images/landing/volusion_lipstick/lipsticklinerpair_vertrule.jpg?$staticlink$" width="3" height="576" alt="divider" /></div>
+            <div class="shade_top">
+            	<a href="$url('Product-Show','pid','604214272804')$"><img src="images/landing/volusion_lipstick/69.jpg?$staticlink$" alt="bright red with pink undertone" title="bright red with pink undertone"  /></a>
+                <div class="copy">69</div>
+            </div>
+            <div class="lipliner_top">
+            	<a href="$url('Product-Show','pid','604214467507')$"><img src="images/landing/volusion_lipstick/69g.jpg?$staticlink$" alt="69" title="69" /></a>
+                <div class="copy">69</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214272705')$"><img src="images/landing/volusion_lipstick/catfight.jpg?$staticlink$" alt="pink-fuchsia with slight red undertone" title="pink-fuchsia with slight red undertone"  /></a>
+                <div class="copy">CATFIGHT</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214920842')$"><img src="images/landing/volusion_lipstick/catfightg.jpg?$staticlink$" alt="Catfight" title="Catfight" /></a>
+                <div class="copy">CATFIGHT</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273702')$"><img src="images/landing/volusion_lipstick/bang.jpg?$staticlink$" alt="bright orange-red" title="bright orange-red" /></a>
+                <div class="copy">BANG</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214468306')$"><img src="images/landing/volusion_lipstick/bangg.jpg?$staticlink$" alt="Bang" title="Bang" /></a>
+                <div class="copy">BANG</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273801')$"><img src="images/landing/volusion_lipstick/streak.jpg?$staticlink$" alt="coral pink" title="coral pink"  /></a>
+                <div class="copy">STREAK</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214468405')$"><img src="images/landing/volusion_lipstick/streakg.jpg?$staticlink$" alt="Streak" title="Streak" /></a>
+                <div class="copy">STREAK</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273108')$"><img src="images/landing/volusion_lipstick/manic.jpg?$staticlink$" alt="soft wine" title="soft wine"  /></a>
+                <div class="copy">MANIC</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467606')$"><img src="images/landing/volusion_lipstick/raptureg.jpg?$staticlink$" alt="Rapture" title="Rapture" /></a>
+                <div class="copy">MANIC</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214272200')$"><img src="images/landing/volusion_lipstick/rapture.jpg?$staticlink$" alt="dusty rose" title="dusty rose"  /></a>
+                <div class="copy">RAPTURE</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467606')$"><img src="images/landing/volusion_lipstick/raptureg.jpg?$staticlink$" alt="Rapture" title="Rapture" /></a>
+                <div class="copy">MANIC</div>
+            </div>
+        </div>
+        <div class="pairs">
+        	<div class="locked_divider"><img src="images/landing/volusion_lipstick/lipsticklinerpair_vertrule.jpg?$staticlink$" width="3" height="576" alt="divider" /></div>
+            <div class="shade_top">
+            	<a href="$url('Product-Show','pid','604214273306')$"><img src="images/landing/volusion_lipstick/rush.jpg?$staticlink$" alt="pink-mauve" title="pink-mauve" /></a>
+                <div class="copy">RUSH</div>
+            </div>
+            <div class="lipliner_top">
+            	<a href="$url('Product-Show','pid','604214467903')$"><img src="images/landing/volusion_lipstick/rushg.jpg?$staticlink$" alt="Rush" title="Rush" /></a>
+                <div class="copy">RUSH</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273405')$"><img src="images/landing/volusion_lipstick/fiend.jpg?$staticlink$" alt="muted rose" title="muted rose" /></a>
+                <div class="copy">FIEND</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467408')$"><img src="images/landing/volusion_lipstick/turnong.jpg?$staticlink$" alt="Turn On" title="Turn On" /></a>
+                <div class="copy">TURN ON</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214272507')$"><img src="images/landing/volusion_lipstick/native.jpg?$staticlink$" alt="pale pink" title="pale pink" /></a>
+                <div class="copy">NATIVE</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467002')$"><img src="images/landing/volusion_lipstick/nativeg.jpg?$staticlink$" alt="Native" title="Native" /></a>
+                <div class="copy">NATIVE</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214272002')$"><img src="images/landing/volusion_lipstick/obsessed.jpg?$staticlink$" alt="bright baby pink" title="bright baby pink" /></a>
+                <div class="copy">OBSESSED</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467309')$"><img src="images/landing/volusion_lipstick/obsessedg.jpg?$staticlink$" alt="Obsessed" title="Obsessed" /></a>
+                <div class="copy">OBSESSED</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214273207')$"><img src="images/landing/volusion_lipstick/liar.jpg?$staticlink$" alt="pinky-brown nude" title="pinky-brown nude" /></a>
+                <div class="copy">LIAR</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214468108')$"><img src="images/landing/volusion_lipstick/liarg.jpg?$staticlink$" alt="Liar" title="Liar" /></a>
+                <div class="copy">LIAR</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214272309')$"><img src="images/landing/volusion_lipstick/naked.jpg?$staticlink$" alt="nude-pink" title="nude-pink" /></a>
+                <div class="copy">NAKED</div>
+            </div>
+            <div class="lipliner">
+            	<a href="$url('Product-Show','pid','604214467101')$"><img src="images/landing/volusion_lipstick/nakedg.jpg?$staticlink$" alt="Naked" title="Naked" /></a>
+                <div class="copy">NAKED</div>
+            </div>
+        </div>
+        <div class="pairs">
+        	<div class="shade_top">
+           	  <a href="$url('Product-Show','pid','604214272408')$"><img src="images/landing/volusion_lipstick/naked2.jpg?$staticlink$" alt="medium beige-nude" title="medium beige-nude" /></a>
+                <div class="copy">NAKED2</div>
+            </div>
+            <div class="lipliner_top">
+           	  <a href="$url('Product-Show','pid','604214467200')$"><img src="images/landing/volusion_lipstick/naked2g.jpg?$staticlink$" alt="Naked2" title="Naked2" /></a>
+                <div class="copy">NAKED2</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+           	  <a href="$url('Product-Show','pid','604214272606')$"><img src="images/landing/volusion_lipstick/lovelight.jpg?$staticlink$" alt="pale peachy-pink shimmer" title= "pale peachy-pink shimmer" /></a>
+                <div class="copy">LOVELIGHT</div>
+            </div>
+            <div class="lipliner">
+           	  <a href="$url('Product-Show','pid','604214467200')$"><img src="images/landing/volusion_lipstick/naked2g.jpg?$staticlink$" alt="Naked2" title="Naked2" /></a>
+                <div class="copy">NAKED2</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+           	  <a href="$url('Product-Show','pid','454')$"><img src="images/landing/volusion_lipstick/miawallace.jpg?$staticlink$" alt="deep blood red" title="deep blood red" /></a>
+              <div class="copy">MIA WALLACE</div>
+            </div>
+            <div class="lipliner">
+           	  <a href="$url('Product-Show','pid','453')$"><img src="images/landing/volusion_lipstick/miawallaceg.jpg?$staticlink$" alt="Mia Wallace" title="Mia Wallace" /></a>
+                <div class="copy">MIA WALLACE</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+           	  <a href="$url('Product-Show','pid','604214273900')$"><img src="images/landing/volusion_lipstick/protest.jpg?$staticlink$" alt="sheer peachy nude" title="sheer peachy nude" /></a>
+                <div class="copy">PROTEST</div>
+            </div>
+            <div class="lipliner">
+           	  <a href="$url('Product-Show','pid','604214467606')$"><img src="images/landing/volusion_lipstick/manicg.jpg?$staticlink$" alt="Manic" title="Manic" /></a>
+                <div class="copy">MANIC</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+            	<a href="$url('Product-Show','pid','604214274006')$"><img src="images/landing/volusion_lipstick/strip.jpg?$staticlink$" alt="sheer medium mauve-nude" title="sheer medium mauve-nude" /></a>
+                <div class="copy">STRIP</div>
+            </div>
+            <div class="lipliner">
+           	  <a href="$url('Product-Show','pid','604214468108')$"><img src="images/landing/volusion_lipstick/liarg.jpg?$staticlink$" alt="Liar" title="Liar" /></a>
+                <div class="copy">LIAR</div>
+            </div>
+            <div style="clear:left"></div>
+            <div class="shade">
+           	  <div class="anyshade"><a href="$url('Product-Show','pid','378')$"><img src="images/landing/volusion_lipstick/anyshade.jpg?$staticlink$" alt="Any Shade" title="Any Shade" /></a></div>
+            </div>
+          <div class="lipliner">
+           	  <a href="$url('Product-Show','pid','604214446205')$"><img src="images/landing/volusion_lipstick/ozoneg.jpg?$staticlink$" alt="Ozone" title="Ozone" /></a>
+                <div class="copy">OZONE</div>
+            </div>
+
+            <div class="arrow">
+            	<img class="arrow" src="images/landing/volusion_lipstick/redarrow.jpg?$staticlink$" alt="Arrow" title="Arrow" />
+                <div class="copy red">Use it with any shade!<br /> Invisibly holds color in place and prevents feathering.</div>
+		  </div>
+        </div>
+    <div class="ctas">
+        	<a href="$url('Product-Show','pid','378')$"><img src="images/landing/volusion_lipstick/shopalllipsticks.jpg?$staticlink$" alt="Shop All Lipsticks" width="210" height="29" title="Shop All Lipsticks" /></a>
+			<span class="cta2"><a href="$url('Product-Show','pid','379')$"><img src="images/landing/volusion_lipstick/shopallpencils.jpg?$staticlink$" alt="Shop All Lip Pencils" width="226" height="29" title="Shop All Lip Pencils"></a></span>
+   	</div>
+    </div>   
+</div>
+<script type="text/javascript">
+ 	jQuery(document).ready(function() {
+
+		$(window).load(function(){
+			$("#stickynav").sticky({ topSpacing: 0 });
+         });
+ 		
+ 	});
+ 
+</script>

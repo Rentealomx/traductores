@@ -1,0 +1,274 @@
+<script>
+ $(document).ready(function() 
+    {  
+        $('.prime_html').addClass('prime_html_roses');
+        $('.roses-sections').addClass('roses-sections-centering');
+    });
+</script>
+<style>
+.prime_html_roses .carousel .jcarousel-clip {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+height:630px!important;
+}
+.carousel .jcarousel-clip ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.carousel .jcarousel-clip li {
+    float: left;
+}
+.carousel .jcarousel-control {
+    position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+}
+.prime_html_roses .carousel {
+    display: none;
+}
+.roses {
+    width: 100%;
+}
+.prime_html_roses {
+    position: relative;
+}
+.subsection-1,
+.subsection-2,
+.subsection-3,
+.subsection-4 {
+    width: 50%;
+    float: left;
+}
+.roses-header {
+    margin: 6px 0 7px 0;
+}
+.subsection-1,
+.subsection-3 {
+    text-align: right;
+}
+.subsection-3,
+.subsection-4 {
+    margin: 35px 0 0;
+}
+.left-padding {
+    padding: 0 12px 0 0;
+    font-family: "Garamond Medium", Arial, serif;
+    font-size: 25px;
+    color: #333;
+    font-weight: 100;
+}
+.right-padding {
+    padding: 0 0 0 33px ;
+    font-family: "Garamond Medium", Arial, serif;
+    font-size: 25px;
+    color: #333;
+    font-weight: 100;
+list-style-type:none;
+}
+.right-padding li,
+.left-padding li {
+    font-size: 25px;
+    color: #333;
+    font-weight: 900;
+    font-family: "Gotham book", Arial, serif;
+    line-height: 25px;
+}
+.roses-sections-centering {
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%;
+}
+@media (max-device-width: 1280px) {
+    .left-padding, .right-padding {
+        font-size: 20px;
+    }
+    .right-padding li, .left-padding li {
+        font-size: 20px;
+    }
+    .roses-sections-centering {
+        top: 57%;
+    }
+}
+@media (max-device-width: 1024px) {
+    .roses-sections-centering {
+        top: 59%;
+    }
+}
+@media (max-device-width: 768px) {
+    .roses-sections-centering {
+        top: 60%;
+    }
+}
+@media (max-width: 750px) {
+    .roses-sections, .roses {
+        display: none;
+    }
+.prime_html_roses .carousel .carousel_navigation_list li:last-child{
+        display: none;
+
+    }
+    .prime_html_roses .carousel .carousel_navigation_list {
+        margin: 10px auto;
+        height: 23px;
+        width: 100vw;
+        text-align: center;
+display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .gotham-li {
+        font-weight: 900;
+        font-family: "Gotham book", Arial, serif;
+        font-size: 15px;
+    }
+    .left-padding, .right-padding {
+    padding: 0;
+    font-size: 30px;
+    margin: -40px 0 5px;
+}
+.absolue-rose-benefits-image {
+height:445px;
+}
+.carousel_navigation_list_item {
+    text-indent: -9999px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 20px;
+    margin-right: 10px;
+    height: 20px;
+}
+.carousel_navigation_list_item.selected {
+background-color:#000;
+}
+    .prime_html_roses .carousel {
+        display: inline;
+    }
+   .prime_html_roses .carousel .jcarousel-prev {
+        top: 45%;
+        height: 50px;
+        left: 0;
+    }
+   .prime_html_roses .carousel .jcarousel-next {
+        right: 0;
+        height: 50px;
+    top: 45%;
+    }
+    .prime_html_roses .carousel .jcarousel-clip ul .contentcarousel_list_item {
+        text-align: center;
+        width: 100vw;
+    }
+    .count {
+        font-size: 35px;
+    }
+    .count:after {
+        content: "";
+        display: block;
+        width: 40vw;
+        height: 1px;
+        background: #E5E5E5;
+        left: 2px;
+        padding: 0;
+        transform: translateY(-26px);
+    }
+    .count:before {
+        content: "";
+        display: block;
+        width: 40vw;
+        height: 1px;
+        background: #E5E5E5;
+        padding: 0 0;
+        transform: translate(60vw,25px);
+    }
+}
+</style>
+<div class="prime_html_roses">
+<div class="roses-sections">
+<div class='level-1'>
+    <div class="subsection-1">
+        <span class="left-padding"> 01</span></br>
+        <h3 class="left-padding roses-header">CYNORHODON</h3>
+        <ul class="roses-list left-padding">
+            <li>• Anti-aging</li>
+        <ul>
+    </div>
+    <div class="subsection-2">
+        <span class="right-padding">02</span></br>
+        <h3 class="right-padding roses-header">ROSA CENTIFOLIA</h3>
+        <ul class="roses-list right-padding">
+            <li>• Soothing effect</li>
+        <ul>
+    </div>
+</div>
+<div class='level-2'>
+    <div class="subsection-3">
+        <span class="left-padding">03</span></br>
+        <h3 class="left-padding roses-header">ROSA DAMASCENA</h3>
+        <ul class="roses-list left-padding ">
+            <li>• Anti-oxidant</li>
+            <li>• Anti-inflammatory</li>
+        <ul>
+    </div>
+    <div class="subsection-4">
+        <span class="right-padding">04</span></br>
+        <h3 class="right-padding roses-header">ROSA GALLICA</h3>
+        <ul class="roses-list right-padding">
+            <li>• Anti-oxidant</li>
+            <li>• Anti-aging </li>
+        <ul>
+    </div>
+</div>
+</div>
+<div class="align-center">
+$renderContentImage(RichPDP/roses.jpg,500|1074|1074|, video cover, hide-for-small-only,,,RichPDP/roses.jpg,RichPDP/roses.jpg)$
+</div>
+<div class="carousel horizontal_carousel"
+               data-pagination-enabled="true"
+                data-pagination-event="click"
+                data-controls-enabled="true"
+                data-show-pagination-content="true"
+                data-recalculate-height="false"
+                data-is-scroll-back-to-first-enabled="false"
+                data-slide-width-sample=".carousel_slide_width_sample"
+            >
+    <div class="jcarousel-clip">
+        <ul>
+            <li class="contentcarousel_list_item">
+$renderContentImage(RichPDP/cynorhodon-mobile.jpg,420|1074|1074|, video cover, absolue-rose-benefits-image,,,RichPDP/cynorhodon-mobile.jpg,RichPDP/cynorhodon-mobile.jpg)$
+                <span class="left-padding count"> 01</span></br>
+                <h3 class="left-padding roses-header">CYNORHODON</h3>
+                <span class="gotham-li">Anti-aging</span>
+            </li>
+            <li class="contentcarousel_list_item">
+$renderContentImage(RichPDP/rosa-centifolia-mobile.jpg,420|1074|1074|, video cover, absolue-rose-benefits-image,,,RichPDP/rosa-centifolia-mobile.jpg,RichPDP/rosa-centifolia-mobile.jpg)$
+                    <span class="right-padding count">02</span></br>
+                    <h3 class="right-padding roses-header">ROSA CENTIFOLIA</h3>
+                    <span class="gotham-li">Soothing effect</span>
+            </li>
+            <li class="contentcarousel_list_item">
+$renderContentImage(RichPDP/rosa-damascena-mobile.jpg,420|1074|1074|, video cover, absolue-rose-benefits-image,,,RichPDP/rosa-damascena-mobile.jpg,RichPDP/rosa-damascena-mobile.jpg)$
+                <span class="left-padding count">03</span></br>
+                <h3 class="left-padding roses-header">ROSA DAMASCENA</h3>
+                <span class="gotham-li">Anti-oxidant</span></br>
+                <span class="gotham-li">Anti-inflammatory</span>
+            </li>
+            <li class="contentcarousel_list_item">
+$renderContentImage(RichPDP/rosa-gallica-mobile.jpg,420|1074|1074|, video cover, absolue-rose-benefits-image,,,RichPDP/rosa-gallica-mobile.jpg,RichPDP/rosa-gallica-mobile.jpg)$
+                <span class="right-padding count">04</span></br>
+                <h3 class="right-padding roses-header">ROSA GALLICA</h3>
+                <span class="gotham-li">Anti-oxidant</span></br>
+                <span class="gotham-li">Anti-aging </span>
+            </li>
+<li class="contentcarousel_list_item"></li>
+        </ul>
+    </div>
+<ul class="carousel_navigation_list"></ul>
+</div>
+</div>

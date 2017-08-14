@@ -1,0 +1,72 @@
+<style>
+.prime_video .video_box {
+    overflow: hidden;
+    padding-bottom: 56.7%;
+}
+
+#cushion-video {
+   padding: 25px;
+}
+
+.row_section.constrained .prime_module_title {
+    margin: 50px 0 30px;
+}
+
+.row_section.constrained .prime_module_title h2 {
+border: none;
+}
+
+.row_section.constrained .prime_module_title h2 span {
+background: none;
+}
+
+
+.row_section.constrained .prime_module_title h2 span:before,
+.row_section.constrained .prime_module_title h2 span:after {
+   content: '';
+   display: block;
+   border-top: 4px solid #000;
+   width: 250px;
+   position: absolute;
+top: 13px;
+}
+
+.row_section.constrained .prime_module_title h2 span:before {
+   right: 100%;
+}
+
+.row_section.constrained .prime_module_title h2 span:after {
+   left: 100%;
+}
+
+@media (max-width:978px) {
+.row_section.constrained .prime_module_title {
+    margin: 22px 0;
+}
+
+.prime_module.three_quarter_section {
+    float: none;
+}
+
+.prime_module.one_quarter_section {
+    float: none;
+    margin: auto;
+}
+
+.contentcarousel_list {
+   width: 100%;
+}
+
+.contentcarousel_list li {
+   display: inline-block;
+}
+
+@media (max-width:640px) {
+   .row_section.constrained .prime_module_title {
+    margin: 22px 0 0;
+}
+}
+</style>
+
+<img  $responsiveSrc(landing-page/cushion/cushion-video.jpg,780|780|780|600)$ alt="Cover Image" />
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KMzhr2hjDD8" frameborder="0" wmode="Opaque" allowfullscreen></iframe>

@@ -1,0 +1,251 @@
+<link rel="stylesheet" type="text/css" href="/maisonquiz/style.css?$staticlink$"></link>
+<script type="text/javascript" src="/maisonquiz/js/libs/modernizr.js?$staticlink$"></script>
+
+<div id="container" class="container">
+        <div class="find-your-perfect-fragrance step-1">
+            
+            <h4>Choose your grand cru</h4>
+
+            <div class="baseline">
+                <div class="baseline-1">Find your perfect blend</div>
+                <div class="baseline-2">Discover your perfect blend</div>
+            </div>
+
+            <div class="questions">
+                <div class="questions-container">
+
+                    <div class="question question-1">
+                        <div class="question-header">
+                            <div class="question-title">Terroir</div>
+                            <div class="question-question">Your grand cru <br>comes from ...</div>
+                        </div>
+                        <div class="question-answers a-2 qcm ">
+                            <div class="question-answer">
+                                <input type="radio" name="question1" id="question10" value="0"> 
+                                <label for="question10">Flower Fields</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="radio" name="question1" id="question11" value="1"> 
+                                <label for="question11">Deep Woods</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    
+                    <div class="question question-2">
+                        <div class="question-header">
+                            <div class="question-title">Character</div>
+                            <div class="question-question">You like <br>your Grand Cru ...</div>
+                        </div>
+    
+                        <div class="question-answers a-3 scale ">
+                            <span class='scale-min'>contrasted</span>
+                            <div class="question-answer">
+                                <input type="radio" name="question2" id="question20" value="0"> 
+                                <label for="question20"></label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="radio" name="question2" id="question21" value="1"> 
+                                <label for="question21"></label>
+                            </div>
+        
+                            <div class="question-answer">
+                                <input type="radio" name="question2" id="question22" value="2"> 
+                                <label for="question22"></label>
+                            </div>
+        
+                            <span class='scale-max'>balanced</span>
+                        </div>
+                    </div>
+    
+                    <div class="question question-3">
+                        <div class="question-header">
+                            <div class="question-title">Aromas</div>
+                            <div class="question-question">The bouquet of your grand cru is ...</div>
+                        </div>
+    
+                        <div class="question-answers a-9 qcm ">
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question30" value="0"> 
+                                <label for="question30">Aromatic</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question31" value="1"> 
+                                <label for="question31">Bold</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question32" value="2"> 
+                                <label for="question32">Luminous</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question33" value="3"> 
+                                <label for="question33">Smoky</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question34" value="4"> 
+                                <label for="question34">Gourmand</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question35" value="5"> 
+                                <label for="question35">Spicy</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question36" value="6"> 
+                                <label for="question36">Honey-flavoured</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question37" value="7"> 
+                                <label for="question37">Vanilla-flavoured</label>
+                            </div>
+    
+                            <div class="question-answer">
+                                <input type="checkbox" name="question3[]" id="question38" value="8"> 
+                                <label for="question38">Praline-flavoured</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="question final">
+                        Discover your perfect blend<br>
+                        <button>See my result</button>
+                    </div>
+                </div>
+            </div> <!-- end .questions -->
+                
+            <div class="fleche left"></div>
+            <div class="fleche right"></div>
+
+            <div class="crus" id="crus">
+                <div class="crus-container">
+                    <div class="cru cru-0">
+                        <div class="etiquette">grand cru </div>
+
+                        <div class="cru-content">
+                            <div class="image" 
+                                style="background: url(/maisonquiz/images/jasmin/fixe.png?$staticlink$) no-repeat;" 
+                                data-sprite="/maisonquiz/images/jasmin/sprite.jpg?$staticlink$">
+                                <div class="sequence" ></div>
+                            </div>
+
+                            <div class="description">
+                                <b>jasmins marzipane</b>
+                                <p>Assemblage of two natural Jasmines, hand-picked flower by flower, wrapped in an Almondy Woods signature.</p>
+                                <a class="button" href="$url('Product-Show', 'pid', 'A00122-LAC')$">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cru cru-1">
+                        <div class="etiquette">grand cru </div>
+
+                        <div class="cru-content">
+                            <div class="image" 
+                                style="background: url(/maisonquiz/images/oudambroisie/fixe.png?$staticlink$) no-repeat;" 
+                                data-sprite="/maisonquiz/images/oudambroisie/sprite.jpg?$staticlink$">
+                                <div class="sequence" ></div>
+                            </div>
+
+                            <div class="description">
+                                <b>ÔUD ambroisie</b>
+                                <p>Assemblage of a triptych of delicious Woods with a Honey Rose signature.</p>
+                                <a class="button" href="$url('Product-Show', 'pid', 'A00125-LAC')$">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cru cru-2">
+                        <div class="etiquette">grand cru</div>
+
+                        <div class="cru-content">
+                            <div class="image" 
+                                style="background: url(/maisonquiz/images/lavande/fixe.png?$staticlink$) no-repeat;" 
+                                data-sprite="/maisonquiz/images/lavande/sprite.jpg?$staticlink$">
+                                <div class="sequence" ></div>
+                            </div>
+
+                            <div class="description">
+                                <b>LAVANDES TRIANON</b>
+                                <p>Assemblage of two French Lavender flowers from Drôme Provençale, softened by a Crystallized Vanilla signature.</p>
+                                <a class="button" href="$url('Product-Show', 'pid', 'A00124-LAC')$">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cru cru-3">
+                        <div class="etiquette">grand cru</div>
+
+                        <div class="cru-content">
+                            <div class="image" 
+                                style="background: url(/maisonquiz/images/oudbouquet/fixe.png?$staticlink$) no-repeat;" 
+                                data-sprite="/maisonquiz/images/oudbouquet/sprite.jpg?$staticlink$">
+                                <div class="sequence" ></div>
+                            </div>
+
+                            <div class="description">
+                                <b>ÔUD bouquet</b>
+                                <p>Assemblage of a trio of bold Wood Essences chiseled by a Praline Rose signature.</p>
+                                <a class="button" href="$url('Product-Show', 'pid', 'A00126-LAC')$">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cru cru-4">
+                        <div class="etiquette">grand cru</div>
+
+                        <div class="cru-content">
+                            <div class="image" 
+                                style="background: url(/maisonquiz/images/tubereuse/fixe.png?$staticlink$) no-repeat;" 
+                                data-sprite="/maisonquiz/images/tubereuse/sprite.jpg?$staticlink$">
+                                <div class="sequence" ></div>
+                            </div>
+
+                            <div class="description">
+                                <b>tubéreuses castane</b>
+                                <p>Assemblage of Tuberose flowers created through two complementary extractions, wrapped in the heat of a Roasted Chestnut signature</p>
+                                <a class="button" href="$url('Product-Show', 'pid', 'A00123-LAC')$">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cru cru-5">
+                        <div class="etiquette">grand cru</div>
+
+                        <div class="cru-content">
+                            <div class="image" 
+                                style="background: url(/maisonquiz/images/lautreoud/fixe.png?$staticlink$) no-repeat;" 
+                                data-sprite="/maisonquiz/images/lautreoud/sprite.jpg?$staticlink$">
+                                <div class="sequence" ></div>
+                            </div>
+
+                            <div class="description">
+                                <b>l’autre ÔUD</b>
+                                <p>Assemblage of 17 raw materials to recompose a deep Oud Wood enchanted by an Incense Rose signature.</p>
+                                <a class="button" href="$url('Product-Show', 'pid', 'A00127-LAC')$">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end .crus -->
+
+            <button class="restart" > > Restart the experience</button>
+<div id="range-section"></div>
+        </div> <!-- end .find-your-perfect-fragrance -->
+    </div> <!-- end container -->
+    
+
+    
+    <script>
+        points = {"question1":[[0,2,4],[5,3,1]],"question2":[[4,2],[1,5],[0,3]],"question3":[[2],[5,3,1],[0],[4],[3,1,4],[5],[1],[2],[3]]};
+        crus = [{"title":"jasmins marzipane","text":"Assemblage of two natural Jasmines, hand-picked flower by flower, wrapped in an Almondy Woods signature.","image":".\/images\/jasmin\/fixe.png","sequence":".\/images\/jasmin\/sprite.jpg"},{"title":"\u00d4UD ambroisie","text":"Assemblage of a triptych of delicious Woods with a Honey Rose signature.","image":".\/images\/oudambroisie\/fixe.png","sequence":".\/images\/oudambroisie\/sprite.jpg"},{"title":"LAVANDES TRIANON","text":"Assemblage of two French Lavender flowers from Dr\u00f4me Proven\u00e7ale, softened by a Crystallized Vanilla signature.","image":".\/images\/lavande\/fixe.png","sequence":".\/images\/lavande\/sprite.jpg"},{"title":"\u00d4UD bouquet","text":"Assemblage of a trio of bold Wood Essences chiseled by a Praline Rose signature.","image":".\/images\/oudbouquet\/fixe.png","sequence":".\/images\/oudbouquet\/sprite.jpg"},{"title":"tub\u00e9reuses castane","text":"Assemblage of Tuberose flowers created through two complementary extractions, wrapped in the heat of a Roasted Chestnut signature","image":".\/images\/tubereuse\/fixe.png","sequence":".\/images\/tubereuse\/sprite.jpg"},{"title":"l\u2019autre \u00d4UD","text":"Assemblage of 17 raw materials to recompose a deep Oud Wood enchanted by an Incense Rose signature.","image":".\/images\/lautreoud\/fixe.png","sequence":".\/images\/lautreoud\/sprite.jpg"}];
+    </script>
+
+<script type="text/javascript" src="/maisonquiz/js/script-ck.js?$staticlink$"></script>

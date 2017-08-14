@@ -1,0 +1,304 @@
+<script type="text/javascript" src="js/jquery.sticky.js?$staticlink$"></script>
+<style>
+#stickynav {background-image:url('images/landing/perversion/upperbanner.png?$staticlink$');width:1000px;height:130px;z-index:100000;}
+#stickynav .title {text-align:center;padding-top:17px;}
+
+#navlist{position:relative;margin:10px 0 0 138px;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#navlist li, #navlist a{height:31px;display:block;}
+
+#seevideo{left:0px; width:141px;}
+#seevideo{background:url('images/landing/perversion/uppernav_perversion.jpg?$staticlink$') 0 0;}
+#seevideo a:hover{background:url('images/landing/perversion/uppernav_perversion.jpg?$staticlink$') 0px -31px;}
+
+#choose{left:141px; width:210px;}
+#choose{background:url('images/landing/perversion/uppernav_perversion.jpg?$staticlink$') -141px 0;}
+#choose a:hover{background:url('images/landing/perversion/uppernav_perversion.jpg?$staticlink$') -141px -31px;}
+
+#pick{left:351px; width:216px;}
+#pick{background:url('images/landing/perversion/uppernav_perversion.jpg?$staticlink$') -351px 0;}
+#pick a:hover{background:url('images/landing/perversion/uppernav_perversion.jpg?$staticlink$') -351px -31px;}
+
+#shopnow{left:562px; width:134px;}
+#shopnow{background:url('images/landing/perversion/uppernav_perversion.jpg?$staticlink$') -562px 0;}
+
+#perversion_container{margin:0 auto;padding:0 30px;margin-top:-12px;}
+a.perversion_billboard{background-image:url('images/landing/perversion/perversion_billboard.jpg?$staticlink$');display:block;width:940px;height:460px;position:relative;}
+
+#perversion_samples {background-image:url('images/landing/perversion/perversion_samples_billboard.jpg?$staticlink$');display:block;width:940px;height:319px;}
+#perversion_samples .copy {float:right;width:240px;padding:85px 37px 0 0;font-family:arial;font-size:14px;color:#fff;}
+
+#chooseyourweapon {clear:both;width:940px;height:375px;}
+#chooseyourweapon .title {text-align:center;padding:45px 0 20px;}
+#chooseyourweapon .copy {text-align:center;font-family:arial;font-size:14px;color:#000;padding-bottom:20px;}
+
+#brushes{position:relative;margin:0;width:940px;}
+#brushes li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#brushes li, #brushes a{height:213px;display:block;}
+
+#cream{left:0px; width:185px;}
+#cream{background:url('images/landing/perversion/brushes.jpg?$staticlink$') 0 0;}
+#cream a:hover{background:url('images/landing/perversion/brushes.jpg?$staticlink$') 0px -213px;}
+
+#ink{left:185px; width:135px;}
+#ink{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -185px 0;}
+#ink a:hover{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -185px -213px;}
+
+#all_nighter{left:320px; width:150px;}
+#all_nighter{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -320px 0;}
+#all_nighter a:hover{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -320px -213px;}
+
+#liquid{left:470px; width:155px;}
+#liquid{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -470px 0;}
+#liquid a:hover{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -470px -213px;}
+
+#pencil{left:625px; width:145px;}
+#pencil{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -625px 0;}
+#pencil a:hover{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -625px -213px;}
+
+#velvet{left:770px; width:170px;}
+#velvet{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -770px 0;}
+#velvet a:hover{background:url('images/landing/perversion/brushes.jpg?$staticlink$') -770px -213px;}
+
+a.showSingle {display:block;cursor:pointer;}
+#displaybrushes {width:940px;height:500px;}
+.targetDiv {display:none;}
+.product {float:left;width:280px;padding-right:10px;text-align:right;}
+.brushcopy {float:left;width:600px;}
+.brushcopy .title {text-align:center;padding:15px 0 5px;}
+.brushcopy .looks .leftshift {padding-left:5px;}
+.brushcopy .product_title {padding:18px 0;}
+.brushcopy .copy {font-family:Arial;font-size:14px;}
+.brushcopy .copy .spacer {padding-top:30px;}
+.getitnow {padding-top:10px;}
+
+#pickyourperversion {clear:both;float:left;width:940px;height:auto;padding-bottom:20px;}
+#pickyourperversion .title {text-align:center;padding:45px 0 20px;}
+#pickyourperversion .copy {text-align:center;font-family:arial;font-size:14px;color:#000;padding-bottom:20px;}
+a.shift_anchor {clear:both;float:left;position:relative;top:-125px;margin:0;padding:0;}
+</style>
+
+<a id="top"></a>
+<div id="stickynav">
+	<div class="title">
+		<a href="#top"><img src="images/landing/perversion/perversion_black_liner_arsenal.gif?$staticlink$" width="919" height="37" alt="Perversion Black Liner Arsenal" title="Perversion Black Liner Arsenal"></a>
+	</div>
+	<ul id="navlist">
+		<li id="seevideo">
+			<a href="#top" title="See The Video"></a>
+		</li>
+	  <li id="choose">
+			<a href="#choose_top" title="Choose Your Weapon"></a>
+		<li id="pick">
+			<a href="#pick_top" title="#PickYourPerversion"></a>
+		</li>
+		<li id="shopnow">
+			<a href="$url('Search-Show','cgid','perversion')$" title="Shop Now"></a>
+		</li>
+	</ul>
+</div>
+<div id="perversion_container">
+	<a class="perversion_billboard cursor"></a>
+	<div class="perversion_billboard" id="youtube-video" style="display:none;overflow:auto;">
+		$include('Page-Include', 'cid', 'video-perversion-eyeliners')$
+	</div>
+    <div id="perversion_samples">
+    	<div class="copy">
+        	Like most women, we have a <br />perverse addiction to black eyeliner. <br />Case in point: we've added four new formulas to our arsenal&mdash;a velvety <br />pencil, a felt-tip pen, a twist-up pencil <br />and a poured cream liner. Whether <br />you prefer a particular format or you <br />have a specific look in mind, we've <br />got the black liner you crave.
+        </div>
+    </div>
+    <a id="choose_top" class="shift_anchor"></a>
+    <div id="chooseyourweapon">
+    	<div class="title">
+        	<img src="images/landing/perversion/choose_your_weapon_title.gif?$staticlink$" width="624" height="36" alt="Choose Your Weapon" title="Choose Your Weapon" />
+		</div>
+        <div class="copy">
+        	Expand your eye arsenal with our blacker-than-black liners.
+		</div>
+        <ul id="brushes">
+			<li id="cream">
+				<a class="showSingle" target="1"></a>
+			</li>
+	  		<li id="ink">
+				<a class="showSingle" target="2"></a>
+			<li id="all_nighter">
+				<a class="showSingle" target="3"></a>
+			</li>
+            <li id="liquid">
+				<a class="showSingle" target="4"></a>
+			</li>
+            <li id="pencil">
+				<a class="showSingle" target="5"></a>
+			</li>
+            <li id="velvet">
+				<a class="showSingle" target="6"></a>
+			</li>
+		</ul>
+    </div>
+	<div id="displaybrushes">
+		<div id="div1" class="targetDiv">
+        	<div class="product"> <a href="$url('Product-Show','pid','422')$"><img src="images/landing/perversion/cream_eyeliner.jpg?$staticlink$" width="165" height="475" alt="Super-Saturated Ultra Intense Waterproof Cream Eyeliner (with Perversion Angled Brush)" title="Super-Saturated Ultra Intense Waterproof Cream Eyeliner (with Perversion Angled Brush)" /></a> 
+            </div>
+       	  <div class="brushcopy">
+			<div class="title"><img src="images/landing/perversion/perfect.gif?$staticlink$" width="264" height="20" alt="Perfect For Creating These Looks" title="Perfect For Creating These Looks" /></div>
+			<div class="looks">
+				<img src="images/landing/perversion/cat_eye.jpg?$staticlink$" width="175" height="125" alt="Cat Eye" title="Cat Eye" />
+				<span class="leftshift"><img src="images/landing/perversion/double_flick.jpg?$staticlink$" width="175" height="125" alt="Double-Flick" title="Double-Flick" />	</span>				
+				<img src="images/landing/perversion/tightly_lined.jpg?$staticlink$" width="175" height="125" alt="Tightly Lined" title="Tightly Lined" /> 
+            </div>
+            <div class="product_title"><img src="images/landing/perversion/cream_title.jpg?$staticlink$" width="500" height="54" alt="Super-Saturated Ultra Intense Waterproof Cream Eyeliner"  title="Super-Saturated Ultra Intense Waterproof Cream Eyeliner" /></div>
+            <div class="copy">
+            	MASTER ANY LOOK<br />
+				An all-in-one weapon for super-precise lines or smudged, smoky lines, our long-lasting, waterproof cream liner features triple-black pigments—for the purest, deepest, most intense black color imaginable.<br /><br /> 
+				The shade: Perversion (rich black)
+              	<div class="getitnow"><a href="$url('Product-Show','pid','422')$"><img src="images/landing/perversion/getitnow_btn.gif?$staticlink$" width="126" height="24" alt="Get it Now &gt;" title="Get it Now &gt;" /></a></div>
+            	<div class="spacer">For the perfect application, try our new <strong>Perversion Angled Brush.</strong></div>
+            	<div class="getitnow"><a href="$url('Product-Show','pid','429')$"><img src="images/landing/perversion/getitnow_btn.gif?$staticlink$" width="126" height="24" alt="Get it Now &gt;" title="Get it Now &gt;" /></a></div>  
+            	</div>
+		 	</div>
+      	</div>
+    	<div id="div2" class="targetDiv">
+        	<div class="product"> <a href="$url('Product-Show','pid','424')$"><img src="images/landing/perversion/ink_for_eyes.jpg?$staticlink$" width="165" height="475" alt="Ink For Eyes Waterproof Precision Eye Pen" title="Ink For Eyes Waterproof Precision Eye Pen" /></a> 
+            </div>
+       	  <div class="brushcopy">
+			<div class="title"><img src="images/landing/perversion/perfect.gif?$staticlink$" width="264" height="20" alt="Perfect For Creating These Looks" title="Perfect For Creating These Looks" /></div>
+			<div class="looks">
+				<img src="images/landing/perversion/cat_eye.jpg?$staticlink$" width="175" height="125" alt="Cat Eye" title="Cat Eye" />
+				<span class="leftshift"><img src="images/landing/perversion/extreme_cat_eye.jpg?$staticlink$" width="175" height="125" alt="Extreme Cat Eye" title="Extreme Cat Eye" />	</span>				
+				<img src="images/landing/perversion/double_flick.jpg?$staticlink$" width="175" height="125" alt="Double-Flick" title="Double-Flick" />	 
+            </div>
+            <div class="product_title"><img src="images/landing/perversion/ink_for_eyes_title.jpg?$staticlink$" width="359" height="54" alt="Ink For Eyes Waterproof Precision Eye Pen" title="Ink For Eyes Waterproof Precision Eye Pen" /></div>
+            <div class="copy">
+            	LAY DOWN ARTISTIC, EXTREMELY PRECISE LINES<br />
+				Create envy-inducing, artistic lines with ease. Ultra-waterproof and crazy-precise, our fine-tipped pen draws glossy, sharply defined lines that last all day.<br /><br />
+				The shade: Perversion (rich, shiny black)
+              	<div class="getitnow"><a href="$url('Product-Show','pid','424')$"><img src="images/landing/perversion/getitnow_btn.gif?$staticlink$" width="126" height="24" alt="Get it Now &gt;" title="Get it Now &gt;" /></a></div> 
+           	</div>
+	 	  </div>
+      </div>
+		<div id="div3" class="targetDiv">
+        	<div class="product"> <a href="$url('Product-Show','pid','425')$"><img src="images/landing/perversion/all_nighter_eyeliner.jpg?$staticlink$" width="165" height="475" alt="All Nighter Eyeliner" title="All Nighter Eyeliner" /></a> 
+            </div>
+       	  <div class="brushcopy">
+			<div class="title"><img src="images/landing/perversion/perfect.gif?$staticlink$" width="264" height="20" alt="Perfect For Creating These Looks" title="Perfect For Creating These Looks" /></div>
+			<div class="looks">
+				<img src="images/landing/perversion/classic_bar.jpg?$staticlink$" width="175" height="125" alt="Classic Bar" title="Classic Bar" />
+				<span class="leftshift"><img src="images/landing/perversion/tightly_lined.jpg?$staticlink$" width="175" height="125" alt="Tightly Lined" title="Tightly Lined" />	</span>				
+				<img src="images/landing/perversion/panda_smudge.jpg?$staticlink$" width="175" height="125" alt="Panda Smudge" title="Panda Smudge" />	 
+            </div>
+            <div class="product_title"><img src="images/landing/perversion/all_nighter_eyeliner_title.jpg?$staticlink$" width="352" height="36" alt="All Nighter Eyeliner" title="All Nighter Eyeliner" /></div>
+            <div class="copy">
+            	CREATE LONG-LASTING LINES ON THE RUN<br />
+				Draw ultra-shiny, intense lines with ease. (No sharpener required!) Our creamy formula twists up, glides on and flashes down to a long-lasting waterproof finish that won’t budge.<br /><br />
+				The shade: Perversion (shiny black)
+              	<div class="getitnow"><a href="$url('Product-Show','pid','425')$"><img src="images/landing/perversion/getitnow_btn.gif?$staticlink$" width="126" height="24" alt="Get it Now &gt;" title="Get it Now &gt;" /></a></div> 
+           	</div>
+	 	  </div>
+        </div>
+		<div id="div4" class="targetDiv">
+        	<div class="product"> <a href="$url('Product-Show','pid','604214618206')$"><img src="images/landing/perversion/liquid.jpg?$staticlink$" width="165" height="475" alt="24/7 Waterproof Liquid Eyeliner" title="24/7 Waterproof Liquid Eyeliner" /></a> 
+            </div>
+       	  <div class="brushcopy">
+			<div class="title"><img src="images/landing/perversion/perfect.gif?$staticlink$" width="264" height="20" alt="Perfect For Creating These Looks" title="Perfect For Creating These Looks" /></div>
+			<div class="looks">
+				<img src="images/landing/perversion/extreme_cat_eye.jpg?$staticlink$" width="175" height="125" alt="Extreme Cat Eye" title="Extreme Cat Eye" />
+				<span class="leftshift"><img src="images/landing/perversion/classic_bar.jpg?$staticlink$" width="175" height="125" alt="Classic Bar" title="Classic Bar" />	</span>				
+				<img src="images/landing/perversion/double_flick.jpg?$staticlink$" width="175" height="125" alt="Double-Flick" title="Double-Flick" />	 
+            </div>
+            <div class="product_title"><img src="images/landing/perversion/liquid_title.jpg?$staticlink$" width="552" height="33" alt="24/7 Waterproof Liquid Eyeliner" title="24/7 Waterproof Liquid Eyeliner" /></div>
+            <div class="copy">
+            	CREATE CLEAN, SHARP LINES WITH EASE<br />
+				Draw liquid lines so sharp they could cut glass. Our slender brush creates lines that are razor-thin or thick, even and bold.<br /><br />
+				The shade: Perversion (carbon black)
+              	<div class="getitnow"><a href="$url('Product-Show','pid','604214618206')$"><img src="images/landing/perversion/getitnow_btn.gif?$staticlink$" width="126" height="24" alt="Get it Now &gt;" title="Get it Now &gt;" /></a></div> 
+           	</div>
+	 	  </div>
+        </div>
+		<div id="div5" class="targetDiv">
+        	<div class="product"> <a href="$url('Product-Show','pid','604214450608')$"><img src="images/landing/perversion/pencil.jpg?$staticlink$" width="165" height="475" alt="24/7 Glide-On Eye Pencil" title="24/7 Glide-On Eye Pencil" /></a> 
+            </div>
+       	  <div class="brushcopy">
+			<div class="title"><img src="images/landing/perversion/perfect.gif?$staticlink$" width="264" height="20" alt="Perfect For Creating These Looks" title="Perfect For Creating These Looks" /></div>
+			<div class="looks">
+				<img src="images/landing/perversion/classic_bar.jpg?$staticlink$" width="175" height="125" alt="Classic Bar" title="Classic Bar" />
+				<span class="leftshift"><img src="images/landing/perversion/tightly_lined.jpg?$staticlink$" width="175" height="125" alt="Tightly Lined" title="Tightly Lined" />	</span>			
+				<img src="images/landing/perversion/panda_smudge.jpg?$staticlink$" width="175" height="125" alt="Panda Smudge" title="Panda Smudge" />	 
+            </div>
+            <div class="product_title"><img src="images/landing/perversion/pencil_title.jpg?$staticlink$" width="406" height="35" alt="24/7 Glide-On Eye Pencil" title="24/7 Glide-On Eye Pencil" /></div>
+            <div class="copy">
+            	DRAW CREAMY, LONG-LASTING, WATERPROOF LINES<br />
+				This cushiony, creamy, award-winning pencil glides on soft, yet delivers extra-long, waterproof wear.<br /><br /> 
+				The shade: Perversion (blackest black matte)
+              	<div class="getitnow"><a href="$url('Product-Show','pid','604214450608')$"><img src="images/landing/perversion/getitnow_btn.gif?$staticlink$" width="126" height="24" alt="Get it Now &gt;" title="Get it Now &gt;" /></a></div> 
+           	</div>
+	 	  </div>
+        </div>
+		<div id="div6" class="targetDiv">
+        	<div class="product"> <a href="$url('Product-Show','pid','423')$"><img src="images/landing/perversion/velvet.jpg?$staticlink$" width="165" height="475" alt="24/7 Velvet Glide-On Eye Pencil" title="24/7 Velvet Glide-On Eye Pencil" /></a> 
+            </div>
+       	  <div class="brushcopy">
+			<div class="title"><img src="images/landing/perversion/perfect.gif?$staticlink$" width="264" height="20" alt="Perfect For Creating These Looks" title="Perfect For Creating These Looks" /></div>
+			<div class="looks">
+				<img src="images/landing/perversion/panda_smudge.jpg?$staticlink$" width="175" height="125" alt="Panda Smudge" title="Panda Smudge" />			
+				<span class="leftshift"><img src="images/landing/perversion/tightly_lined.jpg?$staticlink$" width="175" height="125" alt="Tightly Lined" title="Tightly Lined" /></span>	
+                <img src="images/landing/perversion/cat_eye.jpg?$staticlink$" width="175" height="125" alt="Cat Eye" title="Cat Eye" /> 
+            </div>
+            <div class="product_title"><img src="images/landing/perversion/velvet_title.jpg?$staticlink$" width="523" height="33" alt="24/7 Velvet Glide-On Eye Pencil" title="24/7 Velvet Glide-On Eye Pencil" /></div>
+            <div class="copy">
+            	GET SMOKED OUT<br />
+				A must for smoky-eye fanatics: an ultra velvety, plush version of our creamy, waterproof 24/7 formula. Create perfectly blended-out or rich, defined lines.<br /><br />
+				Technically, the shade is Black Velvet, not Perversion. (But once you try it, you’ll see that it’s just as addictive.)<br /><br />
+				The shade: Black Velvet (rich, smoky black matte)
+              	<div class="getitnow"><a href="$url('Product-Show','pid','423')$"><img src="images/landing/perversion/getitnow_btn.gif?$staticlink$" width="126" height="24" alt="Get it Now &gt;" title="Get it Now &gt;" /></a></div> 
+           	</div>
+	 	  </div>
+        </div>
+  </div>
+	<a id="pick_top" class="shift_anchor"></a>
+    <div id="pickyourperversion">
+		<div class="title">
+        	<img src="images/landing/perversion/pickyourperversion_title.gif?$staticlink$" width="617" height="36" alt="#PickYourPerversion" title="#PickYourPerversion" />
+		</div>
+    	<div class="copy">
+        	Post your best UD liner looks to Instagram and tag them with #PickYourPerversion.
+		</div> 
+    	<a href="http://instagram.com/urbandecaycosmetics/" target="_blank"><img src="images/landing/perversion/pickyourperversion_billboard.jpg?$staticlink$" width="940" height="374" alt="#PickYourPerversion" title="#PickYourPerversion" /></a> 
+    </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {	
+
+		$(window).load(function(){
+			$("#stickynav").sticky({ topSpacing: 0 });
+			$('#div1').show();
+         });
+		 	
+		 $('#youtube-video').dialog({
+	 			position: ['middle','middle'],
+				bgiframe: true,
+				autoOpen: false,
+				modal: true,
+		    	height: 600,
+				width: 800,
+				title: 'Pick Your Perversion',
+				resizable: false 
+		});
+		
+		$('.perversion_billboard').click( function() {
+			jQuery('#youtube-video').show();
+			jQuery('#youtube-video').dialog('open');
+		});
+		
+		jQuery(function () {
+    		jQuery('.showSingle').click(function () {
+        	var index = $(this).parent().index(),
+            	newTarget = jQuery('.targetDiv').eq(index);
+        jQuery('.targetDiv').not(newTarget).slideUp('fast')
+        newTarget.delay('fast').slideToggle('fast')
+        return false;
+    })
+});
+
+});
+</script>

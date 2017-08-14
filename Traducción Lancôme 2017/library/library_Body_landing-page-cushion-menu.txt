@@ -1,0 +1,125 @@
+<style>
+.fixed-item + .wrapper .landing_menu {
+  position: fixed;
+  top: 68px;
+  z-index: 10;
+  margin: 0;
+  padding: 20px 0 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.landing_menu {
+  margin: 20px 0 0;
+    background: #fff;
+}
+
+.landing_menu ul {
+  margin: 0 0 20px;
+}
+
+#cushion_teint_ultra_section {
+    position: relative;
+    top: -250px;
+}
+
+#cushion_tips_section {
+    clear: both;
+    position: relative;
+    top: -100px;
+}
+
+@media (max-width: 1127px) {
+.fixed-item + .wrapper .landing_menu { 
+   padding: 10px 0 0;
+}
+   .landing_menu {
+  margin: 10px 0 0;
+}
+
+.landing_menu ul {
+  margin: 0 0 10px;
+}
+}
+
+@media (max-width: 979px) {
+.fixed-item + .wrapper .landing_menu {
+    top: 138px;
+}
+
+.landing_menu ul {
+   text-align: center;
+width: 100%;
+}
+.landing_menu ul li {
+    width: auto;
+    float: none;
+font-size: 13px;
+}
+
+.landing_menu ul li:after {
+    position: static;
+    margin: 0 10px;
+}
+
+.landing_menu ul li:nth-child(3n):after {
+    display: inline-block;
+}
+
+.landing_menu ul:after {
+content: '';
+clear: both;
+display: block;
+}
+}
+
+@media (max-width:640px) {
+.landing_menu ul li:nth-child(3n):after {
+    display: none;
+}
+
+.fixed-item + .wrapper .landing_menu {
+    padding: 0;
+    top: 59px;
+}
+
+.landing_menu ul,
+.landing_menu ul li,
+.landing_menu .menu_toggle_button {
+   margin: 0;
+}
+
+.landing_menu.opened .menu_toggle_button {
+    top: 25px;
+z-index: 5;
+}
+
+.landing_menu.opened ul {
+ padding: 65px 0 20px;
+}
+
+.landing_menu ul li {
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.landing_menu .menu_toggle_button {
+background: #fff;
+}
+
+}
+</style>
+
+<div class="landing_menu">
+        <div class="is_visible_mobile is_hidden_desktop menu_toggle_button">Menu</div>
+
+    <ul>
+        <li><a class="scroll_to_selected" href="#cushion_teint_ultra_section">THEY TRIED IT</a></li>
+        <li> <a class="scroll_to_selected" href="#cushion_new_section">TEINT IDOLE ULTRA CUSHION</a></li>
+        <li> <a class="scroll_to_selected" href="#cushion_high_coverage_section">TECHNOLOGY</a></li>
+        <li> <a class="scroll_to_selected" href="#cushion_tips_section">LISA ELDRIDGE</a></li>
+        <li> <a class="scroll_to_selected" href="#cushion_blush_subtil_section">CUSHION BLUSH SUBTIL</a></li>
+    </ul>
+</div>

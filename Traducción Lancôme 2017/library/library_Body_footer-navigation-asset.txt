@@ -1,0 +1,13 @@
+<div class="footer__content footer__content--position">
+	<ul class="footer-navigation__list footer__list medium-11 large-8 text-center">
+		<li class="footer-navigation__item"><a href="$url('Search-Show', 'cgid','L1_L1_Axe_MakeUp')$" title="Makeup" class="footer-navigation__link footer__link">Makeup</a></li>
+		<li class="footer-navigation__item"><a href="$url('Search-Show', 'cgid','L1_Axe_Skincare')$" title="Skincare" class="footer-navigation__link footer__link">Skincare</a></li>
+		<li class="footer-navigation__item"><a href="$url('Search-Show', 'cgid','L1_Axe_Fragrance')$" title="Fragrance" class="footer-navigation__link footer__link">Fragrance</a></li>
+		<li class="footer-navigation__item"><a href="" title="Online Exclusives" class="footer-navigation__link footer__link">Online Exclusives</a></li>
+		<li class="footer-navigation__item"><a href="$url('Page-Show', 'cid','fs-bm-homepage')$" title="Beauty Mag" class="footer-navigation__link footer__link">Beauty Mag</a></li>
+		<li class="footer-navigation__item"><a href="" title="Elite rewards" class="footer-navigation__link footer__link">Elite rewards</a></li>
+		<li class="footer-navigation__item"><a href="$url('Search-ShowContent' ,'fdid', 'storelocator-page')$" title="Find a store" class="footer-navigation__link footer__link">Find a store</a></li>
+		<li class="footer-navigation__item"><a href="$url('Page-Show', 'cid','customer-service-faqs')$" title="Need Help" class="footer-navigation__link footer__link">Need Help ?</a></li>
+		<li class="footer-navigation__item"><a href="$url('Page-Show', 'cid','maison')$" title="Maison Lancome" class="footer-navigation__link footer__link">Maison Lanc&#244;me</a></li>	
+	</ul>
+</div>

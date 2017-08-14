@@ -1,0 +1,385 @@
+<style>
+.maison_slider {
+background: #f9f7f7;
+text-align: center;
+}
+
+.maison_slider .carousel_navigation_list {
+    margin: 0;
+    position: relative;
+    top: -200px;
+}
+
+.maison_slider  .btn_cta_primary {
+   border: 1px solid #171818;
+}
+
+.maison_slider  .btn_cta_primary:hover {
+   border: 1px solid #c06;
+}
+
+.maison_slider .find_store {
+background: #fff;
+color: #000;
+border: 1px solid #cccccd;
+    padding: 0 25px 0 20px;
+}
+
+.maison_slider .find_store:before {
+    content: '';
+background: url('landing-page/maison/store-pin.jpg?$staticlink$') no-repeat;
+height: 16px;
+width: 13px;
+    display: inline-block;
+    vertical-align: sub;
+    margin: 0 10px 0 0;
+}
+
+.maison_slider .slider_content {
+position: absolute;
+    width: 40%;
+    top: 165px;
+    left: 20.5%;
+}
+
+.maison_slider .slider_content img {
+width: 100%;
+}
+
+.maison_slider .slider_content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.maison_slider .left_section_slider {
+    float: left;
+    width: 32%;
+}
+
+.maison_slider .slider_content p {
+    font-family: 'Gotham Book', Arial, serif;
+    line-height: 20px;
+margin: 0 0 5px;
+}
+
+
+.maison_slider .left_section_slider p {
+    font-size: 12px;
+}
+
+.maison_slider .left_section_slider .person_name {
+    text-transform: uppercase;
+line-height: 15px;
+padding: 0 20px;
+}
+
+.maison_slider .right_section_slider {
+    float: right;
+    width: 68%;
+padding: 80px 50px 0;
+box-sizing: border-box;
+}
+
+.maison_slider .right_section_slider p {
+    font-size: 14px;
+    color: #4f4f4f;
+    margin: 0 0 20px;
+}
+
+.maison_slider .right_section_slider p span {
+    font-family: 'Gotham Bold', Arial, serif;
+}
+
+      .maison_slider .carousel {
+max-width: 1500px;
+margin: auto;
+}
+
+      .maison_slider .contentcarousel_list_item {
+position: relative;
+overflow: hidden;
+}
+
+.maison_slider .carousel_slide_width_sample {
+   width: 100%;
+   margin: 0;
+}
+
+@media (max-width:1440px) {
+.maison_slider .horizontal_carousel .jcarousel-next {
+    right: 0;
+}
+
+.maison_slider .horizontal_carousel .jcarousel-prev {
+    left: 0;
+}
+
+.maison_slider .slider_content {
+    width: 45%;
+    left: 23%;
+}
+
+.maison_slider .parf_bg {
+max-width: 120%;
+}
+
+.maison_slider .right_section_slider p {
+font-size: 12px;
+    line-height: 18px;
+}
+}
+
+@media (max-width:1127px) {
+.maison_slider .right_section_slider {
+    padding: 60px 0 0;
+}
+
+.maison_slider .slider_content {
+top: 135px;
+    width: 47%;
+    left: 25%;
+}
+}
+
+@media (max-width:979px) {
+.maison_slider .parf_bg {
+width: 100%;
+}
+
+.maison_slider .btn_cta_primary {
+    display: block;
+    margin: auto;
+    width: 155px;
+}
+
+.maison_slider .find_store {
+    margin: 0 auto 10px;
+}
+
+.maison_slider .slider_content {
+    width: 34%;
+    left: initial;
+    top: 25%;
+    right: 8%;
+}
+
+.maison_slider .left_section_slider {
+    float: right;
+    width: 55%;
+}
+
+.maison_slider .left_section_slider .person_name {
+    padding: 0;
+}
+
+.maison_slider .right_section_slider {
+        padding: 135px 0 0;
+    float: none;
+    width: 100%;
+}
+
+.maison_slider .carousel_navigation_list {
+top: -50px;
+}
+}
+
+@media (max-width:750px) {
+.maison_slider .slider_content {
+right: 8%;
+}
+
+.maison_slider .parf_bg {
+width: 100%;
+}
+}
+
+@media (max-width:640px) {
+#art-of-assemblage-section {
+position: relative;
+    top: -80px;
+}
+
+.maison_slider .slider_content {
+    width: 65%;
+    left: 0;
+    top: 49%;
+    right: 0;
+    margin: auto;
+}
+
+.maison_slider .right_section_slider {
+    padding: 50% 2% 0;
+}
+
+.maison_slider .right_section_slider p {
+    font-size: 14px;
+}
+
+.maison_slider .carousel_slide_width_sample {
+   width: 100%;
+}
+
+.maison_slider .horizontal_carousel .jcarousel-prev,
+.maison_slider .horizontal_carousel .jcarousel-next {
+top: 30%;
+}
+
+.maison_slider .carousel_navigation_list {
+    top: -35px;
+}
+
+.maison_slider {
+background: #f1f1f1;
+}
+
+}
+</style>
+
+<div class="maison_slider">
+
+<div class="carousel contentcarousel horizontal_carousel"
+               data-pagination-enabled="true"
+                data-pagination-event="click"
+                data-controls-enabled="true"
+                data-show-pagination-content="true"
+                data-recalculate-height="false"
+                data-is-scroll-back-to-first-enabled="false"
+                data-slide-width-sample=".carousel_slide_width_sample"
+            >
+                <div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true">
+                    <ul class="contentcarousel_list">
+                        
+                            <li class="contentcarousel_list_item" data-name="tubereuses castane">
+<img class="parf_bg"  $responsiveSrc(landing-page/maison/parf-1.jpg,1330|1500|800|1200,,,,,landing-page/maison/parf-1-mob.jpg,landing-page/maison/parf-1-tab.jpg,landing-page/maison/parf-1.jpg)$ alt="Cover Image" />
+<div class="slider_content">
+<div class="left_section_slider">
+<p>Assemblage by</p>
+<p class="person_name">Shyamala<br />Maisondieu</p>
+</div>
+
+<div class="right_section_slider">
+<p>Assemblage of Tuberose flowers created through two complementary extractions, wrapped in the heat of a Roasted Chestnut signature.</p>
+<p><span>Tuberose Absolute</span><br />A bewitching Tuberose Absolute with intense, creamy facets<br />
+<span>Tuberose Distillate</span><br />
+A luminous Tuberose Distillate, revealing the radiant freshness of a bud</p>
+
+<a class="btn_cta_primary find_store scroll_to_selected" href="#storelocator-section" title="Find Store">FIND A STORE</a>
+<a class="js_quickshoppopin btn_cta_primary" href="$url('Product-Show', 'pid', 'A00123-LAC')$" title="Shop">SHOP NOW</a>
+
+</div>
+
+</div>
+                            </li>
+
+                            <li class="contentcarousel_list_item" data-name="lavandes trianon">
+<img class="parf_bg"  $responsiveSrc(landing-page/maison/parf-6.jpg,1330|1500|800|1200,,,,,landing-page/maison/parf-6-mob.jpg,landing-page/maison/parf-6-tab.jpg,landing-page/maison/parf-6.jpg)$ alt="Cover Image" />
+<div class="slider_content">
+<div class="left_section_slider">
+<p>Assemblage by</p>
+<p class="person_name">Shyamala Maisondieu & Olivier Gillotin</p>
+</div>
+
+<div class="right_section_slider">
+<p>Assemblage of two French Lavender flowers from Drôme Provençale, softened by a Crystallized Vanilla signature.</p>
+<p><span>Fine Lavander Essence</span><br />Lavander cultivated on the highest plateaux of the Drôme region in Provence, with fresh, fusing notes<br />
+<span>Lavander Absolute</span><br />
+Lavander from typical valleys of French Provence, with a warm, balsamic character</p>
+
+ <a class="btn_cta_primary find_store scroll_to_selected" href="#storelocator-section" title="Find Store">FIND A STORE</a>
+<a class="js_quickshoppopin btn_cta_primary" href="$url('Product-Show', 'pid', 'A00124-LAC')$" title="Shop">SHOP NOW</a>
+</div>
+
+</div>
+                            </li>
+
+                            <li class="contentcarousel_list_item" data-name="jasmins marzipane">
+<img class="parf_bg"  $responsiveSrc(landing-page/maison/parf-4.jpg,1330|1500|800|1200,,,,,landing-page/maison/parf-4-mob.jpg,landing-page/maison/parf-4-tab.jpg,landing-page/maison/parf-4.jpg)$ alt="Cover Image" />
+<div class="slider_content">
+<div class="left_section_slider">
+<p>Assemblage by</p>
+<p class="person_name">Dominique Ropion</p>
+</div>
+
+<div class="right_section_slider">
+<p>Assemblage of two natural Jasmines, hand-picked flower by flower, wrapped in an Almondy Woods signature.</p>
+<p><span>Sambac Jasmine</span><br />Jasmine with a green, fresh and petalled luminosity, picked at dawn during the first harvests of the season<br />
+<span>Grandiflorum Jasmine</span><br />
+Sun-drenched Jasmine with leathery accents, from the last summer harvests</p>
+
+<a class="btn_cta_primary find_store scroll_to_selected" href="#storelocator-section" title="Find Store">FIND A STORE</a>
+<a class="js_quickshoppopin btn_cta_primary" href="$url('Product-Show', 'pid', 'A00122-LAC')$" title="Shop">SHOP NOW</a>
+</div>
+
+</div>
+                            </li>
+
+                            <li class="contentcarousel_list_item" data-name="l'autre oud">
+<img class="parf_bg"  $responsiveSrc(landing-page/maison/parf-5.jpg,1330|1500|800|1200,,,,,landing-page/maison/parf-5-mob.jpg,landing-page/maison/parf-5-tab.jpg,landing-page/maison/parf-5.jpg)$ alt="Cover Image" />
+<div class="slider_content">
+<div class="left_section_slider">
+<p>Assemblage by</p>
+<p class="person_name">Christophe<br />Raynaud</p>
+</div>
+
+<div class="right_section_slider">
+<p>Assemblage of 17 raw materials to recompose a deep Oud Wood enchanted by an Incense Rose signature.</p>
+<p><span>Oud Wood Imprint</span><br />Extract from the heart of a twenty-year-old Wood,  with warm, ambery and animal facets<br />
+<span>Incense Essence</span><br />
+Essence from the bark of wild bushes with a smoky, spicy fragrance</p>
+
+<a class="btn_cta_primary find_store scroll_to_selected" href="#storelocator-section" title="Find Store">FIND A STORE</a> 
+<a class="js_quickshoppopin btn_cta_primary" href="$url('Product-Show', 'pid', 'A00127-LAC')$" title="Shop">SHOP NOW</a>
+</div>
+
+</div>
+                            </li>
+
+                            <li class="contentcarousel_list_item" data-name="oud bouquet">
+<img class="parf_bg"  $responsiveSrc(landing-page/maison/parf-3.jpg,1330|1500|800|1200,,,,,landing-page/maison/parf-3-mob.jpg,landing-page/maison/parf-3-tab.jpg,landing-page/maison/parf-3.jpg)$ alt="Cover Image" />
+<div class="slider_content">
+<div class="left_section_slider">
+<p>Assemblage by</p>
+<p class="person_name">Fabrice Pellegrin</p>
+</div>
+
+<div class="right_section_slider">
+<p> Assemblage of a trio of bold Wood Essences chiseled by a Praline Rose signature.</p>
+<p><span>Oud Wood Essence</span><br />Extract from the heart of a twenty-year-old Wood, with warm, ambery and animal facets<br />
+<span>Gaiac Wood Essence</span><br />
+Essence of a wild Wood from South America known as "wood of life" with a balsamic, torrefied character</p>
+
+<a class="btn_cta_primary find_store scroll_to_selected" href="#storelocator-section" title="Find Store">FIND A STORE</a>
+<a class="js_quickshoppopin btn_cta_primary" href="$url('Product-Show', 'pid', 'A00126-LAC')$" title="Shop">SHOP NOW</a>
+</div>
+
+</div>
+                            </li>
+
+                            <li class="contentcarousel_list_item" data-name="oud ambroisie">
+<img class="parf_bg"  $responsiveSrc(landing-page/maison/parf-2.jpg,1330|1500|800|1200,,,,,landing-page/maison/parf-2-mob.jpg,landing-page/maison/parf-2-tab.jpg,landing-page/maison/parf-2.jpg)$ alt="Cover Image" />
+<div class="slider_content">
+<div class="left_section_slider">
+<p>Assemblage by</p>
+<p class="person_name">Ilias Ermenidis</p>
+</div>
+
+<div class="right_section_slider">
+<p>Assemblage of a triptych of delicious Woods with a Honey Rose signature.</p>
+<p><span>Oud Wood Essence</span><br />Extract from the heart of a twenty-year-old Wood, with warm, ambery and animal facets<br />
+<span>Cedar Wood Essence</span><br />
+Essence of an ancient  red Wood from Virginia, with mild leathery and balsamic accents</p>
+
+<a class="btn_cta_primary find_store scroll_to_selected" href="#storelocator-section" title="Find Store">FIND A STORE</a>
+<a class="js_quickshoppopin btn_cta_primary" href="$url('Product-Show', 'pid', 'A00125-LAC')$" title="Shop">SHOP NOW</a>
+</div>
+
+</div>
+                            </li>
+                      
+                    </ul>
+                    <div class="carousel_slide_width_sample"></div>
+                </div>
+            </div>
+<div id="artists-section"></div>
+</div>

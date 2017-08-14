@@ -1,0 +1,79 @@
+<div class="title">
+<h3>Ready to tan</h3>
+</div>
+
+<div class="short-description">
+<p>Your beauty bag favourites: sun protection to sunbathe safely, and a waterproof mascara to be seductive in any circumstances.</p>
+</div>
+
+<div class="left-box">
+<div class="products-box">
+<div class="product">
+<div class="product-img"><img alt="" src="landing-page/gift4him4her/produit_1.png?$staticlink$" style="width: 64px; height: 178px;" /></div>
+
+<h4 class="product-title">Advanced Genifique</h4>
+
+<p class="product-subtitle">Lorem impusm dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+
+<div class="product-rating">
+<ul>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+</ul>
+</div>
+
+<div class="product-price">$46,35</div>
+</div>
+
+<div class="product">
+<div class="product-img"><img alt="" src="landing-page/gift4him4her/produit_2.png?$staticlink$" style="width: 150px; height: 197px;" /></div>
+
+<h4 class="product-title">Soleil Bronzer Protection</h4>
+
+<p class="product-subtitle">Lorem ipsum dolor sit amet incididunt ut labore et dolore</p>
+
+<div class="product-rating">
+<ul>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+</ul>
+</div>
+
+<div class="product-price">$46,35</div>
+</div>
+</div>
+
+<div class="reviews">
+<div class="review">
+<div class="review-title">
+<p class="name">Margreth D.</p>
+<span>Age 30 - 35</span></div>
+
+<div class="review-content">
+<p><span>Just perfect!</span> This product is so easy to use and, even after a long day at work, my makeup remains perfect. What I like the most: its sparkling powder lighten up my eyes &amp; the colour that fits on all occasions. Can&rsquo;t recommend it enough!</p>
+</div>
+</div>
+
+<div class="review">
+<div class="review-title">
+<p class="name">Margreth D.</p>
+<span>Age 30 - 35</span></div>
+
+<div class="review-content">
+<p><span>Just perfect!</span> This product is so easy to use and, even after a long day at work, my makeup remains perfect. What I like the most: its sparkling powder lighten up my eyes &amp; the colour that fits on all occasions. Can&rsquo;t recommend it enough!</p>
+</div>
+</div>
+</div>
+
+<div class="see-all-range"><a href="#">See all Lorem Impsum range &gt;</a></div>
+</div>
+
+<div class="right-box">
+<div class="right-img"><img alt="" src="landing-page/gift4him4her/ready_to_tan_img.jpg?$staticlink$" style="width: 495px; height: 317px;" /></div>
+</div>

@@ -1,0 +1,30 @@
+<title>Grandiose</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="grandiose/js/jquery.countdown.min.js?$staticlink$"></script>
+    <link href="grandiose/css/media.css?$staticlink$" rel="stylesheet" type="text/css" />
+    <script>
+      $(function(){
+        $(".digits").countdown({
+          image: "grandiose/img/digits.png?$staticlink$",
+          format: "dd:hh:mm:ss",
+          endTime: new Date('05/9/16 05:00:00')
+        });
+      });
+    </script>
+    <div class="main-grandiose">
+
+        <div id="holder">
+          <div class="digits"></div>
+        </div>
+    <div class="MainText"><span class="title">The New</span><br />
+    <span class="bigtitle">Bending Revolution</span><br />
+    <span class="title">is coming... </span><br />
+    <p>Will you be there? Register here to receive notification of launch</p>
+    $include('Newsletter-Subscribe','source','gwen_landing')$</div>
+
+    <div class="followme">
+      <p>Follow</p>
+      <span class="blend">#BendTheLine</span>
+      <p>on @lancomeofficial</p>
+    </div>
+    </div>

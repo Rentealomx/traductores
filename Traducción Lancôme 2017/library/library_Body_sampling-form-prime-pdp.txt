@@ -1,0 +1,72 @@
+<style>
+.prime_module.full_section {
+  width:110%;
+}
+
+@media only screen and (max-width: 680px) {
+.c-prime-sampling__form .f_radio_wrapper, .c-prime-sampling__form>fieldset>div {
+position:relative;
+}
+
+.c-prime-sampling__form .form--error {
+left: 0;
+color: red;
+}
+
+.c-prime-sampling__form .selectboxit-container .form--error {
+    height: auto;
+    text-transform: initial;
+    letter-spacing: initial;
+    font-size: 12px;
+    bottom: -34px;
+}
+
+    .prime_module.full_section {
+        width:100%;
+    }
+    .prime_sampling_content .sampling-form-container {
+           padding: 20% 10% 10%;
+           min-height: 390px;
+    }
+    .prime_sample_form_module h2 {
+         margin-top: 0 !important;
+         padding-top: 0 !important;
+    }
+    .prime_sample_form_module .submit_button span {
+         color: #fff;
+    }
+    .prime_sample_form_module span, 
+    .prime_sample_form_module .f_label_value {
+        color: #000;
+    }
+
+    .prime_sample_form_module {
+        margin-bottom: 30px;
+    }
+}
+</style>
+
+<div>
+
+<span class="campaignId-container" data-campaignid="samples"></span>
+
+<div class="show-for-medium">
+<img  class="form_background c-prime-sampling__background" alt="" $responsiveSrc(landing-page/form_bg.jpg,1500|1500|780|10,,,,,landing-page/form_bg.jpg,landing-page/form_bg_tablet.jpg, landing-page/form_bg_mobile.jpg)$/>
+<div class="js_hide hide sampling-confirmation-container">
+<h2 class="c-prime-sampling__confirmation-heading">Thank you for signing up to receive your complimentary sample.</h2>
+</div>
+</div>
+
+<div class="show-for-small-only">
+<img class="form_background c-prime-sampling__background" alt="" $responsiveSrc(landing-page/form_bg_mobile.jpg?$staticlink$,, forced, mobile)$   title="" />
+<div class="sampling-form-container c-prime-sampling__container">
+<h2 class="c-prime-sampling__heading">Ask for a sample</h2>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<span class="open_sampling_popup c-button c-button--ghost btn_cta_secondary">Get a sample</span></div>
+
+<div class="js_hide hide sampling-confirmation-container">
+<h2 class="c-prime-sampling__confirmation-heading">Thank you for signing up to receive your complimentary sample.</h2>
+</div>
+</div>
+</div>

@@ -1,0 +1,91 @@
+<style>
+.only_for_you_reinsurance {
+    border: 1px solid #dadada;
+    padding: 23px 5px;
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.only_for_you_reinsurance:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.only_for_you_reinsurance .reinsurance_item {
+    display: block;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.only_for_you_reinsurance .reinsurance_item a {
+    font-family: "Gotham Medium",Arial,serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+
+.only_for_you_reinsurance .reinsurance_item .reinsurance_item_img{
+    display: inline-block;
+    line-height: 1.2em;
+}
+
+.only_for_you_reinsurance .reinsurance_item a .reinsurance_item_img {
+    min-height: 25px;
+}
+
+.only_for_you_reinsurance .reinsurance_item .reinsurance_item_text {
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .prime_html .only_for_you_inner {
+        padding: 0;
+    }
+
+    .only_for_you_reinsurance {
+        border-width: 1px 0;
+    }
+
+    .only_for_you_reinsurance .reinsurance_item {
+        padding: 0 5px;
+        box-sizing: border-box;
+    }
+}
+
+</style>
+
+<div class="only_for_you_inner">
+<div class="only_for_you_reinsurance">
+     <a href="$url('Page-Show', 'cid','customer-service-why-shop-with-lancome')$" title="Why shop with Lancôme">
+        <span class="reinsurance_item">
+                <span class="reinsurance_item_img">
+                    <img alt="Free Delivery over $50" src="landing-page/only-for-you/reinsurance_freedelivery.png?$staticlink$"/>
+                </span>
+                <span class="reinsurance_item_text">
+                    Free Delivery over $50
+                </span>
+        </span>
+
+        <span class="reinsurance_item">
+                <span class="reinsurance_item_img">
+                    <img alt="Satisfied or money back" src="landing-page/only-for-you/reinsurance_moneyback.png?$staticlink$"/>
+                </span>
+                <span class="reinsurance_item_text">
+                    Satisfied or money back
+                </span>
+        </span>
+
+        <span class="reinsurance_item">
+                <span class="reinsurance_item_img">
+                    <img alt="Free deluxe samples" src="landing-page/only-for-you/reinsurance_samples.png?$staticlink$"/>
+                </span>
+                <span class="reinsurance_item_text">
+                    Free deluxe samples
+                </span>
+        </span>
+    </a>
+</div>
+</div>

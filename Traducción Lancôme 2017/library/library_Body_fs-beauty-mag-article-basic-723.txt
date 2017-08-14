@@ -1,0 +1,36 @@
+<div class="article_title_module">
+		<p class="publishing_date">09/10/2015</p>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'title', 'cid', 'fs-beauty-mag-article-basic-723', 'fdid', 'feel-good')$
+		<h1>In search of places that celebrate beauty in all its forms.</h1>
+	</div>
+	<div class="article_media_module_img">
+				<div class="img_holder" >
+			<img class="frame_effect" $responsiveSrc(/fs/media/beauty_mag_visuals/Vaadhoo_2x1_Article_MediaModule_Horizontal_Desktop.jpg, articlehorizontal, forced, mobileretinadesktoptablet)$ alt="" />
+		</div>
+	</div>
+	<div class="article_main_body">
+				<div class="clearfix">
+			<div class="article_text_module_type3" >
+	<p class="book_style_paragraph"><b>Dive into the heavenly waters of Vaadhoo Island, the Maldives</b></p>
+	<p><b>If beauty could be wrapped into one singular, yet spectacular package, it would surely reflect the dazzling beauty of the Maldives’ Vaadhoo Island by night.</b></p>
+	<p>There are some places in the world that are so beautiful it seems hard to comprehend, even more so when they seem to appear as if by magic. That’s the illusion that takes hold as night falls on the beaches of the idyllic island of <b>Vaadhoo</b> in the <b>Maldives</b>. Here, the continual rolling of the waves, gleaming with the iridescent glow of thousands of miniscule phosphorescent sparkles owes nothing to the dreamy island’s stunning landscape. Instead, the secret lies with bioluminescent phytoplankton, of which an impressive number light up to sparkle in an array of bright day-glow blues as soon as the sun sets. What remains is a sea full of stars, as if these tiny marine creatures mirror the sky with faithful verve. Forget special effects, this natural phenomenon easily inspires a sultry evening eye shadow look adorned with sparkles and enough glimmer to set the night on fire.</p>
+			</div>
+</div>
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'inside', 'cid', 'fs-beauty-mag-article-basic-723', 'fdid', 'feel-good')$
+	</div>
+	$include('BeautyMag-IncludeMoreArticles', 'cid','', 'currentid', 'fs-beauty-mag-article-basic-723', 'fdid', 'bm-tag-inspiration')$
+	$include('BeautyMag-IncludeLatestArticles', 'currentid','fs-beauty-mag-article-basic-723')$
+	$include('BeautyMag-IncludeArticlePagination', 'type', 'footer', 'cid', 'fs-beauty-mag-article-basic-723', 'fdid', 'feel-good')$
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=723&store=contentstore&element=82485" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

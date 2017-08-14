@@ -1,0 +1,92 @@
+<div id=aboutrykiel>
+
+    <div class="columns large-6">
+        <img alt="" src="RichPDP/Advanced_Genifique_Sensitive/Sensitive_rich_PDP_BeautyMag.jpg?$staticlink$?$staticlink$" title="" />
+    </div>
+
+    <div class="results_pdp_text columns large-6">
+
+        <center>
+            <h2 class="results_main_title">Brand news</h2>
+            <div class="results_subtitles">
+                <p>Do you want to know about the product and its</br> history? The new Paris Inspires article tells you</br> everything.</p>
+            </div>
+        </center>
+    </div>
+
+</div>
+
+<style>
+    .results_upper_title,
+    .results_mention {
+        font-family: "Helvetica",sans-serif;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .results_mention {
+        text-align: center;
+        line-height: 36px;
+    }
+    .results_subtitles {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .results_upper_title span,
+    .results_subtitles p,
+    .results_mention span {
+        font-family: "Garamond SemiBold",Arial,serif;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+margin-bottom:0;
+    }
+    .results_main_title {
+        font-family: "Garamond Medium",Arial,serif;
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        margin-top: 30px;
+    }
+    .prime_module.full_section {
+        margin-top: 0px !important;
+    }
+
+    div#how-to-wear-rykiel {
+        margin-bottom: -30px;
+    }
+
+    .pt_product_search_result>.wrapper .l-listing_page-results .search_result_content {
+        margin: 91px 0 -25px 0;
+    }
+
+    .results_pdp_text {
+        margin: 20px auto;
+    }
+
+    .prime_module_title {
+        margin-top: 15px !important;
+    }
+
+    @media only screen and (max-width: 1025px) {
+        .results_main_title {
+            font-size: 22px;
+        }
+
+        .results_main_title,
+        .results_subtitles {
+            margin-top: 0;
+        }
+        .results_upper_title span, .results_subtitles p, .results_mention span, .results_mention {
+            line-height: 20px;
+        }
+    }
+    @media only screen and (max-width: 680px) {
+        .advanced-genifique-results .results_main_title {
+            font-size: 24px;
+        }
+        .advanced-genifique-results .how_to_apply {
+            padding-bottom: 0;
+            display: block;
+        }
+    }
+</style>

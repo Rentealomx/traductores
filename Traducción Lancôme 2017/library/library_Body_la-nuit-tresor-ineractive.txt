@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="la-nuit-tresor/styles/main.css?$staticlink$">
+<style type="text/css" media="screen">
+    .clp_navigation_header {
+        display: none;
+    }
+    #ltyh_wrapper {
+        padding: 20px;
+        border: 1px solid #ddd;
+        position: relative;
+        clear: both;
+        box-sizing: border-box;
+        width: 99.9%;
+        margin: 40px 0 0;
+        overflow: auto;
+    }
+
+    #ltyh_wrapper div,
+    #ltyh_wrapper p {
+        font-family: Garamond,Times New Roman,Times,serif;
+        font-size: inherit;
+        color: inherit;
+        line-height: normal;
+    }
+    #ltyh_wrapper #ltyh {
+        border: 0 none;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #ltyh_wrapper #ltyh img {
+        max-width: 100%;
+    }
+    .main {
+        position: relative;
+    }
+    .main .content {
+        position: static;
+    }
+    .breadcrumb {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+    #ltyh .ltyh__content .ltyh__part.current {
+        z-index: 1;
+    }
+    #ltyh .ltyh__content .ltyh__part1 .ltyh__answers li>div {
+        color: #fff;
+    }
+</style>
+<div id="ltyh_wrapper">
+    <div    data-banner="ltyh"
+            data-path="la-nuit-tresor/?$staticlink$"
+            data-passion-url="http://google.com"
+            data-tenderness-url="http://twitter.com"
+            data-attraction-url="http://facebook.com"
+    >
+    </div>
+</div>
+
+<script src="la-nuit-tresor/scripts/main.js?$staticlink$"></script>

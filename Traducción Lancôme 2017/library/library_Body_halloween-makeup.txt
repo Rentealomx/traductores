@@ -1,0 +1,278 @@
+<link href="halloween/css/style.css?$staticlink$" rel="stylesheet" type="text/css" />
+
+
+		<div class="sp0oky-wrapper">
+			<div class="sp0oky-page">
+				<div class="sp0oky-header"><span class="halloween">Halloween 2016</span>
+				<span class="discover"><br/>DISCOVER THE HALLOWEEN LOOK IMAGINED BY LISA ELDRIDGE</span>
+				<span class="discover"><br/>Discover the full Halloween makeup look</span> 
+				<span class="discover"><br/>imagined by Lancôme's Global Makeup</span> 
+				<span class="discover"><br/>Creative Director Lisa Eldridge</span></div>				
+
+			</div>
+			<!------ VIDEO LISA ELDRIDGE ----->	
+			<div class="sp0oky-page"> &nbsp </div>
+			<div class="sp0oky-black-page">
+
+				<div class="sp0oky-white-divider">DISCOVER OUR HALLOWEEN MAKEUP LOOK BY LISA ELDRIDGE</div>
+
+				Looking for a fabulous and stunning Halloween party makeup? <br> Lisa Eldridge has created this very chic and theatrical look for Lancôme.<br> Discover all her tips to recreate this beautiful French cabaret makeup look!
+				<br/><br/>
+
+				<div class="sp0oky-video-holder"><div class="sp0oky-video-wrapper">
+				<iframe width="853" height="480" src="https://www.youtube.com/embed/BudBpIktmAo?showinfo=0" frameborder="0" allowfullscreen></iframe></div></div>
+
+			</div>			
+			<!------ FIN VIDEO LISA ELDRIDGE ----->	
+
+			
+
+
+
+			<div class="sp0oky-page">
+
+				<div class="sp0oky-divider"><div class="sp0oky-line-left"></div>GET THE LOOK <b>NOW</b><div class="sp0oky-line-right"></div></div>
+
+				Re-create these simple Halloween hacks with some of our award-winning beauty products.
+
+			</div>
+
+
+
+			<div class="sp0oky-page">
+
+				<div class="sp0oky-product">
+					<img src="halloween/images/product-04.jpg?$staticlink$" alt="" class="sp0oky-product-img"/>
+					<br/>
+					<span class="sp0oky-title">Hypnôse Palette</span>
+					<br/><br/><br/>
+					5-Colour Eyeshadow Palette<br/><br/>13 shades
+					<br/><br/>
+					&#9733; &#9733; &#9733; &#9733; &#9733;
+					<br/><br/>
+					<span class="sp0oky-black-text">£38.00</span>
+					<a href="$url('Product-Show','pid','238059-LAC')$" class="sp0oky-btn">QUICK SHOP</a>
+				</div>
+				
+				<div class="sp0oky-product">
+					<img src="halloween/images/product-01.jpg?$staticlink$" alt="" class="sp0oky-product-img"/>
+					<br/>
+					<span class="sp0oky-title">Grandiôse Liner</span>
+					<br/><br/>
+					Bendable Eyeliner High Precision Long-Wearing Line Intense Matte Finish
+					<br/><br/>
+					<div class="sp0oky-circles">
+						<a href="$url('Product-Show','pid','A00118-LAC')$" id="sp0oky-circle-01"></a>
+						<a href="$url('Product-Show','pid','A00118-LAC')$" id="sp0oky-circle-02"></a>
+						<a href="$url('Product-Show','pid','A00118-LAC')$" id="sp0oky-circle-03"></a>
+					</div>
+					<br/><br/>
+					&#9733; &#9733; &#9733; &#9733; &#9733;
+					<br/><br/>
+					<span class="sp0oky-black-text">$ 30,00</span>
+					<a href="$url('Product-Show','pid','A00118-LAC')$" class="sp0oky-btn">QUICK SHOP</a>
+				</div>
+
+				<div class="sp0oky-product">
+					<img src="halloween/images/product-02.jpg?$staticlink$" alt="" class="sp0oky-product-img"/>
+					<br/>
+					<span class="sp0oky-title">Grandiôse Extrême</span>
+					<br/><br/>
+					Wide Angle Extreme Volume Up To 24 Hour Wear
+					<br/><br/>
+					<div class="sp0oky-circles-single">
+						<a href="$url('Product-Show','pid','A00119-LAC')$" id="sp0oky-circle-04"></a>
+					</div>
+					<br/><br/>
+					&#9733; &#9733; &#9733; &#9733; &#9733;
+					<br/><br/>
+					<span class="sp0oky-black-text">$ 30,00</span>
+					<a href="$url('Product-Show','pid','A00119-LAC')$" class="sp0oky-btn">QUICK SHOP</a>
+				</div>
+
+				<div class="sp0oky-product">
+					<img src="halloween/images/product-03.jpg?$staticlink$" alt="" class="sp0oky-product-img"/>
+					<br/>
+					<span class="sp0oky-title">Liner Plume</span>
+					<br/><br/>
+					High Definition &amp; Long <br/>Lasting Eyeliner
+
+					<br/><br/>
+					<div class="sp0oky-circles-single">
+						<a href="$url('Product-Show','pid','325012-LAC')$" id="sp0oky-circle-05"></a>
+					</div>
+					<br/><br/>
+					&#9733; &#9733; &#9733; &#9733; &#9733;
+					<br/><br/>
+					<span class="sp0oky-black-text">£22.00</span>
+					<a href="$url('Product-Show','pid','325012-LAC')$" class="sp0oky-btn">QUICK SHOP</a>
+				</div>
+
+
+			</div>
+
+
+		<div class="sp0oky-page">
+			<div class="sp0oky-divider"><div class="sp0oky-line-left"></div>SHOP THE LISA ELDRIDGE LOOK<div class="sp0oky-line-right"></div></div>
+		</div>
+
+		<div class="sp0oky-page">
+
+				<div class="sp0oky-product">
+					<img src="halloween/images/product-05.jpg?$staticlink$" alt="" class="sp0oky-product-img"/>
+					<br/>
+					<span class="sp0oky-title">Grandiôse Liner</span>
+					<br/><br/>
+					Bendable Eyeliner High Precision Long-Wearing Line Intense Matte Finish
+					<br/><br/>
+					<div class="sp0oky-circles">
+						<a href="$url('Product-Show','pid','A00118-LAC')$" id="sp0oky-circle-01"></a>
+						<a href="$url('Product-Show','pid','A00118-LAC')$" id="sp0oky-circle-02"></a>
+						<a href="$url('Product-Show','pid','A00118-LAC')$" id="sp0oky-circle-03"></a>
+					</div>
+					<br/><br/>
+					&#9733; &#9733; &#9733; &#9733; &#9733;
+					<br/><br/>
+					<span class="sp0oky-black-text">£23.00</span>
+					<a href="$url('Product-Show','pid','A00118-LAC')$" class="sp0oky-btn">QUICK SHOP</a>
+				</div>
+
+				<div class="sp0oky-product">
+					<img src="halloween/images/product-06.jpg?$staticlink$" alt="" class="sp0oky-product-img"/>
+					<br/>
+					<span class="sp0oky-title">Teint Idole Ultra 24H</span>
+					<br/><br/>
+					Long Lasting Wear <br/>&amp; Comfort Foundation
+					<br/><br/>
+					<div class="sp0oky-circles-single">
+						<a href="$url('Product-Show','pid','01003x-LAC')$" id="sp0oky-circle-06"></a>
+					</div>
+					<br/><br/>
+					&#9733; &#9733; &#9733; &#9733; &#9733;
+					<br/><br/>
+					<span class="sp0oky-black-text">£30.00</span>
+					<a href="$url('Product-Show','pid','01003x-LAC')$" class="sp0oky-btn">QUICK SHOP</a>
+				</div>
+
+				<div class="sp0oky-product">
+					<img src="halloween/images/product-07.jpg?$staticlink$" alt="" class="sp0oky-product-img"/>
+					<br/>
+					<span class="sp0oky-title">L’Absolu Rouge</span>
+					<br/><br/>
+					Hydrating &amp; Shaping <br/>Lipcolor
+
+
+					<br/><br/>
+					<div class="sp0oky-circles-five">
+						<a href="$url('Product-Show','pid','253019-LAC')$" id="sp0oky-circle-07"></a>
+						<a href="$url('Product-Show','pid','253019-LAC')$" id="sp0oky-circle-08"></a>
+						<a href="$url('Product-Show','pid','253019-LAC')$" id="sp0oky-circle-09"></a>
+						<a href="$url('Product-Show','pid','253019-LAC')$" id="sp0oky-circle-10"></a>
+						<a href="$url('Product-Show','pid','253019-LAC')$" id="sp0oky-circle-11"></a>
+					</div>
+					<br/><br/>
+					&#9733; &#9733; &#9733; &#9733; &#9733;
+					<br/><br/>
+					<span class="sp0oky-black-text">£25.50</span>
+					<a href="$url('Product-Show','pid','253019-LAC')$" class="sp0oky-btn">QUICK SHOP</a>
+				</div>
+
+				<div class="sp0oky-product">
+					<img src="halloween/images/product-08.jpg?$staticlink$" alt="" class="sp0oky-product-img"/>
+					<br/>
+					<span class="sp0oky-title">Contour Pro Lipliner</span>
+					<br/><br/>
+					Lip Coloring Stick <br/>With Brush
+					<br/><br/>
+					<div class="sp0oky-circles-single">
+						<a href="$url('Product-Show','pid','044519-LAC')$" id="sp0oky-circle-12"></a>
+					</div>
+					<br/><br/>
+					&#9733; &#9733; &#9733; &#9733; &#9733;
+					<br/><br/>
+					<span class="sp0oky-black-text">£19.00</span>
+					<a href="$url('Product-Show','pid','044519-LAC')$" class="sp0oky-btn">QUICK SHOP</a>
+				</div>
+
+		</div>
+
+			<div class="sp0oky-page">				
+				<div class="sp0oky-divider"><div class="sp0oky-line-left"></div>HALLOWEEN "HACKS"<div class="sp0oky-line-right"></div></div>
+
+				<b>STUCK FOR HALLOWEEN MAKE-UP IDEAS?</b><br/>
+				Here are 5 simple looks to get you started.
+
+			</div>
+			
+			<div class="sp0oky-page">
+
+				<div class="sp0oky-video">
+					<div class="sp0oky-video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/rgV0OLDA8Zk" frameborder="0" allowfullscreen></iframe></div>
+					<br/>
+					<span class="sp0oky-title">DOLL EYES</span>
+					<br/><br/>
+					Channel your inner creepy doll with this
+					scary but pretty eye look. It’s easy to
+					do and a simple way to turn heads.
+				</div>
+
+
+				<div class="sp0oky-video">
+					<div class="sp0oky-video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/wgaDqBQpHYA" frameborder="0" allowfullscreen></iframe></div>
+					<br/>
+					<span class="sp0oky-title">SEXY SPIDER</span>
+					<br/><br/>
+					Add a little fright to your night with
+					ur classic twist on a cobweb eye makeup look.
+
+				</div>
+
+
+				<div class="sp0oky-video">
+					<div class="sp0oky-video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/oVODeCO0HSM" frameborder="0" allowfullscreen></iframe></div>
+					<br/>
+					<span class="sp0oky-title">WITCH EYES</span>
+					<br/><br/>
+					Transform your eyes with the Lancôme Witch Makeup Tutorial.
+					It’s a sexy, smoky eye with a bewitching twist – perfect
+					for creating a stir this Halloween.
+				</div>
+
+				<div class="sp0oky-space"></div>
+
+				<div class="sp0oky-video">
+					<div class="sp0oky-video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/GKKJNgZhOLQ" frameborder="0" allowfullscreen></iframe></div>
+					<br/>
+					<span class="sp0oky-title">HARLEQUIN EYES</span>
+					<br/><br/>
+					Creepy but sexy, this scary harlequin makeup look is
+					simple to do and looks beautiful. An easy way to look
+					incredible this Halloween.
+
+				</div>
+
+				<div class="sp0oky-video">
+					<div class="sp0oky-video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/RQVBfBcbzek" frameborder="0" allowfullscreen></iframe></div>
+					<br/>
+					<span class="sp0oky-title">REMOVING IT ALL</span>
+					<br/><br/>
+					The perfect Halloween makeup can be really hard to
+					remove! Try this quick and easy technique to get rid
+					of even the most stubborn makeup.
+				</div>
+
+			</div>
+
+			<div class="sp0oky-page">
+			<div class="sp0oky-divider"><div class="sp0oky-line-left"></div>SHARE <b>YOUR</b> HALLOWEEN LOOK<div class="sp0oky-line-right"></div></div>
+
+			Share your best Halloween look or favourite Lancôme products on Instagram using #lancome <br class="sp0oky-hide"/>
+			for a chance to feature in our Halloween gallery.
+
+			<br/><br/>
+
+			</div>
+
+
+
+		</div>

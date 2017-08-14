@@ -1,0 +1,143 @@
+<style>
+	#make_wish {
+		overflow: hidden;
+	}
+
+	#make_wish .make_wish_title {
+		margin: 44px 0 0;
+	}
+
+	#make_wish .prime_module_title {
+		margin: 25px 0 16px;
+	}
+
+	#make_wish .make_wish_link {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 44.6%;			
+	}
+
+	#make_wish .button {
+		font: 1.125rem "Gotham Medium", Arial;
+		padding: .875rem 3.875rem;
+		text-transform: uppercase;
+	}
+
+	#make_wish .button:hover {
+                color: #fff;
+        }
+
+	#make_wish .prime_info_box {
+		box-shadow: 0 5px 5px 0 rgba(0,0,0,.25);
+		top: -113px;
+		width: 60%;
+	}
+
+	#make_wish .prime_info_box:before, #make_wish .prime_info_box:after {
+		display: none;
+	}
+
+	#make_wish .prime_info_box_inner {
+		padding: 1.25rem;
+	}
+
+	#make_wish .prime_info_box_inner h3 {
+		margin: 2.375rem 0 1.625rem;
+		font-size: 2.5rem;
+	}
+
+	#make_wish .prime_info_box_inner p {
+		margin-bottom: 2.5rem;
+		line-height: normal;
+		font-size: .875rem;
+	}
+
+	@media screen and (max-width: 1024px) {
+		#make_wish {
+			padding: 0 1rem;
+		}		
+	}
+
+	@media screen and (max-width: 979px) {
+		#make_wish {
+			padding: 0 1rem 50px;
+		}
+
+		#make_wish .prime_info_box {			
+			width: 90%;
+			top: -60px;
+		}
+
+		#make_wish .make_wish_link {
+			bottom: 48%;
+		}
+
+		#make_wish .prime_background_image {
+			overflow: visible;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		#make_wish {
+			padding: 0 1rem 30px;
+		}
+
+		#make_wish .prime_module_title {
+			margin: 0;			
+		}
+
+		#make_wish .make_wish_link {
+			bottom: 56%;
+		}
+
+		#make_wish .button {
+			font-size: .625rem;
+			padding: .5rem 1.25rem;
+		}
+
+		#make_wish .prime_info_box {
+			top: -28px;
+		}
+
+		#make_wish .prime_info_box_inner {
+			padding: 1.25rem .25rem;
+		}
+
+		#make_wish .prime_info_box_inner h3 {			
+			font-size: 1.125rem;
+			margin: 0 0 .875rem;
+		}
+
+		#make_wish .prime_info_box_inner p {			
+			font-size: .4375rem;
+			margin-bottom: .5rem;
+		}
+	}
+</style>
+
+<div id="make_wish">
+	<div class="prime_module full_section make_wish_title">
+		<div class="prime_module_title">
+			<h2>
+				<span>Make a wish</span>
+			</h2>
+		</div>
+	</div>
+	<div class="prime_module full_section">
+		<div class="prime_background_image">
+			<div class="background_image animate_from_top come-in">
+				<img data-is-responsive="true" alt="" $responsiveSrc(landing-page-lveb/media_makeawish.jpg,1075|1075|780|480,,,,,landing-page-lveb/media_makeawish.jpg,landing-page-lveb/media_makeawish.jpg,landing-page-lveb/media_makeawish.jpg)$  />
+			</div>
+			<div class="prime_info_box animate_from_top come-in">
+				<div class="prime_info_box_inner">
+					<h3>La vie est belle : make a wish!</h3>
+					<p>This year, Lancôme gives you the power to create<br>your own happiness wish and share it to the world.<br>Either select one of Lancôme's happy wishes<br>or create your own and share it to the world.</p>
+				</div>
+			</div>
+			<div class="make_wish_link">
+				<a class="button" href="https://wishes.lancome.com/demo">Start the experience</a>
+			</div>
+		</div>
+	</div>
+</div>

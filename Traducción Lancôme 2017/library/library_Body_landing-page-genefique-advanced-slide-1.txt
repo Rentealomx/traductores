@@ -1,0 +1,221 @@
+<style>
+.horizontal_carousel .jcarousel-next {
+    background-position: -4472px 0 !important; 
+}
+.prime_slider.horizontal_carousel .jcarousel-next {
+    right: 0 !important;
+}
+.slider_text {
+    width: 100vw !important;
+}
+.right-lily {
+    text-align: right;
+    transform: translate(-12vw, 0);
+}
+.lily-citation {
+    color: white;
+    font-size: 40px;
+    font-family: Garamond;
+    line-height: 40px;
+    font-style: italic;
+}
+.lily-info {
+    font-family: "Garamond Premier Pro", "Garamond Medium", Arial serif !important;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 71px 0 0;
+    color: white;
+    letter-spacing: 0.5px;
+}
+.contentcarousel_list_item {
+    background: #4B5C7F;
+}
+#landing-page-genefique-advanced-slider .contentcarousel_list_item {
+    border-top: 25px solid white !important;
+    border-bottom: 25px solid white !important;
+}
+.slider_text  {
+    top: 160px !important;
+}
+#landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+    width: 100vw !important;
+ }
+#landing-page-genefique-advanced-slider .carousel_navigation_list {
+    background: #4B5C7F;
+}
+#landing-page-genefique-advanced-slider .carousel_navigation_list .carousel_navigation_list_item {
+    margin: 30px 5px;
+    background-size: cover;
+    border: 7px solid white;
+    width: 19vw;
+    height: 9vw;
+    cursor: pointer;
+}
+.#landing-page-genefique-advanced-slider .jcarousel-next {
+    right: 0 !important;
+}
+#landing-page-genefique-advanced-slider .carousel_navigation_list .carousel_navigation_list_item:first-child {
+    background-image: url("landing-genefique-advanced/mini-lily.jpg?$staticlink$");
+    background-position: 0px -15px;
+}
+#landing-page-genefique-advanced-slider .carousel_navigation_list .carousel_navigation_list_item:nth-child(2) {
+    background-image: url("landing-genefique-advanced/mini-lupita.jpg?$staticlink$");
+    background-position: 0px -20px;
+}
+#landing-page-genefique-advanced-slider .carousel_navigation_list .carousel_navigation_list_item:nth-child(3) {
+    background-image: url("landing-genefique-advanced/mini-penelope.jpg?$staticlink$");
+    background-position: 0px -5px;
+}
+#landing-page-genefique-advanced-slider .carousel_navigation_list .carousel_navigation_list_item:nth-child(4) {
+    background-image: url("landing-genefique-advanced/mini-kate.jpg?$staticlink$");
+    background-position: 0px -15px;
+}
+#landing-page-genefique-advanced-slider .jcarousel-prev, #landing-page-genefique-advanced-slider .jcarousel-next {
+    top: 40% !important;
+}
+#landing-page-genefique-advanced-slider .carousel_navigation_list_link {
+    display: none;
+}
+#landing-page-genefique-advanced-slider .carousel_navigation_list_item.selected {
+    opacity: 0.6;
+}
+@media screen and (max-width: 1280px) {
+    .lily-citation {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .lily-info {
+        font-size: 25px;
+        line-height: 27px;
+        margin: 30px 0 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    #landing-page-genefique-advanced-slider .slider_text:nth-child(2) {
+        top: 30px !important;
+    }
+    .lily-info {
+        font-size: 27px;
+        line-height: 35px;
+    }
+}
+@media (max-device-width: 768px) {
+    .lily-info {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 85px -3vw 0;
+    }
+    .lily-citation {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 25px -3vw -30px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-lily {
+        transform:  translate(-1vw, 0);
+    }
+    .lily-citation {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lily-info {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 40px 0 0;
+    }
+    #landing-page-genefique-advanced-slider .jcarousel-prev, .#landing-page-genefique-advanced-slider .jcarousel-next {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-lily {
+        transform:  translate(-1vw, 0);
+    }
+    .lily-citation {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lily-info {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 40px 0 0;
+    }
+    #landing-page-genefique-advanced-slider .jcarousel-prev, .#landing-page-genefique-advanced-slider .jcarousel-next {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 320px) {
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-lily {
+        transform:  translate(-4vw, 0);
+    }
+    .lily-citation {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lily-info {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 40px 0 0;
+    }
+    #landing-page-genefique-advanced-slider .jcarousel-prev, .#landing-page-genefique-advanced-slider .jcarousel-next {
+        display: none !important;
+    }
+}
+</style>
+<div class='right-lily'>
+<p class='lily-citation'>“I stand up and speak out </br> against bullying.”</p>
+<p class='lily-info'>At 27, Lily Collins actively </br> contributes to the anti-bullying </br> organization Bystander Revolution.</p>
+</div>

@@ -1,0 +1,13 @@
+<div class="paragraphs">
+	<div class="left">
+	<p>See lorem sit amet, adipiscing elit, sed adi diam duis sit nonummy nibhreet amet in euismod tincidunt ut laoreet     dolore magna aliquam erat volutpat. Ut veniam, Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.</p>
+	
+	<p>Accumsan et iusto odio dignissim qui blandit praesent luptatum zzril. Delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer nostrud dolor in hendrerit</p>
+	</div>
+
+	<div class="right">
+	<p>adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum um dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+	
+	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim. Qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit</p>
+	</div>
+</div>

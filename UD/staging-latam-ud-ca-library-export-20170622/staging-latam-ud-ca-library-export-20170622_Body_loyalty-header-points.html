@@ -1,0 +1,20 @@
+<div class="header_loyalty_slot hidden-mobile js-header_loyalty_banner" data-not-shown-on="account, checkout, cart, contentpage.loyaltylanding">
+<div class="b-loyalty_header">
+<div class="b-loyalty_header-logo js-loyalty_header_logo responsive_image" $responsiveBackground(images/loyalty/loyalty-dashboard-banner-logo.png?$staticlink$, 276|276|276|276)$>
+<div class="b-loyalty_header-info">
+<div class="js-loyaltypromo-not-enrolled">
+<div class="b-loyalty_header-actions"><a class="g-button-color" href="$httpUrl('Search-ShowContent', 'fdid', 'loyalty-landing')$">Find out more</a><br />
+<a class="g-button-color" href="$httpsUrl('Account-StartRegister')$">SIGN IN / REGISTER</a></div>
+</div>
+
+<div class="js-loyaltypromo-enrolled">
+<p class="b-loyalty_header-name" style="text-align: center;">{{first_name}}</p>
+
+<p style="text-align: center;"><span class="b-loyalty_header-tiername">{{top_tier_name}}</span> <span class="b-loyalty_header-separator">&bull;</span> <span class="b-loyalty_header-balance">{{balance}} points</span></p>
+
+<div class="b-loyalty_header-actions" style="text-align: center;"><a class="g-button-color" href="$httpsUrl('Loyalty-Start')$">My Dashboard</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,34 @@
+<div class="content">
+<ul class="level_2_list">
+	<li class="level_2_list_item"><span>CONTOURING</span>
+	<ul class="level_3_list">
+		<li class="level_3_list_item"><a href="">Tout savoir sur le nouveau contouring</a></li>
+		<li class="level_3_list_item"><a href="">Le contouring mode d’emploi</a></li>
+		<li class="level_3_list_item"><a href="">Le contouring à la française</a></li>
+	</ul>
+	</li>
+	<li class="level_2_list_item"><span>TEINT</span>
+	<ul class="level_3_list">
+		<li class="level_3_list_item"><a href="">« Blur » la nouvelle base de teint qui cartonne !</a></li>
+		<li class="level_3_list_item"><a href="">Comment rattraper un teint trop maquillé ?</a></li>
+		<li class="level_3_list_item"><a href="">Un teint nude pas fade</a></li>
+		<li class="level_3_list_item"><a href="">Rafraichir le teint</a></li>
+		<li class="level_3_list_item"><a href="">Le teint des parisiennes</a></li>
+	</ul>
+	</li>
+	<li class="level_2_list_item"><span>VIDEOS</span>
+	<ul class="level_3_list">
+		<li class="level_3_list_item"><a href="">Effortless contouring tutoriel par Lisa Eldridge</a></li>
+		<li class="level_3_list_item"><a href="">Look printemps jour et nuit par Lisa Eldridge</a></li>
+		<li class="level_3_list_item"><a href="">Uplifting Contouring par Lisa Eldridge</a></li>
+		<li class="level_3_list_item"><a href="">Cushion une revolution en makeup par Lisa Eldridge</a></li>
+	</ul>
+	</li>
+	<li class="level_2_list_item articles"><span>DISCOVER THE MOST READ ARTICLES</span>
+	<ul class="level_3_list">
+		<li class="level_3_list_item article"><img alt="" height="180" src="beautymag/article1d.jpg?$staticlink$" width="180" /> <a href="$url('Page-Show','cid','fs-beauty-mag-article-dossier-769')$">Les pommettes</a> <a class="read_article" href="$url('Page-Show','cid','fs-beauty-mag-article-dossier-769')$">Read Article &gt;</a></li>
+		<li class="level_3_list_item article"><img alt="" height="180" src="About-Us-2.jpg?$staticlink$" width="180" /> <a href="$url('Page-Show','cid','fs-beauty-mag-article-basic-448')$">Vanity week end en amoureux en Bretagne</a> <a class="read_article" href="$url('Page-Show','cid','fs-beauty-mag-article-basic-448')$">Read Article &gt;</a></li>
+	</ul>
+	</li>
+</ul>
+</div>

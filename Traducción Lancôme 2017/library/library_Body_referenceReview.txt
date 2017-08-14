@@ -1,0 +1,8 @@
+<h1>Guidelines for Postings and Reviews</h1>
+<p>Reviews should be based on your honest beliefs, opinions, experiences and actual use of the product. Avoid false, misleading, or unsupported statements. Please do not include inappropriate advertising statements or claims about the product you are reviewing or about any third parties’ products</p>
+<p>If you received a product for free for review purposes, be transparent and say so</p>
+<p>Do not make offensive or inappropriate comments, encourage illegal or inappropriate activities. Do not upload or link to any harmful or illicit materials. Do not engage in promotion or advertising for any product or service unrelated to this site</p>
+<p>Do not impersonate any other person or disguise yourself</p>
+<p>Use caution and common sense. Safeguard your privacy and the privacy of others. Do no post personally identifiable information or confidential information</p>
+<p>Do not upload material that you do not have permission to upload, or that violates any laws or infringes anyone’s intellectual property rights. You are responsible for the content of your postings</p>
+<p>All reviews must comply with <a href="$url('Page-Show', 'cid', 'terms')$">our site Terms of Use (embed link for Terms of Use here)</a></p>

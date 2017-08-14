@@ -1,0 +1,18 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000000;">NEW PERFUME AND FRAGRANCE</h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000000;">PERFUME, FRAGRANCE, EAU DE PARFUM, COLOGNE</h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000000;">Explore the latest perfume, eau de parfum, eau de toilette and cologne by Lancôme. Irresitible fragrance, timeless perfume and exquisite scents dedicated to you. Discover new perfume for women and new perfume for men. </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image">
+
+        $renderContentImage(L1_NEW_IN_1600x267.png, categoryHeader, category title, categoryimageclass,,,L1_NEW_IN_1600x267.png,L1_NEW_IN_1600x267.png)$
+
+    </div>
+</div>

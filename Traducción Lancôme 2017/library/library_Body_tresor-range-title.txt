@@ -1,0 +1,47 @@
+<style>
+.tresor-range-title .rule {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tresor-range-title .rule h2 {
+    color: #fff;
+}
+#tresor .product-tile__image {
+    padding: 0;
+    height: auto;
+}
+#tresor .slick-carousel .product_name > span,
+#tresor .slick-carousel .variant-size-recom, 
+#tresor .slick-carousel .product_tile .product_subtitle,
+#tresor .slick-carousel .product_tile .product_description,
+#tresor .slick-carousel .product_tile .product_price {
+    color:#fff;
+}
+#tresor .slick-carousel .product-tile__product-rating,
+#tresor .slick-carousel .product-price-inner {
+    width: 100%;
+    border: none;
+}
+#tresor .slick-carousel .variant-size-recom {
+    display: block;
+}
+#tresor .slick-carousel .slick-arrow {
+    color: #fff;
+    font-size: 0;
+}
+
+.prime_products .carousel  .buttons_block .quick_shop a, .buttons_block .btn_cta_primary a {
+background:white;
+color:black;
+}
+.prime_products .buttons_block .product_actions a.wishlist_action {
+color:#fff;
+}
+</style>
+<div class="rule" id="tresor-range">
+    <h2 class="section_title section__title">
+        <span>The Range</span>
+    </h2>
+</div>

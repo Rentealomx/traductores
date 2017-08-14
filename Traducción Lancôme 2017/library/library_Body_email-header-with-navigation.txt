@@ -1,0 +1,64 @@
+<!-- begin email header with navigation -->
+<table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+    <tr>
+        <td align="center" style="display:block;">
+            <p style="line-height:18px; font-size: 12px; font-family:Arial,Helvetica,sans-serif; margin: 0; padding:0; text-align:center; color:#000000;">Don't miss any Lancome offers & tips, add <a href="#"  style="text-decoration: underline; color: #000000;">xxxxx@xxxxx</a> to your address book.<br/>If you have trouble viewing that email, <a href="#" style="color: #000000; text-decoration: underline;">click here.</a>
+            </p>
+        </td>
+    </tr>
+    <tr height="10"><td height="10" style="line-height: 10px;">&nbsp;</td></tr>
+    <tr>
+        <td>
+            <!-- Logo -->
+            <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+                <tr>
+                    <td align="center">
+                        <a class="desktop-only" style="text-decoration: none;" href="$httpUrl('Home-Show')$"><img alt="Lancome Logo" src="mails/email_header_free_shipping.jpg?$staticlink$" border="0" style="width: 100%;"/></a>
+                        <a class="mobile-only" style="text-decoration: none; font-size: 0; height: 0; width:0; overflow: hidden; display: block; display:none; mso-hide:all;" href="$httpUrl('Home-Show')$"><img alt="Lancome Logo" src="mails/email_header_free_shipping_mob.jpg?$staticlink$" border="0" style="width: 100%;"/></a>
+                    </td>
+                </tr>
+            </table>
+            <!-- end Logo -->
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- Navigation -->
+            <table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="border-bottom-width: 4px; border-bottom-color: #000000; border-bottom-style: solid; margin: 0 auto;">
+                <tr height="5"><td height="5" style="font-size: 5px; line-height: 5px;">&nbsp;</td></tr>
+                <tr style="padding: 0;">
+                    <td style="text-align: center; padding: 0; padding-right: 10px; padding-left: 10px;">
+                        <table style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;" align="center" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="text-align: center; padding: 0;">
+                                    <a  style="text-decoration: none; line-height: 0;" href="$url('Search-Show','cgid','L1_L1_Axe_MakeUp')$"><img src="mails/makeup.png?$staticlink$" style="width: auto; max-width: 100%;" border="0"/></a>
+                                </td>
+                                <td style="text-align: center; padding: 0;">
+                                    <img src="mails/dot.png?$staticlink$" border="0"/>
+                                </td>
+                                <td style="text-align: center; padding: 0">
+                                    <a  style="text-decoration: none; line-height: 0;" href="$url('Search-Show','cgid','L1_Axe_Skincare')$"><img src="mails/skincare.png?$staticlink$" style="width: auto; max-width: 100%;" border="0"/></a>
+                                </td>
+                                <td style="text-align: center; padding: 0;">
+                                    <img src="mails/dot.png?$staticlink$" border="0"/>
+                                </td>
+                                <td style="text-align: center; padding: 0;">
+                                    <a  style="text-decoration: none; line-height: 0;" href="$url('Search-Show','cgid','L1_Axe_Fragrance')$"><img src="mails/fragrance.png?$staticlink$" style="width: auto; max-width: 100%;" border="0"/></a>
+                                </td>
+                                <td style="text-align: center; padding: 0;">
+                                    <img src="mails/dot.png?$staticlink$" border="0"/>
+                                </td>
+                                <td style="text-align: center; padding: 0;">
+                                    <a  style="text-decoration: none; line-height: 0;" href="$url('Page-Show','cid','beauty-mag-homepage')$"><img src="mails/beautymag.png?$staticlink$" style="width: auto; max-width: 100%;" border="0"/></a>
+                                </td>                                                
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr height="5"><td height="5" style="font-size: 5px; line-height: 5px;">&nbsp;</td></tr>
+            </table>
+            <!-- end Navigation -->
+        </td>
+    </tr>
+</table>
+<!-- end email header with navigation -->

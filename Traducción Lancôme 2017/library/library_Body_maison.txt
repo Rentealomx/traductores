@@ -1,0 +1,28 @@
+<style>
+.hide, .fps-french, .fps-anniversary {
+display:none!important;
+}
+</style>
+
+<div id="fps-sub-menu">
+    <a href="#!/" class="fps-home"><img src="maison/images/lamaison.gif?$staticlink$" width="213"/></a>
+    <div class="fps-wrapper">
+        <div>
+            <a href="#!/since" data-id="since"><span>SINCE 1935</span></a>
+            <span class="separator">&#8226;</span>
+            <a href="#!/absolument" data-id="absolument"><span>ABSOLUMENT LANCÔME</span></a>
+        </div>
+    </div>
+</div>
+<div id="fps-root-content" data-root="maison/?$staticlink$" data-images="images/"></div>
+<div class="fps-rotate-landscape fps-center">
+	<div>
+		<img class="fps-lancome" src="maison/images/logo.jpg?$staticlink$" width="86"/><br/>
+		<img class="fps-logo" src="maison/images/lamaison.png?$staticlink$" width="272"/><br/>
+		<img class="fps-rotate" src="maison/images/rotate.jpg?$staticlink$" width="105"/><br/>
+		<span>Please turn your phone on portrait mode</span>
+	</div>
+</div>
+<link type="text/css" href="maison/css/min.css?$staticlink$" rel="stylesheet" media="all" />
+<script language="javascript" src="maison/js/min.js?$staticlink$"></script>
+<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/f8efa945-98eb-435d-9a99-a7249c0e5549.css"/>

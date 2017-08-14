@@ -1,0 +1,30 @@
+<script>
+var newStyle = document.createElement("link");
+newStyle.rel = "stylesheet";
+newStyle.href = "juicyshakerhomepage/styles/main.css?$staticlink$";
+document.getElementsByTagName("head")[0].appendChild(newStyle);
+</script>
+<script src="juicyshakerhomepage/scripts/vendor/modernizr.js?$staticlink$"></script>
+<!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <div id="juicy-shaker">
+        <div class="juicy-page current" id="homepage" style="opacity: 1; display: block;">
+
+                <section class="">                   
+                     <img  class="img-responsive" alt="" $responsiveSrc(juicyshakerhomepage/images/juicy-home-page.jpg,1075|1075|980|640,,,,,juicyshakerhomepage/images/juicy-home-page-tablet.jpg,juicyshakerhomepage/images/juicy-home-page-tablet.jpg,juicyshakerhomepage/images/juicy-home-page.jpg)$ data-pfsrc="juicyshakerhomepage/images/juicy-home-page.jpg?$staticlink$"/>
+
+                    <ul class="juicy-sub-menu">
+                        <li><a href="https://juicyshakerexperience.com/shake-tape/fr_FR" class="juicy-btn inv">Make your shake tape &gt;</a></li>
+                        <li><a href="$httpUrl('Search-ShowContent', 'fdid', 'landing-page-juicy-product-file')$" class="juicy-btn">Discover Juicy Shaker &gt;</a></li>
+                        <li><a href="$httpUrl('Search-ShowContent', 'fdid', 'landing-page-juicy-web-series')$"  class="juicy-btn">Watch the web series &gt;</a></li>
+                        <li><a href="$httpUrl('Search-ShowContent', 'fdid', 'landing-page-juicy-tutorial')$" class="juicy-btn">See Lisa Eldridge's how to &gt;</a></li>
+                    </ul>
+
+                </section>
+
+            </div>
+
+    </div>

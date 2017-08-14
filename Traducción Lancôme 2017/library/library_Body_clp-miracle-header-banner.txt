@@ -1,0 +1,23 @@
+<div class="clp_navigation_header category_landing_top clp-headerslot left">
+    <div class="clp_header_text clp-headerslot-text">
+        <div class="row">
+            <div class="columns large-12 medium-12">
+                <h1 class="recommendation_subtitle clp-headerslot__mainheader" style="color:#000;">
+                    Miracle
+                </h1>
+
+                <h2 class="studio_lancome_subtitle hide-for-small-only clp-headerslot__subtitle" style="color:#000;">
+                   
+PERFUME, FRAGRANCE, EAU DE PARFUM
+                </h2>
+
+                <p class="clp_ordinary_text clp-headerslot__details show-for-large" style="color:#000;">
+                    Like the dawning of a new day, Miracle is an inspiring and invigorating eau de parfum that offers<br>you a combination of crisp fruity scent and fresh floral scent.<br>With the Miracle fragrance by Lancôme, get a taste of warm spices with luminous lychee and freesia.  
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation_header_image clp-headerslot-image">
+        $renderContentImage(category/landing-l3/L3_FRAGRANCE_Womens_Perfume_Miracle_1600x267.png, categoryHeader, category title, categoryimageclass,,,category/landing-l3/L3_FRAGRANCE_Womens_Perfume_Miracle_1035x286.png,category/landing-l3/L3_FRAGRANCE_Womens_Perfume_Miracle_1600x267.png, null, true)$
+    </div>
+</div>

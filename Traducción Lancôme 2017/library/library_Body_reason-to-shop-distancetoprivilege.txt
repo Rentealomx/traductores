@@ -1,0 +1,44 @@
+<div class="reason-to-shop">
+<h3>Reasons to shop on Lancome.com</h3>
+
+<div class="gift">$include('Lancome-PromotionAlert')$</div>
+
+<p class="delivery"><em>Free standard</em> DELIVERY</p>
+</div>
+
+<div class="sidebar-popin"><span class="close-btn">x </span>
+
+<h2>5 REASONS TO SHOP ON LANCOME.COM</h2>
+
+<ul class="reasons-list">
+	<li class="exclusive_gift">
+	<div class="left_content">
+	<h3>Your exclusive lancome gift</h3>
+
+	<p>Receive your FREE Exclusive Lancome Gift for any purchase over <b>$50.00</b>. A luxurious and convenient companion for your next trip.</p>
+	<a class="main-button" href=""> Find out more</a></div>
+
+	<div class="right_content"><img alt="gift" src="gwp.jpg?$staticlink$" title="" /></div>
+	</li>
+	<li class="free_delivery">
+	<h3>Free standard delivery</h3>
+
+	<p>Enjoy the free standard delivery for any purchase on Lancome.com</p>
+	</li>
+	<li class="free_samples">
+	<h3>Free deluxe samples</h3>
+
+	<p>3 complementary free deluxe samples during checkout.</p>
+	</li>
+	<li class="gift_wrapping">
+	<h3>Gift Wrapping</h3>
+
+	<p>Looking for the perfect gift? Send your Lancome items in luxury Gift Boxes.</p>
+	</li>
+	<li class="auto_replenishment">
+	<h3>Auto-replenishment service</h3>
+
+	<p>Enjoy the convenience of having your Lancome favorites delivered to you automatically. Comes with Free Delivery &amp; a deluxe mini gift.</p>
+	</li>
+</ul>
+<a class="main-button" href=""> Find out more</a></div>

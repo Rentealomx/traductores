@@ -1,0 +1,115 @@
+<table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style=" width:100%; margin: 0 auto;">
+    <tr height="10"><td height="10" style="line-height: 10px;">&nbsp;</td></tr> 
+    <tr style="padding: 0;">
+        <td style="padding: 0;">
+            <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; font-family: Verdana, Geneva, sans-serif; border-spacing: 0; border-collapse: collapse; padding: 0; margin: 0 auto;">
+                <tr>
+                    <td style="padding: 0;">
+                        <!-- Need Help Section: BEGIN -->
+                        <table class="need_help_section no_border_on_mob" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 50%; text-align: left; border-right-width: 1px; border-right-color: #dedddd; border-right-style: solid; padding: 0;">
+                            <tr height="20"><td height="20" style="line-height: 20px;">&nbsp;</td></tr> 
+                            <tr>
+                                <td>
+                                    <table class="float_left" align="center" border="0" cellpadding="0" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; border-spacing: 0; border-collapse: collapse; padding: 0; margin: 0 auto;">
+                                        <tr style="padding: 0;">
+                                            <td align="left" style="padding: 0; padding-bottom: 15px;">
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; border-spacing: 0; border-collapse: collapse; padding: 0;">
+                                                    <tr>
+                                                        <td align="left" style="padding: 0;" valign="middle"><span style="font-size: 12px; color: #000000; line-height: 13px;">NEED HELP?</span></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr style="padding: 0;">
+                                            <td align="left" style="padding: 0; padding-bottom: 4px; font-size: 13px; color: #b4b4b4; line-height: 18px;">Chat with an Advisor<br />
+                                                9:30am - 6:30pm(Mon-Friday)</td>
+                                            </tr>
+                                            <tr style="padding: 0;">
+                                                <td align="left" style="padding: 0; padding-bottom: 4px; font-size: 13px; color: #b4b4b4; line-height: 18px;"><a style="text-decoration:none; color: #b4b4b4; " href="tel:1-800-526-0000">Call 1-800-526-0000</a><br />
+                                                    9:30am - 6:30pm(Mon-Friday)</td>
+                                                </tr>
+                                                <tr style="padding: 0;">
+                                                    <td align="left" style="padding: 0;">
+                                                        <a href="$url('CustomerService-ContactUsForm')$" style="font-size: 13px; color: #b4b4b4; line-height: 18px; text-decoration: none;">Send us an email 24/7</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr height="20"><td height="20" style="line-height: 20px;">&nbsp;</td></tr> 
+                                </table> <!-- Need Help Section: END -->
+                                <!-- Follow Us Section: BEGIN -->
+                                <table class="follow_us_section" align="center" border="0" cellpadding="0" cellspacing="0" style=" width:48%; font-family: Verdana, Geneva, sans-serif; text-align: left; padding: 0; margin: 0 auto;">
+                                    <tr>
+                                        <td style="padding:0">
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0; margin: 0 auto;">
+                                                <tr height="15"><td height="15" style="line-height: 15px;">&nbsp;</td></tr>
+                                                <tr style="padding: 0;">
+                                                    <td align="left" style="padding: 0;">
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; width: 100%; border-spacing: 0; border-collapse: collapse; padding: 0;">
+                                                            <tr>
+                                                                <td class="float_left" align="right" style="padding: 0; padding-right: 10px; width: 25%" valign="middle"><img alt="" border="0" src="mails/find_a_store_pin.jpg?$staticlink$" /></td>
+                                                                <td align="left" style="padding: 0;" valign="middle"><span style="font-size: 12px; color: #000000; line-height: 18px;">FIND THE NEAREST STORE:</span><br />
+                                                                    <span style="font-size: 12px; line-height: 18px; text-decoration: none;"><a href="$httpsUrl(Stores-Show)$" style="color: #b4b4b4; text-decoration:none;">LOCATE A STORE &gt;</a></span></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr height="10"><td height="10" style="line-height: 10px;">&nbsp;</td></tr>
+                                                </table>
+
+                                                <table class="social_icons" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; font-family: Verdana, Geneva, sans-serif; border-spacing: 0; border-collapse: collapse; padding: 0; margin: 0 auto;">
+                                                    <tr style="padding: 0;">
+                                                        <td class="desktop-only" style="width: 20px;">&nbsp;</td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px; margin: 0 auto; width: 40px;"><a href="https://twitter.com/lancomeusa" style="border: none;"><img alt="" border="0" src="mails/social-twitter.png?$staticlink$" /></a></td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px; width: 40px;"><a href="https://www.facebook.com/lancomefrance" style="border: none;"><img alt="" border="0" src="mails/social-facebook.png?$staticlink$" /></a></td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px; width: 40px;"><a href="https://fr.pinterest.com/lancomeusa/" style="border: none;"><img alt="" border="0" src="mails/social-pinterest.png?$staticlink$" /></a></td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px; width: 40px;"><a href="https://www.youtube.com/user/Lancomeworldwide" style="border: none;"><img alt="" border="0" src="mails/social-youtube.png?$staticlink$" /></a></td>
+                                                        <td align="center" style="padding: 0; padding-bottom: 10px; width: 39px;"><a href="#" style="border: none;"><img alt="" border="0" src="mails/social-gplus.png?$staticlink$" /></a></td>
+                                                        <td style="width: 20px;">&nbsp;</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table> <!-- Follow Us Section: END -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr height="10"><td height="10" style="line-height: 10px;">&nbsp;</td></tr>
+            </table>
+            <table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto; border-top: 2px solid #e8e8e8; border-bottom: 2px solid #e8e8e8;">
+                <tr height="40">
+                    <td height="40" style="line-height: 40px;">&nbsp;</td>
+                </tr>
+                <!-- Logo Section -->
+                <tr style="padding: 0;">
+                    <td style="text-align: center; width: 100%; padding: 0;">
+                        <a href="$httpUrl('Home-Show')$" style="border: none;"><img alt="Lancome Logo" src="mails/footer-logo.png?$staticlink$" border="0" style="padding: 0;"/></a>    
+                    </td>
+                </tr>
+                <tr height="30">
+                    <td height="30" style="line-height: 30px;">&nbsp;</td>
+                </tr>
+            </table>
+            <table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="width: 100%; margin: 0 auto;">
+                <tr height="20">
+                    <td height="20" style="line-height: 20px;">&nbsp;</td>
+                </tr>
+                <!-- Links Section -->
+                <tr style="padding: 0;">
+                    <td style="text-align: center; padding: 0;">
+                        <a href="$url('Page-Show', 'cid', 'customer-service-terms-sale')$" style="font-size: 11px; color: #000000; line-height: 12px; text-decoration: none;">TERMS &amp; CONDITIONS</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="$url('Page-Show', 'cid', 'customer-service-security-policy')$" style="font-size: 11px; color: #000000; line-height: 12px; text-decoration: none;">PRIVACY POLICY</a>
+                    </td>
+                </tr>
+                <tr height="25">
+                    <td height="25" style="line-height: 25px;">&nbsp;</td>
+                </tr>
+            </table>
+            <!-- Unsubscribe message -->
+            <table align="center" width="100%"  cellpadding="0" cellspacing="0" border="0" style="width: 100%; margin: 0 auto;">
+                <tr style="padding: 0;">
+                    <td align="center" style="width: 100%; font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #818181; line-height: 18px; padding: 0; padding-bottom: 10px; padding-top: 10px;">If you would rather not receive emails alerting you of Lancome news, special offers &amp; product announcement, please <a href="%customerUnsubscribe%" style="color: #818181; text-decoration: underline;"> click here.</a></td>
+                </tr>
+            </table>

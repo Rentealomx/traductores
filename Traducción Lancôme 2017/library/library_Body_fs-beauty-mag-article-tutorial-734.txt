@@ -1,0 +1,46 @@
+<div class="tutorial_template" >
+	<div class="article_title_module">
+		<p class="publishing_date">10/9/15</p>
+		<h1>“Face Paint: The Story of Makeup” by Lisa Eldridge</h1>
+	</div>
+		<div class="article_media_module_video" >
+    <div class="tutorial_body">
+        <div class="clearfix">
+            <div class="tutorial_description">
+	                <h2 >“Face Paint: The Story of Makeup” by Lisa Eldridge</h2>
+                	<p >As the embodiment of beauty’s history, vintage makeup has long interested Lisa Eldridge. Now she shares her passion by retracing the story of makeup within a beautiful new book. We meet the author.
+<h2>Why did you decide to write this book?</h2>
+Twenty years ago I started collecting vintage makeup, the rare finds I was picking up from all four corners of the world, all told a fascinating if not somewhat surprising story of beauty through the ages. Over the years, my collection has become larger and my research broader, to the extent that it’s become a complete passion that I regularly talk about on my site. One day, a follower recommended I share my knowledge in a book  which is what I did!
+<h2>How and where did you get your inspiration from?</h2>
+Everything inspires me, but nature in particular does. I spent some time in New Zealand. You can find some of the most incredible views there: a real source of inspiration for my work. I also love theatre, cinema, books and art. Now I’m based in London, I find myself constantly impressed by the incredible culture in this city with its galleries, museums and theatres all on my doorstep. Otherwise, I really admire the work of Brâncu?i, Jenny Saville and Lucian Freud, especially their use of color. Beyond that, people that I meet, people I see in the street and faces become inspiring to me.
+<h2>Tell us more about your choice of book cover</h2>
+The idea was to immediately communicate the notion of thousands of years of beauty history within one picture… And also for me, we had to somehow capture the importance of texture, powders and painting. At the same time, I wanted the image to be modern and bold. The photo was shot during last Fashion Week, just when I was feeling like we hadn’t found the perfect cover and time was running out. As for the makeup in the image, I started with a foundation base that women in Ancient Greece and China loved (totally non-toxic back then of course) and then gradually added layers of natural pigments and modern brightly coloured makeup.
+<h2>Would you say that as society has become more liberated, so too has women’s ability to wear makeup exactly as they wish?</h2>
+Yes, without a doubt, because we now have choice. In an ideal world we could choose to go without any makeup one day or sport a red lip and strong smoky eye with fake lashes the next. The most amazing thing in my eyes is the precious freedom we have in some countries to wear whatever makeup we want, whereas it’s completely forbidden in others.
+<h2>Has makeup contributed to some women’s emancipation?</h2>
+Yes, for example during the freedom marches in America, many women proudly wore bold red lipstick as a sign of rebellion -- all at a time that any conspicuous makeup was looked down upon. That’s also how Suffragettes turned simple lipstick into a weapon of resistance.
+<h2>Today, the trend has veered towards all that is natural, what can we expect for future generations?</h2>
+I don’t really believe in trends, they’re constantly coming and going. Even though it’s the hottest thing this season, the red lip has been around since ancient Egypt. Only one thing has changed: technology, that’s what is changing the makeup rules. Amazing technical and scientific advances have been made in the past 20 years (also within natural makeup formulas). Revolutionary innovations have influenced trends, just think of the Miracle Cushion phenomenon that’s come from Korea.
+<h2>On a more personal note, what’s in store for you next?</h2>
+I’m really excited to see my latest projects come out, especially three editorials I collaborated on for Vogue China, Vogue Italia and Teen Vogue. Then there’s my book that launched today and a new range of products I worked on with Lancôme that will soon be available. </p>
+            </div>
+            <div class="before_after_tutorial">
+                <h2 >Before / After</h2>
+			</div>
+        </div>
+    </div>
+</div>
+</div>
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=734&store=contentstore&element=82602" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

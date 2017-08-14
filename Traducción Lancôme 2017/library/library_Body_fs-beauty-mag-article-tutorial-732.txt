@@ -1,0 +1,45 @@
+<div class="tutorial_template" >
+	<div class="article_title_module">
+		<p class="publishing_date">10/9/15</p>
+		<h1>How to add colour to your look</h1>
+	</div>
+		<div class="article_media_module_video" >
+	<div class="video_holder_wrapper">
+	    <div class="video_holder">
+	        <iframe allowfullscreen="" frameborder="0" hspace="0" showinfo="0" src="https://www.youtube.com/embed/6WLHQ63_qgY?wmode=opaque&rel=0&showinfo=0&autoplay=0&enablejsapi=1" vspace="0" width="100%"></iframe>
+	    </div>
+	</div>
+    <div class="tutorial_body">
+        <div class="clearfix">
+            <div class="tutorial_description">
+	                <h2 >How to add colour to your look</h2>
+                	<p >There’s nothing scary about using colour in makeup. The proof? Simply use the correct technique, not to mention the perfect balance of pigments to temper bright lash colours. Lisa Eldridge starts by applying a little grey eyeshadow to upper eyelids before bringing  a little beige into the creases. The finishing touch? Plenty of Grandiôse Colors Saphir Mirifique mascara, the perfect match for brown eyes. Now’s the time to ditch traditional black mascara in favour of something a little more exotic!</p>
+            </div>
+            <div class="before_after_tutorial">
+                <h2 >Before / After</h2>
+			</div>
+        </div>
+    </div>
+		<div class="explore_tag_module " >
+			<p>$include('BeautyMag-IncludeLocalizedString', 'key', 'beautymag.article.explore')$
+:</p>
+			<ul class="explore_tag_links">
+					<li><a href="$url('Search-ShowContent','fdid','bm-tag-tuto-maquillage')$" title="Tuto-maquillage">Tuto-maquillage</a></li>
+					<li><a href="$url('Search-ShowContent','fdid','bm-tag-conseil')$" title="Conseil">Conseil</a></li>
+			</ul>	
+		</div>
+</div>
+</div>
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=732&store=contentstore&element=82602" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

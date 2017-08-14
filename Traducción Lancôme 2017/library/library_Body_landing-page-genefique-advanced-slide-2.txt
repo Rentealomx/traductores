@@ -1,0 +1,181 @@
+<style>
+.right-lupita{
+    text-align: right;
+    transform: translate(-12vw, 0);
+}
+.lupita-citation {
+    color: white;
+    font-size: 40px;
+    font-family: Garamond;
+    line-height: 40px;
+    font-style: italic;
+}
+.lupita-info {
+    font-family: "Garamond Premier Pro", "Garamond Medium", Arial serif !important;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 71px 0 0;
+    color: white;
+    letter-spacing: 0.5px;
+}
+#landing-page-genefique-advanced-slider .slider_text:nth-child(2) {
+    top: 210px !important;
+}
+@media screen and (max-width: 1280px) {
+    .lupita-citation {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .lupita-info {
+        font-size: 25px;
+        line-height: 27px;
+        margin: 30px 0 0;
+    }
+}
+@media (max-device-width: 800px) {
+    #landing-page-genefique-advanced-slider .slider_text:nth-child(2) {
+        top: 30px !important;
+    }
+    .lupita-info {
+        font-size: 27px;
+        line-height: 35px;
+    }
+}
+@media (max-device-width: 768px) {
+    .lupita-info {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 85px -3vw 0;
+    }
+    .lupita-citation {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 25px -3vw -30px;
+    }
+}
+@media screen and (max-width: 640px) {
+    #landing-page-genefique-advanced-slider .carousel_navigation_list .carousel_navigation_list_item {
+        margin: 10px 5px -5px !important;
+        border: 3px solid white !important;
+        width: 45vw !important;
+        height: 20vw !important;
+    }
+    #landing-page-genefique-advanced-slider .jcarousel-prev, #landing-page-genefique-advanced-slider .jcarousel-next {
+        display: none !important;
+    }
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-lupita{
+        transform: translate(-1vw, 0);
+    }
+    .lupita-citation {
+        font-size: 4vw;
+        line-height: 4.5vw;
+    }
+    .lupita-info {
+        font-size: 4vw;
+        line-height: 5vw;
+        margin: 13vw 0 0;
+    }
+}
+@media screen and (max-width: 375px) {
+    #landing-page-genefique-advanced-slider .carousel_navigation_list .carousel_navigation_list_item {
+        margin: 10px 5px -5px;
+        border: 3px solid white;
+        width: 45vw;
+        height: 20vw;
+    }
+    #landing-page-genefique-advanced-slider .jcarousel-prev, #landing-page-genefique-advanced-slider .jcarousel-next {
+        display: none !important;
+    }
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-lupita{
+        transform: translate(-1vw, 0);
+    }
+    .lupita-citation {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .lupita-info {
+        font-size: 15px;
+        line-height: 16px;
+        margin: 60px 0 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    #landing-page-genefique-advanced-slider .carousel_navigation_list .carousel_navigation_list_item {
+        margin: 10px 5px -5px;
+        border: 3px solid white;
+        width: 45vw;
+        height: 20vw;
+    }
+    #landing-page-genefique-advanced-slider .jcarousel-prev, #landing-page-genefique-advanced-slider .jcarousel-next {
+        display: none !important;
+    }
+    .title {
+        font-size: 27px !important;
+        padding: 20px 0 !important;
+    }
+    .title:before, .title:after {
+        height: 0 !important; 
+    }
+    #landing-page-genefique-advanced-slider  .contentcarousel_list_item .slider_text {
+        margin: -45vw auto 0;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item img {
+        width: 100vw !important;
+    }
+    #landing-page-genefique-advanced-slider .contentcarousel_list_item {
+        border-top: 10px solid white !important;
+        border-bottom: 10px solid white !important;
+    }
+    .right-lupita{
+        transform: translate(-4vw, 0);
+    }
+    .lupita-citation {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lupita-info {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 45px 0 0;
+    }
+}
+</style>
+<div class='right-lupita'>
+<p class='lupita-citation'>“I an excited to continue </br> embracing the unknown.”</p>
+<p class='lupita-info'>At 33, Lupita Nyong’o has become a </br> role model for millions of women </br> after she won an Oscar for her first </br> role in a Hollywood at 31.</p>
+</div>

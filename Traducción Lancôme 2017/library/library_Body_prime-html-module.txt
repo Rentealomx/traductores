@@ -1,0 +1,20 @@
+<div class="text-center">
+    <div class="columns medium-4 small-12">
+        <span class="prime-gif__title">Morning Rush</span>
+        <img alt="gif2" $responsiveSrc(landing-page/landing-page-modules/gif2.gif,,forced)$ />
+        <span class="prime-gif__text">Pump up your brows!</span>
+        <a href="#" class="c-button c-button--primary prime-gif__cta">Discover now</a>
+    </div>
+    <div class="columns medium-4 small-12">
+        <span class="prime-gif__title">Love Emergency</span>
+        <img alt="gif1" $responsiveSrc(landing-page/landing-page-modules/gif1.gif,,forced)$ />
+        <span class="prime-gif__text">Turn up your liner!</span>
+        <a href="#" class="c-button c-button--primary prime-gif__cta">Discover now</a>
+    </div>
+    <div class="columns medium-4 small-12">
+        <span class="prime-gif__title">Party is Calling</span>
+        <img alt="gif3" $responsiveSrc(landing-page/landing-page-modules/gif3.gif,,forced)$ />
+        <span class="prime-gif__text">Trigger the smokey!</span>
+        <a href="#" class="c-button c-button--primary prime-gif__cta">Discover now</a>
+    </div>
+</div>

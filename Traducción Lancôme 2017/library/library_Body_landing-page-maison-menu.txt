@@ -1,0 +1,141 @@
+<style>
+.fixed-item + .wrapper .landing_menu {
+  position: fixed;
+  top: 60px;
+  z-index: 3;
+  margin: 0;
+  padding: 20px 0 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.landing_menu {
+  margin: 20px 0 0;
+}
+
+.landing_menu ul {
+  margin: 0 0 20px;
+}
+
+.landing_menu ul li a {
+  font-size: 14px;
+}
+
+.landing_menu ul li:after {
+margin: 0 10px;
+}
+
+.landing_menu ul .menu_title {
+font-family: 'Garamond Regular', Arial, serif; 
+font-size: 22px; 
+margin: 0 35px 0 0;
+text-transform: none;
+}
+
+#choose-fragrance-section,
+#history-section,
+#range-section {
+    position: relative;
+    top: -100px;
+}
+
+#storelocator-section { 
+    position: relative;
+    top: 100px;
+}
+
+@media (max-width: 1127px) {
+#storelocator-section { 
+    position: relative;
+    top: 0;
+}
+
+.fixed-item + .wrapper .landing_menu { 
+   padding: 10px 0 0;
+}
+   .landing_menu {
+  margin: 10px 0 0;
+}
+
+.landing_menu ul {
+  margin: 0 0 10px;
+}
+}
+
+@media (max-width: 979px) {
+.landing_menu ul {
+   text-align: center;
+width: 100%;
+}
+.landing_menu ul li {
+    width: auto;
+    float: none;
+}
+
+.landing_menu ul li:after {
+    position: static;
+    margin: 0 10px;
+}
+
+.landing_menu ul li:nth-child(3n):after {
+    display: inline-block;
+}
+
+.landing_menu ul:after {
+content: '';
+clear: both;
+display: block;
+}
+}
+
+@media (max-width:640px) {
+.landing_menu ul li:nth-child(3n):after {
+    display: none;
+}
+
+.fixed-item + .wrapper .landing_menu {
+    padding: 0;
+    top: 59px;
+}
+
+.landing_menu ul,
+.landing_menu ul li,
+.landing_menu .menu_toggle_button {
+   margin: 0;
+}
+
+.landing_menu .menu_toggle_button {
+background: #fff;
+}
+
+.landing_menu.opened .menu_toggle_button {
+    top: 25px;
+z-index: 5;
+}
+
+.landing_menu.opened ul {
+ padding: 65px 0 20px;
+}
+
+.landing_menu ul li {
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+}
+</style>
+
+<div class="landing_menu">
+        <div class="is_visible_mobile is_hidden_desktop menu_toggle_button">Menu</div>
+
+    <ul>
+        <li><span class="is_hidden_tablet menu_title">Les Parfums Grand Crus</span><a class="scroll_to_selected" href="#history-section">the art of assemblage</a></li>
+        <li> <a class="scroll_to_selected" href="#choose-fragrance-section">choose your fragrance</a></li>
+        <li> <a class="scroll_to_selected" href="#range-section">THE RANGE</a></li>
+        <li> <a class="scroll_to_selected" href="#artists-section">the artists</a></li>
+         <li> <a class="scroll_to_selected" href="#storelocator-section">Store Locator</a></li> 
+    </ul>
+</div>

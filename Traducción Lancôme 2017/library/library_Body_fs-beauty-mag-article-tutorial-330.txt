@@ -1,0 +1,41 @@
+<div class="tutorial_template" >
+	<div class="article_title_module">
+		<p class="publishing_date">9/29/15</p>
+		<h1>Parisian Look with Caroline de Maigret</h1>
+	</div>
+		<div class="article_media_module_video" >
+	<div class="video_holder_wrapper">
+	    <div class="video_holder">
+	        <iframe allowfullscreen="" frameborder="0" hspace="0" showinfo="0" src="https://www.youtube.com/embed/gfyg8tjKLCc?wmode=opaque&rel=0&showinfo=0&autoplay=0&enablejsapi=1" vspace="0" width="100%"></iframe>
+	    </div>
+	</div>
+    <div class="tutorial_body">
+        <div class="clearfix">
+            <div class="tutorial_description">
+	                <h2 >How to create a make up like a Parisian with Caroline de Maigret by Lisa Eldridge with Lancôme</h2>
+                	<p >When Lancôme calls upon its Parisian muse to create an autumn colour palette, you can count on Caroline de Maigret to truly deliver, especially when she brings together a selection of her favourite, go-to colours that she herself wears in her everyday life. Hooked by her colour picks, Lisa Eldridge couldn’t help but test out the palette on Caroline herself to demonstrate which of these ideal colour combos work for achieving the ever-perfect French effortless chic look. Coming soon!</p>
+            </div>
+            <div class="before_after_tutorial">
+                <h2 >Before / After</h2>
+                	<div >
+					<img $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/FALL_COLLECTION_WITH_CAROLINE_DE_MAIGRET_POSTER__TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, desktop)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/FALL_COLLECTION_WITH_CAROLINE_DE_MAIGRET_POSTER__TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, retina)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/FALL_COLLECTION_WITH_CAROLINE_DE_MAIGRET_POSTER__TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, tablet)$ $responsiveSrc(/fs/media/beauty_mag_visuals/lisa_eldridge/FALL_COLLECTION_WITH_CAROLINE_DE_MAIGRET_POSTER__TutorialTemplate_BeforeAndAfter_Desktop.jpg, beforeafter, forced, mobile)$ alt="" />
+					</div>
+			</div>
+        </div>
+    </div>
+</div>
+			$include('BeautyMag-IncludeProductPushes', 'pid', '29201v-LAC ; 025172-LAC ; 25301z-LAC ; 031019-LAC ; 22301f-LAC ', 'title', 'The Products Used in the Tutorial')$		
+</div>
+		<script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+			jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_82151/?project=82151&entity=330&store=contentstore&element=82602" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="<img src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$" alt="" />">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$" alt="" />Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script>

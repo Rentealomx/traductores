@@ -1,0 +1,116 @@
+<div class="top_billboard_area">
+<div class="main_image"><img alt="" src="/fs/media/demo_assets/article_images/boston.jpg?$staticlink$" /></div>
+
+<div class="main_article_box">
+<div class="article_box">
+<h3>Beauty Codes</h3>
+<span class="date">12/30/15</span>
+
+<p class="keyword">Colorful</p>
+
+<p class="article_author"><span>by</span> James Bort</p>
+
+<h2 class="title">Colorful</h2>
+</div>
+</div>
+</div>
+
+<p>$include('BeautyMag-IncludeNewsfeeds','contentids','fs-beauty-mag-article-basic-1912;fs-beauty-mag-article-basic-1914;fs-beauty-mag-article-basic-1915;fs-beauty-mag-article-basic-1916')$</p>
+
+<div class="instant-happiness-container-hp">$include('BeautyMag-IncludeInstantHappiness', 'cid', 'fs-beauty-mag-article-basic-1916', 'section', 'newsfeed')$</div>
+
+<div class="push-banner-wrap">
+<div class="push-banner-image"><img alt="Banner Image" src="beautymag/BEAUTYMAG_DESKTOP_HOMEPAGE.jpg?$staticlink$" /></div>
+
+<div class="push-content">
+<div class="push-content-inner">
+<h3>Decoration for the big day</h3>
+
+<div class="push-content-text">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="content_pushes_module article_pushes">
+<div class="article_pushes_inner">
+<div class="content_pushes_title  module_title">
+<h2>Must See</h2>
+<span class="date">12/30/15</span>
+</div>
+
+<div class="article_pushes_description">
+<h3 class="article_pushes_desc_title">Weekend vanity</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<div class="carousel contentcarousel horizontal_carousel" data-animation-duration="" data-auto-scroll="true" data-auto-scroll-autostart="true" data-auto-scroll-interval="3000" data-carousel-easing="linear" data-carousel-wrap="circular" data-max-circular-iterations="2" data-pagination-enabled="true" data-pagination-event="click" data-recalculate-height="true" data-scroll-fade="" data-scroll-fade-duration="" data-show-pagination-content="true" data-title="">
+<div class="jcarousel-clip jcarousel-clip-horizontal" data-jcarousel="true" data-jcarouselautoscroll="true" style="height: 389px;">
+<ul class="article_pushes_assets contentcarousel_list">
+	<li class="contentcarousel_list_item">
+	<div class="pushes_article_box"><img alt="" class="cbdi-image" src="/fs/media/demo_assets/article_images/Vanity_in_Brittany_W238.png?$staticlink$" />
+	<h4 class="article_title"><a href="#">Adipiscing consectetur ultricies mattis</a></h4>
+
+	<p class="article_content">Les ponts de mai vont &ecirc;tre l'occasion d'escapades de 3 ou 4 jours. Des dur&eacute;es pour lesquelles on aime &eacute;viter de blinder sa valise&hellip;</p>
+	</div>
+	</li>
+	<li class="contentcarousel_list_item">
+	<div class="pushes_article_box"><img alt="" class="cbdi-image" src="/fs/media/demo_assets/article_images/Vanity_in_Brittany_W238.png?$staticlink$" />
+	<h4 class="article_title"><a href="#">Adipiscing consectetur ultricies mattis</a></h4>
+
+	<p class="article_content">Le contouring, c&rsquo;est la technique de maquillage tendance qui fait fureur chez les beautystas. Bien ma&icirc;tris&eacute;e, elle permet de restructurer &hellip;</p>
+	</div>
+	</li>
+	<li class="contentcarousel_list_item">
+	<div class="pushes_article_box"><img alt="" class="cbdi-image" src="/fs/media/beauty_mag_visuals/pommettes_W238.png?$staticlink$" />
+	<h4 class="article_title"><a href="#">Adipiscing consectetur ultricies mattis</a></h4>
+
+	<p class="article_content">Un coup de soleil pour sculpter et illuminer le visage.</p>
+	</div>
+	</li>
+	<li class="contentcarousel_list_item">
+	<div class="pushes_article_box"><img alt="" class="cbdi-image" src="/fs/media/beauty_mag_visuals/pommettes_W238.png?$staticlink$" />
+	<h4 class="article_title"><a href="#">Adipiscing consectetur ultricies mattis</a></h4>
+
+	<p class="article_content">Un coup de soleil pour sculpter et illuminer le visage.</p>
+	</div>
+	</li>
+</ul>
+</div>
+
+
+<ul class="carousel_navigation_list">
+</ul>
+</div>
+</div>
+</div>
+
+<div class="push-banner-wrap">
+<div class="push-banner-image"><img alt="Banner Image" src="hp_push_img2.jpg?$staticlink$" /></div>
+
+<div class="push-content">
+<div class="push-content-inner">
+<h3>Decoration for the big day</h3>
+
+<div class="push-content-text">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+</div>
+</div>
+
+<p>$include('BeautyMag-IncludeHomeProductPushes', 'pid', '002012-LAC; 002039-LAC; 002041-LAC; 008112-LAC; 01003x-LAC; 09042o-LAC; 091109-LAC', 'title', 'It`s New', 'desc', 'Find Your Perfect Product')$ <script type="text/javascript">
+  var fsEdit = {
+    // add "Edit in FirstSpirit" links to Storefront Toolkit  
+    init: function() {
+      if (jQuery('#dw-sf-control-menu ul') != null) {
+            jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://lorealcms.adacor.net/fs5webedit_7211/?project=7211&store=pagestore&element=7477&language=EN" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_cc.png?$staticlink$">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="https://lorealcms.adacor.net/start/FIRSTspirit.jnlp?app=client&project=LOREAL+%7C+Lanc%C3%B4me+Master+Flagship&name=homepage_1&type=Page&id=7477&host=lorealcms.adacor.net&port=443&mode=HTTP" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/fs/media/layout_images/firstspirit/edit_icon_sa.png?$staticlink$">Edit in FS SiteArchitect</a></li>');        
+      }
+    }  
+  };
+  jQuery(document).ready(function() {
+      fsEdit.init();
+  });
+</script></p>

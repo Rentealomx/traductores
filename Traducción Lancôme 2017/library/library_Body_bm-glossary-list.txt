@@ -1,0 +1,24 @@
+<div class="left_img_banner">
+                  <img src="glossary/glossary_header_img.jpg?$staticlink$">
+                </div>
+                <div class="right_content_banner">
+                  <h2>
+                    Glossary List
+                  </h2>
+                  <p>
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.
+                  </p>
+                </div>
+  <script type="text/javascript">
+              var fsEdit = {
+                // add "Edit in FirstSpirit" links to Storefront Toolkit  
+                init: function() {
+                  if (jQuery('#dw-sf-control-menu ul') != null) {
+                    jQuery('#dw-sf-control-menu ul').append('<li class="x-menu-list-item x-menu-sep-li" id="ext-gen40"><span class="x-menu-sep" id="ext-gen41">&nbsp;</span></li><li class="x-menu-list-item " id="edit_fscc"><a href="https://fs51extern.e-spirit.de/fs5webedit_23490" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/media/technical_media_assets/edit_icon_cc.png?$staticlink$">Edit in FS ContentCreator</a></li><li class="x-menu-list-item " id="edit_fssa"><a href="" target="_blank" class="x-menu-item" id="build-anchor"><img class="x-menu-item-icon dw-sf-control-menu-log" src="/media/technical_media_assets/edit_icon_sa.png?$staticlink$">Edit in FS SiteArchitect</a></li>');
+                  }
+                }  
+              };
+              jQuery(document).ready(function() {
+                  fsEdit.init();
+              });
+            </script>

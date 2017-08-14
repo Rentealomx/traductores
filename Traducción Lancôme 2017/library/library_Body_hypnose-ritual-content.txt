@@ -1,0 +1,126 @@
+<style>
+.extrait_ritual_content:after {
+display: block;
+content: '';
+clear: both;
+}
+
+.extrait_ritual_content .how_item {
+float: left;
+width: 32%;
+margin: 0 0 0 2%;
+text-align: center;
+}
+
+.spacermid {
+float: left;
+width: 14%;
+margin: 0 0 0 2%;
+text-align: center;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item p {
+   text-align: justify;
+}
+
+.extrait_ritual_content .how_item p {
+   font-size: 14px;
+   font-family: 'Gotham Book';
+    margin: 15px auto 25px;
+    line-height: 18px;
+    max-width: 100%;
+    height: auto;
+}
+
+.extrait_ritual_content .how_item b {
+   font-family: 'Gotham Bold';
+}
+
+.extrait_ritual_content .how_item img {
+   display: inline-block;
+   max-width: 100%;
+}
+
+@media (max-width:979px) {
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0 0 0 2%;
+}
+
+.extrait_ritual_content .how_item:nth-child(2n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item {
+width: 49%;
+}
+}
+
+@media (max-width:640px) {
+.extrait_ritual_content .how_item {
+    width: 100%;
+    float: none;
+margin: 0;
+}
+
+.extrait_ritual_content .how_item:nth-child(3n+1) {
+margin: 0;
+}
+
+.extrait_ritual_content .how_item h2 {
+   font-size: 30px;
+   line-height: 30px;
+   margin: 25px 0 40px;
+}
+
+.extrait_ritual_content .how_item p {
+   margin: 10px auto 20px;
+}
+
+#extrait-ritual-text {
+    max-width: 300px;
+    margin: auto;
+padding: 0;
+}
+
+#extrait-ritual-text p {
+    margin: 0 auto 25px;
+}
+
+}
+</style>
+
+<div class="extrait_ritual_content">
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/Hypnose/22-LANCOME-PICTO-GEST-HYPNOSE_1_v2.jpg,345|345|345|345)$  />
+       <p><b>1. Prepare the contour of the eyes</b><br/>For more luminosity, to reduce puffiness and for smoother skin, sweep the pearl under your eye from the outer to the inner corner and then back. Repeat this motion above the eyelid. Beginning at the inner corner under the eye, use the pearl to trace small spirals. Finish at the outer corner.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/Hypnose/22-LANCOME-PICTO-GEST-HYPNOSE_2_v2.jpg,345|345|345|345)$  />
+       <p><b>2. Unify skin around the eyes</b><br/>To cover dark areas, add light and create a longerlasting eyeshadow effect. Use Effacernes Longue Tenue locally on dark areas, the internal corner of the eyes and on the eyelid by tapping gently with fingertips. Use a concealer brush for a more delicate and detailed coverage.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/Hypnose/22-LANCOME-PICTO-GEST-HYPNOSE_3_v2.jpg,345|345|345|345)$  />
+       <p><b>3. Color eyelids</b><br/>Tap gently with fingertips over the eyelid. Open up the eyes with a touch of color on the eyelid by using a sparkling, light eyeshadow shade. Use highlighter shade on the brow bone for enhance the light.</p>
+   </div>
+</div>
+
+
+<div class="extrait_ritual_content">
+   <div class="spacermid">&nbsp;</div>
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/Hypnose/22-LANCOME-PICTO-GEST-HYPNOSE_4_v2.jpg,345|345|345|345)$  />
+       <p><b>4. Structure</b><br/>To create a subtle, defined and contoured line for a smoldering effect and to effortlessly enhance the eyes, create little dots close to the base of the lashes and blend it with a fine brush to create a light shadow effect around the eyes.</p>
+   </div>
+
+   <div class="how_item">
+       <img alt="How To Apply" class="responsive_image" $responsiveSrc(RichPDP/Hypnose/22-LANCOME-PICTO-GEST-HYPNOSE_5_v2.jpg,345|345|345|345)$  />
+       <p><b>5. Open up the eyes</b><br/>To create open eyes and enhance the nude effect on the rest of the face. Apply mascara to the center of the lashes, then the outer corner and finish on the inner corner of the eyes. Apply a second layer to the center of the lashes fringe to boost the wide effect look.</p>
+   </div>
+   <div class="spacermid">&nbsp;</div>
+</div>

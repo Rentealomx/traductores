@@ -1,0 +1,30 @@
+<style>
+.main {min-height:0;}
+.main>.content {padding-top:0;padding-bottom:0;}
+.holiday_guide {margin:0 auto;padding:0;}
+#holiday_guide_bg {background-image:url("images/landing/giftguide/giftguide_bg.jpg?$staticlink$");width:940px;height:634px;display:block;position:relative;}
+.holiday-guide-right,
+.holiday-guide-left {width:50%;float:left;}
+.holiday-guide-left .section_content {padding-top:35px;text-align:center;}
+.holiday-guide-left .section_header {font:55px "ProximaNova-Regular",sans-serif;color:#000000;text-transform:uppercase;}
+.moveup{margin-top:-20px;}
+.shop_tile {padding-top:10px;}
+@media only screen and (max-width: 750px) and (min-width: 320px) {
+.holiday-guide-left .section_content {max-width:310px;padding-left:0;padding-right:10px;text-align:left;}
+}
+</style>
+
+<div class="holiday_guide">
+	<div id="holiday_guide_bg">
+		<div class="holiday-guide-left">
+        	<div class="section_content">
+    			<div class="section_header">Give Some.</div>
+            	<div class="section_header moveup">Get Some.</div>
+       	 		<p class="t-text-14">This year, handpick your gifts from our full arsenal of amazing products (hint: getting Naked is always a good idea). Or go for the bold and explore the amazing looks we've created to make your gift-giving even more fun.</p>
+        		<p class="t-text-14">Maybe even pick something out for yourself while you're at it...</p>
+        		<div class="shop_tile"><a href="$url('Search-Show','cgid','gift-guide-products')$"><img src="images/landing/giftguide/shop_by_product.jpg?$staticlink$" alt="SHOP BY PRODUCT" title="SHOP BY PRODUCT"></a></div>
+        		<div class="shop_tile"><a href="$url('Search-Show','cgid','holiday-looks')$"><img src="images/landing/giftguide/shop_by_look.jpg?$staticlink$" alt="SHOP BY LOOK" title="SHOP BY LOOK"></a></div>
+     		</div>
+     	</div>
+	</div>
+</div>

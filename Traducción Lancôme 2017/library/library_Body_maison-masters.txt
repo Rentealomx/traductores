@@ -1,0 +1,191 @@
+<style>
+.maison_masters {
+text-align: center;
+background: #f6f4f4;
+padding: 20px 0 50px;
+}
+
+.maison_masters .constrained {
+width: 95%;
+}
+
+.masters_wrapper {
+background: #fff;
+padding: 25px;
+margin: 40px 0 0;
+}
+
+.masters_wrapper:after,
+.masters_content:after,
+.artists_content:after {
+content: '';
+display: block;
+clear: both;
+}
+
+.masters_content {
+width: 72%;
+float: left;
+}
+.artists_content {
+float: right;
+width: 24%;
+}
+
+.maison_masters .master_bg {
+float: left;
+position: relative;
+border: 1px solid #fff;
+}
+
+.masters_content .master_bg {
+width: 16.66%;
+}
+
+.artists_content .master_bg {
+width: 50%;
+}
+
+.maison_masters img {
+   width: 100%;
+}
+
+.maison_masters p.masters_subtitle {
+margin: 0;
+}
+
+.masters_wrapper p {
+display: none;
+} 
+
+.masters_wrapper .master_bg:hover {
+cursor: pointer;
+}
+
+.masters_wrapper .master_bg:hover p {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(000, 000, 000, 0.6);
+
+color: #fff;
+font-family: 'Gotham Book', serif;
+line-height: 15px;
+}
+
+.masters_wrapper p span {
+display: block;
+    margin: 100% 0 0;
+}
+
+.shadow_box {
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.shadow_box:after {
+    -moz-box-shadow: #818181 0px 15px 10px;
+    -webkit-box-shadow: #818181 0px 15px 10px;
+    box-shadow: #818181 0px 15px 10px;
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 11px;
+    width: 50%;
+    top: 80%;
+    max-width: 150px;
+    background: #818181;
+-moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+}
+
+@media (max-width: 750px) {
+.masters_wrapper .master_bg:hover p {
+    display: none;
+}
+.shadow_box:after {
+    max-width: 15%;
+    right: 31%;
+}
+
+.masters_wrapper {
+background: none;
+padding: 0;
+}
+
+.masters_content {
+width: 100%;
+float: none;
+background: #fff;
+padding: 10px;
+}
+
+.artists_content {
+float: none;
+width: 40%;
+background: #fff;
+padding: 10px;
+margin: 20px auto 0;
+}
+}
+
+</style>
+
+<div class="maison_masters">
+<div class="constrained">
+    <p class="masters_title">6 MASTER PERFUMERS</p>
+    <p class="masters_subtitle">and a young duo of fresco artists to create 6 perfect blends</p>
+<div class="shadow_box">
+    <div class="masters_wrapper">
+        <div class="masters_content">
+<div class="master_bg">
+            <img  $responsiveSrc(landing-page/maison/master-1.jpg,245|245|245|245)$ alt="Cover Image" />
+<p><span>DOMINIQUE<br />ROPION</span></p>
+</div>
+<div class="master_bg">
+            <img  $responsiveSrc(landing-page/maison/master-2.jpg,245|245|245|245)$ alt="Cover Image" />
+<p><span>CHRISTOPHE<br />RAYNAUD</span></p>
+</div>
+<div class="master_bg">
+            <img  $responsiveSrc(landing-page/maison/master-3.jpg,245|245|245|245)$ alt="Cover Image" />
+<p><span>OLIVIER<br />GILLOTIN</span></p>
+</div>
+<div class="master_bg">
+            <img  $responsiveSrc(landing-page/maison/master-4.jpg,245|245|245|245)$ alt="Cover Image" />
+<p><span>FABRICE<br />PELLEGRIN</span></p>
+</div>
+<div class="master_bg">
+            <img  $responsiveSrc(landing-page/maison/master-5.jpg,245|245|245|245)$ alt="Cover Image" />
+<p><span>ILIAS<br />ERMENIDIS</span></p>
+</div>
+<div class="master_bg">
+            <img $responsiveSrc(landing-page/maison/master-6.jpg,245|245|245|245)$ alt="Cover Image" />
+<p><span>SHYAMALA<br />MAISONDIEU</span></p>
+</div>
+        </div>
+        <div class="artists_content">
+<div class="master_bg">
+            <img $responsiveSrc(landing-page/maison/artist-1.jpg,245|245|245|245)$ alt="Cover Image" />
+<p><span>ALEX</span></p>
+</div>
+<div class="master_bg">
+            <img  $responsiveSrc(landing-page/maison/artist-2.jpg,245|245|245|245)$ alt="Cover Image" />
+<p><span>MARINE</span></p>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="choose-fragrance-section"></div>
+</div>

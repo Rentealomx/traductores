@@ -1,0 +1,84 @@
+<style>
+#ui-datepicker-div {
+    background: #fff;
+}
+.ui-datepicker-trigger {
+    position: absolute;
+}
+.pt_landing_modules .ui-datepicker-title,
+.pt_giftfinder .ui-datepicker-title {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+#ui-datepicker-div .ui-datepicker-prev,
+#ui-datepicker-div .ui-datepicker-next {
+    z-index: 1;
+}
+.remindme-module-date::-ms-clear {
+    display: none;
+}
+</style>
+<div class="remindme-module-container">
+
+    <div class="remindme-module-start">
+        <h3>Remind me later</h3>
+        <span class="remindme-module-maintitle">Not yet the right moment? Why not be reminded nearer to the time!</span>
+        <button class="is_hidden_desktop is_hidden_tablet is_visible_mobile remindme-module-show-form-mobile">Remind me</button>
+    </div>
+
+    <div class="remindme-module-form is_hidden_mobile">
+        <div class="engraving_top_inputs">
+            <div>
+                <input class="remindme-module-forwhom" type="text" placeholder="For whom?" />
+            </div>
+
+            <div>
+                <select class="remindme-module-occasion">
+                    <option value="">For which occasion?</option>
+                    <option value="Graduation">Graduation</option>
+                    <option value="Anniversary">Anniversary</option>
+                    <option value="Birthday">Birthday</option>
+                    <option value="Thank you">Thank you</option>
+                    <option value="Congratulations">Congratulations</option>
+                    <option value="Just because">Just because</option>
+                </select>
+            </div>
+            <div>
+                <input class="remindme-module-date" type="text" placeholder="Event date:" readonly = "readonly" />
+                <span>Event date:</span>
+            </div>
+            <div>
+                <select class="remindme-module-remindbefore">
+                    <option value="">Remind me...</option>
+                    <option value="1 month before">1 month before</option>
+                    <option value="2 weeks before">2 weeks before</option>
+                    <option value="1 week before">1 week before</option>
+                    <option value="48h before">48h before</option>
+                </select>
+            </div>
+
+            <div>
+                <input data-error="Error, you have to enter a correct email address" class="remindme-module-email" type="text" placeholder="Your email address" />
+            </div>
+
+            <div>
+                <input class="remindme-module-phone optional-field" type="text" placeholder="Your phone number (optional)" />
+            </div>
+        </div>
+
+        <div>
+            <button class="remindme-module-validate" disabled="disabled">Validate</button>
+        </div>
+
+    </div>
+
+    <div class="remindme-module-popup" style="display:none;">
+        <span>Merci beaucoup!</span>
+        <h3>Lancome has saved your information.</h3>
+        <button class="remindme-module-close">Close</button>
+    </div>
+
+    <div class="remindme-module-popup-text" style="display:none;">Maybe another occasion is coming soon.. Don’t forget it!</div>
+
+</div>

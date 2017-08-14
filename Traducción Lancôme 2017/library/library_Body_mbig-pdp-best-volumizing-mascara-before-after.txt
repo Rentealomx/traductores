@@ -1,0 +1,157 @@
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+
+<script type="text/javascript" src="TIU-Wear/before-after/js/jquery.beforeafter-1.4.js?$staticlink$"></script>
+<script type="text/javascript" src="TIU-Wear/before-after/owl-carousel/owl.carousel.js?$staticlink$"></script>
+
+<style>
+    .container .beforeandaftercontainer img {
+            max-width: none;
+    }
+    #videocbeforeandafter iframe {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+.float_left {
+float: left;
+}
+.float_right{
+float: right;
+}
+@media screen and (max-width: 1024px) {
+    .float_right {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width:1024px) {
+.float_left {
+margin-left: 2%;
+  }
+.pt_sidebar h2 {
+margin-top: 30px;
+}
+}
+@media screen and (max-width: 480px) {
+.float_left {
+margin-left: 5%;
+    }
+}
+
+</style>
+
+<div class="container">
+    <div id="mainheadingselect" data-base-url="TIU-Wear/before-after/?$staticlink$"></div>
+    <div class="row">
+        
+        <div class="leftCol float_left">
+         
+         <div id="beforeandafter" class="beforeandaftercontainer">
+           <div><img alt="before" src="Mr_Big/before-after/2017_01_09_LANCOME_ELENATEREKHOVA_before.jpg?$staticlink$" width="598" height="224" /></div>
+           <div><img alt="after" src="Mr_Big/before-after/2017_01_09_LANCOME_ELENATEREKHOVA_after.jpg?$staticlink$" width="598" height="224" /></div>
+         </div>
+        </div>
+        <div class="rigthCol text-center float_right">
+            <div>
+                <h2>Up to 12x <br/>
+                More Volume</h2>
+                <br/><br/>
+                <p> Supple waxes and binding polymers allow this mascara <br/>
+                to create up to 12X more volume than bare lashes. <br/>
+                Its creamy formula coats your lashes effortlessly <br/>
+                 and protects them all day long. </p>
+            </div>
+
+        </div>
+        <br class="clearBoth" />
+      </div>
+</div><!-- /.container -->
+<script type="text/javascript">
+$( document ).ready(function() {
+
+  //select your face
+  $(".beforeandaftercontainer:first").addClass('active');
+  $(".videobeforeandafter:first").addClass('active');  
+  $(".videoright div:first img:first").addClass('active');  
+  $(".videoright div:first img:eq(1)").addClass('hidden');  
+
+  //container_width = $(".beforeandaftercontainer").width();
+  //$(".beforeandaftercontainer img").width(container_width);
+
+  windowsize = $(window).width();
+  if(windowsize<1024) {
+    $(".beforeandaftercontainer img").width(windowsize-50);
+    $(".beforeandaftercontainer img").height('auto');
+    newheight = $(".beforeandaftercontainer img").height();
+    $(".beforeandaftercontainer img").height(newheight);
+    $("#youtubeVideo video").width(windowsize-50);
+    $("#youtubeVideo video").height(newheight);
+
+    $("#mainheadingselect").html($("#selectyourshape").html());
+    $("#mainheading").hide();
+    $("#selectyourshape").html('');
+    
+  }
+
+  
+  $( ".selectshape img" ).on( "click", function() {
+    selectedContainer = $(this).data('beforeandafter');    
+    $(".beforeandaftercontainer").removeClass('active');
+    $("#"+selectedContainer).addClass('active');
+    $(".videobeforeandafter").removeClass('active');
+    $("#video"+selectedContainer).addClass('active');    
+    $("#video"+selectedContainer+" img:first").removeClass('hidden').addClass('active');    
+    $("#video"+selectedContainer+" img:eq(1)").removeClass('active');        
+    $("#youtubeVideo").removeClass('active');
+    $("#youtubeVideo div").removeClass('active');
+    $(".rigthCol .topheading").html('Watch how to');
+    $("#video"+selectedContainer+" img.playbutton").removeClass('hidden').addClass('active');
+  });
+  $( ".videobeforeandafter img" ).on( "click", function() {
+        selectedContainer = $(this).data('beforeandafter');
+        $(".beforeandaftercontainer").removeClass('active');
+        $("#youtubeVideo div").removeClass('active');
+        $("#videoc"+selectedContainer).addClass('active');  
+        if($("#youtubeVideo").hasClass('active')) {
+        $("#video"+selectedContainer+" img:first").removeClass('hidden').addClass('active');  
+        $("#video"+selectedContainer+" img:eq(1)").removeClass('active').addClass('hidden');      
+        $("#youtubeVideo").removeClass('active');
+        $("#youtubeVideo div").removeClass('active');    
+        $("#"+selectedContainer).addClass('active');
+        $(".rigthCol .topheading").html('Watch how to');
+        $("#video"+selectedContainer+" img.playbutton").removeClass('hidden').addClass('active');
+    }
+    else {
+        $("#video"+selectedContainer+" img:first").removeClass('active').addClass('hidden');  
+        $("#video"+selectedContainer+" img:eq(1)").removeClass('hidden').addClass('active');      
+        $("#youtubeVideo").addClass('active');
+        $(".rigthCol .topheading").html('View before/after');
+        $("#video"+selectedContainer+" img.playbutton").removeClass('active').addClass('hidden');
+    }
+    
+  });
+  
+  $('#beforeandafter').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter2').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter3').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+  });
+  $('#beforeandafter4').beforeAfter({
+        showFullLinks : false,
+        baseUrl : $('#mainheadingselect').attr('data-base-url').toString().replace(/https?:\/\/.+?\/.+?\/on\/demandware.static\//, "/on/demandware.static/")
+    });
+
+  //select your face 
+});
+
+
+</script>

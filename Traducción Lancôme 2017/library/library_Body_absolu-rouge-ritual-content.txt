@@ -1,0 +1,25 @@
+<style>
+.full-width img {
+width: 100%;
+}
+</style>
+
+<div class="clear row-section flex-container layout text-center">
+	<div class="columns medium-4 small-12 full-width how-item">
+$renderContentImage(RichPDP/AbsoluRouge/absolu-rouge-step1.jpg,,,,,RichPDP/AbsoluRouge/absolu-rouge-step1.jpg,RichPDP/AbsoluRouge/absolu-rouge-step1.jpg)$
+<br/><br/>
+<p><b>PREPARE</b><br/> To provide a naturally moisturizing effect and leave the lips feeling soft. Take L’Absolue Rouge La Base and apply with finger on the lips.</p>
+	</div>
+	<div class="columns medium-4 small-12 full-width how-item">
+$renderContentImage(RichPDP/AbsoluRouge/absolu-rouge-step2.jpg,,,,,RichPDP/AbsoluRouge/absolu-rouge-step2.jpg,RichPDP/AbsoluRouge/absolu-rouge-step2.jpg)$
+<br/><br/>
+<p><b>APPLICATION</b><br/><With finger for natural finish<br/>With product for intense finish<br/>With brush for perfect finish</p>
+	</div>
+	<div class="columns medium-4 small-12 full-width how-item">
+$renderContentImage(RichPDP/AbsoluRouge/absolu-rouge-step3.jpg,,,,,RichPDP/AbsoluRouge/absolu-rouge-step3.jpg,RichPDP/AbsoluRouge/absolu-rouge-step3.jpg)$
+<br/><br/>
+<p><b>ENHANCE WITH GLOSS</b><br/> To enhance shine, apply a nude shade of gloss onto the lips by tapping with fingertips for a transparent finish or slide fingertips across the lips for an invisible effect.</p>
+	</div>
+</div>
+
+<div class="extrait_ritual_content"></div>

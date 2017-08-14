@@ -1,0 +1,35 @@
+<style>
+.navigation_dropdown.beauty-mag__dropdown {
+    display: none !important;
+}
+@media only screen and (max-width: 767px) {
+.online-exclusive-item .c-button--primary {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    z-index: 9;
+    transform: none;
+}
+}
+</style>
+<div class="row collapse">
+    <a href="#" class="column small-3 medium-12">
+    $renderContentImage(VISUEL_PUSH_02.JPG, hpOnlineExclusives, category title, hp__image,,,VISUEL_PUSH_02.JPG,VISUEL_PUSH_02.JPG)$
+    </a>
+    <div class="column small-8 medium-12">
+        <span class="online-exclusives__supratitle">SPECIAL OFFERS</span> </br>
+        <h3 class="online-exclusives__title">PROMOTIONS</h3>
+        <span class="online-exclusives__description">Hurry up! A special promotion just for you</span>
+        <a class="c-button c-button--primary online-exclusives__cta" href=""><span class="button-text">DISCOVER</span></a>
+        <a class="online-exclusives__cta show-for-small-only" href=""><i class="icon icon-arrow-right-thin show-for-small-only"></i></a>
+    </div>
+</div>

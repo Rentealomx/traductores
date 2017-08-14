@@ -1,0 +1,21 @@
+<style>
+@media (max-width:640px) {
+    .eclat-how-to p {
+         padding: 0 10%;
+    }
+    .eclat-how-to p br {
+         display: none;
+    }
+}
+</style>
+<div class="eclat-how-to">
+<p style="font-family:'Garamond SemiBold', Arial, serif; font-size: 18px; text-align: center;"><span style="font-family:'Garamond Italic', Arial, serif; font-weight: 700;">For a</span> SUBTLE GLOW ENHANCING LOOK</p>
+<p style="font-family:'Garamond Regular', Arial, serif; font-size: 18px; text-align: center;">Add a touch of Eclat Miracle to your day cream or lotion and apply as usual.<br />This combination will help intensify the reflection of the skin's natural light.</p>
+
+<p style="font-family:'Garamond SemiBold', Arial, serif; margin: 20px 0 0; font-size: 18px; text-align: center;"><span style="font-family:'Garamond Italic', Arial, serif; font-weight: 700;">For a</span> LANC&Ocirc;ME EFFORTLESS FRENCH CHIC STROBING LOOK</p>
+<p style="font-family:'Garamond Regular', Arial, serif; font-size: 18px; margin: 0 0 35px; text-align: center;">Apply your favourite foundation as usual,<br />then apply touches of &Eacute;clat Miracle according to the following directions:</p>
+
+<img alt="How To Apply" style="margin: 0 auto; max-width: 100%;" class="responsive_image" $responsiveSrc(landing-page/eclat-miracle/eclat-how-desktop.jpg,965|965|675|670,,,,,landing-page/eclat-miracle/eclat-how-mobile.jpg,landing-page/eclat-miracle/eclat-how-tablet.jpg,landing-page/eclat-miracle/eclat-how-desktop.jpg)$  />
+</div>
+
+<div id="eclat_tutorial" style="height:70px;"></div>
