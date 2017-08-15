@@ -5,6 +5,6 @@ read commitMessage
 
 git commit -m "$commitMessage"
 
-git push origin mich
+git push origin nadia
 
 echo 'Subido con exito por favor cierra la terminal'
