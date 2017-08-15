@@ -1,15 +1,10 @@
 git add .
 
-echo 'Enter the commit message:'
+echo 'Hola Nadia por favor escribe un comentario de lo que hiciste hoy:'
 read commitMessage
 
 git commit -m "$commitMessage"
 
-echo 'Enter the name of the branch(mich, nadia):'
-read branch
+git push origin mich
 
-git push origin $branch
-
-echo 'SUBIDO CON EXITO, POR FAVOR CIERRA LA TERMINAL'
-
-read
+echo 'Subido con exito por favor cierra la terminal'
