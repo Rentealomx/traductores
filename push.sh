@@ -5,11 +5,11 @@ read commitMessage
 
 git commit -m "$commitMessage"
 
-echo 'Enter the name of the branch:'
+echo 'Enter the name of the branch(mich, nadia):'
 read branch
 
 git push origin $branch
 
-read
+echo 'SUBIDO CON EXITO, POR FAVOR CIERRA LA TERMINAL'
 
-echo 'Subido con exito por favor cierra la terminal'
+read
